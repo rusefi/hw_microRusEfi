@@ -1,0 +1,141 @@
+EESchema Schematic File Version 4
+LIBS:MicroRusefi-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BOSCH_154_PIN:TLE9201SG U4
+U 1 1 5DE44E83
+P 4275 2900
+F 0 "U4" H 4425 3015 50  0000 C CNN
+F 1 "TLE9201SG" H 4425 2924 50  0000 C CNN
+F 2 "Package_SO:Infineon_PG-DSO-12-11" H 4275 2900 50  0001 C CNN
+F 3 "" H 4275 2900 50  0001 C CNN
+	1    4275 2900
+	1    0    0    -1  
+$EndComp
+Text HLabel 5500 3550 2    50   Input ~ 0
+OUT2
+Text HLabel 3425 3450 0    50   Input ~ 0
+OUT1
+Text HLabel 3425 3350 0    50   Input ~ 0
+UBR
+Text HLabel 3425 3150 0    50   Input ~ 0
+VDD
+Text HLabel 3425 3050 0    50   Input ~ 0
+DIR
+Text HLabel 3425 3250 0    50   Input ~ 0
+SO
+Text HLabel 5500 3050 2    50   Input ~ 0
+PWM
+Text HLabel 5500 3150 2    50   Input ~ 0
+DIS
+Text HLabel 5500 3250 2    50   Input ~ 0
+SCK
+Text HLabel 5500 3350 2    50   Input ~ 0
+CS
+Text HLabel 5500 3450 2    50   Input ~ 0
+SI
+Text HLabel 3425 3550 0    50   Input ~ 0
+GND
+Wire Wire Line
+	5500 3050 4875 3050
+Wire Wire Line
+	5500 3250 4875 3250
+Wire Wire Line
+	5500 3350 4875 3350
+Wire Wire Line
+	5500 3450 4875 3450
+Wire Wire Line
+	5500 3550 4875 3550
+Wire Wire Line
+	3425 3550 4075 3550
+Wire Wire Line
+	4075 3450 3425 3450
+Wire Wire Line
+	3425 3350 3575 3350
+Wire Wire Line
+	4075 3250 3425 3250
+Wire Wire Line
+	3425 3150 4075 3150
+Wire Wire Line
+	3425 3050 4075 3050
+$Comp
+L power:GND #PWR0109
+U 1 1 5DE49458
+P 4475 3750
+F 0 "#PWR0109" H 4475 3500 50  0001 C CNN
+F 1 "GND" H 4480 3577 50  0000 C CNN
+F 2 "" H 4475 3750 50  0001 C CNN
+F 3 "" H 4475 3750 50  0001 C CNN
+	1    4475 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3575 3350 3575 3800
+Connection ~ 3575 3350
+Wire Wire Line
+	3575 3350 4075 3350
+$Comp
+L Device:C C15
+U 1 1 5DE4B24C
+P 3575 3950
+F 0 "C15" H 3690 3996 50  0000 L CNN
+F 1 "C" H 3690 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3613 3800 50  0001 C CNN
+F 3 "~" H 3575 3950 50  0001 C CNN
+	1    3575 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5DE4B55B
+P 5225 3850
+F 0 "R1" H 5295 3896 50  0000 L CNN
+F 1 "R" H 5295 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5155 3850 50  0001 C CNN
+F 3 "~" H 5225 3850 50  0001 C CNN
+	1    5225 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5DE4B957
+P 3575 4100
+F 0 "#PWR0110" H 3575 3850 50  0001 C CNN
+F 1 "GND" H 3580 3927 50  0000 C CNN
+F 2 "" H 3575 4100 50  0001 C CNN
+F 3 "" H 3575 4100 50  0001 C CNN
+	1    3575 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0161
+U 1 1 5E76AE52
+P 5225 4000
+F 0 "#PWR0161" H 5225 3750 50  0001 C CNN
+F 1 "GND" H 5230 3827 50  0000 C CNN
+F 2 "" H 5225 4000 50  0001 C CNN
+F 3 "" H 5225 4000 50  0001 C CNN
+	1    5225 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 3150 5225 3150
+Wire Wire Line
+	5225 3150 5225 3700
+Connection ~ 5225 3150
+Wire Wire Line
+	5225 3150 5500 3150
+$EndSCHEMATC
