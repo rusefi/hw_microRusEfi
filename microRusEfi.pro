@@ -1,4 +1,4 @@
-update=13.05.2019 00:22:55
+update=15.05.2019 09:29:56
 version=1
 last_client=kicad
 [general]
@@ -95,7 +95,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=2.5A EXTERNAL
-Clearance=0.2159
+Clearance=0.1905
 TrackWidth=1.0668
 ViaDiameter=0.6858
 ViaDrill=0.3302
@@ -117,7 +117,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/4]
 Name=3.5A EXTERNAL
-Clearance=0.2159
+Clearance=0.1905
 TrackWidth=1.651
 ViaDiameter=1.0922
 ViaDrill=0.6858
