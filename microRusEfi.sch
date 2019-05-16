@@ -840,4 +840,17 @@ Wire Notes Line
 	12350 4925 11150 4925
 Wire Notes Line
 	11150 4925 11150 3025
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5D356EBD
+P 8150 5350
+F 0 "TP2" H 8208 5468 50  0001 L CNN
+F 1 "GND" H 8208 5377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 8350 5350 50  0001 C CNN
+F 3 "~" H 8350 5350 50  0001 C CNN
+	1    8150 5350
+	1    0    0    -1  
+$EndComp
+Text Label 8150 5350 2    60   ~ 12
+GND
 $EndSCHEMATC
