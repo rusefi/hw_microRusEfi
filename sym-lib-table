@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name rusefi_tt4427)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib/tc4427.lib)(options "")(descr "Microchip TC4427"))
+)
