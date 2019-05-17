@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:MicroRusefi-cache
+LIBS:microRusEfi-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 19685 15748

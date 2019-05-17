@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:microRusEfi-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 23622 19685
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title "ME7 ECU"
 Date "2019-01-31"
 Rev "R2.1"
