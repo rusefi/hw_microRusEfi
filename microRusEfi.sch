@@ -94,8 +94,6 @@ Text Label 6575 3750 2    60   ~ 12
 GND
 Text Label 7825 7150 0    60   ~ 12
 5V
-Text Notes 6975 5175 0    125  ~ 25
-pg 7
 Text Label 8875 5850 2    60   ~ 12
 CRANK
 Wire Wire Line
@@ -294,7 +292,7 @@ $Sheet
 S 6575 3550 1250 6425
 U 5D0250FB
 F0 "MCU" 50
-F1 "stm32f407_board.sch" 50
+F1 "stm32.sch" 50
 F2 "VDD" I L 6575 3650 60 
 F3 "PC1" I R 7825 9300 60 
 F4 "PC3" I L 6575 9500 60 

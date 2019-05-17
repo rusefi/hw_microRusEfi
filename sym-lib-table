@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Microrusefi)(type Legacy)(uri ${KIPRJMOD}/Microrusefi.lib)(options "")(descr ""))
+)
