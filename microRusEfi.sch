@@ -393,7 +393,7 @@ INJECTOR-3
 Text Label 11300 4600 0    60   ~ 12
 INJECTOR-4
 $Comp
-L BOSCH_154_PIN:Molex_48_pin U3
+L Microrusefi:Molex_48_pin U3
 U 1 1 5DD8BB43
 P 7750 2125
 F 0 "U3" V 9037 2530 60  0000 C CNN
@@ -403,8 +403,6 @@ F 3 "" H 7750 2125 60  0001 C CNN
 	1    7750 2125
 	0    -1   -1   0   
 $EndComp
-Text Label 5150 1575 3    60   ~ 12
-UBR
 Text Label 8350 1575 3    60   ~ 12
 FUEL-PUMP
 Text Label 7650 1575 3    60   ~ 12
@@ -849,4 +847,8 @@ Text Label 6575 5875 2    50   ~ 0
 USB_D+
 Text Notes 11300 5800 0    50   ~ 0
 THESE PINS CAN BE USED\nIN BOTH HIGH-SIDE \nOR LOW-SIDE MODE
+Text Label 5150 1575 3    60   ~ 12
+12V-SWITCH
+Text Label 5250 6900 2    60   ~ 12
+12V-SWITCH
 $EndSCHEMATC
