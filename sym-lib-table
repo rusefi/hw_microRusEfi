@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name rusefi_tt4427)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib/tc4427.lib)(options "")(descr "Microchip TC4427"))
+  (lib (name rusefi_tle8888)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib/tle8888qk.lib)(options "")(descr "Infineon TLE8888QK"))
 )
