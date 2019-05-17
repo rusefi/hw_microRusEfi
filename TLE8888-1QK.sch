@@ -491,7 +491,7 @@ Wire Wire Line
 Wire Wire Line
 	14325 7250 14325 7500
 $Comp
-L BOSCH_154_PIN:PESD1CAN-UX D?
+L rusefi_pesd1can:PESD1CAN-UX D?
 U 1 1 5C984DE7
 P 14825 7600
 AR Path="/5C984DE7" Ref="D?"  Part="1" 
