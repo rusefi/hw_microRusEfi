@@ -399,12 +399,12 @@ INJECTOR-3
 Text Label 11275 3700 0    60   ~ 12
 INJECTOR-4
 $Comp
-L BOSCH_154_PIN:Molex_48_pin U3
+L rusefi_molex48:molex_48pin U3
 U 1 1 5DD8BB43
 P 7750 2125
 F 0 "U3" V 9037 2530 60  0000 C CNN
-F 1 "Molex_48_pin" V 8931 2530 60  0000 C CNN
-F 2 "rusefi_lib:Molex_48" H 7750 2125 60  0001 C CNN
+F 1 "molex_48pin" V 8931 2530 60  0000 C CNN
+F 2 "rusefi_molex48:molex_48pin" H 7750 2125 60  0001 C CNN
 F 3 "" H 7750 2125 60  0001 C CNN
 	1    7750 2125
 	0    -1   -1   0   

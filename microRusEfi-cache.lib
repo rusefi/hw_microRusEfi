@@ -61,11 +61,11 @@ X SHIELD 6 200 -250 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# BOSCH_154_PIN_Molex_48_pin
+# rusefi_molex48_molex_48pin
 #
-DEF BOSCH_154_PIN_Molex_48_pin U 0 40 Y Y 1 F N
+DEF rusefi_molex48_molex_48pin U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "BOSCH_154_PIN_Molex_48_pin" 0 0 60 H V C CNN
+F1 "rusefi_molex48_molex_48pin" 0 0 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
