@@ -1,2 +1,5 @@
 *.kicad_pcb-bak
 *.bak
+*-rescue.*
+_saved*.*
+
