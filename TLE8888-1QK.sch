@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:MicroRusefi-cache
+LIBS:microRusEfi-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 19685 15748
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L BOSCH_154_PIN:TLE8888QK U2
+L rusefi_tle8888:TLE8888QK U2
 U 1 1 5C5DF903
 P 10150 6950
 F 0 "U2" H 9800 5700 60  0000 L CNN
@@ -491,7 +491,7 @@ Wire Wire Line
 Wire Wire Line
 	14325 7250 14325 7500
 $Comp
-L BOSCH_154_PIN:PESD1CAN-UX D?
+L rusefi_pesd1can:PESD1CAN-UX D?
 U 1 1 5C984DE7
 P 14825 7600
 AR Path="/5C984DE7" Ref="D?"  Part="1" 
