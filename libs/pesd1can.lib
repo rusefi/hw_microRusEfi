@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# PESD1CAN-UX
+#
+DEF PESD1CAN-UX D 0 0 Y Y 1 F N
+F0 "D" -205 235 60 H V L CNN
+F1 "PESD1CAN-UX" 50 -250 60 H V C CNN
+F2 "digikey-footprints:SOT-323" 200 200 60 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf" 200 300 60 H I L CNN
+F4 "1727-1306-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "PESD1CAN-UX" 200 500 60 H I L CNN "MPN"
+F6 "Circuit Protection" 200 600 60 H I L CNN "Category"
+F7 "TVS - Diodes" 200 700 60 H I L CNN "Family"
+F8 "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/nexperia-usa-inc/PESD1CAN-UX/1727-1306-1-ND/4386316" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TVS DIODE 24V 50V SOT323-3" 200 1000 60 H I L CNN "Description"
+F11 "Nexperia USA Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 155 0 7 0 1 0 F
+S -200 200 215 -200 0 1 0 f
+P 2 0 1 0 -150 -150 -125 -150 N
+P 2 0 1 0 -150 -100 -300 -100 N
+P 2 0 1 0 -150 -50 -150 -150 N
+P 2 0 1 0 -150 50 -125 50 N
+P 2 0 1 0 -150 100 -300 100 N
+P 2 0 1 0 -150 150 -150 50 N
+P 2 0 1 0 25 -100 -75 -100 N
+P 2 0 1 0 25 100 -75 100 N
+P 2 0 1 0 25 100 25 100 N
+P 2 0 1 0 100 -50 75 -50 N
+P 2 0 1 0 100 -50 100 -150 N
+P 2 0 1 0 100 150 75 150 N
+P 2 0 1 0 100 150 100 50 N
+P 2 0 1 0 155 0 255 0 N
+P 4 0 1 0 -75 -50 -75 -150 -150 -100 -75 -50 F
+P 4 0 1 0 -75 50 -75 150 -150 100 -75 50 F
+P 4 0 1 0 25 -50 25 -150 100 -100 25 -50 F
+P 4 0 1 0 25 150 25 50 100 100 25 150 F
+P 4 0 1 0 55 100 155 100 155 -100 55 -100 N
+X C1 1 -500 100 200 R 50 50 1 1 P
+X C2 2 -500 -100 200 R 50 50 1 1 P
+X C3 3 315 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
