@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 4 6
 Title ""
 Date ""
 Rev ""
@@ -19,7 +19,7 @@ OUT2
 Text HLabel 7600 4250 2    50   Input ~ 0
 OUT1
 Text HLabel 4675 3550 0    50   Input ~ 0
-UBR
+12V
 Text HLabel 4675 3350 0    50   Input ~ 0
 VDD
 Text HLabel 4675 3250 0    50   Input ~ 0
