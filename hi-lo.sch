@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 3 7
+Sheet 3 6
 Title "frankenso"
 Date "2019-04-12"
 Rev "0.5.5"
@@ -558,9 +558,9 @@ IGN_3
 Text HLabel 7750 7100 2    60   Input ~ 0
 IGN_4
 Text HLabel 7800 7700 2    60   Input ~ 0
-IGN_5
+HS1
 Text HLabel 7800 8300 2    60   Input ~ 0
-IGN_6
+HS2
 Text HLabel 5150 5350 0    60   Input ~ 0
 IGN_1_MCU
 Text HLabel 5150 5550 0    60   Input ~ 0
@@ -570,9 +570,9 @@ IGN_3_MCU
 Text HLabel 5200 6900 0    60   Input ~ 0
 IGN_4_MCU
 Text HLabel 5250 7900 0    60   Input ~ 0
-IGN_5_MCU
+HS1_MCU
 Text HLabel 5250 8100 0    60   Input ~ 0
-IGN_6_MCU
+HS2_MCU
 Wire Wire Line
 	4350 6300 4350 6800
 Wire Wire Line
