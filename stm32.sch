@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 5
 LIBS:microRusEfi-cache
 EELAYER 29 0
 EELAYER END
@@ -69,7 +69,7 @@ F 6 "DIGI,497-3707-1-ND" H -6050 -2300 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Regulator_Linear:LD1117S33TR_SOT223 U5
+L Regulator_Linear:LM2937xMP U5
 U 1 1 5D0251EC
 P 14600 3400
 F 0 "U5" H 14400 3600 40  0000 C CNN
