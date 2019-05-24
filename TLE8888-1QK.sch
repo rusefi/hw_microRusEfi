@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 19685 15748
 encoding utf-8
-Sheet 2 7
+Sheet 2 6
 Title "ME7 ECU"
 Date "2019-01-31"
 Rev "R2.1"
@@ -115,9 +115,9 @@ Wire Wire Line
 Connection ~ 8000 8900
 Wire Wire Line
 	8000 8900 8000 8800
-Text HLabel 8000 8900 0    60   Input ~ 12
+Text HLabel 6650 7950 0    60   Input ~ 12
 OUT_6
-Text HLabel 8000 8000 0    60   Input ~ 12
+Text HLabel 6650 7650 0    60   Input ~ 12
 OUT_5
 Wire Wire Line
 	8100 8600 6900 8600
@@ -125,11 +125,6 @@ Wire Wire Line
 	6900 8600 6900 8300
 Wire Wire Line
 	6900 8300 8100 8300
-Wire Wire Line
-	9850 10100 9950 10100
-Wire Wire Line
-	10050 10100 9950 10100
-Connection ~ 9950 10100
 Text HLabel 9950 10100 3    60   Input ~ 12
 OUT_7
 Text HLabel 8000 11250 0    60   Input ~ 12
@@ -181,7 +176,7 @@ U 1 1 5C60C906
 P 9950 11200
 F 0 "Q1" H 9875 11075 50  0000 C CNN
 F 1 "IPD30N06S2L-23" V 10175 11075 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2_THERMAL" H 10200 11125 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 10200 11125 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BU/BUZ11.pdf" H 9950 11200 50  0001 L CNN
 F 4 "MOUSER" H 0   0   50  0001 C CNN "VEND"
 F 5 "INFINEON" H 0   0   50  0001 C CNN "Manufacturer"
@@ -528,7 +523,7 @@ CAN_H
 Text HLabel 10650 6700 1    60   Input ~ 12
 MAIN_RELAY
 Text HLabel 5550 8600 0    60   Input ~ 12
-UBR
+12V-SWITCH
 Text HLabel 8000 8700 0    60   Input ~ 12
 OUT_21
 Text HLabel 8000 8200 0    60   Input ~ 12
@@ -592,8 +587,6 @@ Text HLabel 8650 6600 0    60   Input ~ 12
 GND
 Text Label 8650 6650 0    60   ~ 12
 GND
-Text Label 5550 8600 0    60   ~ 12
-UBR
 Wire Wire Line
 	6900 9100 8100 9100
 $Comp
@@ -607,8 +600,6 @@ F 3 "" H 10850 6350 50  0001 C CNN
 	1    10850 6350
 	0    -1   -1   0   
 $EndComp
-Text Label 10500 10850 0    60   ~ 12
-UBR
 Wire Wire Line
 	11150 11650 11150 10725
 Connection ~ 9750 10725
@@ -754,7 +745,7 @@ F 4 "MOUSER" H -1250 1900 50  0001 C CNN "VEND"
 	1    0    0    1   
 $EndComp
 Text Label 10750 5550 0    60   ~ 12
-UBR
+12V-SWITCH
 Wire Wire Line
 	10750 5550 10750 6700
 $Comp
@@ -1244,8 +1235,6 @@ Wire Wire Line
 	13300 7450 13725 7450
 Wire Wire Line
 	13475 7150 13725 7150
-Text Label 13725 7150 0    60   ~ 12
-UBR
 Wire Notes Line
 	14500 5650 11800 5650
 Wire Notes Line
@@ -1268,4 +1257,24 @@ Text Notes 12550 6000 0    50   ~ 0
 +
 Text Notes 12550 6800 0    50   ~ 0
 -
+Text Label 13675 7150 0    60   ~ 12
+12V-SWITCH
+Text Label 10500 10850 0    60   ~ 12
+12V-SWITCH
+Text Label 6375 8600 0    60   ~ 12
+12V-SWITCH
+Wire Wire Line
+	8000 8900 7200 8900
+Wire Wire Line
+	7200 8900 7200 7950
+Wire Wire Line
+	7200 7950 6650 7950
+Wire Wire Line
+	8000 8000 7450 8000
+Wire Wire Line
+	7450 8000 7450 7650
+Wire Wire Line
+	7450 7650 6650 7650
+Wire Wire Line
+	9850 10100 10050 10100
 $EndSCHEMATC
