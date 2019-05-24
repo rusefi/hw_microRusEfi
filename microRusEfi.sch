@@ -436,10 +436,6 @@ $EndComp
 Connection ~ 11275 4425
 Wire Wire Line
 	11275 4425 11700 4425
-Text Label 11275 4725 3    50   ~ 0
-UBR
-Text Label 10975 4825 3    50   ~ 0
-UBR
 $Comp
 L Device:LED D21
 U 1 1 5E75E63B
@@ -865,5 +861,9 @@ $EndSheet
 Text Label 9350 8175 0    60   ~ 12
 12V-SWITCH
 Text Label 5150 1575 3    60   ~ 12
+12V-SWITCH
+Text Label 10975 4825 3    60   ~ 12
+12V-SWITCH
+Text Label 11275 4725 3    60   ~ 12
 12V-SWITCH
 $EndSCHEMATC
