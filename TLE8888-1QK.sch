@@ -1,11 +1,11 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:microRusEfi-cache
 EELAYER 29 0
 EELAYER END
 $Descr User 19685 15748
 encoding utf-8
 Sheet 2 6
-Title "ME7 ECU"
+Title "microRusEfi"
 Date "2019-01-31"
 Rev "R2.1"
 Comp ""

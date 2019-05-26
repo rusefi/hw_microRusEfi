@@ -1,11 +1,11 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:microRusEfi-cache
 EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 3 6
-Title "frankenso"
+Title "microRusEfi"
 Date "2019-04-12"
 Rev "0.5.5"
 Comp "rusEFI.com"

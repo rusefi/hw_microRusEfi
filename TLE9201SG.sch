@@ -1,11 +1,11 @@
-EESchema Schematic File Version 5
+EESchema Schematic File Version 4
 LIBS:microRusEfi-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title ""
+Title "microRusEfi"
 Date ""
 Rev ""
 Comp ""
@@ -151,7 +151,7 @@ U 1 1 5D02EEB5
 P 7100 4000
 F 0 "R42" H 7200 4150 50  0000 C CNN
 F 1 "4.7K" V 7100 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7100 4000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7100 4000 50  0001 C CNN
 F 3 "~" H 7100 4000 50  0001 C CNN
 F 4 "MOUSER" H 1800 450 50  0001 C CNN "VEND"
 	1    7100 4000
@@ -163,7 +163,7 @@ U 1 1 5D02EEB4
 P 7400 4000
 F 0 "C19" H 7500 4100 50  0000 C CNN
 F 1 "10nF" H 7500 3900 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7400 4000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7400 4000 50  0001 C CNN
 F 3 "~" H 7400 4000 50  0001 C CNN
 F 4 "WURTH" H 1800 450 50  0001 C CNN "Manufacturer"
 F 5 "885012208052" H 1800 450 50  0001 C CNN "Part #"
