@@ -11,9 +11,9 @@
 
   (page A)
   (title_block
-    (title "ME7 ECU")
+    (title "microRusEfi")
     (date 2019-01-31)
-    (rev R2.1)
+    (rev R0.1)
   )
 
   (layers
