@@ -18,9 +18,17 @@ stm32f767
 [Molex 48 pin connector](https://www.mouser.com/datasheet/2/276/5007620481_PCB_HEADERS-179151.pdf)
 
 
+Terminals
+
+J-48817-232
+
+
 iBom https://rusefi.com/docs/ibom/microRusEfi_latest.html
 
 ## Case
 
 [Case 3D Model](https://cad.onshape.com/documents/cce953328a88b521d5673ac5/w/e2d3a78cfb432482f5aac9ea/e/2eb39a31ab72390c6384f68c)
 
+Cover bolts x4 ?
+
+PCB bolts M3 0.5mm thread, L=7.5mm
