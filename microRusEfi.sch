@@ -264,12 +264,10 @@ F 3 "" H 7750 2125 60  0001 C CNN
 $EndComp
 Text Label 8350 1575 3    60   ~ 12
 FUEL-PUMP
-Text Label 7650 1575 3    60   ~ 12
-TPS
 Text Label 7150 1575 3    60   ~ 12
-ECT-SENSOR
+AN-TEMP-2
 Text Label 8050 1575 3    60   ~ 12
-AN-VOLT-1
+AN-VOLT-3
 Text Label 8250 1575 3    60   ~ 12
 RPM-OUT
 Text Label 9550 1575 3    60   ~ 12
@@ -282,29 +280,23 @@ Text Label 9400 1575 3    60   ~ 12
 5V1
 Text Label 5300 1575 3    60   ~ 12
 GND
-Text Label 8150 1575 3    60   ~ 12
-5V2
-Text Label 7550 1575 3    60   ~ 12
-ACC-PEDAL
 Text Label 8900 1575 3    60   ~ 12
-CLUTCH-PEDAL
-Text Label 9000 1575 3    60   ~ 12
-BRAKE-PEDAL
+5V2
+Text Label 8150 1575 3    60   ~ 12
+AN-VOLT-6
 Text Label 9300 1575 3    60   ~ 12
 ALTERNATOR
-Text Label 7050 1575 3    60   ~ 12
-MAF-SENSOR
 Text Label 8450 1575 3    60   ~ 12
 WASTEGATE
 Text Label 6600 1575 3    60   ~ 12
-IAT-SENSOR
+AN-TEMP-1
 Text Label 7250 1575 3    60   ~ 12
-MAP-SENSOR
-Text Label 9800 1575 3    60   ~ 12
+AN-TEMP-3
+Text Label 9900 1575 3    60   ~ 12
 CANH
 Text Label 4850 1575 3    60   ~ 12
 GND
-Text Label 9900 1575 3    60   ~ 12
+Text Label 9800 1575 3    60   ~ 12
 CANL
 Text Label 5900 1575 3    60   ~ 12
 COIL-4
@@ -327,7 +319,7 @@ INJECTOR-2
 Text Label 6950 1575 3    60   ~ 12
 GND
 Text Label 6700 1575 3    60   ~ 12
-AN-VOLT-2
+AN-VOLT-4
 Text Label 6250 1575 3    50   ~ 0
 USB_D-
 Text Label 6400 1575 3    50   ~ 0
@@ -370,40 +362,30 @@ Text Label 4725 6425 2    60   ~ 12
 GND
 Text Label 4725 6325 2    60   ~ 0
 VDD
-Text Label 7450 1575 3    50   ~ 0
+Text Label 7650 1575 3    50   ~ 10
 CAM_SENSOR
-Text Label 3425 3975 2    60   ~ 12
-TPS
 Text Label 3425 3575 2    60   ~ 12
-ECT-SENSOR
+AN-TEMP-2
 Text Label 3425 4175 2    60   ~ 12
-AN-VOLT-1
-Text Label 3425 3875 2    60   ~ 12
-ACC-PEDAL
-Text Label 3425 3775 2    60   ~ 12
-MAF-SENSOR
+AN-VOLT-3
 Text Label 3425 3475 2    60   ~ 12
-IAT-SENSOR
+AN-TEMP-1
 Text Label 3425 3675 2    60   ~ 12
-MAP-SENSOR
+AN-TEMP-3
 Text Label 3425 4275 2    60   ~ 12
-AN-VOLT-2
+AN-VOLT-4
 Text Label 3425 4375 2    60   ~ 12
-AN-VOLT-3
+AN-VOLT-5
 Text Label 6800 1575 3    60   ~ 12
-AN-VOLT-3
+AN-VOLT-5
+Text Label 3425 4475 2    60   ~ 12
+AN-VOLT-6
 Text Label 3425 4775 2    60   ~ 12
-CLUTCH-PEDAL
-Text Label 3425 4675 2    60   ~ 12
-BRAKE-PEDAL
-Text Label 3425 4575 2    50   ~ 0
-DIGITAL_IN_1
-Text Label 3425 4475 2    50   ~ 0
-DIGITAL_IN_2
-Text Label 8600 1575 3    50   ~ 0
-DIGITAL_IN_1
-Text Label 7900 1575 3    50   ~ 0
-DIGITAL_IN_2
+AN-VOLT-9
+Text Label 3425 4675 2    50   ~ 10
+AN-VOLT-8
+Text Label 3425 4575 2    50   ~ 10
+AN-VOLT-7
 $Comp
 L Device:D_Schottky D15
 U 1 1 5DFFB69F
@@ -412,6 +394,7 @@ F 0 "D15" V 11050 4800 50  0000 R CNN
 F 1 "NSR0530HT" H 11075 4550 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 10975 4675 50  0001 C CNN
 F 3 "~" H 10975 4675 50  0001 C CNN
+F 4 "NSR0530HT" H 0   0   50  0001 C CNN "Part #"
 	1    10975 4675
 	0    -1   -1   0   
 $EndComp
@@ -430,38 +413,13 @@ F 0 "D20" V 11275 4725 50  0000 R CNN
 F 1 "NSR0530HT" H 11275 4450 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-323" H 11275 4575 50  0001 C CNN
 F 3 "~" H 11275 4575 50  0001 C CNN
+F 4 "NSR0530HT" H 0   0   50  0001 C CNN "Part #"
 	1    11275 4575
 	0    -1   -1   0   
 $EndComp
 Connection ~ 11275 4425
 Wire Wire Line
 	11275 4425 11700 4425
-$Comp
-L Device:LED D21
-U 1 1 5E75E63B
-P 14125 5500
-F 0 "D21" H 14118 5245 50  0000 C CNN
-F 1 "LED" H 14118 5336 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14125 5500 50  0001 C CNN
-F 3 "~" H 14125 5500 50  0001 C CNN
-	1    14125 5500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R28
-U 1 1 5E75E8AF
-P 14425 5500
-F 0 "R28" V 14218 5500 50  0000 C CNN
-F 1 "1K" V 14309 5500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14355 5500 50  0001 C CNN
-F 3 "~" H 14425 5500 50  0001 C CNN
-	1    14425 5500
-	0    1    1    0   
-$EndComp
-Text Label 13975 5500 2    60   ~ 12
-INJECTOR-1
-Text Label 14575 5500 0    60   ~ 12
-5V
 $Comp
 L Device:LED D22
 U 1 1 5E7651E5
@@ -612,7 +570,7 @@ Text Label 6000 1575 3    50   ~ 0
 HS_1
 Text Label 7750 1575 3    60   ~ 12
 MAIN_RELAY
-Text Label 3425 4075 2    50   ~ 0
+Text Label 3425 3975 2    50   ~ 10
 CAM_SENSOR
 Wire Wire Line
 	10750 5925 11450 5925
@@ -866,4 +824,33 @@ Text Label 10975 4825 3    60   ~ 12
 12V-SWITCH
 Text Label 11275 4725 3    60   ~ 12
 12V-SWITCH
+$Comp
+L Device:R R16
+U 1 1 5D002597
+P 14750 2275
+F 0 "R16" H 14820 2321 50  0000 L CNN
+F 1 "DNP" H 14820 2230 50  0000 L CNN
+F 2 "modules:Logo" V 14680 2275 50  0001 C CNN
+F 3 "~" H 14750 2275 50  0001 C CNN
+	1    14750 2275
+	1    0    0    -1  
+$EndComp
+Text Label 7450 1575 3    60   ~ 12
+AN-VOLT-2
+Text Label 3425 4075 2    60   ~ 12
+AN-VOLT-2
+Text Label 7550 1575 3    60   ~ 12
+AN-VOLT-1
+Text Label 3425 3875 2    60   ~ 12
+AN-VOLT-1
+Text Label 7050 1575 3    60   ~ 12
+AN-TEMP-4
+Text Label 3425 3775 2    60   ~ 12
+AN-TEMP-4
+Text Label 7900 1575 3    50   ~ 10
+AN-VOLT-7
+Text Label 8600 1575 3    50   ~ 10
+AN-VOLT-8
+Text Label 9000 1575 3    60   ~ 12
+AN-VOLT-9
 $EndSCHEMATC
