@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title "frankenso"
 Date "2018-02-24"
 Rev "0.5.3"
@@ -2544,8 +2544,6 @@ Text HLabel 10050 7225 0    50   Input ~ 0
 CAM
 Text HLabel 11650 7225 2    50   Input ~ 0
 CAM_MCU
-Wire Wire Line
-	10050 7225 10500 7225
 Connection ~ 10500 7225
 Wire Wire Line
 	10500 7225 10625 7225
@@ -2566,5 +2564,32 @@ F 3 "" H 10975 7525 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10500 6925 0    60   ~ 0
+5V
+$Comp
+L Diode:BAS40-04 D13
+U 1 1 5D22D9AA
+P 10400 7225
+F 0 "D13" V 10438 7305 40  0000 L CNN
+F 1 "BAS70-04" V 9850 7125 40  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10400 7225 60  0001 C CNN
+F 3 "" H 10400 7225 60  0000 C CNN
+F 4 "BAS70-04" H 6150 2175 50  0001 C CNN "Part #"
+	1    10400 7225
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10050 7225 10500 7225
+$Comp
+L power:GND #PWR0140
+U 1 1 5D251281
+P 10300 7525
+F 0 "#PWR0140" H 10300 7525 30  0001 C CNN
+F 1 "GND" H 10300 7455 30  0001 C CNN
+F 2 "" H 10300 7525 60  0000 C CNN
+F 3 "" H 10300 7525 60  0000 C CNN
+	1    10300 7525
+	1    0    0    -1  
+$EndComp
+Text Label 10300 6925 0    60   ~ 0
 5V
 $EndSCHEMATC
