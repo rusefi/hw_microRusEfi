@@ -17,6 +17,10 @@ stm32f767
 
 [Molex 48 pin connector](https://www.mouser.com/datasheet/2/276/5007620481_PCB_HEADERS-179151.pdf)
 
+Harness donor:
+
+US: 2007+ Nissan Altima & 2007+ Nissan Sentra
+
 
 Terminals
 
