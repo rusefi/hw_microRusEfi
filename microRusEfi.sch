@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr User 17000 12598
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title "microRusEfi"
 Date "2019-01-31"
 Rev "R2.1"
@@ -191,8 +191,6 @@ F 3 "~" H 8650 5725 50  0001 C CNN
 $EndComp
 Text Label 10750 6675 0    60   ~ 0
 VDD
-Wire Wire Line
-	9000 5475 8100 5475
 $Sheet
 S 8300 7125 1050 1200
 U 5CBDF691
@@ -228,7 +226,7 @@ Wire Wire Line
 Text Label 9350 8075 0    60   ~ 12
 5V
 Text Label 11450 5925 0    60   ~ 12
-ALTERNATOR
+GP_OUT_4
 Wire Wire Line
 	6700 5175 5600 5175
 Text Label 6200 5175 2    60   ~ 0
@@ -261,13 +259,13 @@ F 3 "" H 7750 2125 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 8350 1575 3    60   ~ 12
-FUEL-PUMP
+GP_OUT_2
 Text Label 7150 1575 3    60   ~ 12
 AN-TEMP-2
 Text Label 8050 1575 3    60   ~ 12
 AN-VOLT-3
 Text Label 8250 1575 3    60   ~ 12
-RPM-OUT
+GP_OUT_3
 Text Label 9550 1575 3    60   ~ 12
 CRNK+
 Text Label 9700 1575 3    60   ~ 12
@@ -283,9 +281,9 @@ Text Label 8900 1575 3    60   ~ 12
 Text Label 8150 1575 3    60   ~ 12
 AN-VOLT-6
 Text Label 9300 1575 3    60   ~ 12
-ALTERNATOR
+GP_OUT_4
 Text Label 8450 1575 3    60   ~ 12
-WASTEGATE
+GP_OUT_1
 Text Label 6600 1575 3    60   ~ 12
 AN-TEMP-1
 Text Label 7250 1575 3    60   ~ 12
@@ -318,9 +316,9 @@ Text Label 6950 1575 3    60   ~ 12
 GND
 Text Label 6700 1575 3    60   ~ 12
 AN-VOLT-4
-Text Label 6250 1575 3    50   ~ 0
+Text Label 6250 1575 3    50   ~ 10
 USB_D-
-Text Label 6400 1575 3    50   ~ 0
+Text Label 6400 1575 3    50   ~ 10
 USB_D+
 $Sheet
 S 4725 5825 950  1275
@@ -344,13 +342,13 @@ Text Label 4475 5925 2    50   ~ 0
 E-THROTTLE+
 Text Label 4475 6025 2    50   ~ 0
 E-THROTTLE-
-Text Label 5050 1575 3    50   ~ 0
+Text Label 5050 1575 3    50   ~ 10
 E-THROTTLE+
-Text Label 5500 1575 3    50   ~ 0
+Text Label 5500 1575 3    50   ~ 10
 E-THROTTLE-
-Text Label 5400 1575 3    50   ~ 0
+Text Label 5400 1575 3    50   ~ 10
 VVT-1
-Text Label 4950 1575 3    50   ~ 0
+Text Label 4950 1575 3    50   ~ 10
 VVT-2
 Text Label 11700 4525 0    50   ~ 0
 VVT-1
@@ -419,30 +417,6 @@ Connection ~ 11275 4425
 Wire Wire Line
 	11275 4425 11700 4425
 $Comp
-L Device:LED D22
-U 1 1 5E7651E5
-P 14125 5950
-F 0 "D22" H 14118 5695 50  0000 C CNN
-F 1 "LED" H 14118 5786 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 14125 5950 50  0001 C CNN
-F 3 "~" H 14125 5950 50  0001 C CNN
-	1    14125 5950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R29
-U 1 1 5E7651EF
-P 14425 5950
-F 0 "R29" V 14218 5950 50  0000 C CNN
-F 1 "1K" V 14309 5950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 14355 5950 50  0001 C CNN
-F 3 "~" H 14425 5950 50  0001 C CNN
-	1    14425 5950
-	0    1    1    0   
-$EndComp
-Text Label 14575 5950 0    60   ~ 12
-5V
-$Comp
 L power:GND #PWR0162
 U 1 1 5E774BC6
 P 5800 6875
@@ -467,10 +441,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 6500 5800 6600
 Connection ~ 5800 6600
-Text Label 7950 6175 0    50   ~ 0
-RUNNING_LED
-Text Label 13975 5950 2    50   ~ 0
-RUNNING_LED
 Wire Wire Line
 	10750 4225 11425 4225
 Wire Wire Line
@@ -480,11 +450,11 @@ Wire Wire Line
 Wire Wire Line
 	10750 3925 11425 3925
 Text Label 11450 5725 0    60   ~ 12
-FUEL-PUMP
+GP_OUT_2
 Text Label 11450 5625 0    60   ~ 12
-WASTEGATE
+GP_OUT_1
 Text Label 11450 5825 0    60   ~ 12
-RPM-OUT
+GP_OUT_3
 Text Notes 11575 3725 0    50   ~ 0
 LOW SIDE OUTPUTS\n
 Text Notes 12100 4475 0    50   ~ 0
@@ -538,20 +508,20 @@ F 3 "~" H 8500 5875 50  0001 C CNN
 $EndComp
 Text Label 8300 5875 2    60   ~ 12
 GND
-Text Label 6000 1575 3    50   ~ 0
-HS_1
+Text Label 6000 1575 3    50   ~ 10
+GP_OUT_6
 Text Label 7750 1575 3    60   ~ 12
 MAIN_RELAY
 Text Label 4050 4925 2    50   ~ 10
 CAM_SENSOR
 Wire Wire Line
 	10750 5925 11450 5925
-Text Label 6100 1575 3    50   ~ 0
-HS_2
-Text Label 9725 7325 0    50   ~ 0
-HS_1
-Text Label 9725 7225 0    50   ~ 0
-HS_2
+Text Label 6100 1575 3    50   ~ 10
+GP_OUT_5
+Text Label 9725 7325 0    50   ~ 10
+GP_OUT_6
+Text Label 9725 7225 0    50   ~ 10
+GP_OUT_5
 Wire Notes Line
 	11300 3550 11300 4800
 Wire Notes Line
@@ -622,8 +592,8 @@ Wire Wire Line
 	5600 4675 6700 4675
 Wire Wire Line
 	5600 4775 6700 4775
-Text Notes 6325 2750 0    50   ~ 0
-ALL PINS ARE SHOWN AS DEFAULT PINOUT\nANY UNUSED PINS CAN BE USED FOR OTHER PURPOSES
+Text Notes 6675 2750 0    50   ~ 0
+GP OUT 5 AND 6 ARE HIGH SIDE DRIVEN
 NoConn ~ 10750 3425
 NoConn ~ 10750 3525
 NoConn ~ 10750 3625
@@ -722,19 +692,19 @@ F11 "PE7" I R 7950 4625 60
 F12 "PE9" I R 7950 4425 60 
 F13 "PE11" I R 7950 4125 60 
 F14 "PE13" I R 7950 3925 60 
-F15 "PE15" I R 7950 5900 60 
+F15 "PE15" I L 6700 7625 60 
 F16 "PB11" I R 7950 8925 60 
-F17 "PB13" I L 6700 8325 60 
-F18 "PB15" I L 6700 8925 60 
+F17 "PB13" I L 6700 7550 60 
+F18 "PB15" I L 6700 7475 60 
 F19 "PD9" I R 7950 8525 60 
 F20 "PD11" I R 7950 9525 60 
 F21 "PD13" I L 6700 7825 60 
 F22 "PD15" I L 6700 8025 60 
-F23 "PC0" I L 6700 3975 60 
+F23 "PC0" I L 6700 3875 60 
 F24 "PC2" I L 6700 4275 60 
 F25 "PA0" I L 6700 3475 60 
 F26 "PA2" I L 6700 3675 60 
-F27 "PA4" I L 6700 3875 60 
+F27 "PA4" I L 6700 3975 60 
 F28 "PA6" I L 6700 4075 60 
 F29 "PC4" I L 6700 4475 60 
 F30 "PB0" I L 6700 4675 60 
@@ -744,7 +714,7 @@ F33 "PE12" I R 7950 4025 60
 F34 "PE14" I R 7950 3825 60 
 F35 "PB10" I L 6700 8425 60 
 F36 "PB12" I R 7950 4925 60 
-F37 "PB14" I R 7950 8325 60 
+F37 "PB14" I L 6700 7400 60 
 F38 "PD8" I L 6700 9025 60 
 F39 "PD10" I R 7950 8825 60 
 F40 "PD12" I L 6700 7725 60 
@@ -827,26 +797,83 @@ Text Label 8600 1575 3    50   ~ 10
 AN-VOLT-8
 Text Label 9000 1575 3    60   ~ 12
 AN-VOLT-9
-$Comp
-L Connector:TestPoint TP6
-U 1 1 5CFB23FC
-P 8100 5475
-F 0 "TP6" H 8158 5593 50  0001 L CNN
-F 1 "TP" H 8158 5502 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8300 5475 50  0001 C CNN
-F 3 "~" H 8300 5475 50  0001 C CNN
-	1    8100 5475
-	1    0    0    -1  
-$EndComp
-Connection ~ 8100 5475
-Wire Wire Line
-	8100 5475 7950 5475
-Wire Wire Line
-	6700 4925 5600 4925
 Text Label 3425 3975 2    50   ~ 10
 AN-VOLT-10
 Text Label 7650 1575 3    50   ~ 10
 AN-VOLT-10
 Wire Wire Line
 	5600 3975 6700 3975
+Text Label 7950 6175 0    50   ~ 10
+PE1
+Text Label 6700 8125 2    50   ~ 10
+PE2
+Text Label 6700 8625 2    50   ~ 10
+PE3
+Text Label 6700 8525 2    50   ~ 10
+PE4
+Text Label 13975 6025 2    50   ~ 10
+PE1
+Text Label 14575 6025 0    60   ~ 12
+5V
+$Comp
+L Device:R R29
+U 1 1 5E7651EF
+P 14425 6025
+F 0 "R29" V 14218 6025 50  0000 C CNN
+F 1 "1K" V 14309 6025 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 14355 6025 50  0001 C CNN
+F 3 "~" H 14425 6025 50  0001 C CNN
+	1    14425 6025
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D22
+U 1 1 5E7651E5
+P 14125 6025
+F 0 "D22" H 14118 5770 50  0000 C CNN
+F 1 "LED" H 14118 5861 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 14125 6025 50  0001 C CNN
+F 3 "~" H 14125 6025 50  0001 C CNN
+	1    14125 6025
+	-1   0    0    1   
+$EndComp
+$Sheet
+S 5500 7325 725  375 
+U 5D2F23B4
+F0 "FlashMemory" 50
+F1 "FlashMemory.sch" 50
+F2 "SI" I R 6225 7475 50 
+F3 "SCK" I R 6225 7550 50 
+F4 "CS" I R 6225 7625 50 
+F5 "SO" I R 6225 7400 50 
+F6 "VDD" I L 5500 7625 50 
+$EndSheet
+Wire Wire Line
+	6700 7475 6225 7475
+Wire Wire Line
+	6700 7400 6225 7400
+Wire Wire Line
+	6700 7550 6225 7550
+Text Label 5500 7625 2    50   ~ 10
+VDD
+Wire Wire Line
+	6225 7625 6700 7625
+Wire Wire Line
+	7950 5475 8125 5475
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5D358BCF
+P 8125 5475
+F 0 "TP4" H 8183 5593 50  0001 L CNN
+F 1 "TP" H 8183 5502 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8325 5475 50  0001 C CNN
+F 3 "~" H 8325 5475 50  0001 C CNN
+	1    8125 5475
+	1    0    0    -1  
+$EndComp
+Connection ~ 8125 5475
+Wire Wire Line
+	8125 5475 9000 5475
+Wire Wire Line
+	5600 4925 6700 4925
 $EndSCHEMATC
