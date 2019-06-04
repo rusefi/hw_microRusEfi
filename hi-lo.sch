@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title "microRusEfi"
 Date "2019-04-12"
 Rev "0.5.5"
@@ -409,21 +409,8 @@ F 3 "" H 6400 5700 60  0000 C CNN
 	1    6400 5700
 	1    0    0    -1  
 $EndComp
-Text HLabel 3150 7550 2    60   Input ~ 0
-12V
-Text HLabel 3150 7050 2    60   Input ~ 0
+Text HLabel 4350 7150 2    60   Input ~ 0
 5V
-$Comp
-L Jumper:Jumper_3_Open P1
-U 1 1 5D157586
-P 3150 7300
-F 0 "P1" V 3100 7300 50  0000 C CNN
-F 1 "CONN_3" V 3200 7300 40  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" V 1055 3200 60  0001 C CNN
-F 3 "" H 4575 3225 60  0001 C CNN
-	1    3150 7300
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Device:R R112
 U 1 1 5D157592
@@ -492,8 +479,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 5150 7300 5150
 Wire Wire Line
-	3300 7300 4350 7300
-Wire Wire Line
 	5450 5350 5550 5350
 Connection ~ 5550 5350
 Wire Wire Line
@@ -538,29 +523,9 @@ Wire Wire Line
 	4350 7500 6950 7500
 Wire Wire Line
 	4350 6300 6900 6300
-Connection ~ 4350 7300
-Wire Wire Line
-	4350 7300 4350 7500
 Connection ~ 4350 6800
-Wire Wire Line
-	4350 6800 4350 7300
-$Comp
-L Jumper:Jumper_3_Open P2
-U 1 1 5DFEE1CB
-P 3150 4950
-F 0 "P2" V 3100 4950 50  0000 C CNN
-F 1 "CONN_3" V 3200 4950 40  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" V 1055 850 60  0001 C CNN
-F 3 "" H 4575 875 60  0001 C CNN
-	1    3150 4950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3300 4950 4000 4950
-Text Label 3150 4700 0    50   ~ 0
+Text Label 3100 4650 0    50   ~ 0
 5V
-Text Label 3150 5200 0    50   ~ 0
-12V
 $Comp
 L Device:C C17
 U 1 1 5E89211D
@@ -586,4 +551,33 @@ $EndComp
 Connection ~ 4000 4950
 Wire Wire Line
 	4000 4950 6850 4950
+Wire Wire Line
+	4350 6800 4350 7500
+$Comp
+L Device:R R59
+U 1 1 5D2B3D8E
+P 3100 5100
+F 0 "R59" V 3175 5100 40  0000 C CNN
+F 1 "0R" V 3107 5101 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -3570 2250 60  0001 C CNN
+F 3 "" H 3100 5100 60  0001 C CNN
+	1    3100 5100
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R57
+U 1 1 5D2B6FCF
+P 3100 4800
+F 0 "R57" V 3175 4800 40  0000 C CNN
+F 1 "DNP" V 3107 4801 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V -3570 1950 60  0001 C CNN
+F 3 "" H 3100 4800 60  0001 C CNN
+	1    3100 4800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3100 4950 4000 4950
+Connection ~ 3100 4950
+Text HLabel 3100 5250 0    50   Input ~ 10
+12V
 $EndSCHEMATC

@@ -1239,4 +1239,18 @@ Wire Wire Line
 Wire Wire Line
 	15350 3175 15000 3175
 Connection ~ 15000 3175
+$Comp
+L Device:R R26
+U 1 1 5D13DF09
+P 4500 4050
+F 0 "R26" V 4580 4050 50  0000 C CNN
+F 1 "DNP" V 4500 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6830 6350 60  0001 C CNN
+F 3 "" H 10350 6375 60  0001 C CNN
+	1    4500 4050
+	0    1    -1   0   
+$EndComp
+Connection ~ 4650 4050
+Text Label 4350 4050 2    60   ~ 0
+VDD
 $EndSCHEMATC
