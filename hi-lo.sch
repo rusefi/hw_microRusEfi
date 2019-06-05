@@ -14,7 +14,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 6250 3300 0    160  ~ 0
+Text Notes 6250 3300 0    160  ~ 6
 8 channel high / low side driver
 NoConn ~ 6150 7800
 NoConn ~ 6850 7800
@@ -409,7 +409,7 @@ F 3 "" H 6400 5700 60  0000 C CNN
 	1    6400 5700
 	1    0    0    -1  
 $EndComp
-Text HLabel 4350 7150 2    60   Input ~ 0
+Text HLabel 4350 7150 2    60   Input ~ 6
 5V
 $Comp
 L Device:R R112
@@ -493,29 +493,29 @@ Wire Wire Line
 Connection ~ 5950 5650
 Wire Wire Line
 	6850 4950 6850 5450
-Text HLabel 7700 5150 2    60   Input ~ 0
+Text HLabel 7700 5150 2    60   Input ~ 6
 IGN_1
-Text HLabel 7700 5750 2    60   Input ~ 0
+Text HLabel 7700 5750 2    60   Input ~ 6
 IGN_2
-Text HLabel 7750 6500 2    60   Input ~ 0
+Text HLabel 7750 6500 2    60   Input ~ 6
 IGN_3
-Text HLabel 7750 7100 2    60   Input ~ 0
+Text HLabel 7750 7100 2    60   Input ~ 6
 IGN_4
-Text HLabel 7800 7700 2    60   Input ~ 0
+Text HLabel 7800 7700 2    60   Input ~ 6
 HS1
-Text HLabel 7800 8300 2    60   Input ~ 0
+Text HLabel 7800 8300 2    60   Input ~ 6
 HS2
-Text HLabel 5150 5350 0    60   Input ~ 0
+Text HLabel 5150 5350 0    60   Input ~ 6
 IGN_1_MCU
-Text HLabel 5150 5550 0    60   Input ~ 0
+Text HLabel 5150 5550 0    60   Input ~ 6
 IGN_2_MCU
-Text HLabel 5200 6700 0    60   Input ~ 0
+Text HLabel 5200 6700 0    60   Input ~ 6
 IGN_3_MCU
-Text HLabel 5200 6900 0    60   Input ~ 0
+Text HLabel 5200 6900 0    60   Input ~ 6
 IGN_4_MCU
-Text HLabel 5250 7900 0    60   Input ~ 0
+Text HLabel 5250 7900 0    60   Input ~ 6
 HS1_MCU
-Text HLabel 5250 8100 0    60   Input ~ 0
+Text HLabel 5250 8100 0    60   Input ~ 6
 HS2_MCU
 Wire Wire Line
 	4350 6300 4350 6800
@@ -524,7 +524,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 6300 6900 6300
 Connection ~ 4350 6800
-Text Label 3100 4650 0    50   ~ 0
+Text Label 3100 4650 0    50   ~ 6
 5V
 $Comp
 L Device:C C17
