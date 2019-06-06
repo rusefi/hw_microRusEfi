@@ -808,9 +808,9 @@ Text Label 8100 9850 2    60   ~ 12
 GND
 Wire Wire Line
 	9750 10725 9750 11200
-Text Label 11900 11300 3    60   ~ 6
+Text Label 11900 11300 3    60   ~ 12
 VDD
-Text HLabel 11900 11200 2    60   Input ~ 6
+Text HLabel 11900 11200 2    60   Input ~ 12
 VDD
 Wire Wire Line
 	11500 9550 12350 9550
@@ -992,13 +992,13 @@ Wire Wire Line
 	10450 10500 11900 10500
 Wire Wire Line
 	11900 10500 11900 10800
-Text Label 12850 10300 0    60   ~ 6
+Text Label 12850 10300 0    60   ~ 12
 VDD
-Text Label 7200 10700 2    60   ~ 6
+Text Label 7200 10700 2    60   ~ 12
 VDD
 Wire Wire Line
 	7500 10700 9250 10700
-Text Label 7300 10100 2    60   ~ 6
+Text Label 7300 10100 2    60   ~ 12
 VDD
 Wire Wire Line
 	10850 10300 11950 10300
@@ -1161,7 +1161,7 @@ Wire Notes Line
 	11800 7000 14500 7000
 Wire Notes Line
 	14500 7000 14500 5650
-Text Notes 13750 6050 0    50   ~ 6
+Text Notes 13750 6050 0    50   ~ 10
 TRIGGER CONFIG\nAS SEEN\nAT PCB
 Text Label 13475 6800 0    60   ~ 12
 V5V
@@ -1212,7 +1212,7 @@ F 4 "MOUSER" H -1200 -250 50  0001 C CNN "VEND"
 	1    12800 6400
 	1    0    0    -1  
 $EndComp
-Text Notes 13575 6450 0    50   ~ 6
+Text Notes 13575 6450 0    50   ~ 10
 SEE DATASHEET \nFOR HALL SENSOR USE
 Wire Wire Line
 	11900 6550 12000 6550
