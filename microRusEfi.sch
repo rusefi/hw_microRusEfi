@@ -189,7 +189,7 @@ F 3 "~" H 8650 5725 50  0001 C CNN
 	1    8450 5725
 	1    0    0    -1  
 $EndComp
-Text Label 10750 6675 0    60   ~ 6
+Text Label 10750 6675 0    60   ~ 12
 VDD
 $Sheet
 S 8300 7125 1050 1200
@@ -229,7 +229,7 @@ Text Label 11450 5925 0    60   ~ 12
 GP_OUT_4
 Wire Wire Line
 	6700 5175 5600 5175
-Text Label 6200 5175 2    60   ~ 6
+Text Label 6200 5175 2    60   ~ 12
 Vref
 Text Label 9725 7625 0    60   ~ 12
 COIL-3
@@ -338,9 +338,9 @@ F11 "SI" I R 5675 6500 60
 F12 "GND" I L 4725 6425 60 
 F13 "12V" I L 4725 6225 50 
 $EndSheet
-Text Label 4475 5925 2    50   ~ 6
+Text Label 4475 5925 2    50   ~ 10
 E-THROTTLE+
-Text Label 4475 6025 2    50   ~ 6
+Text Label 4475 6025 2    50   ~ 10
 E-THROTTLE-
 Text Label 5050 1575 3    50   ~ 10
 E-THROTTLE+
@@ -350,13 +350,13 @@ Text Label 5400 1575 3    50   ~ 10
 VVT-1
 Text Label 4950 1575 3    50   ~ 10
 VVT-2
-Text Label 11700 4525 0    50   ~ 6
+Text Label 11700 4525 0    50   ~ 10
 VVT-1
-Text Label 11700 4425 0    50   ~ 6
+Text Label 11700 4425 0    50   ~ 10
 VVT-2
 Text Label 4725 6425 2    60   ~ 12
 GND
-Text Label 4725 6325 2    60   ~ 6
+Text Label 4725 6325 2    60   ~ 12
 VDD
 Text Label 7350 1575 3    50   ~ 10
 CAM_SENSOR
@@ -455,11 +455,11 @@ Text Label 11450 5625 0    60   ~ 12
 GP_OUT_1
 Text Label 11450 5825 0    60   ~ 12
 GP_OUT_3
-Text Notes 11575 3725 0    50   ~ 6
+Text Notes 11575 3725 0    50   ~ 10
 LOW SIDE OUTPUTS\n
-Text Notes 12100 4475 0    50   ~ 6
+Text Notes 12100 4475 0    50   ~ 10
 4.5A
-Text Notes 12050 5700 0    50   ~ 6
+Text Notes 12050 5700 0    50   ~ 10
 0.6A
 Wire Wire Line
 	10750 5625 11450 5625
@@ -467,7 +467,7 @@ Wire Wire Line
 	10750 5725 11450 5725
 Wire Wire Line
 	10750 5825 11450 5825
-Text Notes 12100 4050 0    50   ~ 6
+Text Notes 12100 4050 0    50   ~ 10
 2.2A
 Wire Wire Line
 	9350 7725 9725 7725
@@ -489,9 +489,9 @@ Wire Notes Line
 	10700 8100 9625 8100
 Wire Notes Line
 	9625 8100 9625 7000
-Text Notes 10625 7925 2    50   ~ 6
+Text Notes 10625 7925 2    50   ~ 10
 HIGH-SIDE OUTPUTS \n
-Text Notes 2550 3300 0    50   ~ 6
+Text Notes 2550 3300 0    50   ~ 10
 ANALOG INPUTS.\nADC 1-4 HAS BIAS RESISTORS \nFOR TEMP SENSORS\n\nCAN ALSO BE USED \nAS DIGITAL INPUTS
 Wire Notes Line
 	11300 3550 12500 3550
@@ -530,7 +530,7 @@ Wire Notes Line
 	12475 4800 12475 3550
 Wire Notes Line
 	11300 5225 12475 5225
-Text Notes 11375 5450 0    50   ~ 6
+Text Notes 11375 5450 0    50   ~ 10
 CAN BE USED AS LOW-SIDE \nOR HIGH-SIDE
 Wire Notes Line
 	12475 6125 11300 6125
@@ -592,7 +592,7 @@ Wire Wire Line
 	5600 4675 6700 4675
 Wire Wire Line
 	5600 4775 6700 4775
-Text Notes 6675 2750 0    50   ~ 6
+Text Notes 6675 2750 0    50   ~ 10
 GP OUT 5 AND 6 ARE HIGH SIDE DRIVEN
 NoConn ~ 10750 3425
 NoConn ~ 10750 3525
@@ -606,7 +606,7 @@ Wire Wire Line
 	5675 6125 6700 6125
 Wire Wire Line
 	5675 6400 6700 6400
-Text Notes 3950 5750 0    50   ~ 6
+Text Notes 3950 5750 0    50   ~ 10
 6A H-BRIDGE
 Wire Wire Line
 	4725 5925 4475 5925
@@ -656,19 +656,19 @@ Wire Wire Line
 	3425 4675 4050 4675
 Wire Wire Line
 	3425 4775 4050 4775
-Text Label 6700 5400 2    50   ~ 6
+Text Label 6700 5400 2    50   ~ 10
 USB_D-
-Text Label 6700 5475 2    50   ~ 6
+Text Label 6700 5475 2    50   ~ 10
 USB_D+
-Text Label 5975 5075 0    50   ~ 6
+Text Label 5975 5075 0    50   ~ 10
 Vbat_MCU
-Text Label 5625 4475 0    50   ~ 6
+Text Label 5625 4475 0    50   ~ 10
 AnOut11
-Text Label 5625 4575 0    50   ~ 6
+Text Label 5625 4575 0    50   ~ 10
 AnOut12
-Text Label 5625 4675 0    50   ~ 6
+Text Label 5625 4675 0    50   ~ 10
 AnOut13
-Text Label 5625 4775 0    50   ~ 6
+Text Label 5625 4775 0    50   ~ 10
 AnOut14
 $Sheet
 S 6700 3175 1250 6425
@@ -809,19 +809,8 @@ Text Label 6700 8525 2    50   ~ 10
 PE4
 Text Label 13975 6025 2    50   ~ 10
 PE1
-Text Label 14575 6025 0    60   ~ 12
+Text Label 14675 6175 0    60   ~ 12
 5V
-$Comp
-L Device:R R29
-U 1 1 5E7651EF
-P 14425 6025
-F 0 "R29" V 14218 6025 50  0000 C CNN
-F 1 "1K" V 14309 6025 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 14355 6025 50  0001 C CNN
-F 3 "~" H 14425 6025 50  0001 C CNN
-	1    14425 6025
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:LED D22
 U 1 1 5E7651E5
@@ -913,82 +902,62 @@ Wire Wire Line
 Wire Wire Line
 	8500 3700 8500 3600
 Connection ~ 8500 3600
-Text Label 14550 6425 0    60   ~ 12
-5V
-$Comp
-L Device:R R36
-U 1 1 5D1B59DE
-P 14400 6425
-F 0 "R36" V 14193 6425 50  0000 C CNN
-F 1 "1K" V 14284 6425 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 14330 6425 50  0001 C CNN
-F 3 "~" H 14400 6425 50  0001 C CNN
-	1    14400 6425
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:LED D21
 U 1 1 5D1B59E8
-P 14100 6425
-F 0 "D21" H 14093 6170 50  0000 C CNN
-F 1 "LED" H 14093 6261 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 14100 6425 50  0001 C CNN
-F 3 "~" H 14100 6425 50  0001 C CNN
-	1    14100 6425
+P 14125 6125
+F 0 "D21" H 14118 5870 50  0000 C CNN
+F 1 "LED" H 14118 5961 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 14125 6125 50  0001 C CNN
+F 3 "~" H 14125 6125 50  0001 C CNN
+	1    14125 6125
 	-1   0    0    1   
-$EndComp
-Text Label 14550 6900 0    60   ~ 12
-5V
-$Comp
-L Device:R R49
-U 1 1 5D1BAEA8
-P 14400 6900
-F 0 "R49" V 14193 6900 50  0000 C CNN
-F 1 "1K" V 14284 6900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 14330 6900 50  0001 C CNN
-F 3 "~" H 14400 6900 50  0001 C CNN
-	1    14400 6900
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED D23
 U 1 1 5D1BAEB2
-P 14100 6900
-F 0 "D23" H 14093 6645 50  0000 C CNN
-F 1 "LED" H 14093 6736 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 14100 6900 50  0001 C CNN
-F 3 "~" H 14100 6900 50  0001 C CNN
-	1    14100 6900
+P 14125 6225
+F 0 "D23" H 14118 5970 50  0000 C CNN
+F 1 "LED" H 14118 6061 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 14125 6225 50  0001 C CNN
+F 3 "~" H 14125 6225 50  0001 C CNN
+	1    14125 6225
 	-1   0    0    1   
-$EndComp
-Text Label 14550 7375 0    60   ~ 12
-5V
-$Comp
-L Device:R R51
-U 1 1 5D1C01BF
-P 14400 7375
-F 0 "R51" V 14193 7375 50  0000 C CNN
-F 1 "1K" V 14284 7375 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 14330 7375 50  0001 C CNN
-F 3 "~" H 14400 7375 50  0001 C CNN
-	1    14400 7375
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:LED D27
 U 1 1 5D1C01C9
-P 14100 7375
-F 0 "D27" H 14093 7120 50  0000 C CNN
-F 1 "LED" H 14093 7211 50  0000 C CNN
-F 2 "LED_SMD:LED_0402_1005Metric" H 14100 7375 50  0001 C CNN
-F 3 "~" H 14100 7375 50  0001 C CNN
-	1    14100 7375
+P 14125 6325
+F 0 "D27" H 14118 6070 50  0000 C CNN
+F 1 "LED" H 14118 6161 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 14125 6325 50  0001 C CNN
+F 3 "~" H 14125 6325 50  0001 C CNN
+	1    14125 6325
 	-1   0    0    1   
 $EndComp
-Text Label 13950 6425 2    50   ~ 10
+Text Label 13975 6125 2    50   ~ 10
 PE2
-Text Label 13950 6900 2    50   ~ 10
+Text Label 13975 6225 2    50   ~ 10
 PE3
-Text Label 13950 7375 2    50   ~ 10
+Text Label 13975 6325 2    50   ~ 10
 PE4
+$Comp
+L Device:R_Pack04 RN1
+U 1 1 5CF9A0A2
+P 14475 6125
+F 0 "RN1" V 14058 6125 50  0000 C CNN
+F 1 "R_Pack04" V 14149 6125 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 14750 6125 50  0001 C CNN
+F 3 "~" H 14475 6125 50  0001 C CNN
+	1    14475 6125
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	14675 6325 14675 6225
+Connection ~ 14675 6225
+Wire Wire Line
+	14675 6225 14675 6125
+Connection ~ 14675 6125
+Wire Wire Line
+	14675 6125 14675 6025
 $EndSCHEMATC
