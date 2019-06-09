@@ -900,6 +900,9 @@ F 1 "Conn_02x05_Odd_Even" H 11850 6526 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11800 6200 50  0001 C CNN
 F 3 "~" H 11800 6200 50  0001 C CNN
 F 4 "MOUSER" H 0   0   50  0001 C CNN "VEND"
+F 5 "Amphenol" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "95278-801B10LF" H 0   0   50  0001 C CNN "Part #"
+F 7 "649-95278-801B10LF" H 0   0   50  0001 C CNN "VEND#"
 	1    11800 6200
 	1    0    0    -1  
 $EndComp
