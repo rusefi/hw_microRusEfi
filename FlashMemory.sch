@@ -22,6 +22,10 @@ F 0 "U11" H 6000 3431 50  0000 C CNN
 F 1 "IS25WP256D-xM" H 6000 3340 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 6050 3350 50  0001 C CNN
 F 3 "http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf" H 6050 2250 50  0001 C CNN
+F 4 "WINBOND" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "W25N01GVSFIT" H 0   0   50  0001 C CNN "Part #"
+F 6 "MOUSER" H 0   0   50  0001 C CNN "VEND"
+F 7 "454-W25N01GVSFIT" H 0   0   50  0001 C CNN "VEND#"
 	1    6000 2750
 	1    0    0    -1  
 $EndComp
@@ -70,8 +74,6 @@ Wire Wire Line
 	6000 2250 6000 2075
 Text HLabel 6000 2175 0    50   Input ~ 10
 VDD
-NoConn ~ 5500 2850
-NoConn ~ 5500 2950
 $Comp
 L Device:R R33
 U 1 1 5D2F5EFA
@@ -85,4 +87,8 @@ F 3 "~" H 6650 2850 50  0001 C CNN
 $EndComp
 Text Label 6800 2850 0    50   ~ 10
 VDD
+Text HLabel 5500 2950 0    50   Input ~ 10
+HOLD
+Text HLabel 5500 2850 0    50   Input ~ 10
+WP
 $EndSCHEMATC

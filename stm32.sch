@@ -24,6 +24,9 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 11930 4200 60 
 F 3 "" H 15350 2900 60  0001 C CNN
 F 4 "stm32f407_board" H 23450 3775 60  0001 C CNN "PageName"
 F 5 "TAJA156M010RNJ" H 0   0   50  0001 C CNN "Part #"
+F 6 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "MOUSER" H 0   0   50  0001 C CNN "VEND"
+F 8 "581-TAJA156M010R" H 0   0   50  0001 C CNN "VEND#"
 	1    15350 2900
 	1    0    0    -1  
 $EndComp
@@ -151,10 +154,6 @@ F 1 "LED-green" H 12150 3700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5   1700 60  0001 C CNN
 F 3 "" H 12150 3800 60  0001 C CNN
 F 4 "stm32f407_board" H 11525 1275 60  0001 C CNN "PageName"
-F 5 "MOUSER" H -6450 -2300 50  0001 C CNN "VEND"
-F 6 "DIALIGHT" H -6450 -2300 50  0001 C CNN "Manufacturer"
-F 7 "599-0281-007F" H -6450 -2300 50  0001 C CNN "Part #"
-F 8 "645-599-0281-007F" H -6450 -2300 50  0001 C CNN "VEND#"
 	1    12150 3800
 	-1   0    0    1   
 $EndComp
@@ -900,6 +899,7 @@ F 0 "J2" H 11850 6617 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 11850 6526 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11800 6200 50  0001 C CNN
 F 3 "~" H 11800 6200 50  0001 C CNN
+F 4 "MOUSER" H 0   0   50  0001 C CNN "VEND"
 	1    11800 6200
 	1    0    0    -1  
 $EndComp
@@ -1159,6 +1159,9 @@ F 0 "J1" H 11557 4667 50  0000 C CNN
 F 1 "USB_B_Micro" H 11557 4576 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105133-0031" H 11650 4150 50  0001 C CNN
 F 3 "~" H 11650 4150 50  0001 C CNN
+F 4 "MOLEX" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "105133-0031" H 0   0   50  0001 C CNN "Part #"
+F 6 "MOUSER" H 0   0   50  0001 C CNN "VEND"
 	1    11500 4200
 	1    0    0    -1  
 $EndComp
