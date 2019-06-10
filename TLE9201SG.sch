@@ -14,29 +14,29 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7600 3750 2    50   Input ~ 6
+Text HLabel 7600 3750 2    50   Input ~ 10
 OUT2
-Text HLabel 7600 4250 2    50   Input ~ 6
+Text HLabel 7600 4250 2    50   Input ~ 10
 OUT1
-Text HLabel 4675 3550 0    50   Input ~ 6
+Text HLabel 4675 3550 0    50   Input ~ 10
 12V
-Text HLabel 4675 3350 0    50   Input ~ 6
+Text HLabel 4675 3350 0    50   Input ~ 10
 VDD
-Text HLabel 4675 3250 0    50   Input ~ 6
+Text HLabel 4675 3250 0    50   Input ~ 10
 DIR
-Text HLabel 4675 3450 0    50   Input ~ 6
+Text HLabel 4675 3450 0    50   Input ~ 10
 SO
-Text HLabel 6750 3250 2    50   Input ~ 6
+Text HLabel 6750 3250 2    50   Input ~ 10
 PWM
-Text HLabel 6750 3350 2    50   Input ~ 6
+Text HLabel 6750 3350 2    50   Input ~ 10
 DIS
-Text HLabel 6750 3450 2    50   Input ~ 6
+Text HLabel 6750 3450 2    50   Input ~ 10
 SCK
-Text HLabel 6750 3550 2    50   Input ~ 6
+Text HLabel 6750 3550 2    50   Input ~ 10
 CS
-Text HLabel 6750 3650 2    50   Input ~ 6
+Text HLabel 6750 3650 2    50   Input ~ 10
 SI
-Text HLabel 4675 3750 0    50   Input ~ 6
+Text HLabel 4675 3750 0    50   Input ~ 10
 GND
 Wire Wire Line
 	6750 3250 6125 3250
@@ -201,9 +201,9 @@ F 4 "726-TLE9201SG" H 0   0   50  0001 C CNN "Part #"
 $EndComp
 Wire Wire Line
 	6125 3750 7100 3750
-Text Label 5325 3650 2    50   ~ 6
+Text Label 5325 3650 2    50   ~ 10
 OUT1
-Text Label 7100 4250 2    50   ~ 6
+Text Label 7100 4250 2    50   ~ 10
 OUT1
 Connection ~ 5150 3350
 Wire Wire Line

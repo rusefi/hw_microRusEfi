@@ -24,6 +24,9 @@ F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 11930 4200 60 
 F 3 "" H 15350 2900 60  0001 C CNN
 F 4 "stm32f407_board" H 23450 3775 60  0001 C CNN "PageName"
 F 5 "TAJA156M010RNJ" H 0   0   50  0001 C CNN "Part #"
+F 6 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "MOUSER" H 0   0   50  0001 C CNN "VEND"
+F 8 "581-TAJA156M010R" H 0   0   50  0001 C CNN "VEND#"
 	1    15350 2900
 	1    0    0    -1  
 $EndComp
@@ -151,10 +154,6 @@ F 1 "LED-green" H 12150 3700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5   1700 60  0001 C CNN
 F 3 "" H 12150 3800 60  0001 C CNN
 F 4 "stm32f407_board" H 11525 1275 60  0001 C CNN "PageName"
-F 5 "MOUSER" H -6450 -2300 50  0001 C CNN "VEND"
-F 6 "DIALIGHT" H -6450 -2300 50  0001 C CNN "Manufacturer"
-F 7 "599-0281-007F" H -6450 -2300 50  0001 C CNN "Part #"
-F 8 "645-599-0281-007F" H -6450 -2300 50  0001 C CNN "VEND#"
 	1    12150 3800
 	-1   0    0    1   
 $EndComp
@@ -211,7 +210,7 @@ F 3 "" H 16050 3400 60  0001 C CNN
 	1    16050 3400
 	0    -1   -1   0   
 $EndComp
-Text HLabel 15150 3400 1    60   Input ~ 6
+Text HLabel 15150 3400 1    60   Input ~ 12
 VDD
 $Comp
 L Device:C C38
@@ -262,9 +261,9 @@ Connection ~ 12750 4000
 Connection ~ 13050 4200
 Wire Wire Line
 	13050 4200 13450 4200
-Text Label 12150 4300 0    60   ~ 6
+Text Label 12150 4300 0    60   ~ 12
 USB_D-
-Text Label 12150 4200 0    60   ~ 6
+Text Label 12150 4200 0    60   ~ 12
 USB_D+
 Wire Wire Line
 	12750 4000 13150 4000
@@ -273,7 +272,7 @@ Wire Wire Line
 	13150 4000 13750 4000
 Wire Wire Line
 	14300 3400 14150 3400
-Text Label 6650 3425 0    60   ~ 6
+Text Label 6650 3425 0    60   ~ 12
 VDD
 $Comp
 L power:GND #PWR0108
@@ -436,7 +435,7 @@ F 3 "" H 4450 3500 60  0000 C CNN
 	1    4450 3500
 	-1   0    0    1   
 $EndComp
-Text Label 3800 3850 2    60   ~ 6
+Text Label 3800 3850 2    60   ~ 12
 VDD
 $Comp
 L Device:R R43
@@ -449,7 +448,7 @@ F 3 "" H 9900 6175 60  0001 C CNN
 	1    4050 3850
 	0    -1   1    0   
 $EndComp
-Text Label 6600 2200 0    60   ~ 6
+Text Label 6600 2200 0    60   ~ 12
 VDD
 $Comp
 L Device:C C34
@@ -519,7 +518,7 @@ F 3 "" H 6350 9050 60  0001 C CNN
 	1    6350 9050
 	1    0    0    -1  
 $EndComp
-Text Label 6450 3450 0    60   ~ 6
+Text Label 6450 3450 0    60   ~ 12
 VDD
 $Comp
 L Device:C C32
@@ -567,7 +566,7 @@ F 3 "" H 6350 3000 60  0000 C CNN
 	1    6350 3000
 	-1   0    0    1   
 $EndComp
-Text Label 6250 3475 0    60   ~ 6
+Text Label 6250 3475 0    60   ~ 12
 VDD
 $Comp
 L Device:C C30
@@ -615,163 +614,163 @@ F 3 "" H 6150 3000 60  0000 C CNN
 	1    6150 3000
 	-1   0    0    1   
 $EndComp
-Text Label 6550 3500 0    60   ~ 6
+Text Label 6550 3500 0    60   ~ 12
 VDD
-Text Label 6350 3400 0    60   ~ 6
+Text Label 6350 3400 0    60   ~ 12
 VDD
-Text HLabel 7250 3850 2    60   Input ~ 6
+Text HLabel 7250 3850 2    60   Input ~ 12
 PA0
-Text HLabel 7250 3950 2    60   Input ~ 6
+Text HLabel 7250 3950 2    60   Input ~ 12
 PA1
-Text HLabel 7250 4050 2    60   Input ~ 6
+Text HLabel 7250 4050 2    60   Input ~ 12
 PA2
-Text HLabel 7250 4150 2    60   Input ~ 6
+Text HLabel 7250 4150 2    60   Input ~ 12
 PA3
-Text HLabel 7250 4250 2    60   Input ~ 6
+Text HLabel 7250 4250 2    60   Input ~ 12
 PA4
-Text HLabel 7250 4350 2    60   Input ~ 6
+Text HLabel 7250 4350 2    60   Input ~ 12
 PA5
-Text HLabel 7250 4450 2    60   Input ~ 6
+Text HLabel 7250 4450 2    60   Input ~ 12
 PA6
-Text HLabel 7250 4550 2    60   Input ~ 6
+Text HLabel 7250 4550 2    60   Input ~ 12
 PA7
-Text HLabel 7250 5150 2    60   Input ~ 6
+Text HLabel 7250 5150 2    60   Input ~ 12
 PA13
-Text HLabel 7250 5250 2    60   Input ~ 6
+Text HLabel 7250 5250 2    60   Input ~ 12
 PA14
-Text HLabel 7250 5350 2    60   Input ~ 6
+Text HLabel 7250 5350 2    60   Input ~ 12
 PA15
-Text HLabel 7250 5550 2    60   Input ~ 6
+Text HLabel 7250 5550 2    60   Input ~ 12
 PB0
-Text HLabel 7250 5650 2    60   Input ~ 6
+Text HLabel 7250 5650 2    60   Input ~ 12
 PB1
-Text HLabel 7250 5850 2    60   Input ~ 6
+Text HLabel 7250 5850 2    60   Input ~ 12
 PB3
-Text HLabel 7250 5950 2    60   Input ~ 6
+Text HLabel 7250 5950 2    60   Input ~ 12
 PB4
-Text HLabel 7250 6050 2    60   Input ~ 6
+Text HLabel 7250 6050 2    60   Input ~ 12
 PB5
-Text HLabel 7250 6150 2    60   Input ~ 6
+Text HLabel 7250 6150 2    60   Input ~ 12
 PB6
-Text HLabel 7250 6250 2    60   Input ~ 6
+Text HLabel 7250 6250 2    60   Input ~ 12
 PB7
-Text HLabel 7250 6350 2    60   Input ~ 6
+Text HLabel 7250 6350 2    60   Input ~ 12
 PB8
-Text HLabel 7250 6450 2    60   Input ~ 6
+Text HLabel 7250 6450 2    60   Input ~ 12
 PB9
-Text HLabel 7250 6550 2    60   Input ~ 6
+Text HLabel 7250 6550 2    60   Input ~ 12
 PB10
-Text HLabel 7250 6650 2    60   Input ~ 6
+Text HLabel 7250 6650 2    60   Input ~ 12
 PB11
-Text HLabel 7250 6750 2    60   Input ~ 6
+Text HLabel 7250 6750 2    60   Input ~ 12
 PB12
-Text HLabel 7250 6850 2    60   Input ~ 6
+Text HLabel 7250 6850 2    60   Input ~ 12
 PB13
-Text HLabel 7250 6950 2    60   Input ~ 6
+Text HLabel 7250 6950 2    60   Input ~ 12
 PB14
-Text HLabel 7250 7050 2    60   Input ~ 6
+Text HLabel 7250 7050 2    60   Input ~ 12
 PB15
-Text HLabel 7250 7250 2    60   Input ~ 6
+Text HLabel 7250 7250 2    60   Input ~ 12
 PC0
-Text HLabel 7250 7350 2    60   Input ~ 6
+Text HLabel 7250 7350 2    60   Input ~ 12
 PC1
-Text HLabel 7250 7450 2    60   Input ~ 6
+Text HLabel 7250 7450 2    60   Input ~ 12
 PC2
-Text HLabel 7250 7550 2    60   Input ~ 6
+Text HLabel 7250 7550 2    60   Input ~ 12
 PC3
-Text HLabel 7250 7650 2    60   Input ~ 6
+Text HLabel 7250 7650 2    60   Input ~ 12
 PC4
-Text HLabel 7250 7750 2    60   Input ~ 6
+Text HLabel 7250 7750 2    60   Input ~ 12
 PC5
-Text HLabel 7250 7850 2    60   Input ~ 6
+Text HLabel 7250 7850 2    60   Input ~ 12
 PC6
-Text HLabel 7250 7950 2    60   Input ~ 6
+Text HLabel 7250 7950 2    60   Input ~ 12
 PC7
-Text HLabel 7250 8050 2    60   Input ~ 6
+Text HLabel 7250 8050 2    60   Input ~ 12
 PC8
-Text HLabel 7250 8150 2    60   Input ~ 6
+Text HLabel 7250 8150 2    60   Input ~ 12
 PC9
-Text HLabel 7250 8250 2    60   Input ~ 6
+Text HLabel 7250 8250 2    60   Input ~ 12
 PC10
-Text HLabel 7250 8350 2    60   Input ~ 6
+Text HLabel 7250 8350 2    60   Input ~ 12
 PC11
-Text HLabel 7250 8450 2    60   Input ~ 6
+Text HLabel 7250 8450 2    60   Input ~ 12
 PC12
-Text HLabel 7250 8550 2    60   Input ~ 6
+Text HLabel 7250 8550 2    60   Input ~ 12
 PC13
-Text HLabel 5550 7250 0    60   Input ~ 6
+Text HLabel 5550 7250 0    60   Input ~ 12
 PD0
-Text HLabel 5550 7350 0    60   Input ~ 6
+Text HLabel 5550 7350 0    60   Input ~ 12
 PD1
-Text HLabel 5550 7450 0    60   Input ~ 6
+Text HLabel 5550 7450 0    60   Input ~ 12
 PD2
-Text HLabel 5550 7550 0    60   Input ~ 6
+Text HLabel 5550 7550 0    60   Input ~ 12
 PD3
-Text HLabel 5550 7650 0    60   Input ~ 6
+Text HLabel 5550 7650 0    60   Input ~ 12
 PD4
-Text HLabel 5550 7750 0    60   Input ~ 6
+Text HLabel 5550 7750 0    60   Input ~ 12
 PD5
-Text HLabel 5550 7850 0    60   Input ~ 6
+Text HLabel 5550 7850 0    60   Input ~ 12
 PD6
-Text HLabel 5550 7950 0    60   Input ~ 6
+Text HLabel 5550 7950 0    60   Input ~ 12
 PD7
-Text HLabel 5550 8050 0    60   Input ~ 6
+Text HLabel 5550 8050 0    60   Input ~ 12
 PD8
-Text HLabel 5550 8150 0    60   Input ~ 6
+Text HLabel 5550 8150 0    60   Input ~ 12
 PD9
-Text HLabel 5550 8250 0    60   Input ~ 6
+Text HLabel 5550 8250 0    60   Input ~ 12
 PD10
-Text HLabel 5550 8350 0    60   Input ~ 6
+Text HLabel 5550 8350 0    60   Input ~ 12
 PD11
-Text HLabel 5550 8450 0    60   Input ~ 6
+Text HLabel 5550 8450 0    60   Input ~ 12
 PD12
-Text HLabel 5550 8550 0    60   Input ~ 6
+Text HLabel 5550 8550 0    60   Input ~ 12
 PD13
-Text HLabel 5550 8650 0    60   Input ~ 6
+Text HLabel 5550 8650 0    60   Input ~ 12
 PD14
-Text HLabel 5550 8750 0    60   Input ~ 6
+Text HLabel 5550 8750 0    60   Input ~ 12
 PD15
-Text HLabel 5550 5550 0    60   Input ~ 6
+Text HLabel 5550 5550 0    60   Input ~ 12
 PE0
-Text HLabel 5550 5650 0    60   Input ~ 6
+Text HLabel 5550 5650 0    60   Input ~ 12
 PE1
-Text HLabel 5550 5750 0    60   Input ~ 6
+Text HLabel 5550 5750 0    60   Input ~ 12
 PE2
-Text HLabel 5550 5850 0    60   Input ~ 6
+Text HLabel 5550 5850 0    60   Input ~ 12
 PE3
-Text HLabel 5550 5950 0    60   Input ~ 6
+Text HLabel 5550 5950 0    60   Input ~ 12
 PE4
-Text HLabel 5550 6050 0    60   Input ~ 6
+Text HLabel 5550 6050 0    60   Input ~ 12
 PE5
-Text HLabel 5550 6150 0    60   Input ~ 6
+Text HLabel 5550 6150 0    60   Input ~ 12
 PE6
-Text HLabel 5550 6250 0    60   Input ~ 6
+Text HLabel 5550 6250 0    60   Input ~ 12
 PE7
-Text HLabel 5550 6350 0    60   Input ~ 6
+Text HLabel 5550 6350 0    60   Input ~ 12
 PE8
-Text HLabel 5550 6450 0    60   Input ~ 6
+Text HLabel 5550 6450 0    60   Input ~ 12
 PE9
-Text HLabel 5550 6550 0    60   Input ~ 6
+Text HLabel 5550 6550 0    60   Input ~ 12
 PE10
-Text HLabel 5550 6650 0    60   Input ~ 6
+Text HLabel 5550 6650 0    60   Input ~ 12
 PE11
-Text HLabel 5550 6750 0    60   Input ~ 6
+Text HLabel 5550 6750 0    60   Input ~ 12
 PE12
-Text HLabel 5550 6850 0    60   Input ~ 6
+Text HLabel 5550 6850 0    60   Input ~ 12
 PE13
-Text HLabel 5550 6950 0    60   Input ~ 6
+Text HLabel 5550 6950 0    60   Input ~ 12
 PE14
-Text HLabel 5550 7050 0    60   Input ~ 6
+Text HLabel 5550 7050 0    60   Input ~ 12
 PE15
-Text Label 6150 3400 0    60   ~ 6
+Text Label 6150 3400 0    60   ~ 12
 VDD
-Text Label 7250 4750 0    60   ~ 6
+Text Label 7250 4750 0    60   ~ 12
 PA9
-Text Label 7250 4850 0    60   ~ 6
+Text Label 7250 4850 0    60   ~ 12
 PA10
-Text Label 7250 4950 0    60   ~ 6
+Text Label 7250 4950 0    60   ~ 12
 PA11
-Text Label 7250 5050 0    60   ~ 6
+Text Label 7250 5050 0    60   ~ 12
 PA12
 Wire Wire Line
 	6000 2500 6250 2500
@@ -900,10 +899,14 @@ F 0 "J2" H 11850 6617 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 11850 6526 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11800 6200 50  0001 C CNN
 F 3 "~" H 11800 6200 50  0001 C CNN
+F 4 "MOUSER" H 0   0   50  0001 C CNN "VEND"
+F 5 "Amphenol" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "95278-801B10LF" H 0   0   50  0001 C CNN "Part #"
+F 7 "649-95278-801B10LF" H 0   0   50  0001 C CNN "VEND#"
 	1    11800 6200
 	1    0    0    -1  
 $EndComp
-Text Label 12100 6100 0    60   ~ 6
+Text Label 12100 6100 0    60   ~ 12
 SWDIO
 Wire Wire Line
 	12100 6100 12450 6100
@@ -931,9 +934,9 @@ F 3 "" H 11600 6200 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	12100 6000 12450 6000
-Text Label 12200 6000 0    60   ~ 6
+Text Label 12200 6000 0    60   ~ 12
 SCK
-Text Label 11350 6100 0    60   ~ 6
+Text Label 11350 6100 0    60   ~ 12
 SWO
 Text Label 11600 6300 2    60   ~ 12
 VDD
@@ -943,7 +946,7 @@ Text Label 11600 6400 2    60   ~ 12
 5V
 Text Label 12100 6400 0    60   ~ 12
 5V
-Text HLabel 7250 4650 2    60   Input ~ 6
+Text HLabel 7250 4650 2    60   Input ~ 12
 PA8
 $Comp
 L Device:R R44
@@ -956,7 +959,7 @@ F 3 "" H 10150 4825 60  0001 C CNN
 	1    4300 2500
 	0    -1   1    0   
 $EndComp
-Text HLabel 4150 2500 0    60   Input ~ 6
+Text HLabel 4150 2500 0    60   Input ~ 12
 Vref
 $Comp
 L Device:R R46
@@ -1159,6 +1162,9 @@ F 0 "J1" H 11557 4667 50  0000 C CNN
 F 1 "USB_B_Micro" H 11557 4576 50  0000 C CNN
 F 2 "Connector_USB:USB_Micro-B_Molex-105133-0031" H 11650 4150 50  0001 C CNN
 F 3 "~" H 11650 4150 50  0001 C CNN
+F 4 "MOLEX" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "105133-0031" H 0   0   50  0001 C CNN "Part #"
+F 6 "MOUSER" H 0   0   50  0001 C CNN "VEND"
 	1    11500 4200
 	1    0    0    -1  
 $EndComp
@@ -1199,9 +1205,9 @@ Wire Wire Line
 	15950 3400 16050 3400
 NoConn ~ 7250 8650
 NoConn ~ 7250 8750
-Text HLabel 13375 4200 1    50   Input ~ 6
+Text HLabel 13375 4200 1    50   Input ~ 10
 USB_D+
-Text HLabel 13375 4300 3    50   Input ~ 6
+Text HLabel 13375 4300 3    50   Input ~ 10
 USB_D-
 $Comp
 L Device:C C36
@@ -1252,6 +1258,6 @@ F 3 "" H 10350 6375 60  0001 C CNN
 	0    1    -1   0   
 $EndComp
 Connection ~ 4650 4050
-Text Label 4350 4050 2    60   ~ 6
+Text Label 4350 4050 2    60   ~ 12
 VDD
 $EndSCHEMATC
