@@ -15,7 +15,10 @@ stm32f767
 
 [TLE8888-1QK](https://www.infineon.com/dgdl/Infineon-Infineon-TLE8888QK-DS-v01_02-EN.pdf?fileId=5546d4624f205c9a014f402ebd1c6095)
 
-[Molex 48 pin connector](https://www.mouser.com/datasheet/2/276/5007620481_PCB_HEADERS-179151.pdf)
+[Molex 48 pin connector](https://www.mouser.com/datasheet/2/276/5007620481_PCB_HEADERS-179151.pdf) 5007620481
+
+Harness side connector 64320-1311 or 64320-3311
+
 
 Harness donor:
 
