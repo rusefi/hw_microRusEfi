@@ -1,4 +1,4 @@
-[microRusEfi documentation wiki(https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi)
+[microRusEfi documentation wiki](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi)
 
 
 [microRusEfi forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
