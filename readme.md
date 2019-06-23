@@ -1,3 +1,5 @@
+https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi
+
 
 https://rusefi.com/forum/viewtopic.php?f=4&t=1538
 
