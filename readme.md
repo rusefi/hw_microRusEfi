@@ -1,7 +1,7 @@
-https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi
+[microRusEfi documentation wiki(https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi)
 
 
-https://rusefi.com/forum/viewtopic.php?f=4&t=1538
+[microRusEfi forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
 ![img](microRusEfi.jpg)
 
