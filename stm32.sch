@@ -1309,4 +1309,26 @@ Wire Wire Line
 	6750 3505 6750 3550
 Connection ~ 5550 4250
 Connection ~ 5550 4350
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5D1C9522
+P 7130 3280
+F 0 "FID1" H 7215 3326 50  0000 L CNN
+F 1 "Fiducial" H 7215 3235 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 7130 3280 50  0001 C CNN
+F 3 "~" H 7130 3280 50  0001 C CNN
+	1    7130 3280
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5D1CA09D
+P 7130 3465
+F 0 "FID2" H 7215 3511 50  0000 L CNN
+F 1 "Fiducial" H 7215 3420 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 7130 3465 50  0001 C CNN
+F 3 "~" H 7130 3465 50  0001 C CNN
+	1    7130 3465
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
