@@ -1,4 +1,4 @@
-update=5/26/2019 2:01:14 AM
+update=7/1/2019 7:50:44 PM
 version=1
 last_client=kicad
 [general]
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=rusefi_lib_external/Border.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=
-LastNetListRead=
+PageLayoutDescrFile=rusefi_lib_external/Border.kicad_wks
+LastNetListRead=microRusEfi.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -52,9 +62,9 @@ dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
 SilkLineWidth=0.25
-SilkTextSizeV=0.6
-SilkTextSizeH=0.6
-SilkTextSizeThickness=0.09999999999999999
+SilkTextSizeV=0.75
+SilkTextSizeH=0.75
+SilkTextSizeThickness=0.13
 SilkTextItalic=0
 SilkTextUpright=1
 CopperLineWidth=0.2
@@ -74,7 +84,7 @@ OthersTextUpright=1
 SolderMaskClearance=5.1e-05
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.In1.Cu]
 Name=PWR
 Type=1

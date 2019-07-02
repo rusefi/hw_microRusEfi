@@ -2,12 +2,12 @@ EESchema Schematic File Version 4
 LIBS:microRusEfi-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
 Sheet 7 7
-Title ""
-Date ""
-Rev ""
+Title "microRusEfi"
+Date "2019-07-01"
+Rev "R0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -54,7 +54,7 @@ U 1 1 5D2F34FF
 P 6000 1925
 F 0 "C42" H 6115 1971 50  0000 L CNN
 F 1 "100nF" H 6115 1880 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6038 1775 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6038 1775 50  0001 C CNN
 F 3 "~" H 6000 1925 50  0001 C CNN
 	1    6000 1925
 	1    0    0    -1  
@@ -80,7 +80,7 @@ U 1 1 5D2F5EFA
 P 6650 2850
 F 0 "R33" V 6550 2825 50  0000 C CNN
 F 1 "10K" V 6650 2825 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6580 2850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 2850 50  0001 C CNN
 F 3 "~" H 6650 2850 50  0001 C CNN
 	1    6650 2850
 	0    1    1    0   
