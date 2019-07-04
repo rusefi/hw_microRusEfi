@@ -25,8 +25,8 @@ F 3 "" H 15350 2900 60  0001 C CNN
 F 4 "stm32f407_board" H 23450 3775 60  0001 C CNN "PageName"
 F 5 "TAJA156M010RNJ" H 0   0   50  0001 C CNN "Part #"
 F 6 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
-F 7 "MOUSER" H 0   0   50  0001 C CNN "VEND"
-F 8 "581-TAJA156M010R" H 0   0   50  0001 C CNN "VEND#"
+F 7 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 8 "478-1661-1-ND" H 0   0   50  0001 C CNN "VEND#"
 	1    15350 2900
 	1    0    0    -1  
 $EndComp
@@ -63,8 +63,10 @@ F 1 "DIODESCH" H 13150 3750 40  0000 C CNN
 F 2 "Diode_SMD:D_0603_1608Metric" V 1405 1550 60  0001 C CNN
 F 3 "" H 13150 3850 60  0001 C CNN
 F 4 "stm32f407_board" H 12925 1125 60  0001 C CNN "PageName"
-F 5 "ST,BAT60JFILM" H -6050 -2300 50  0001 C CNN "Part #"
-F 6 "DIGI,497-3707-1-ND" H -6050 -2300 50  0001 C CNN "VEND#"
+F 5 "BAT60JFILM" H -6050 -2300 50  0001 C CNN "Part #"
+F 6 "497-3707-1-ND" H -6050 -2300 50  0001 C CNN "VEND#"
+F 7 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 8 "ST" H 0   0   50  0001 C CNN "Manufacturer"
 	1    13150 3850
 	0    1    1    0   
 $EndComp
@@ -77,8 +79,10 @@ F 1 "LM2937" H 14600 3600 40  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 14600 3500 30  0001 C CIN
 F 3 "" H 14600 3400 60  0000 C CNN
 F 4 "stm32f407_board" H 11950 1275 60  0001 C CNN "PageName"
-F 5 "MOUSER" H -6050 -2300 50  0001 C CNN "VEND"
-F 6 "926-LM2937IMP3.3NOPB" H -6050 -2300 50  0001 C CNN "Part #"
+F 5 "DIGI" H -6050 -2300 50  0001 C CNN "VEND"
+F 6 "LM2937IMP-3.3/NOPB" H -6050 -2300 50  0001 C CNN "Part #"
+F 7 "LM2937IMP-3.3/NOPBCT-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "TI" H 0   0   50  0001 C CNN "Manufacturer"
 	1    14600 3400
 	1    0    0    -1  
 $EndComp
@@ -106,6 +110,10 @@ F 1 "1k" V 12550 3825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 855 1700 60  0001 C CNN
 F 3 "" H 12550 3800 60  0001 C CNN
 F 4 "stm32f407_board" H 12375 1275 60  0001 C CNN "PageName"
+F 5 "RMCF0603JJ1K00" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "RMCF0603JJ1K00CT-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12550 3800
 	0    1    -1   0   
 $EndComp
@@ -154,6 +162,10 @@ F 1 "LED-green" H 12150 3700 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5   1700 60  0001 C CNN
 F 3 "" H 12150 3800 60  0001 C CNN
 F 4 "stm32f407_board" H 11525 1275 60  0001 C CNN "PageName"
+F 5 "5990281007F" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "350-4365-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "DiaLight" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12150 3800
 	-1   0    0    1   
 $EndComp
@@ -192,10 +204,14 @@ U 1 1 5C7BA11E
 P 15400 3400
 AR Path="/5C7BA11E" Ref="D?"  Part="1" 
 AR Path="/5D0250FB/5C7BA11E" Ref="D19"  Part="1" 
-F 0 "D19" H 15400 3615 50  0000 C CNN
-F 1 "LED" H 15400 3524 50  0000 C CNN
+F 0 "D19" H 15400 3300 50  0000 C CNN
+F 1 "LED-RED" H 15300 3500 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 15400 3400 60  0001 C CNN
 F 3 "" H 15400 3400 60  0000 C CNN
+F 4 "LTST-S270KRKT" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "160-1479-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "Lite-On " H 0   0   50  0001 C CNN "Manufacturer"
 	1    15400 3400
 	-1   0    0    1   
 $EndComp
@@ -221,8 +237,12 @@ F 1 "100nF" H 15250 3450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 10780 5150 60  0001 C CNN
 F 3 "" H 15200 3550 60  0001 C CNN
 F 4 "stm32f407_board" H 22300 4725 60  0001 C CNN "PageName"
+F 5 "C0603C104J5RACTU" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "399-7844-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    15200 3550
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Connection ~ 15200 3400
 Wire Wire Line
@@ -246,6 +266,10 @@ F 0 "D16" H 13280 4796 50  0000 L CNN
 F 1 "ESDA6V1BC6" H 13280 4705 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 12950 4400 50  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/21/07/21/e3/a8/df/42/a2/CD00001906.pdf/files/CD00001906.pdf/jcr:content/translations/en.CD00001906.pdf" V 12950 4750 50  0001 C CNN
+F 4 "ESDA6V1BC6" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "497-6635-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "ST" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12950 4750
 	1    0    0    -1  
 $EndComp
@@ -294,6 +318,10 @@ F 1 "2.2uF" V 5305 3985 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V -670 -850 60  0001 C CNN
 F 3 "" H 5400 4250 60  0001 C CNN
 F 4 "stm32f407_board" H 10850 -1275 60  0001 C CNN "PageName"
+F 5 "GRM188R6YA225KA12D" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "490-7204-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5400 4250
 	0    1    1    0   
 $EndComp
@@ -306,6 +334,10 @@ F 1 "2.2uF" V 5540 4080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V -1170 -750 60  0001 C CNN
 F 3 "" H 5400 4350 60  0001 C CNN
 F 4 "stm32f407_board" H 10350 -1175 60  0001 C CNN "PageName"
+F 5 "GRM188R6YA225KA12D" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "490-7204-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5400 4350
 	0    1    1    0   
 $EndComp
@@ -339,7 +371,10 @@ F 0 "C27" H 6050 2450 50  0000 L CNN
 F 1 "1uF" H 6050 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 2580 3650 60  0001 C CNN
 F 3 "" H 6000 2350 60  0001 C CNN
-F 4 "stm32f407_board" H 14100 3225 60  0001 C CNN "PageName"
+F 4 "UMK107BJ105KA-T" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "587-2400-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6000 2350
 	1    0    0    -1  
 $EndComp
@@ -351,6 +386,10 @@ F 0 "C29" H 6300 2450 50  0000 L CNN
 F 1 "10nF" H 6275 2225 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 5255 5000 60  0001 C CNN
 F 3 "" H 8775 5025 60  0001 C CNN
+F 4 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6250 2350
 	1    0    0    -1  
 $EndComp
@@ -386,8 +425,9 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 2350 60  0
 F 3 "" H 6600 2350 60  0000 C CNN
 F 4 "stm32f407_board" H 14100 3375 60  0001 C CNN "PageName"
 F 5 "BLM21PG221SN1D" H -50 1250 50  0001 C CNN "Part #"
-F 6 "MOUSER" H -50 1250 50  0001 C CNN "VEND"
-F 7 "81-BLM21P221SG" H -50 1250 50  0001 C CNN "VEND#"
+F 6 "DIGI" H -50 1250 50  0001 C CNN "VEND"
+F 7 "490-1054-1-ND" H -50 1250 50  0001 C CNN "VEND#"
+F 8 "Murata " H 0   0   50  0001 C CNN "Manufacturer"
 	1    6600 2350
 	1    0    0    -1  
 $EndComp
@@ -421,6 +461,10 @@ F 0 "C20" H 4500 3800 50  0000 L CNN
 F 1 "10nF" H 4500 3600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 7255 6700 60  0001 C CNN
 F 3 "" H 10775 6725 60  0001 C CNN
+F 4 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4450 3700
 	1    0    0    -1  
 $EndComp
@@ -445,6 +489,10 @@ F 0 "R43" V 4130 3850 50  0000 C CNN
 F 1 "10k" V 4050 3850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 6150 60  0001 C CNN
 F 3 "" H 9900 6175 60  0001 C CNN
+F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4050 3850
 	0    -1   1    0   
 $EndComp
@@ -459,6 +507,10 @@ F 1 "10nF" H 6700 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1930 4750 60  0001 C CNN
 F 3 "" H 6650 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13450 4325 60  0001 C CNN "PageName"
+F 5 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6650 3150
 	1    0    0    -1  
 $EndComp
@@ -471,6 +523,10 @@ F 1 "10nF" H 6600 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 2130 4750 60  0001 C CNN
 F 3 "" H 6550 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13650 4325 60  0001 C CNN "PageName"
+F 5 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6550 3150
 	1    0    0    -1  
 $EndComp
@@ -529,6 +585,10 @@ F 1 "10nF" H 6500 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1730 4750 60  0001 C CNN
 F 3 "" H 6450 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13250 4325 60  0001 C CNN "PageName"
+F 5 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6450 3150
 	1    0    0    -1  
 $EndComp
@@ -541,6 +601,10 @@ F 1 "10nF" H 6400 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1930 4750 60  0001 C CNN
 F 3 "" H 6350 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13450 4325 60  0001 C CNN "PageName"
+F 5 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6350 3150
 	1    0    0    -1  
 $EndComp
@@ -577,6 +641,10 @@ F 1 "10nF" H 6300 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1530 4750 60  0001 C CNN
 F 3 "" H 6250 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13050 4325 60  0001 C CNN "PageName"
+F 5 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6250 3150
 	1    0    0    -1  
 $EndComp
@@ -589,6 +657,10 @@ F 1 "10nF" H 6200 3050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1730 4750 60  0001 C CNN
 F 3 "" H 6150 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13250 4325 60  0001 C CNN "PageName"
+F 5 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6150 3150
 	1    0    0    -1  
 $EndComp
@@ -808,6 +880,10 @@ F 1 "20pF" H 4750 4900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 4730 5250 60  0001 C CNN
 F 3 "" H 4700 5000 60  0001 C CNN
 F 4 "stm32f407_board" H 16250 4825 60  0001 C CNN "PageName"
+F 5 "06035A200FAT2A" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "478-10299-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4700 5000
 	0    1    1    0   
 $EndComp
@@ -864,7 +940,10 @@ F 1 "100k" V 11200 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 11200 4900 60  0001 C CNN
 F 3 "" H 11200 4900 60  0001 C CNN
 F 4 "stm32f407_board" H 11550 1275 60  0001 C CNN "PageName"
-F 5 "MOUSER" H -6450 -2200 50  0001 C CNN "VEND"
+F 5 "DIGI" H -6450 -2200 50  0001 C CNN "VEND"
+F 6 "RMCF0603JT100K" H 0   0   50  0001 C CNN "Part #"
+F 7 "RMCF0603JT100KCT-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    11200 4900
 	-1   0    0    -1  
 $EndComp
@@ -888,6 +967,10 @@ F 1 "100nF" H 11450 4900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 30  1750 60  0001 C CNN
 F 3 "" H 11400 5000 60  0001 C CNN
 F 4 "stm32f407_board" H 11550 1325 60  0001 C CNN "PageName"
+F 5 "C0603C104J5RACTU" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "399-7844-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    11400 5000
 	1    0    0    -1  
 $EndComp
@@ -956,6 +1039,10 @@ F 0 "R44" V 4380 2500 50  0000 C CNN
 F 1 "0R" V 4300 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 4800 60  0001 C CNN
 F 3 "" H 10150 4825 60  0001 C CNN
+F 4 "RMCF0603ZT0R00" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "RMCF0603ZT0R00CT-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4300 2500
 	0    -1   1    0   
 $EndComp
@@ -969,6 +1056,10 @@ F 0 "R46" V 5580 2500 50  0000 C CNN
 F 1 "DNP" V 5500 2500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7830 4800 60  0001 C CNN
 F 3 "" H 11350 4825 60  0001 C CNN
+F 4 "DNP" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "DNP" H 0   0   50  0001 C CNN "VEND#"
+F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5500 2500
 	0    -1   1    0   
 $EndComp
@@ -980,7 +1071,10 @@ F 0 "C23" H 4800 2450 50  0000 L CNN
 F 1 "1uF" H 4800 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1330 3650 60  0001 C CNN
 F 3 "" H 4750 2350 60  0001 C CNN
-F 4 "stm32f407_board" H 12850 3225 60  0001 C CNN "PageName"
+F 4 "UMK107BJ105KA-T" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "587-2400-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4750 2350
 	1    0    0    -1  
 $EndComp
@@ -992,6 +1086,10 @@ F 0 "C24" H 5050 2450 50  0000 L CNN
 F 1 "10nF" H 5025 2225 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 4005 5000 60  0001 C CNN
 F 3 "" H 7525 5025 60  0001 C CNN
+F 4 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5000 2350
 	1    0    0    -1  
 $EndComp
@@ -1040,6 +1138,10 @@ F 0 "R45" V 4730 4200 50  0000 C CNN
 F 1 "10k" V 4650 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6980 6500 60  0001 C CNN
 F 3 "" H 10500 6525 60  0001 C CNN
+F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4650 4200
 	-1   0    0    -1  
 $EndComp
@@ -1054,6 +1156,10 @@ F 1 "20pF" H 4750 5500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 4730 5250 60  0001 C CNN
 F 3 "" H 4700 5600 60  0001 C CNN
 F 4 "stm32f407_board" H 16250 4825 60  0001 C CNN "PageName"
+F 5 "06035A200FAT2A" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "478-10299-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4700 5600
 	0    1    1    0   
 $EndComp
@@ -1078,9 +1184,10 @@ F 1 "8MHz" H 4850 5150 60  0000 C CNN
 F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 4850 5300 60  0001 C CNN
 F 3 "" H 4850 5300 60  0000 C CNN
 F 4 "stm32f407_board" H 16200 4825 60  0001 C CNN "PageName"
-F 5 "MOUSER" H -1800 1250 50  0001 C CNN "VEND"
+F 5 "DIGI" H -1800 1250 50  0001 C CNN "VEND"
 F 6 "NX3225GD-8MHZ-STD-CRA-3" H -1800 1250 50  0001 C CNN "Part #"
-F 7 "344-NX3225GD8MCRA3" H -1800 1250 50  0001 C CNN "VEND#"
+F 7 "644-1178-1-ND" H -1800 1250 50  0001 C CNN "VEND#"
+F 8 "NDK" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4850 5300
 	0    -1   -1   0   
 $EndComp
@@ -1126,8 +1233,10 @@ F 0 "U1" H 6400 3361 50  0000 C CNN
 F 1 "STM32F767VITx" H 6400 3270 50  0000 C CNN
 F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 5750 3650 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf" H 6450 6250 50  0001 C CNN
-F 4 "511-STM32F767VIT6" H 0   0   50  0001 C CNN "Part #"
-F 5 "511-STM32F767VIT6" H 0   0   50  0001 C CNN "VEND#"
+F 4 "STM32F767VIT6" H 0   0   50  0001 C CNN "Part #"
+F 5 "497-16643-ND" H 0   0   50  0001 C CNN "VEND#"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "ST" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6450 6250
 	1    0    0    -1  
 $EndComp
@@ -1165,6 +1274,7 @@ F 3 "~" H 11650 4150 50  0001 C CNN
 F 4 "MOLEX" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "105133-0031" H 0   0   50  0001 C CNN "Part #"
 F 6 "MOUSER" H 0   0   50  0001 C CNN "VEND"
+F 7 "538-105133-0031" H 0   0   50  0001 C CNN "VEND#"
 	1    11500 4200
 	1    0    0    -1  
 $EndComp
@@ -1196,6 +1306,10 @@ F 0 "R50" V 15900 3400 50  0000 C CNN
 F 1 "680" V 15800 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 15730 3400 50  0001 C CNN
 F 3 "~" H 15800 3400 50  0001 C CNN
+F 4 "RMCF0603FT680R" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "RMCF0603FT680RCT-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    15800 3400
 	0    1    1    0   
 $EndComp
@@ -1217,7 +1331,10 @@ F 0 "C36" H 15025 2975 50  0000 C CNN
 F 1 "1uF" H 15025 2775 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 11505 4175 60  0001 C CNN
 F 3 "" H 14925 2875 60  0001 C CNN
-F 4 "stm32f407_board" H 23025 3750 60  0001 C CNN "PageName"
+F 4 "UMK107BJ105KA-T" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "587-2400-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
 	1    14925 2875
 	1    0    0    -1  
 $EndComp
@@ -1254,6 +1371,10 @@ F 0 "R26" V 4580 4050 50  0000 C CNN
 F 1 "DNP" V 4500 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 6350 60  0001 C CNN
 F 3 "" H 10350 6375 60  0001 C CNN
+F 4 "DNP" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "DNP" H 0   0   50  0001 C CNN "VEND#"
+F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4500 4050
 	0    1    -1   0   
 $EndComp
@@ -1316,7 +1437,11 @@ P 7130 3280
 F 0 "FID1" H 7215 3326 50  0000 L CNN
 F 1 "Fiducial" H 7215 3235 50  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 7130 3280 50  0001 C CNN
-F 3 "~" H 7130 3280 50  0001 C CNN
+F 3 "DNP" H 7130 3280 50  0001 C CNN
+F 4 "DNP" H 0   0   50  0001 C CNN "Part #"
+F 5 "DNP" H 0   0   50  0001 C CNN "VEND"
+F 6 "DNP" H 0   0   50  0001 C CNN "VEND#"
+F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7130 3280
 	1    0    0    -1  
 $EndComp
@@ -1327,7 +1452,11 @@ P 7130 3465
 F 0 "FID2" H 7215 3511 50  0000 L CNN
 F 1 "Fiducial" H 7215 3420 50  0000 L CNN
 F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 7130 3465 50  0001 C CNN
-F 3 "~" H 7130 3465 50  0001 C CNN
+F 3 "DNP" H 7130 3465 50  0001 C CNN
+F 4 "DNP" H 0   0   50  0001 C CNN "Part #"
+F 5 "DNP" H 0   0   50  0001 C CNN "VEND"
+F 6 "DNP" H 0   0   50  0001 C CNN "VEND#"
+F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7130 3465
 	1    0    0    -1  
 $EndComp
