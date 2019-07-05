@@ -969,13 +969,13 @@ L Device:R_Pack04 RN1
 U 1 1 5CF9A0A2
 P 15000 5950
 F 0 "RN1" V 14583 5950 50  0000 C CNN
-F 1 "R_Pack04" V 14674 5950 50  0000 C CNN
+F 1 "1k" V 14674 5950 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 15275 5950 50  0001 C CNN
 F 3 "~" H 15000 5950 50  0001 C CNN
-F 4 "dd" H 0   0   50  0001 C CNN "Part #"
+F 4 "EXB-V8V102JV" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "vv" H 0   0   50  0001 C CNN "VEND#"
-F 7 "mm" H 0   0   50  0001 C CNN "Manufacturer"
+F 6 "Y4102CT-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "Panasonic " H 0   0   50  0001 C CNN "Manufacturer"
 	1    15000 5950
 	0    1    -1   0   
 $EndComp

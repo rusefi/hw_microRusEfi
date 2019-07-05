@@ -1594,10 +1594,10 @@ Wire Wire Line
 Wire Wire Line
 	6050 5100 6050 5600
 $Comp
-L Device:R_Pack04 U39
+L Device:R_Pack04 RN17
 U 1 1 5CE02C50
 P 5700 3650
-F 0 "U39" H 5420 3604 50  0000 R CNN
+F 0 "RN17" H 5420 3604 50  0000 R CNN
 F 1 "10nF" H 5420 3695 50  0000 R CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5975 3650 50  0001 C CNN
 F 3 "~" H 5700 3650 50  0001 C CNN
@@ -1609,10 +1609,10 @@ F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Pack04 U40
+L Device:R_Pack04 RN6
 U 1 1 5CE2B7BA
 P 5700 6300
-F 0 "U40" H 6050 6350 50  0000 R CNN
+F 0 "RN6" H 6050 6350 50  0000 R CNN
 F 1 "10nF" H 6050 6250 50  0000 R CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5975 6300 50  0001 C CNN
 F 3 "~" H 5700 6300 50  0001 C CNN
@@ -1624,10 +1624,10 @@ F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Pack04 U50
+L Device:R_Pack04 RN14
 U 1 1 5CE2BEBC
 P 12700 5000
-F 0 "U50" H 12420 4954 50  0000 R CNN
+F 0 "RN14" H 12420 4954 50  0000 R CNN
 F 1 "10nF" H 12420 5045 50  0000 R CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 12975 5000 50  0001 C CNN
 F 3 "~" H 12700 5000 50  0001 C CNN
@@ -1639,10 +1639,10 @@ F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Pack04 U44
+L Device:R_Pack04 RN12
 U 1 1 5CE2CC2F
 P 8150 4900
-F 0 "U44" V 7733 4900 50  0000 C CNN
+F 0 "RN12" V 7733 4900 50  0000 C CNN
 F 1 "1.5k" V 7824 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 8425 4900 50  0001 C CNN
 F 3 "~" H 8150 4900 50  0001 C CNN
@@ -1654,10 +1654,10 @@ F 7 "Panasonic " H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04 U42
+L Device:R_Pack04 RN9
 U 1 1 5CE2D88F
 P 7400 4900
-F 0 "U42" V 6983 4900 50  0000 C CNN
+F 0 "RN9" V 6983 4900 50  0000 C CNN
 F 1 "1k" V 7074 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7675 4900 50  0001 C CNN
 F 3 "~" H 7400 4900 50  0001 C CNN
@@ -1669,10 +1669,10 @@ F 7 "Panasonic " H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04 U41
+L Device:R_Pack04 RN8
 U 1 1 5CE7C1C9
 P 7400 2250
-F 0 "U41" V 6983 2250 50  0000 C CNN
+F 0 "RN8" V 6983 2250 50  0000 C CNN
 F 1 "1k" V 7074 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7675 2250 50  0001 C CNN
 F 3 "~" H 7400 2250 50  0001 C CNN
@@ -1684,10 +1684,10 @@ F 7 "Panasonic " H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04 U43
+L Device:R_Pack04 RN11
 U 1 1 5CE7C8F5
 P 8150 2250
-F 0 "U43" V 7733 2250 50  0000 C CNN
+F 0 "RN11" V 7733 2250 50  0000 C CNN
 F 1 "1.5k" V 7824 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 8425 2250 50  0001 C CNN
 F 3 "~" H 8150 2250 50  0001 C CNN
@@ -1699,10 +1699,10 @@ F 7 "Panasonic " H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04 U52
+L Device:R_Pack04 RN15
 U 1 1 5CE7CE9E
 P 14400 3500
-F 0 "U52" V 13983 3500 50  0000 C CNN
+F 0 "RN15" V 13983 3500 50  0000 C CNN
 F 1 "1k" V 14074 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 14675 3500 50  0001 C CNN
 F 3 "~" H 14400 3500 50  0001 C CNN
@@ -1714,10 +1714,10 @@ F 7 "Panasonic " H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04 U54
+L Device:R_Pack04 RN16
 U 1 1 5CE7D5F4
 P 15200 3500
-F 0 "U54" V 14783 3500 50  0000 C CNN
+F 0 "RN16" V 14783 3500 50  0000 C CNN
 F 1 "1.5k" V 14874 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 15475 3500 50  0001 C CNN
 F 3 "~" H 15200 3500 50  0001 C CNN
@@ -1899,10 +1899,10 @@ Connection ~ 15400 3600
 Wire Wire Line
 	15400 3600 15400 3500
 $Comp
-L Device:R_Pack04 U37
+L Device:R_Pack04 RN3
 U 1 1 5D285E4C
 P 3700 2300
-F 0 "U37" V 3283 2300 50  0000 C CNN
+F 0 "RN3" V 3283 2300 50  0000 C CNN
 F 1 "10k" V 3374 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 3975 2300 50  0001 C CNN
 F 3 "~" H 3700 2300 50  0001 C CNN
@@ -1914,10 +1914,10 @@ F 7 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04 U48
+L Device:R_Pack04 RN13
 U 1 1 5D287216
 P 10850 3600
-F 0 "U48" V 10433 3600 50  0000 C CNN
+F 0 "RN13" V 10433 3600 50  0000 C CNN
 F 1 "10k" V 10524 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 11125 3600 50  0001 C CNN
 F 3 "~" H 10850 3600 50  0001 C CNN
@@ -1929,10 +1929,10 @@ F 7 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04 U38
+L Device:R_Pack04 RN4
 U 1 1 5D288026
 P 3900 4950
-F 0 "U38" V 3483 4950 50  0000 C CNN
+F 0 "RN4" V 3483 4950 50  0000 C CNN
 F 1 "10k" V 3574 4950 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 4175 4950 50  0001 C CNN
 F 3 "~" H 3900 4950 50  0001 C CNN
@@ -2536,10 +2536,10 @@ Wire Wire Line
 Wire Wire Line
 	4425 8000 4425 8150
 $Comp
-L Device:R_Pack04 U7
+L Device:R_Pack04 RN5
 U 1 1 5CF03676
 P 5250 9900
-F 0 "U7" H 4970 9854 50  0000 R CNN
+F 0 "RN5" H 4970 9854 50  0000 R CNN
 F 1 "10nF" H 4970 9945 50  0000 R CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5525 9900 50  0001 C CNN
 F 3 "~" H 5250 9900 50  0001 C CNN
@@ -2551,10 +2551,10 @@ F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Pack04 U9
+L Device:R_Pack04 RN7
 U 1 1 5CF03680
 P 6950 8500
-F 0 "U9" V 6533 8500 50  0000 C CNN
+F 0 "RN7" V 6533 8500 50  0000 C CNN
 F 1 "1k" V 6624 8500 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7225 8500 50  0001 C CNN
 F 3 "~" H 6950 8500 50  0001 C CNN
@@ -2566,10 +2566,10 @@ F 7 "Panasonic " H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04 U10
+L Device:R_Pack04 RN10
 U 1 1 5CF0368A
 P 7700 8500
-F 0 "U10" V 7283 8500 50  0000 C CNN
+F 0 "RN10" V 7283 8500 50  0000 C CNN
 F 1 "1.5k" V 7374 8500 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7975 8500 50  0001 C CNN
 F 3 "~" H 7700 8500 50  0001 C CNN
@@ -2582,10 +2582,10 @@ F 7 "Panasonic " H 0   0   50  0001 C CNN "Manufacturer"
 $EndComp
 Connection ~ 7500 8600
 $Comp
-L Device:R_Pack04 U6
+L Device:R_Pack04 RN2
 U 1 1 5CF03695
 P 3250 8550
-F 0 "U6" V 2833 8550 50  0000 C CNN
+F 0 "RN2" V 2833 8550 50  0000 C CNN
 F 1 "10k" V 2924 8550 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 3525 8550 50  0001 C CNN
 F 3 "~" H 3250 8550 50  0001 C CNN
