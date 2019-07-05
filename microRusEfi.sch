@@ -233,14 +233,6 @@ Wire Wire Line
 	6700 5175 5600 5175
 Text Label 6200 5175 2    60   ~ 12
 Vref
-Text Label 9725 7625 0    60   ~ 12
-COIL-3
-Text Label 9725 7425 0    60   ~ 12
-COIL-1
-Text Label 9725 7525 0    60   ~ 12
-COIL-2
-Text Label 9725 7725 0    60   ~ 12
-COIL-4
 Text Label 11675 4025 0    60   ~ 12
 INJECTOR-2
 Text Label 11675 3925 0    60   ~ 12
@@ -300,14 +292,8 @@ Text Label 4850 1575 3    60   ~ 12
 GND
 Text Label 9800 1575 3    60   ~ 12
 CANL
-Text Label 5900 1575 3    60   ~ 12
-COIL-4
 Text Label 5700 1575 3    60   ~ 12
-COIL-2
-Text Label 5600 1575 3    60   ~ 12
-COIL-1
-Text Label 5800 1575 3    60   ~ 12
-COIL-3
+COIL-4
 Text Label 4750 1575 3    60   ~ 12
 12V-SWITCH
 Text Label 9200 1575 3    60   ~ 12
@@ -522,20 +508,12 @@ F 7 "DNP" H 200 -2525 50  0001 C CNN "VEND#"
 	1    8500 3350
 	1    0    0    -1  
 $EndComp
-Text Label 6000 1575 3    50   ~ 10
-GP_OUT_6
 Text Label 7750 1575 3    60   ~ 12
 MAIN_RELAY
 Text Label 4050 4925 2    50   ~ 10
 CAM_SENSOR
 Wire Wire Line
 	10750 5925 11725 5925
-Text Label 6100 1575 3    50   ~ 10
-GP_OUT_5
-Text Label 9725 7325 0    50   ~ 10
-GP_OUT_6
-Text Label 9725 7225 0    50   ~ 10
-GP_OUT_5
 Wire Notes Line
 	11575 3550 11575 4800
 Wire Notes Line
@@ -1085,4 +1063,26 @@ Wire Wire Line
 	13675 6150 13725 6150
 Text Notes 14650 6200 0    63   ~ 0
 PE1 is orange - warning\nPE2 is blue - communication\nPE3 is red - fatal\nPE4 is green - running
+Text Label 9725 7525 0    60   ~ 12
+COIL-4
+Text Label 5600 1575 3    60   ~ 12
+COIL-3
+Text Label 9725 7425 0    60   ~ 12
+COIL-3
+Text Label 6000 1575 3    60   ~ 12
+COIL-2
+Text Label 9725 7325 0    60   ~ 12
+COIL-2
+Text Label 9725 7725 0    50   ~ 10
+GP_OUT_6
+Text Label 5900 1575 3    50   ~ 10
+GP_OUT_6
+Text Label 9725 7625 0    50   ~ 10
+GP_OUT_5
+Text Label 9725 7225 0    60   ~ 12
+COIL-1
+Text Label 6100 1575 3    60   ~ 12
+COIL-1
+Text Label 5800 1575 3    50   ~ 10
+GP_OUT_5
 $EndSCHEMATC
