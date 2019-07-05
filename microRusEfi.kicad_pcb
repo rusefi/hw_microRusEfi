@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 238)
+    (drawings 239)
     (tracks 3373)
     (zones 0)
     (modules 194)
@@ -9046,6 +9046,9 @@
       (xy 3.3528 0.39624)) (layer B.SilkS) (width 0.00254))
   )
 
+  (gr_text "rusEFI MRE was measured to consume 235mA from the 12V battery, for 2.9 watts" (at 52.07 24.13) (layer B.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.13)) (justify mirror))
+  )
   (gr_line (start 93.98 97.79) (end 93.98 86.995) (layer B.SilkS) (width 6.35))
   (gr_text 4 (at 88.265 114.554) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
