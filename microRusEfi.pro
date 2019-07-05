@@ -1,4 +1,4 @@
-update=7/1/2019 7:50:44 PM
+update=7/5/2019 6:44:04 AM
 version=1
 last_client=kicad
 [general]
@@ -84,7 +84,7 @@ OthersTextUpright=1
 SolderMaskClearance=5.1e-05
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.In1.Cu]
 Name=PWR
 Type=1
