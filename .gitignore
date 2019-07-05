@@ -2,5 +2,5 @@
 *.bak
 *-rescue.*
 _saved*.*
-
+/.idea
 fp-info-cache
