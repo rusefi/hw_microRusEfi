@@ -296,8 +296,6 @@ Wire Wire Line
 	13150 4000 13750 4000
 Wire Wire Line
 	14300 3400 14150 3400
-Text Label 6650 3425 0    60   ~ 12
-VDD
 $Comp
 L power:GND #PWR0108
 U 1 1 52D1377C
@@ -383,7 +381,7 @@ L Device:C C29
 U 1 1 52D13B20
 P 6250 2350
 F 0 "C29" H 6300 2450 50  0000 L CNN
-F 1 "10nF" H 6275 2225 50  0000 L CNN
+F 1 "10nF" H 6275 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 5255 5000 60  0001 C CNN
 F 3 "" H 8775 5025 60  0001 C CNN
 F 4 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
@@ -419,8 +417,8 @@ $Comp
 L Device:Ferrite_Bead FB1
 U 1 1 5C470C85
 P 6600 2350
-F 0 "FB1" H 6600 2500 60  0000 C CNN
-F 1 "FILTER" H 6600 2250 60  0000 C CNN
+F 0 "FB1" H 6725 2450 60  0000 C CNN
+F 1 "FILTER" H 6775 2225 60  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6600 2350 60  0001 C CNN
 F 3 "" H 6600 2350 60  0000 C CNN
 F 4 "stm32f407_board" H 14100 3375 60  0001 C CNN "PageName"
@@ -502,8 +500,8 @@ $Comp
 L Device:C C34
 U 1 1 5C470CAD
 P 6650 3150
-F 0 "C34" H 6700 3250 50  0000 L CNN
-F 1 "10nF" H 6700 3050 50  0000 L CNN
+F 0 "C34" V 6700 3200 50  0000 L CNN
+F 1 "10nF" V 6700 2925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1930 4750 60  0001 C CNN
 F 3 "" H 6650 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13450 4325 60  0001 C CNN "PageName"
@@ -518,8 +516,8 @@ $Comp
 L Device:C C33
 U 1 1 52D18908
 P 6550 3150
-F 0 "C33" H 6600 3250 50  0000 L CNN
-F 1 "10nF" H 6600 3050 50  0000 L CNN
+F 0 "C33" V 6600 3200 50  0000 L CNN
+F 1 "10nF" V 6600 2925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 2130 4750 60  0001 C CNN
 F 3 "" H 6550 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13650 4325 60  0001 C CNN "PageName"
@@ -574,14 +572,12 @@ F 3 "" H 6350 9050 60  0001 C CNN
 	1    6350 9050
 	1    0    0    -1  
 $EndComp
-Text Label 6450 3450 0    60   ~ 12
-VDD
 $Comp
 L Device:C C32
 U 1 1 5C5E3A0D
 P 6450 3150
-F 0 "C32" H 6500 3250 50  0000 L CNN
-F 1 "10nF" H 6500 3050 50  0000 L CNN
+F 0 "C32" V 6500 3200 50  0000 L CNN
+F 1 "10nF" V 6500 2925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1730 4750 60  0001 C CNN
 F 3 "" H 6450 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13250 4325 60  0001 C CNN "PageName"
@@ -596,8 +592,8 @@ $Comp
 L Device:C C31
 U 1 1 5C5E3A17
 P 6350 3150
-F 0 "C31" H 6400 3250 50  0000 L CNN
-F 1 "10nF" H 6400 3050 50  0000 L CNN
+F 0 "C31" V 6400 3200 50  0000 L CNN
+F 1 "10nF" V 6400 2925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1930 4750 60  0001 C CNN
 F 3 "" H 6350 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13450 4325 60  0001 C CNN "PageName"
@@ -630,14 +626,12 @@ F 3 "" H 6350 3000 60  0000 C CNN
 	1    6350 3000
 	-1   0    0    1   
 $EndComp
-Text Label 6250 3475 0    60   ~ 12
-VDD
 $Comp
 L Device:C C30
 U 1 1 5C5FEE98
 P 6250 3150
-F 0 "C30" H 6300 3250 50  0000 L CNN
-F 1 "10nF" H 6300 3050 50  0000 L CNN
+F 0 "C30" V 6300 3200 50  0000 L CNN
+F 1 "10nF" V 6300 2925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1530 4750 60  0001 C CNN
 F 3 "" H 6250 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13050 4325 60  0001 C CNN "PageName"
@@ -652,8 +646,8 @@ $Comp
 L Device:C C28
 U 1 1 5C5FEEA2
 P 6150 3150
-F 0 "C28" H 6200 3250 50  0000 L CNN
-F 1 "10nF" H 6200 3050 50  0000 L CNN
+F 0 "C28" V 6200 3200 50  0000 L CNN
+F 1 "10nF" V 6200 2925 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 1730 4750 60  0001 C CNN
 F 3 "" H 6150 3150 60  0001 C CNN
 F 4 "stm32f407_board" H 13250 4325 60  0001 C CNN "PageName"
@@ -686,10 +680,6 @@ F 3 "" H 6150 3000 60  0000 C CNN
 	1    6150 3000
 	-1   0    0    1   
 $EndComp
-Text Label 6550 3500 0    60   ~ 12
-VDD
-Text Label 6350 3400 0    60   ~ 12
-VDD
 Text HLabel 7250 3850 2    60   Input ~ 12
 PA0
 Text HLabel 7250 3950 2    60   Input ~ 12
@@ -834,7 +824,7 @@ Text HLabel 5550 6950 0    60   Input ~ 12
 PE14
 Text HLabel 5550 7050 0    60   Input ~ 12
 PE15
-Text Label 6150 3400 0    60   ~ 12
+Text Label 6250 3550 1    60   ~ 12
 VDD
 Text Label 7250 4750 0    60   ~ 12
 PA9
@@ -876,14 +866,14 @@ L Device:C C21
 U 1 1 5CE96DA7
 P 4700 5000
 F 0 "C21" H 4750 5100 50  0000 L CNN
-F 1 "20pF" H 4750 4900 50  0000 L CNN
+F 1 "4.7pF" H 4750 4900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 4730 5250 60  0001 C CNN
 F 3 "" H 4700 5000 60  0001 C CNN
 F 4 "stm32f407_board" H 16250 4825 60  0001 C CNN "PageName"
-F 5 "06035A200FAT2A" H 0   0   50  0001 C CNN "Part #"
+F 5 "CC0603CRNPO9BN4R7" H 0   0   50  0001 C CNN "Part #"
 F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "478-10299-1-ND" H 0   0   50  0001 C CNN "VEND#"
-F 8 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "311-1740-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4700 5000
 	0    1    1    0   
 $EndComp
@@ -1083,7 +1073,7 @@ L Device:C C24
 U 1 1 5CCA0570
 P 5000 2350
 F 0 "C24" H 5050 2450 50  0000 L CNN
-F 1 "10nF" H 5025 2225 50  0000 L CNN
+F 1 "10nF" H 5025 2250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 4005 5000 60  0001 C CNN
 F 3 "" H 7525 5025 60  0001 C CNN
 F 4 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
@@ -1152,14 +1142,14 @@ L Device:C C22
 U 1 1 5C5BFEC8
 P 4700 5600
 F 0 "C22" H 4750 5700 50  0000 L CNN
-F 1 "20pF" H 4750 5500 50  0000 L CNN
+F 1 "4.7pF" H 4750 5500 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V 4730 5250 60  0001 C CNN
 F 3 "" H 4700 5600 60  0001 C CNN
 F 4 "stm32f407_board" H 16250 4825 60  0001 C CNN "PageName"
-F 5 "06035A200FAT2A" H 0   0   50  0001 C CNN "Part #"
+F 5 "CC0603CRNPO9BN4R7" H 0   0   50  0001 C CNN "Part #"
 F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "478-10299-1-ND" H 0   0   50  0001 C CNN "VEND#"
-F 8 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 7 "311-1740-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 8 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
 	1    4700 5600
 	0    1    1    0   
 $EndComp
@@ -1430,33 +1420,49 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14925 3025 14925 3175
+	14925 3050 14925 3175
 $Comp
 L power:GND #PWR0133
 U 1 1 5D07522E
-P 14925 2725
-F 0 "#PWR0133" H 14925 2725 30  0001 C CNN
-F 1 "GND" H 14925 2655 30  0001 C CNN
-F 2 "" H 14925 2725 60  0000 C CNN
-F 3 "" H 14925 2725 60  0000 C CNN
-	1    14925 2725
+P 14925 2750
+F 0 "#PWR0133" H 14925 2750 30  0001 C CNN
+F 1 "GND" H 14925 2680 30  0001 C CNN
+F 2 "" H 14925 2750 60  0000 C CNN
+F 3 "" H 14925 2750 60  0000 C CNN
+	1    14925 2750
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:C C36
 U 1 1 5D073BF7
-P 14925 2875
-F 0 "C36" H 15025 2975 50  0000 C CNN
-F 1 "1uF" H 15025 2775 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" V 11505 4175 60  0001 C CNN
-F 3 "" H 14925 2875 60  0001 C CNN
-F 4 "UMK107BJ105KA-T" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "587-2400-1-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
-	1    14925 2875
+P 14925 2900
+F 0 "C36" H 15025 3000 50  0000 C CNN
+F 1 "1uF" H 15025 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 11505 4200 60  0001 C CNN
+F 3 "" H 14925 2900 60  0001 C CNN
+F 4 "UMK107BJ105KA-T" H 0   25  50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   25  50  0001 C CNN "VEND"
+F 6 "587-2400-1-ND" H 0   25  50  0001 C CNN "VEND#"
+F 7 "Taiyo Yuden" H 0   25  50  0001 C CNN "Manufacturer"
+	1    14925 2900
 	1    0    0    -1  
 $EndComp
 Text Notes 725  10325 0    50   ~ 0
-http://www.crystek.com/documents/appnotes/Pierce-GateIntroduction.pdf\nPCB per predictions with SaturnPCB has less then 3.5pF traces, \nSTM32 pins assumed 5pF\nESR = 80ohms max???\nRf = 2meg could be between 1meg and 10meg.\nCload should be 8pF per XTAL datasheet\nCload = ([Cin+C1][C2+Cout])/(Cin+C1+C2_Cout)+PCBstray\nCload = ([5+4][4+5])/(5+4+4+5)+3.5= 8.0pF\nC1=C2=C166=C167 = 4pF\nRs = 1/(2piFC2) = 1/(2*pi*8MHz*4pF) = 5ohms. 
+http://www.crystek.com/documents/appnotes/Pierce-GateIntroduction.pdf\nPCB per predictions with SaturnPCB has less then 3.5pF traces, \nSTM32 pins assumed 5pF\nESR = 80ohms max???\nRf = 2meg could be between 1meg and 10meg.\nCload should be 8pF per XTAL datasheet\nCload = ([Cin+C1][C2+Cout])/(Cin+C1+C2_Cout)+PCBstray\nCload = ([5+4.7][4.7+5])/(5+4.7+4.7+5)+3.5= 8.35pF\nC1=C2=C166=C167 = 4.7pF\nRs = 1/(2piFC2) = 1/(2*pi*8MHz*4.7pF) = 4.2ohms. 
+Wire Wire Line
+	6250 3550 6350 3550
+Connection ~ 6250 3550
+Connection ~ 6350 3550
+Wire Wire Line
+	6350 3550 6450 3550
+Connection ~ 6450 3550
+Wire Wire Line
+	6450 3550 6550 3550
+Connection ~ 6550 3550
+Wire Wire Line
+	6550 3550 6650 3550
+Connection ~ 6650 3550
+Wire Wire Line
+	6250 3550 6150 3550
+Connection ~ 6150 3550
 $EndSCHEMATC
