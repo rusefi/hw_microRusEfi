@@ -1457,4 +1457,6 @@ F 7 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
 	1    14925 2875
 	1    0    0    -1  
 $EndComp
+Text Notes 725  10325 0    50   ~ 0
+http://www.crystek.com/documents/appnotes/Pierce-GateIntroduction.pdf\nPCB per predictions with SaturnPCB has less then 3.5pF traces, \nSTM32 pins assumed 5pF\nESR = 80ohms max???\nRf = 2meg could be between 1meg and 10meg.\nCload should be 8pF per XTAL datasheet\nCload = ([Cin+C1][C2+Cout])/(Cin+C1+C2_Cout)+PCBstray\nCload = ([5+4][4+5])/(5+4+4+5)+3.5= 8.0pF\nC1=C2=C166=C167 = 4pF\nRs = 1/(2piFC2) = 1/(2*pi*8MHz*4pF) = 5ohms. 
 $EndSCHEMATC
