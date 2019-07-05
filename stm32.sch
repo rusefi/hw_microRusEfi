@@ -59,7 +59,7 @@ L Device:D_Schottky D17
 U 1 1 52D3B48A
 P 13150 3850
 F 0 "D17" H 13150 3950 40  0000 C CNN
-F 1 "DIODESCH" H 13150 3750 40  0000 C CNN
+F 1 "DIODESCH" H 13150 3750 40  0001 C CNN
 F 2 "Diode_SMD:D_0603_1608Metric" V 1405 1550 60  0001 C CNN
 F 3 "" H 13150 3850 60  0001 C CNN
 F 4 "stm32f407_board" H 12925 1125 60  0001 C CNN "PageName"
@@ -158,7 +158,7 @@ L Device:LED D14
 U 1 1 5C5BFED6
 P 12150 3800
 F 0 "D14" H 12150 3900 50  0000 C CNN
-F 1 "LED-green" H 12150 3700 50  0000 C CNN
+F 1 "LED-green" H 12150 3650 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5   1700 60  0001 C CNN
 F 3 "" H 12150 3800 60  0001 C CNN
 F 4 "stm32f407_board" H 11525 1275 60  0001 C CNN "PageName"
@@ -169,13 +169,13 @@ F 8 "DiaLight" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12150 3800
 	-1   0    0    1   
 $EndComp
-Text Notes 14950 3200 0    60   ~ 12
+Text Notes 15050 3150 0    60   ~ 12
 3.3v
-Text Label 13100 4000 2    60   ~ 12
+Text Label 12700 4000 2    60   ~ 12
 Vbus
 Text Notes 12450 5250 0    60   ~ 12
 diodes schottky 20V 1A SD0805S020S1R0
-Text Label 13450 4400 0    60   ~ 12
+Text Label 13450 4400 2    60   ~ 12
 PA10
 Text Label 13750 4000 0    60   ~ 12
 PA9
@@ -197,7 +197,7 @@ Wire Wire Line
 Wire Wire Line
 	12300 3800 12400 3800
 Wire Wire Line
-	14900 3400 15000 3400
+	14900 3400 15200 3400
 $Comp
 L Device:LED D?
 U 1 1 5C7BA11E
@@ -226,7 +226,7 @@ F 3 "" H 16050 3400 60  0001 C CNN
 	1    16050 3400
 	0    -1   -1   0   
 $EndComp
-Text HLabel 15150 3400 1    60   Input ~ 12
+Text HLabel 15350 3150 2    60   Input ~ 12
 VDD
 $Comp
 L Device:C C38
@@ -273,9 +273,9 @@ F 7 "ST" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12950 4750
 	1    0    0    -1  
 $EndComp
-Text Label 13450 4300 0    60   ~ 12
+Text Label 13450 4300 2    60   ~ 12
 PA11
-Text Label 13450 4200 0    60   ~ 12
+Text Label 13450 4200 2    60   ~ 12
 PA12
 Wire Wire Line
 	11800 4200 13050 4200
@@ -978,8 +978,8 @@ $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 5CDE2131
 P 11800 6200
-F 0 "J2" H 11850 6617 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 11850 6526 50  0000 C CNN
+F 0 "J2" H 11850 6550 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 11850 6526 50  0001 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11800 6200 50  0001 C CNN
 F 3 "~" H 11800 6200 50  0001 C CNN
 F 4 "MOUSER" H 0   0   50  0001 C CNN "VEND"
@@ -1319,50 +1319,19 @@ Wire Wire Line
 	15950 3400 16050 3400
 NoConn ~ 7250 8650
 NoConn ~ 7250 8750
-Text HLabel 13375 4200 1    50   Input ~ 10
+Text HLabel 13450 4200 2    50   Input ~ 10
 USB_D+
-Text HLabel 13375 4300 3    50   Input ~ 10
+Text HLabel 13450 4300 2    50   Input ~ 10
 USB_D-
-$Comp
-L Device:C C36
-U 1 1 5D073BF7
-P 14925 2875
-F 0 "C36" H 15025 2975 50  0000 C CNN
-F 1 "1uF" H 15025 2775 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" V 11505 4175 60  0001 C CNN
-F 3 "" H 14925 2875 60  0001 C CNN
-F 4 "UMK107BJ105KA-T" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "587-2400-1-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
-	1    14925 2875
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0133
-U 1 1 5D07522E
-P 14925 2725
-F 0 "#PWR0133" H 14925 2725 30  0001 C CNN
-F 1 "GND" H 14925 2655 30  0001 C CNN
-F 2 "" H 14925 2725 60  0000 C CNN
-F 3 "" H 14925 2725 60  0000 C CNN
-	1    14925 2725
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
-	14925 3025 14925 3175
+	14925 3175 15200 3175
 Wire Wire Line
-	14925 3175 15000 3175
-Wire Wire Line
-	15000 3175 15000 3400
-Connection ~ 15000 3400
-Wire Wire Line
-	15000 3400 15200 3400
+	15200 3175 15200 3400
 Wire Wire Line
 	15350 3050 15350 3175
 Wire Wire Line
-	15350 3175 15000 3175
-Connection ~ 15000 3175
+	15350 3175 15200 3175
+Connection ~ 15200 3175
 $Comp
 L Device:R R26
 U 1 1 5D13DF09
@@ -1458,6 +1427,34 @@ F 5 "DNP" H 0   0   50  0001 C CNN "VEND"
 F 6 "DNP" H 0   0   50  0001 C CNN "VEND#"
 F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7130 3465
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14925 3025 14925 3175
+$Comp
+L power:GND #PWR0133
+U 1 1 5D07522E
+P 14925 2725
+F 0 "#PWR0133" H 14925 2725 30  0001 C CNN
+F 1 "GND" H 14925 2655 30  0001 C CNN
+F 2 "" H 14925 2725 60  0000 C CNN
+F 3 "" H 14925 2725 60  0000 C CNN
+	1    14925 2725
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 5D073BF7
+P 14925 2875
+F 0 "C36" H 15025 2975 50  0000 C CNN
+F 1 "1uF" H 15025 2775 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" V 11505 4175 60  0001 C CNN
+F 3 "" H 14925 2875 60  0001 C CNN
+F 4 "UMK107BJ105KA-T" H 0   0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 6 "587-2400-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "Taiyo Yuden" H 0   0   50  0001 C CNN "Manufacturer"
+	1    14925 2875
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
