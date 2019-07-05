@@ -2,6 +2,7 @@
   (lib (name rusefi_tc4427)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib/tc4427.lib)(options "")(descr "Microchip TC4427"))
   (lib (name rusefi_tle8888)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib/tle8888qk.lib)(options "")(descr "Infineon TLE8888QK"))
   (lib (name rusefi_molex48)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib/molex_48pin.lib)(options "")(descr "Molex 48-pin Connector"))
-  (lib (name rusefi_pesd1can)(type legacy)(uri ${KIPRJMOD}/rusefi_lib/pesd1can.lib)(options "")(descr "PESD1CAN CAN bus protection diode"))
+  (lib (name rusefi_pesd1can)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib/pesd1can.lib)(options "")(descr "PESD1CAN CAN bus protection diode"))
   (lib (name rusefi_tle9201)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib/tle9201.lib)(options "")(descr "Infineon TLE9201 H Bridge"))
+  (lib (name rusefi_Logo)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib_external/logo.lib)(options "")(descr ""))
 )

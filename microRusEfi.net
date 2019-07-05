@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\user\Desktop\hw_microRusEfi_JH\microRusEfi.sch)
-    (date "7/5/2019 6:40:31 AM")
+    (date "7/5/2019 8:45:04 AM")
     (tool "Eeschema (6.0.0-rc1-dev-1650-gf425f49c1)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -236,6 +236,18 @@
       (libsource (lib Graphic) (part Logo_Open_Hardware_Small) (description "Open Hardware logo, small"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D21BC70))
+    (comp (ref LOGO2)
+      (value DNP)
+      (footprint rusEFI:LOGO)
+      (datasheet ~)
+      (fields
+        (field (name Manufacturer) DNP)
+        (field (name "Part #") DNP)
+        (field (name VEND) DNP)
+        (field (name VEND#) DNP))
+      (libsource (lib rusefi_Logo) (part LOGO) (description ""))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5D54AA23))
     (comp (ref U2)
       (value TLE8888QK)
       (footprint Package_QFP:LQFP-100_14x14mm_P0.5mm_THERMAL)
@@ -2752,6 +2764,10 @@
         (pin (num 1) (name G) (type input))
         (pin (num 2) (name D) (type passive))
         (pin (num 3) (name S) (type passive))))
+    (libpart (lib rusefi_Logo) (part LOGO)
+      (fields
+        (field (name Reference) "#G")
+        (field (name Value) LOGO)))
     (libpart (lib rusefi_molex48) (part molex_48pin)
       (fields
         (field (name Reference) U)
@@ -2987,6 +3003,8 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Regulator_Linear.lib"))
     (library (logical Transistor_FET)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Transistor_FET.lib"))
+    (library (logical rusefi_Logo)
+      (uri C:\Users\user\Desktop\hw_microRusEfi_JH/rusefi_lib_external/logo.lib))
     (library (logical rusefi_molex48)
       (uri C:\Users\user\Desktop\hw_microRusEfi_JH/rusefi_lib/molex_48pin.lib))
     (library (logical rusefi_pesd1can)
