@@ -422,9 +422,9 @@ F 1 "5.11K" V 12175 6400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 12105 6400 50  0001 C CNN
 F 3 "~" H 12175 6400 50  0001 C CNN
 F 4 "DIGI" H -1825 -250 50  0001 C CNN "VEND"
-F 5 "dd" H 0   0   50  0001 C CNN "Part #"
-F 6 "vv" H 0   0   50  0001 C CNN "VEND#"
-F 7 "mm" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "RMCF0603FT5K11" H 0   0   50  0001 C CNN "Part #"
+F 6 "RMCF0603FT5K11CT-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12175 6400
 	1    0    0    -1  
 $EndComp
