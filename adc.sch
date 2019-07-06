@@ -1173,7 +1173,7 @@ Wire Wire Line
 	2850 2200 2850 1600
 Wire Wire Line
 	2675 1600 2675 2300
-Text Label 9025 4650 0    60   ~ 0
+Text Label 9025 4650 3    60   ~ 0
 5V
 $Comp
 L Device:R R11
@@ -1482,7 +1482,7 @@ Wire Wire Line
 	2700 4750 2700 5275
 Wire Wire Line
 	2525 4850 2525 5275
-Text Label 9700 4650 0    60   ~ 0
+Text Label 9700 4650 3    60   ~ 0
 5V
 $Comp
 L Device:R R40
@@ -2712,9 +2712,6 @@ Text HLabel 10050 7225 0    50   Input ~ 0
 CAM
 Text HLabel 11650 7225 2    50   Input ~ 0
 CAM_MCU
-Connection ~ 10500 7225
-Wire Wire Line
-	10500 7225 10625 7225
 Wire Wire Line
 	10925 7225 10975 7225
 Connection ~ 10975 7225
@@ -2731,7 +2728,7 @@ F 3 "" H 10975 7525 60  0000 C CNN
 	1    10975 7525
 	1    0    0    -1  
 $EndComp
-Text Label 10500 6925 0    60   ~ 0
+Text Label 10500 6625 0    60   ~ 0
 5V
 $Comp
 L Diode:BAS40-04 D13
@@ -2748,8 +2745,6 @@ F 7 "ON-SEMI" H 0   0   50  0001 C CNN "Manufacturer"
 	1    11400 7225
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10050 7225 10500 7225
 $Comp
 L power:GND #PWR0140
 U 1 1 5D251281
@@ -2822,4 +2817,24 @@ F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    12700 5000
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	10050 7225 10500 7225
+$Comp
+L Device:LED D29
+U 1 1 5D7D9529
+P 10500 6775
+F 0 "D29" V 10500 6650 40  0000 C CNN
+F 1 "LED-BLUE" V 10500 7000 40  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 12305 5975 60  0001 C CNN
+F 3 "" H 15825 6000 60  0001 C CNN
+F 4 "LTST-C193TBKT-5A" H 0   -300 50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   -300 50  0001 C CNN "VEND"
+F 6 "160-1827-1-ND" H 0   -300 50  0001 C CNN "VEND#"
+F 7 "Lite-On " H 0   -300 50  0001 C CNN "Manufacturer"
+	1    10500 6775
+	0    -1   -1   0   
+$EndComp
+Connection ~ 10500 7225
+Wire Wire Line
+	10500 7225 10625 7225
 $EndSCHEMATC
