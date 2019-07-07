@@ -826,13 +826,13 @@ Text HLabel 5550 7050 0    60   Input ~ 12
 PE15
 Text Label 6250 3550 1    60   ~ 12
 VDD
-Text Label 7250 4750 0    60   ~ 12
+Text Label 7600 4750 0    60   ~ 12
 PA9
-Text Label 7250 4850 0    60   ~ 12
+Text Label 7600 4850 0    60   ~ 12
 PA10
-Text Label 7250 4950 0    60   ~ 12
+Text Label 7600 4950 0    60   ~ 12
 PA11
-Text Label 7250 5050 0    60   ~ 12
+Text Label 7600 5050 0    60   ~ 12
 PA12
 Wire Wire Line
 	6000 2500 6250 2500
@@ -852,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 2000 6600 2200
 Wire Wire Line
-	7250 5750 7950 5750
+	7250 5750 7600 5750
 Wire Wire Line
 	5100 5150 4850 5150
 Wire Wire Line
@@ -1465,4 +1465,38 @@ Connection ~ 6650 3550
 Wire Wire Line
 	6250 3550 6150 3550
 Connection ~ 6150 3550
+$Comp
+L Device:Net-Tie_2 NT2
+U 1 1 5D85D17A
+P 7700 5750
+F 0 "NT2" H 7700 5839 50  0000 C CNN
+F 1 "Net-Tie_2" H 7700 5840 50  0001 C CNN
+F 2 "rusEFI_Ola:Net-Tie_2_8.5mil" H 7700 5750 50  0001 C CNN
+F 3 "~" H 7700 5750 50  0001 C CNN
+	1    7700 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 5750 7950 5750
+Wire Wire Line
+	7250 4850 7600 4850
+Wire Wire Line
+	7250 4950 7600 4950
+Wire Wire Line
+	7250 5050 7600 5050
+Wire Wire Line
+	7250 4750 7300 4750
+$Comp
+L Device:Net-Tie_2 NT1
+U 1 1 5D86F689
+P 7400 4750
+F 0 "NT1" H 7400 4700 50  0000 C CNN
+F 1 "Net-Tie_2" H 7400 4840 50  0001 C CNN
+F 2 "rusEFI_Ola:Net-Tie_2_8.5mil" H 7400 4750 50  0001 C CNN
+F 3 "~" H 7400 4750 50  0001 C CNN
+	1    7400 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4750 7600 4750
 $EndSCHEMATC
