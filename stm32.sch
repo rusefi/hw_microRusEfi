@@ -6,8 +6,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 6 7
 Title "microRusEfi"
-Date "2019-07-01"
-Rev "R0.2"
+Date "2019-07-09"
+Rev "R0.2.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -206,7 +206,7 @@ AR Path="/5C7BA11E" Ref="D?"  Part="1"
 AR Path="/5D0250FB/5C7BA11E" Ref="D19"  Part="1" 
 F 0 "D19" H 15400 3300 50  0000 C CNN
 F 1 "LED-RED" H 15300 3500 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 15400 3400 60  0001 C CNN
+F 2 "rusEFI_Ola:LED-0603-rusEFI" H 15400 3400 60  0001 C CNN
 F 3 "" H 15400 3400 60  0000 C CNN
 F 4 "LTST-S270KRKT" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
