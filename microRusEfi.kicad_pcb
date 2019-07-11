@@ -10050,8 +10050,8 @@
     )
   )
 
-  (gr_poly (pts (xy 42.545 111.252) (xy 46.228 111.252) (xy 46.228 111.506) (xy 42.545 111.506)) (layer F.SilkS) (width 0.1) (tstamp 5D2EEBDD))
-  (gr_poly (pts (xy 42.545 113.411) (xy 46.228 113.411) (xy 46.228 113.665) (xy 42.545 113.665)) (layer F.SilkS) (width 0.1) (tstamp 5D2EEB96))
+  (gr_poly (pts (xy 42.545 106.426) (xy 46.228 106.426) (xy 46.228 106.68) (xy 42.545 106.68)) (layer F.SilkS) (width 0.1) (tstamp 5D2EEBDD))
+  (gr_poly (pts (xy 42.545 104.521) (xy 46.228 104.521) (xy 46.228 104.775) (xy 42.545 104.775)) (layer F.SilkS) (width 0.1) (tstamp 5D2EEB96))
   (dimension 80.645 (width 0.15) (layer Cmts.User)
     (gr_text "3.1750 in" (at 60.8965 137.444) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
