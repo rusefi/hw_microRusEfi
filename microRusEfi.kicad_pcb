@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 263)
+    (drawings 265)
     (tracks 3530)
     (zones 0)
     (modules 219)
@@ -42,7 +42,7 @@
   )
 
   (setup
-    (last_trace_width 0.2159)
+    (last_trace_width 0.1524)
     (user_trace_width 0.1524)
     (user_trace_width 0.2159)
     (user_trace_width 0.2159)
@@ -10050,6 +10050,8 @@
     )
   )
 
+  (gr_poly (pts (xy 42.545 111.252) (xy 46.228 111.252) (xy 46.228 111.506) (xy 42.545 111.506)) (layer F.SilkS) (width 0.1) (tstamp 5D2EEBDD))
+  (gr_poly (pts (xy 42.545 113.411) (xy 46.228 113.411) (xy 46.228 113.665) (xy 42.545 113.665)) (layer F.SilkS) (width 0.1) (tstamp 5D2EEB96))
   (dimension 80.645 (width 0.15) (layer Cmts.User)
     (gr_text "3.1750 in" (at 60.8965 137.444) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
