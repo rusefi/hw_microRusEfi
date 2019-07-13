@@ -205,7 +205,7 @@ Reference, Value, Footprint, Datasheet, Manufacturer, Part #, VEND, VEND#, PageN
 "C24","10nF","Capacitor_SMD:C_0603_1608Metric","","KEMET","C0603C103K1RACTU","DIGI","399-3189-1-ND",""
 "R45","10k","Resistor_SMD:R_0603_1608Metric","TBD","StackPole","RMCF0603JT10K0","DIGI","RMCF0603JT10K0CT-ND",""
 "C22","4.7pF","Capacitor_SMD:C_0603_1608Metric","","Yageo","CC0603CRNPO9BN4R7","DIGI","311-1740-1-ND","stm32f407_board"
-"X1","8MHz","Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm","","NDK","NX3225GD-8MHZ-STD-CRA-3","DIGI","644-1178-1-ND","stm32f407_board"
+"X1","8MHz","Crystal_SMD_HC49-SD","","Abracon ","ABLS-8.000MHZ-B2-T","DIGI","535-9089-1-ND","stm32f407_board"
 "U1","STM32F767VITx","Package_QFP:LQFP-100_14x14mm_P0.5mm","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf","ST","STM32F767VIT6","DIGI","497-16643-ND",""
 "J1","USB_B_Micro","Connector_USB:USB_Micro-B_Molex-105133-0031","~","MOLEX","105133-0031","MOUSER","538-105133-0031",""
 "R50","680","Resistor_SMD:R_0603_1608Metric","~","StackPole","RMCF0603FT680R","DIGI","RMCF0603FT680RCT-ND",""
