@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 265)
+    (drawings 266)
     (tracks 3549)
     (zones 0)
     (modules 219)
@@ -9994,6 +9994,7 @@
     )
   )
 
+  (gr_line (start 29.2354 100.6856) (end 29.2354 102.8446) (layer F.SilkS) (width 0.25))
   (gr_poly (pts (xy 42.545 106.426) (xy 46.228 106.426) (xy 46.228 106.68) (xy 42.545 106.68)) (layer F.SilkS) (width 0.1) (tstamp 5D2EEBDD))
   (gr_poly (pts (xy 42.545 104.521) (xy 46.228 104.521) (xy 46.228 104.775) (xy 42.545 104.775)) (layer F.SilkS) (width 0.1) (tstamp 5D2EEB96))
   (dimension 80.645 (width 0.15) (layer Cmts.User)
