@@ -43,3 +43,10 @@ Model CKKB48-1-A
 Cover bolts x4 M4
 
 PCB bolts M3 0.5mm thread, L=7.5mm
+
+
+## ST-LINK
+
+Unfortunately eBay has a few different version of cheap ST-LINK V2 devices with different pinout. Here is the pinout rusEfi is compatible with:
+
+![img](compatible_ST-LINK_V2.jpg)
