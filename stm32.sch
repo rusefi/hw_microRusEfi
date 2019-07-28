@@ -145,13 +145,13 @@ Text Label 12100 6300 0    60   ~ 12
 VDD
 Text Notes 12400 3650 0    60   ~ 12
 USB power
-Text Label 12450 6100 0    60   ~ 12
+Text Label 12450 6200 0    60   ~ 12
 PA14
 Text Label 12450 6000 0    60   ~ 12
 PA13
 Text Label 11600 6000 2    60   ~ 12
 NRST
-Text Label 11200 6100 2    60   ~ 12
+Text Label 11200 6200 2    60   ~ 12
 PB3
 $Comp
 L Device:LED D14
@@ -964,57 +964,18 @@ F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    11400 5000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
-U 1 1 5CDE2131
-P 11800 6200
-F 0 "J2" H 11850 6550 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 11850 6526 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11800 6200 50  0001 C CNN
-F 3 "~" H 11800 6200 50  0001 C CNN
-F 4 "MOUSER" H 0   0   50  0001 C CNN "VEND"
-F 5 "Amphenol" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "95278-801B10LF" H 0   0   50  0001 C CNN "Part #"
-F 7 "649-95278-801B10LF" H 0   0   50  0001 C CNN "VEND#"
-	1    11800 6200
-	1    0    0    -1  
-$EndComp
 Text Label 12100 6000 0    60   ~ 12
 SWDIO
 Wire Wire Line
-	12100 6100 12450 6100
-$Comp
-L power:GND #PWR0145
-U 1 1 5CDFAB3E
-P 12100 6200
-F 0 "#PWR0145" H 12100 6200 30  0001 C CNN
-F 1 "GND" H 12100 6130 30  0001 C CNN
-F 2 "" H 12100 6200 60  0000 C CNN
-F 3 "" H 12100 6200 60  0000 C CNN
-	1    12100 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0146
-U 1 1 5CDFB72E
-P 11600 6200
-F 0 "#PWR0146" H 11600 6200 30  0001 C CNN
-F 1 "GND" H 11600 6130 30  0001 C CNN
-F 2 "" H 11600 6200 60  0000 C CNN
-F 3 "" H 11600 6200 60  0000 C CNN
-	1    11600 6200
-	0    1    1    0   
-$EndComp
+	12100 6200 12450 6200
 Wire Wire Line
 	12100 6000 12450 6000
-Text Label 12100 6100 0    60   ~ 12
+Text Label 12100 6200 0    60   ~ 12
 SCK
-Text Label 11350 6100 0    60   ~ 12
+Text Label 11600 6200 2    60   ~ 12
 SWO
 Text Label 11600 6300 2    60   ~ 12
 VDD
-Wire Wire Line
-	11600 6100 11200 6100
 Text Label 11600 6400 2    60   ~ 12
 5V
 Text Label 12100 6400 0    60   ~ 12
@@ -1499,4 +1460,33 @@ F 3 "~" H 7400 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 4750 7600 4750
+Wire Wire Line
+	11600 6200 11200 6200
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5CDE2131
+P 11900 6200
+F 0 "J2" H 11950 5900 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 11950 6526 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11900 6200 50  0001 C CNN
+F 3 "~" H 11900 6200 50  0001 C CNN
+F 4 "MOUSER" H 100 0   50  0001 C CNN "VEND"
+F 5 "Amphenol" H 100 0   50  0001 C CNN "Manufacturer"
+F 6 "95278-801B10LF" H 100 0   50  0001 C CNN "Part #"
+F 7 "649-95278-801B10LF" H 100 0   50  0001 C CNN "VEND#"
+	1    11900 6200
+	-1   0    0    1   
+$EndComp
+Text Label 11600 6100 2    60   ~ 12
+GND
+Text Label 12100 6100 0    60   ~ 12
+GND
+Text Label 12450 6300 0    60   ~ 12
+3.3V
+Wire Wire Line
+	12100 6300 12450 6300
+Text Label 11200 6300 2    60   ~ 12
+3.3V
+Wire Wire Line
+	11600 6300 11200 6300
 $EndSCHEMATC
