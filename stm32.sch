@@ -145,13 +145,13 @@ Text Label 12100 6300 0    60   ~ 12
 VDD
 Text Notes 12400 3650 0    60   ~ 12
 USB power
-Text Label 12450 6100 0    60   ~ 12
+Text Label 12450 6200 0    60   ~ 12
 PA14
 Text Label 12450 6000 0    60   ~ 12
 PA13
 Text Label 11600 6000 2    60   ~ 12
 NRST
-Text Label 11200 6100 2    60   ~ 12
+Text Label 11200 6200 2    60   ~ 12
 PB3
 $Comp
 L Device:LED D14
@@ -964,57 +964,18 @@ F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    11400 5000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
-U 1 1 5CDE2131
-P 11800 6200
-F 0 "J2" H 11850 6550 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 11850 6526 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11800 6200 50  0001 C CNN
-F 3 "~" H 11800 6200 50  0001 C CNN
-F 4 "MOUSER" H 0   0   50  0001 C CNN "VEND"
-F 5 "Amphenol" H 0   0   50  0001 C CNN "Manufacturer"
-F 6 "95278-801B10LF" H 0   0   50  0001 C CNN "Part #"
-F 7 "649-95278-801B10LF" H 0   0   50  0001 C CNN "VEND#"
-	1    11800 6200
-	1    0    0    -1  
-$EndComp
 Text Label 12100 6000 0    60   ~ 12
 SWDIO
 Wire Wire Line
-	12100 6100 12450 6100
-$Comp
-L power:GND #PWR0145
-U 1 1 5CDFAB3E
-P 12100 6200
-F 0 "#PWR0145" H 12100 6200 30  0001 C CNN
-F 1 "GND" H 12100 6130 30  0001 C CNN
-F 2 "" H 12100 6200 60  0000 C CNN
-F 3 "" H 12100 6200 60  0000 C CNN
-	1    12100 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0146
-U 1 1 5CDFB72E
-P 11600 6200
-F 0 "#PWR0146" H 11600 6200 30  0001 C CNN
-F 1 "GND" H 11600 6130 30  0001 C CNN
-F 2 "" H 11600 6200 60  0000 C CNN
-F 3 "" H 11600 6200 60  0000 C CNN
-	1    11600 6200
-	0    1    1    0   
-$EndComp
+	12100 6200 12450 6200
 Wire Wire Line
 	12100 6000 12450 6000
-Text Label 12100 6100 0    60   ~ 12
+Text Label 12100 6200 0    60   ~ 12
 SCK
-Text Label 11350 6100 0    60   ~ 12
+Text Label 11600 6200 2    60   ~ 12
 SWO
 Text Label 11600 6300 2    60   ~ 12
 VDD
-Wire Wire Line
-	11600 6100 11200 6100
 Text Label 11600 6400 2    60   ~ 12
 5V
 Text Label 12100 6400 0    60   ~ 12
@@ -1123,17 +1084,17 @@ Wire Wire Line
 $Comp
 L Device:R R45
 U 1 1 5CC9138A
-P 4650 4200
-F 0 "R45" V 4730 4200 50  0000 C CNN
-F 1 "10k" V 4650 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6980 6500 60  0001 C CNN
-F 3 "TBD" H 10500 6525 60  0001 C CNN
-F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-	1    4650 4200
-	-1   0    0    -1  
+P 4700 4300
+F 0 "R45" V 4780 4300 50  0000 C CNN
+F 1 "10k" V 4700 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7030 6600 60  0001 C CNN
+F 3 "TBD" H 10550 6625 60  0001 C CNN
+F 4 "RMCF0603JT10K0" H 50  100 50  0001 C CNN "Part #"
+F 5 "DIGI" H 50  100 50  0001 C CNN "VEND"
+F 6 "RMCF0603JT10K0CT-ND" H 50  100 50  0001 C CNN "VEND#"
+F 7 "StackPole" H 50  100 50  0001 C CNN "Manufacturer"
+	1    4700 4300
+	0    -1   1    0   
 $EndComp
 Text Label 5200 3850 2    60   ~ 12
 NRST
@@ -1186,21 +1147,17 @@ Wire Wire Line
 Wire Wire Line
 	5100 5450 4850 5450
 Connection ~ 4850 5450
-Wire Wire Line
-	5550 4050 4650 4050
 $Comp
 L power:GND #PWR0190
 U 1 1 5CFE03F2
-P 4650 4350
-F 0 "#PWR0190" H 4650 4350 30  0001 C CNN
-F 1 "GND" H 4650 4280 30  0001 C CNN
-F 2 "" H 4650 4350 60  0001 C CNN
-F 3 "" H 4650 4350 60  0001 C CNN
-	1    4650 4350
-	1    0    0    -1  
+P 4850 4300
+F 0 "#PWR0190" H 4850 4300 30  0001 C CNN
+F 1 "GND" H 4850 4230 30  0001 C CNN
+F 2 "" H 4850 4300 60  0001 C CNN
+F 3 "" H 4850 4300 60  0001 C CNN
+	1    4850 4300
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5550 4450 5050 4450
 Wire Wire Line
 	6150 3300 6150 3550
 Wire Wire Line
@@ -1214,7 +1171,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 3300 6650 3550
 Wire Wire Line
-	5050 3050 5250 3050
+	3475 3050 5250 3050
 $Comp
 L MCU_ST_STM32F7:STM32F767VITx U1
 U 1 1 5D33DF9D
@@ -1242,7 +1199,7 @@ F 3 "" H 6150 9050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 3050 5050 4450
+	3475 3050 3475 4450
 Wire Wire Line
 	4200 3850 4450 3850
 Wire Wire Line
@@ -1322,23 +1279,7 @@ Wire Wire Line
 Wire Wire Line
 	15350 3175 15200 3175
 Connection ~ 15200 3175
-$Comp
-L Device:R R26
-U 1 1 5D13DF09
-P 4500 4050
-F 0 "R26" V 4580 4050 50  0000 C CNN
-F 1 "DNP" V 4500 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6830 6350 60  0001 C CNN
-F 3 "" H 10350 6375 60  0001 C CNN
-F 4 "DNP" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "DNP" H 0   0   50  0001 C CNN "VEND#"
-F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
-	1    4500 4050
-	0    1    -1   0   
-$EndComp
-Connection ~ 4650 4050
-Text Label 4350 4050 2    60   ~ 12
+Text Label 4150 4300 2    60   ~ 12
 VDD
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -1499,4 +1440,55 @@ F 3 "~" H 7400 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 4750 7600 4750
+Wire Wire Line
+	11600 6200 11200 6200
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5CDE2131
+P 11900 6200
+F 0 "J2" H 11950 5900 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 11950 6526 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11900 6200 50  0001 C CNN
+F 3 "~" H 11900 6200 50  0001 C CNN
+F 4 "MOUSER" H 100 0   50  0001 C CNN "VEND"
+F 5 "Amphenol" H 100 0   50  0001 C CNN "Manufacturer"
+F 6 "95278-801B10LF" H 100 0   50  0001 C CNN "Part #"
+F 7 "649-95278-801B10LF" H 100 0   50  0001 C CNN "VEND#"
+	1    11900 6200
+	-1   0    0    1   
+$EndComp
+Text Label 11600 6100 2    60   ~ 12
+GND
+Text Label 12100 6100 0    60   ~ 12
+GND
+Text Label 12450 6300 0    60   ~ 12
+3.3V
+Wire Wire Line
+	12100 6300 12450 6300
+Text Label 11200 6300 2    60   ~ 12
+3.3V
+Wire Wire Line
+	11600 6300 11200 6300
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5D4BAD74
+P 4350 4300
+F 0 "SW1" H 4350 4493 50  0000 C CNN
+F 1 "SW_Push" H 4350 4494 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 4350 4500 50  0001 C CNN
+F 3 "~" H 4350 4500 50  0001 C CNN
+F 4 "TBD" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "TBD" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "TBD" H 0   0   50  0001 C CNN "VEND#"
+	1    4350 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4300 4550 4050
+Wire Wire Line
+	4550 4050 5550 4050
+Connection ~ 4550 4300
+Wire Wire Line
+	3475 4450 5550 4450
 $EndSCHEMATC
