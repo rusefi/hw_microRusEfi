@@ -208,10 +208,10 @@ F8 "IGN_1_MCU" I L 9000 7225 60
 F9 "IGN_2_MCU" I L 9000 7325 60 
 F10 "IGN_3_MCU" I L 9000 7425 60 
 F11 "IGN_4_MCU" I L 9000 7525 60 
-F12 "HS1" I R 10050 7625 50 
-F13 "HS2" I R 10050 7725 50 
-F14 "HS1_MCU" I L 9000 7625 50 
-F15 "HS2_MCU" I L 9000 7725 50 
+F12 "HS1" I R 10050 7625 60 
+F13 "HS2" I R 10050 7725 60 
+F14 "HS1_MCU" I L 9000 7625 60 
+F15 "HS2_MCU" I L 9000 7725 60 
 $EndSheet
 Wire Wire Line
 	7950 7225 9000 7225
@@ -228,7 +228,7 @@ Wire Wire Line
 Text Label 10050 8075 0    60   ~ 12
 5V
 Text Label 11725 5925 0    60   ~ 12
-GP_OUT_4
+GP4
 Wire Wire Line
 	6700 5275 5600 5275
 Text Label 6200 5275 2    60   ~ 12
@@ -257,13 +257,13 @@ F 7 "WM4430-ND" H 0   0   50  0001 C CNN "VEND#"
 	0    -1   -1   0   
 $EndComp
 Text Label 8350 1575 3    60   ~ 12
-GP_OUT_2
+GP2
 Text Label 7150 1575 3    60   ~ 12
 AT2
 Text Label 8050 1575 3    60   ~ 12
 AV3
 Text Label 8250 1575 3    60   ~ 12
-GP_OUT_3
+GP3
 Text Label 9550 1575 3    60   ~ 12
 CRNK+
 Text Label 9700 1575 3    60   ~ 12
@@ -279,9 +279,9 @@ Text Label 8900 1575 3    60   ~ 12
 Text Label 8150 1575 3    60   ~ 12
 AV6
 Text Label 9300 1575 3    60   ~ 12
-GP_OUT_4
+GP4
 Text Label 8450 1575 3    60   ~ 12
-GP_OUT_1
+GP1
 Text Label 6600 1575 3    60   ~ 12
 AT1
 Text Label 7250 1575 3    60   ~ 12
@@ -293,7 +293,7 @@ GND
 Text Label 9800 1575 3    60   ~ 12
 CANL
 Text Label 5700 1575 3    60   ~ 12
-COIL-4
+Ign4
 Text Label 4750 1575 3    60   ~ 12
 12V-SWITCH
 Text Label 9200 1575 3    60   ~ 12
@@ -339,13 +339,13 @@ E-THROTTLE+
 Text Label 5500 1575 3    60   ~ 12
 E-THROTTLE-
 Text Label 5400 1575 3    50   ~ 10
-VVT-1
+LS1
 Text Label 4950 1575 3    50   ~ 10
-VVT-2
+LS2
 Text Label 11700 4525 0    50   ~ 10
-VVT-1
+LS1
 Text Label 11700 4425 0    50   ~ 10
-VVT-2
+LS2
 Text Label 4725 6425 2    60   ~ 12
 GND
 Text Label 4725 6325 2    60   ~ 12
@@ -436,11 +436,11 @@ Wire Wire Line
 Wire Wire Line
 	10750 4025 11675 4025
 Text Label 11725 5725 0    60   ~ 12
-GP_OUT_2
+GP2
 Text Label 11725 5625 0    60   ~ 12
-GP_OUT_1
+GP1
 Text Label 11725 5825 0    60   ~ 12
-GP_OUT_3
+GP3
 Text Notes 11775 3725 0    50   ~ 10
 LOW SIDE OUTPUTS\n
 Text Notes 12350 4375 0    50   ~ 10
@@ -1009,13 +1009,13 @@ Connection ~ 8500 3700
 Wire Wire Line
 	8850 5725 9000 5725
 Text Label 11725 5925 0    60   ~ 12
-GP_OUT_4
+GP4
 Text Label 11725 5725 0    60   ~ 12
-GP_OUT_2
+GP2
 Text Label 11725 5625 0    60   ~ 12
-GP_OUT_1
+GP1
 Text Label 11725 5825 0    60   ~ 12
-GP_OUT_3
+GP3
 Text Notes 12325 5700 0    50   ~ 10
 0.6A
 Text Notes 11650 5450 0    50   ~ 10
@@ -1031,27 +1031,27 @@ Wire Wire Line
 Text Notes 14650 6200 0    63   ~ 0
 PE1 is orange - warning\nPE2 is blue - communication\nPE3 is red - fatal\nPE4 is green - running
 Text Label 10425 7525 0    60   ~ 12
-COIL-4
+Ign4
 Text Label 5600 1575 3    60   ~ 12
-COIL-3
+Ign3
 Text Label 10425 7425 0    60   ~ 12
-COIL-3
+Ign3
 Text Label 6000 1575 3    60   ~ 12
-COIL-2
+Ign2
 Text Label 10425 7325 0    60   ~ 12
-COIL-2
-Text Label 10425 7725 0    50   ~ 10
-GP_OUT_6
+Ign2
+Text Label 10425 7725 0    60   ~ 12
+GP6
 Text Label 5900 1575 3    60   ~ 12
-GP_OUT_6
-Text Label 10425 7625 0    50   ~ 10
-GP_OUT_5
+GP6
+Text Label 10425 7625 0    60   ~ 12
+GP5
 Text Label 10425 7225 0    60   ~ 12
-COIL-1
+Ign1
 Text Label 6100 1575 3    60   ~ 12
-COIL-1
+Ign1
 Text Label 5800 1575 3    60   ~ 12
-GP_OUT_5
+GP5
 $Comp
 L rusefi_Logo:LOGO LOGO2
 U 1 1 5D54AA23
@@ -1378,7 +1378,7 @@ F 7 "Lite-On " H 425 -1275 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 Text Label 14350 5225 3    50   ~ 10
-VVT-2
+LS2
 $Comp
 L Device:D_Schottky D32
 U 1 1 5D8FFD90
@@ -1427,7 +1427,7 @@ $EndComp
 Text Label 14725 5225 3    60   ~ 12
 INJECTOR-1
 Text Label 15075 5225 3    60   ~ 12
-COIL-1
+Ign1
 NoConn ~ 7950 8525
 Wire Wire Line
 	14525 6200 14525 6150
