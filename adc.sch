@@ -304,9 +304,9 @@ Wire Wire Line
 Wire Wire Line
 	7950 2350 7950 2550
 Text HLabel 1950 2100 0    60   Input ~ 0
-ADC_1
+AT1
 Text HLabel 1950 2200 0    60   Input ~ 0
-ADC_2
+AT2
 $Comp
 L power:GND #PWR0166
 U 1 1 5CF977E6
@@ -586,41 +586,41 @@ Wire Wire Line
 Wire Wire Line
 	7950 5000 7950 5200
 Text HLabel 1725 4750 0    60   Input ~ 0
-ADC_5
+AV1
 Text HLabel 1725 4850 0    60   Input ~ 0
-ADC_6
+AV10
 Text HLabel 8850 3600 0    60   Input ~ 0
-ADC_9
+AV4
 Text HLabel 8850 3700 0    60   Input ~ 0
-ADC_10
+AV5
 Text HLabel 1950 2300 0    60   Input ~ 0
-ADC_3
+AT3
 Text HLabel 1950 2400 0    60   Input ~ 0
-ADC_4
+AT4
 Text HLabel 7650 2550 3    60   Input ~ 0
-ADC_1_MCU
+AT1_MCU
 Text HLabel 7750 2550 3    60   Input ~ 0
-ADC_2_MCU
+AT2_MCU
 Text HLabel 7850 2550 3    60   Input ~ 0
-ADC_3_MCU
+AT3_MCU
 Text HLabel 7950 2550 3    60   Input ~ 0
-ADC_4_MCU
+AT4_MCU
 Text HLabel 1725 4950 0    60   Input ~ 0
-ADC_7
+AV2
 Text HLabel 1725 5050 0    60   Input ~ 0
-ADC_8
+AV3
 Text HLabel 7650 5200 3    60   Input ~ 0
-ADC_5_MCU
+AV1_MCU
 Text HLabel 7750 5200 3    60   Input ~ 0
-ADC_6_MCU
+AV10_MCU
 Text HLabel 7850 5200 3    60   Input ~ 0
-ADC_7_MCU
+AV2_MCU
 Text HLabel 7950 5200 3    60   Input ~ 0
-ADC_8_MCU
+AV3_MCU
 Text HLabel 14850 3800 3    60   Input ~ 0
-ADC_9_MCU
+AV4_MCU
 Text HLabel 14950 3800 3    60   Input ~ 0
-ADC_10_MCU
+AV5_MCU
 $Comp
 L Amplifier_Operational:MCP6004 U46
 U 4 1 5D0E7D4C
@@ -2188,21 +2188,21 @@ Wire Wire Line
 Wire Wire Line
 	7500 8600 7500 8800
 Text HLabel 1500 8350 0    60   Input ~ 0
-ADC_11
+AV6
 Text HLabel 1500 8450 0    60   Input ~ 0
-ADC_12
+AV7
 Text HLabel 1500 8550 0    60   Input ~ 0
-ADC_13
+AV8
 Text HLabel 1500 8650 0    60   Input ~ 0
-ADC_14
+AV9
 Text HLabel 7200 8800 3    60   Input ~ 0
-ADC_11_MCU
+AV6_MCU
 Text HLabel 7300 8800 3    60   Input ~ 0
-ADC_12_MCU
+AV7_MCU
 Text HLabel 7400 8800 3    60   Input ~ 0
-ADC_13_MCU
+AV8_MCU
 Text HLabel 7500 8800 3    60   Input ~ 0
-ADC_14_MCU
+AV9_MCU
 Wire Wire Line
 	5250 9700 5250 8450
 Connection ~ 5250 8450
