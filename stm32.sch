@@ -966,10 +966,6 @@ F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 $EndComp
 Text Label 12100 6000 0    60   ~ 12
 SWDIO
-Wire Wire Line
-	12100 6200 12450 6200
-Wire Wire Line
-	12100 6000 12450 6000
 Text Label 12100 6200 0    60   ~ 12
 SCK
 Text Label 11600 6200 2    60   ~ 12
@@ -1440,35 +1436,14 @@ F 3 "~" H 7400 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 4750 7600 4750
-Wire Wire Line
-	11600 6200 10900 6200
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
-U 1 1 5CDE2131
-P 11900 6200
-F 0 "J2" H 11950 5900 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 11950 6526 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11900 6200 50  0001 C CNN
-F 3 "~" H 11900 6200 50  0001 C CNN
-F 4 "MOUSER" H 100 0   50  0001 C CNN "VEND"
-F 5 "Amphenol" H 100 0   50  0001 C CNN "Manufacturer"
-F 6 "95278-801B10LF" H 100 0   50  0001 C CNN "Part #"
-F 7 "649-95278-801B10LF" H 100 0   50  0001 C CNN "VEND#"
-	1    11900 6200
-	-1   0    0    1   
-$EndComp
 Text Label 11600 6100 2    60   ~ 12
 GND
 Text Label 12100 6100 0    60   ~ 12
 GND
 Text Label 12450 6300 0    60   ~ 12
 3.3V
-Wire Wire Line
-	12100 6300 12450 6300
 Text Label 10900 6300 2    60   ~ 12
 3.3V
-Wire Wire Line
-	11600 6300 10900 6300
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5D4BAD74
@@ -1501,4 +1476,29 @@ Wire Notes Line
 	11725 6275 11700 6275
 Wire Notes Line
 	11700 6275 11700 6125
+Wire Wire Line
+	11600 6200 10900 6200
+Wire Wire Line
+	11600 6300 10900 6300
+Wire Wire Line
+	12100 6200 12450 6200
+Wire Wire Line
+	12100 6300 12450 6300
+Wire Wire Line
+	12100 6000 12450 6000
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5CDE2131
+P 11900 6200
+F 0 "J2" H 11950 5900 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 11950 6526 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11900 6200 50  0001 C CNN
+F 3 "~" H 11900 6200 50  0001 C CNN
+F 4 "MOUSER" H 100 0   50  0001 C CNN "VEND"
+F 5 "Amphenol" H 100 0   50  0001 C CNN "Manufacturer"
+F 6 "95278-801B10LF" H 100 0   50  0001 C CNN "Part #"
+F 7 "649-95278-801B10LF" H 100 0   50  0001 C CNN "VEND#"
+	1    11900 6200
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
