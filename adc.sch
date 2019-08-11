@@ -111,7 +111,7 @@ F 7 "MicroChip" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6650 2050
 	1    0    0    -1  
 $EndComp
-Text HLabel 7350 3100 1    60   Input ~ 0
+Text HLabel 7350 3100 1    60   Input ~ 6
 5V
 $Comp
 L Amplifier_Operational:MCP6004 U35
@@ -303,9 +303,9 @@ Wire Wire Line
 	7850 2250 7950 2250
 Wire Wire Line
 	7950 2350 7950 2550
-Text HLabel 1950 2100 0    60   Input ~ 0
+Text HLabel 1950 2100 0    60   Input ~ 6
 AT1
-Text HLabel 1950 2200 0    60   Input ~ 0
+Text HLabel 1950 2200 0    60   Input ~ 6
 AT2
 $Comp
 L power:GND #PWR0166
@@ -404,7 +404,7 @@ F 7 "MicroChip" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6650 4700
 	1    0    0    -1  
 $EndComp
-Text HLabel 6250 5950 1    60   Input ~ 0
+Text HLabel 6250 5950 1    60   Input ~ 6
 5V
 $Comp
 L Amplifier_Operational:MCP6004 U36
@@ -585,41 +585,41 @@ Wire Wire Line
 	7850 4900 7950 4900
 Wire Wire Line
 	7950 5000 7950 5200
-Text HLabel 1725 4750 0    60   Input ~ 0
+Text HLabel 1725 4750 0    60   Input ~ 6
 AV1
-Text HLabel 1725 4850 0    60   Input ~ 0
+Text HLabel 1725 4850 0    60   Input ~ 6
 AV10
-Text HLabel 8850 3600 0    60   Input ~ 0
+Text HLabel 8850 3600 0    60   Input ~ 6
 AV4
-Text HLabel 8850 3700 0    60   Input ~ 0
+Text HLabel 8850 3700 0    60   Input ~ 6
 AV5
-Text HLabel 1950 2300 0    60   Input ~ 0
+Text HLabel 1950 2300 0    60   Input ~ 6
 AT3
-Text HLabel 1950 2400 0    60   Input ~ 0
+Text HLabel 1950 2400 0    60   Input ~ 6
 AT4
-Text HLabel 7650 2550 3    60   Input ~ 0
+Text HLabel 7650 2550 3    60   Input ~ 6
 AT1_MCU
-Text HLabel 7750 2550 3    60   Input ~ 0
+Text HLabel 7750 2550 3    60   Input ~ 6
 AT2_MCU
-Text HLabel 7850 2550 3    60   Input ~ 0
+Text HLabel 7850 2550 3    60   Input ~ 6
 AT3_MCU
-Text HLabel 7950 2550 3    60   Input ~ 0
+Text HLabel 7950 2550 3    60   Input ~ 6
 AT4_MCU
-Text HLabel 1725 4950 0    60   Input ~ 0
+Text HLabel 1725 4950 0    60   Input ~ 6
 AV2
-Text HLabel 1725 5050 0    60   Input ~ 0
+Text HLabel 1725 5050 0    60   Input ~ 6
 AV3
-Text HLabel 7650 5200 3    60   Input ~ 0
+Text HLabel 7650 5200 3    60   Input ~ 6
 AV1_MCU
-Text HLabel 7750 5200 3    60   Input ~ 0
+Text HLabel 7750 5200 3    60   Input ~ 6
 AV10_MCU
-Text HLabel 7850 5200 3    60   Input ~ 0
+Text HLabel 7850 5200 3    60   Input ~ 6
 AV2_MCU
-Text HLabel 7950 5200 3    60   Input ~ 0
+Text HLabel 7950 5200 3    60   Input ~ 6
 AV3_MCU
-Text HLabel 14850 3800 3    60   Input ~ 0
+Text HLabel 14850 3800 3    60   Input ~ 6
 AV4_MCU
-Text HLabel 14950 3800 3    60   Input ~ 0
+Text HLabel 14950 3800 3    60   Input ~ 6
 AV5_MCU
 $Comp
 L Amplifier_Operational:MCP6004 U46
@@ -692,7 +692,7 @@ F 3 "" H 15400 3750 60  0000 C CNN
 	1    15400 3750
 	1    0    0    -1  
 $EndComp
-Text Label 9350 3400 0    60   ~ 0
+Text Label 9350 3400 0    60   ~ 6
 5V
 $Comp
 L Device:R R139
@@ -735,11 +735,11 @@ F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9750 2700
 	-1   0    0    1   
 $EndComp
-Text HLabel 9550 2550 1    60   Input ~ 0
+Text HLabel 9550 2550 1    60   Input ~ 6
 12V-SWITCH
-Text HLabel 14650 3800 3    60   Input ~ 0
+Text HLabel 14650 3800 3    60   Input ~ 6
 Vref
-Text HLabel 14750 3800 3    60   Input ~ 0
+Text HLabel 14750 3800 3    60   Input ~ 6
 Vbat_MCU
 Wire Wire Line
 	13600 5250 13600 5400
@@ -761,7 +761,7 @@ F 7 "MicroChip" H 0   0   50  0001 C CNN "Manufacturer"
 	5    13700 5700
 	1    0    0    -1  
 $EndComp
-Text HLabel 13600 5000 1    60   Input ~ 0
+Text HLabel 13600 5000 1    60   Input ~ 6
 5V
 $Comp
 L power:GND #PWR0188
@@ -961,23 +961,23 @@ F 7 "ON-SEMI" H 0   0   50  0001 C CNN "Manufacturer"
 	1    11750 3600
 	0    -1   -1   0   
 $EndComp
-Text Label 11650 3050 0    60   ~ 0
+Text Label 11650 3050 0    60   ~ 6
 5V
-Text Label 11350 3050 0    60   ~ 0
+Text Label 11350 3050 0    60   ~ 6
 5V
-Text Label 4175 4400 0    60   ~ 0
+Text Label 4175 4400 0    60   ~ 6
 5V
-Text Label 4525 4400 0    60   ~ 0
+Text Label 4525 4400 0    60   ~ 6
 5V
-Text Label 4925 4400 0    60   ~ 0
+Text Label 4925 4400 0    60   ~ 6
 5V
-Text Label 4125 1750 0    60   ~ 0
+Text Label 4125 1750 0    60   ~ 6
 5V
-Text Label 4500 1750 0    60   ~ 0
+Text Label 4500 1750 0    60   ~ 6
 5V
-Text Label 4875 1750 0    60   ~ 0
+Text Label 4875 1750 0    60   ~ 6
 5V
-Text Label 5200 1750 0    60   ~ 0
+Text Label 5200 1750 0    60   ~ 6
 5V
 $Comp
 L power:GND #PWR0113
@@ -1089,7 +1089,7 @@ F 3 "" H 11350 4050 60  0000 C CNN
 	1    11350 4050
 	1    0    0    -1  
 $EndComp
-Text Label 2500 1300 0    60   ~ 0
+Text Label 2500 1300 0    60   ~ 6
 5V
 $Comp
 L Device:R R14
@@ -1106,9 +1106,9 @@ F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2500 1450
 	-1   0    0    1   
 $EndComp
-Text Label 5275 4400 0    60   ~ 0
+Text Label 5275 4400 0    60   ~ 6
 5V
-Text Label 2675 1300 0    60   ~ 0
+Text Label 2675 1300 0    60   ~ 6
 5V
 $Comp
 L Device:R R23
@@ -1125,7 +1125,7 @@ F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2675 1450
 	-1   0    0    1   
 $EndComp
-Text Label 2850 1300 0    60   ~ 0
+Text Label 2850 1300 0    60   ~ 6
 5V
 $Comp
 L Device:R R25
@@ -1142,7 +1142,7 @@ F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
 	1    2850 1450
 	-1   0    0    1   
 $EndComp
-Text Label 3025 1300 0    60   ~ 0
+Text Label 3025 1300 0    60   ~ 6
 5V
 $Comp
 L Device:R R27
@@ -1165,7 +1165,7 @@ Wire Wire Line
 	2850 2200 2850 1600
 Wire Wire Line
 	2675 1600 2675 2300
-Text Label 9025 4650 3    60   ~ 0
+Text Label 9025 4650 3    60   ~ 6
 5V
 $Comp
 L Device:R R11
@@ -1474,7 +1474,7 @@ Wire Wire Line
 	2700 4750 2700 5275
 Wire Wire Line
 	2525 4850 2525 5275
-Text Label 9700 4650 3    60   ~ 0
+Text Label 9700 4650 3    60   ~ 6
 5V
 $Comp
 L Device:R R40
@@ -2078,7 +2078,7 @@ F 7 "MicroChip" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6200 8300
 	1    0    0    -1  
 $EndComp
-Text HLabel 6900 9350 1    60   Input ~ 0
+Text HLabel 6900 9350 1    60   Input ~ 6
 5V
 $Comp
 L Amplifier_Operational:MCP6004 U8
@@ -2187,21 +2187,21 @@ Wire Wire Line
 	7400 8500 7500 8500
 Wire Wire Line
 	7500 8600 7500 8800
-Text HLabel 1500 8350 0    60   Input ~ 0
+Text HLabel 1500 8350 0    60   Input ~ 6
 AV6
-Text HLabel 1500 8450 0    60   Input ~ 0
+Text HLabel 1500 8450 0    60   Input ~ 6
 AV7
-Text HLabel 1500 8550 0    60   Input ~ 0
+Text HLabel 1500 8550 0    60   Input ~ 6
 AV8
-Text HLabel 1500 8650 0    60   Input ~ 0
+Text HLabel 1500 8650 0    60   Input ~ 6
 AV9
-Text HLabel 7200 8800 3    60   Input ~ 0
+Text HLabel 7200 8800 3    60   Input ~ 6
 AV6_MCU
-Text HLabel 7300 8800 3    60   Input ~ 0
+Text HLabel 7300 8800 3    60   Input ~ 6
 AV7_MCU
-Text HLabel 7400 8800 3    60   Input ~ 0
+Text HLabel 7400 8800 3    60   Input ~ 6
 AV8_MCU
-Text HLabel 7500 8800 3    60   Input ~ 0
+Text HLabel 7500 8800 3    60   Input ~ 6
 AV9_MCU
 Wire Wire Line
 	5250 9700 5250 8450
@@ -2277,13 +2277,13 @@ F 7 "ON-SEMI" H 0   0   50  0001 C CNN "Manufacturer"
 	1    3775 8700
 	0    -1   -1   0   
 $EndComp
-Text Label 3675 8000 0    60   ~ 0
+Text Label 3675 8000 0    60   ~ 6
 5V
-Text Label 4050 8000 0    60   ~ 0
+Text Label 4050 8000 0    60   ~ 6
 5V
-Text Label 4425 8000 0    60   ~ 0
+Text Label 4425 8000 0    60   ~ 6
 5V
-Text Label 4750 8000 0    60   ~ 0
+Text Label 4750 8000 0    60   ~ 6
 5V
 $Comp
 L power:GND #PWR0195
@@ -2697,9 +2697,9 @@ F 7 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
 	1    10975 7375
 	1    0    0    -1  
 $EndComp
-Text HLabel 10050 7225 0    50   Input ~ 0
+Text HLabel 10050 7225 0    50   Input ~ 6
 CAM
-Text HLabel 11650 7225 2    50   Input ~ 0
+Text HLabel 11650 7225 2    50   Input ~ 6
 CAM_MCU
 Wire Wire Line
 	10925 7225 10975 7225
@@ -2717,7 +2717,7 @@ F 3 "" H 10975 7525 60  0000 C CNN
 	1    10975 7525
 	1    0    0    -1  
 $EndComp
-Text Label 10500 6625 0    60   ~ 0
+Text Label 10500 6625 0    60   ~ 6
 5V
 $Comp
 L Diode:BAS40-04 D13
@@ -2745,7 +2745,7 @@ F 3 "" H 11300 7525 60  0000 C CNN
 	1    11300 7525
 	1    0    0    -1  
 $EndComp
-Text Label 11300 6925 0    60   ~ 0
+Text Label 11300 6925 0    60   ~ 6
 5V
 Connection ~ 11500 7225
 Wire Wire Line
