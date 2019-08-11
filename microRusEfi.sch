@@ -293,7 +293,7 @@ GND
 Text Label 9800 1575 3    60   ~ 12
 CANL
 Text Label 5700 1575 3    60   ~ 12
-Ign4
+Ign2
 Text Label 4750 1575 3    60   ~ 12
 12V-SWITCH
 Text Label 9200 1575 3    60   ~ 12
@@ -802,7 +802,7 @@ $Comp
 L Connector:TestPoint TP4
 U 1 1 5D358BCF
 P 14400 2350
-F 0 "TP4" V 14400 2550 50  0000 L CNN
+F 0 "TP4" V 14400 2525 50  0000 L CNN
 F 1 "TP" H 14350 2575 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 14600 2350 50  0001 C CNN
 F 3 "~" H 14600 2350 50  0001 C CNN
@@ -1016,27 +1016,25 @@ Wire Wire Line
 Text Notes 14650 6200 0    63   ~ 0
 PE1 is orange - warning\nPE2 is blue - communication\nPE3 is red - fatal\nPE4 is green - running
 Text Label 10425 7525 0    60   ~ 12
-Ign4
+Ign2
 Text Label 5600 1575 3    60   ~ 12
-Ign3
+Ign1
 Text Label 10425 7425 0    60   ~ 12
-Ign3
+Ign1
 Text Label 6000 1575 3    60   ~ 12
-Ign2
-Text Label 10425 7325 0    60   ~ 12
-Ign2
+GP6
 Text Label 10425 7725 0    60   ~ 12
-GP6
+Ign4
 Text Label 5900 1575 3    60   ~ 12
-GP6
+Ign4
 Text Label 10425 7625 0    60   ~ 12
-GP5
+Ign3
 Text Label 10425 7225 0    60   ~ 12
-Ign1
-Text Label 6100 1575 3    60   ~ 12
-Ign1
-Text Label 5800 1575 3    60   ~ 12
 GP5
+Text Label 6100 1575 3    60   ~ 12
+GP5
+Text Label 5800 1575 3    60   ~ 12
+Ign3
 $Comp
 L rusefi_Logo:LOGO LOGO2
 U 1 1 5D54AA23
@@ -1412,7 +1410,7 @@ $EndComp
 Text Label 14725 5225 3    60   ~ 12
 INJECTOR-1
 Text Label 15075 5225 3    60   ~ 12
-Ign1
+GP5
 NoConn ~ 7950 8525
 Wire Wire Line
 	14525 6200 14525 6150
@@ -1443,4 +1441,40 @@ Wire Wire Line
 	5600 5000 6700 5000
 Text Label 14400 2225 2    60   ~ 12
 CAM_MCU
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5D743C4C
+P 14400 2475
+F 0 "TP5" V 14400 2650 50  0000 L CNN
+F 1 "5V" V 14400 2850 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 14600 2475 50  0001 C CNN
+F 3 "~" H 14600 2475 50  0001 C CNN
+F 4 "DNP" H 5950 -3250 50  0001 C CNN "Part #"
+F 5 "DNP" H 5950 -3250 50  0001 C CNN "VEND"
+F 6 "DNP" H 5950 -3250 50  0001 C CNN "VEND#"
+F 7 "DNP" H 5950 -3250 50  0001 C CNN "Manufacturer"
+	1    14400 2475
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5D743C5A
+P 14400 2600
+F 0 "TP6" V 14400 2775 50  0000 L CNN
+F 1 "GND" H 14225 2650 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 14600 2600 50  0001 C CNN
+F 3 "~" H 14600 2600 50  0001 C CNN
+F 4 "DNP" H 6100 -3275 50  0001 C CNN "Part #"
+F 5 "DNP" H 6100 -3275 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 6100 -3275 50  0001 C CNN "VEND"
+F 7 "DNP" H 6100 -3275 50  0001 C CNN "VEND#"
+	1    14400 2600
+	0    1    1    0   
+$EndComp
+Text Label 14400 2600 2    60   ~ 12
+GND
+Text Label 14400 2475 2    60   ~ 12
+12V-SWITCH
+Text Label 10425 7325 0    60   ~ 12
+GP6
 $EndSCHEMATC
