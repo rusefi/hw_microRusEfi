@@ -151,7 +151,7 @@ Text Label 12450 6000 0    60   ~ 12
 PA13
 Text Label 11600 6000 2    60   ~ 12
 NRST
-Text Label 11200 6200 2    60   ~ 12
+Text Label 10900 6200 2    60   ~ 12
 PB3
 $Comp
 L Device:LED D14
@@ -1441,7 +1441,7 @@ $EndComp
 Wire Wire Line
 	7500 4750 7600 4750
 Wire Wire Line
-	11600 6200 11200 6200
+	11600 6200 10900 6200
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J2
 U 1 1 5CDE2131
@@ -1465,10 +1465,10 @@ Text Label 12450 6300 0    60   ~ 12
 3.3V
 Wire Wire Line
 	12100 6300 12450 6300
-Text Label 11200 6300 2    60   ~ 12
+Text Label 10900 6300 2    60   ~ 12
 3.3V
 Wire Wire Line
-	11600 6300 11200 6300
+	11600 6300 10900 6300
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5D4BAD74
@@ -1491,4 +1491,14 @@ Wire Wire Line
 Connection ~ 4550 4300
 Wire Wire Line
 	3475 4450 5550 4450
+Text Label 11350 6200 2    60   ~ 12
+SWIM
+Wire Notes Line
+	11700 6125 11725 6125
+Wire Notes Line
+	11725 6125 11725 6275
+Wire Notes Line
+	11725 6275 11700 6275
+Wire Notes Line
+	11700 6275 11700 6125
 $EndSCHEMATC
