@@ -179,17 +179,17 @@ Text Label 4050 5275 2    60   ~ 12
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5C694318
-P 8850 5725
-F 0 "TP1" H 8908 5843 50  0001 L CNN
-F 1 "5V" V 8850 5900 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 9050 5725 50  0001 C CNN
-F 3 "~" H 9050 5725 50  0001 C CNN
-F 4 "DNP" H 400 0   50  0001 C CNN "Part #"
-F 5 "DNP" H 400 0   50  0001 C CNN "VEND"
-F 6 "DNP" H 400 0   50  0001 C CNN "VEND#"
-F 7 "DNP" H 400 0   50  0001 C CNN "Manufacturer"
-	1    8850 5725
-	0    -1   -1   0   
+P 14400 1975
+F 0 "TP1" V 14400 2150 50  0000 L CNN
+F 1 "5V" V 14400 2350 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 14600 1975 50  0001 C CNN
+F 3 "~" H 14600 1975 50  0001 C CNN
+F 4 "DNP" H 5950 -3750 50  0001 C CNN "Part #"
+F 5 "DNP" H 5950 -3750 50  0001 C CNN "VEND"
+F 6 "DNP" H 5950 -3750 50  0001 C CNN "VEND#"
+F 7 "DNP" H 5950 -3750 50  0001 C CNN "Manufacturer"
+	1    14400 1975
+	0    1    1    0   
 $EndComp
 Text Label 10750 6675 0    60   ~ 12
 VDD
@@ -231,7 +231,7 @@ Text Label 11725 5925 0    60   ~ 12
 GP4
 Wire Wire Line
 	6700 5275 5600 5275
-Text Label 6200 5275 2    60   ~ 12
+Text Label 5650 5275 0    60   ~ 12
 Vref
 Text Label 11675 4025 0    60   ~ 12
 INJECTOR-2
@@ -484,17 +484,17 @@ Wire Notes Line
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5D356EBD
-P 8500 3350
-F 0 "TP2" H 8558 3468 50  0000 L CNN
-F 1 "GND" H 8325 3400 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 8700 3350 50  0001 C CNN
-F 3 "~" H 8700 3350 50  0001 C CNN
-F 4 "DNP" H 200 -2525 50  0001 C CNN "Part #"
-F 5 "DNP" H 200 -2525 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H 200 -2525 50  0001 C CNN "VEND"
-F 7 "DNP" H 200 -2525 50  0001 C CNN "VEND#"
-	1    8500 3350
-	1    0    0    -1  
+P 14400 2100
+F 0 "TP2" V 14400 2275 50  0000 L CNN
+F 1 "GND" H 14225 2150 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 14600 2100 50  0001 C CNN
+F 3 "~" H 14600 2100 50  0001 C CNN
+F 4 "DNP" H 6100 -3775 50  0001 C CNN "Part #"
+F 5 "DNP" H 6100 -3775 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 6100 -3775 50  0001 C CNN "VEND"
+F 7 "DNP" H 6100 -3775 50  0001 C CNN "VEND#"
+	1    14400 2100
+	0    1    1    0   
 $EndComp
 Text Label 7750 1575 3    60   ~ 12
 MAIN_RELAY
@@ -632,7 +632,7 @@ Text Label 6700 5400 2    50   ~ 10
 USB_D-
 Text Label 6700 5475 2    50   ~ 10
 USB_D+
-Text Label 5975 5150 0    60   ~ 12
+Text Label 5650 5150 0    60   ~ 12
 Vbat_MCU
 Text Label 5625 4425 0    60   ~ 12
 AV6_MCU
@@ -798,46 +798,36 @@ F8 "WP" I R 6200 7900 50
 $EndSheet
 Text Label 5500 7625 2    50   ~ 10
 VDD
-Wire Wire Line
-	7950 5475 8125 5475
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5D358BCF
-P 8125 5475
-F 0 "TP4" H 8125 5675 50  0000 L CNN
-F 1 "TP" H 8075 5700 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8325 5475 50  0001 C CNN
-F 3 "~" H 8325 5475 50  0001 C CNN
-F 4 "DNP" H 0   0   50  0001 C CNN "Part #"
-F 5 "DNP" H 0   0   50  0001 C CNN "VEND"
-F 6 "DNP" H 0   0   50  0001 C CNN "VEND#"
-F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
-	1    8125 5475
-	-1   0    0    1   
+P 14400 2350
+F 0 "TP4" V 14400 2550 50  0000 L CNN
+F 1 "TP" H 14350 2575 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 14600 2350 50  0001 C CNN
+F 3 "~" H 14600 2350 50  0001 C CNN
+F 4 "DNP" H 6275 -3125 50  0001 C CNN "Part #"
+F 5 "DNP" H 6275 -3125 50  0001 C CNN "VEND"
+F 6 "DNP" H 6275 -3125 50  0001 C CNN "VEND#"
+F 7 "DNP" H 6275 -3125 50  0001 C CNN "Manufacturer"
+	1    14400 2350
+	0    1    1    0   
 $EndComp
-Connection ~ 8125 5475
-Wire Wire Line
-	8125 5475 8325 5475
-Wire Wire Line
-	5600 5000 6150 5000
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5D08B37F
-P 6150 5000
-F 0 "TP3" H 6208 5118 50  0000 L CNN
-F 1 "TP" H 6208 5027 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6350 5000 50  0001 C CNN
-F 3 "~" H 6350 5000 50  0001 C CNN
-F 4 "DNP" H 0   75  50  0001 C CNN "Part #"
-F 5 "DNP" H 0   75  50  0001 C CNN "VEND"
-F 6 "DNP" H 0   75  50  0001 C CNN "VEND#"
-F 7 "DNP" H 0   75  50  0001 C CNN "Manufacturer"
-	1    6150 5000
-	1    0    0    -1  
+P 14400 2225
+F 0 "TP3" V 14400 2400 50  0000 L CNN
+F 1 "TP" H 14458 2252 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 14600 2225 50  0001 C CNN
+F 3 "~" H 14600 2225 50  0001 C CNN
+F 4 "DNP" H 8250 -2700 50  0001 C CNN "Part #"
+F 5 "DNP" H 8250 -2700 50  0001 C CNN "VEND"
+F 6 "DNP" H 8250 -2700 50  0001 C CNN "VEND#"
+F 7 "DNP" H 8250 -2700 50  0001 C CNN "Manufacturer"
+	1    14400 2225
+	0    1    1    0   
 $EndComp
-Connection ~ 6150 5000
-Wire Wire Line
-	6150 5000 6700 5000
 $Comp
 L power:GND #PWR0183
 U 1 1 5D16B569
@@ -1002,12 +992,7 @@ Wire Wire Line
 	14025 6050 14125 6050
 Wire Wire Line
 	14025 6150 14125 6150
-Connection ~ 8500 3400
-Wire Wire Line
-	8500 3350 8500 3400
 Connection ~ 8500 3700
-Wire Wire Line
-	8850 5725 9000 5725
 Text Label 11725 5925 0    60   ~ 12
 GP4
 Text Label 11725 5725 0    60   ~ 12
@@ -1444,4 +1429,18 @@ Wire Notes Line
 	3900 2700 3900 4875
 Wire Notes Line
 	2225 4875 2225 2700
+Text Label 14400 2350 2    60   ~ 12
+CRANK
+Text Label 14400 1975 2    60   ~ 12
+5V
+Text Label 14400 2100 2    60   ~ 12
+GND
+Wire Wire Line
+	7950 5475 8325 5475
+Text Label 5625 5000 0    60   ~ 12
+CAM_MCU
+Wire Wire Line
+	5600 5000 6700 5000
+Text Label 14400 2225 2    60   ~ 12
+CAM_MCU
 $EndSCHEMATC

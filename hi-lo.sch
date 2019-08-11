@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 6250 3300 0    160  ~ 32
-8 channel high / low side driver
+6 channel high / low side driver
 NoConn ~ 6150 7800
 NoConn ~ 6850 7800
 Wire Wire Line
