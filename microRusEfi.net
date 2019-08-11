@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\user\Desktop\hw_microRusEfi_JH\microRusEfi.sch)
-    (date "8/11/2019 5:50:49 AM")
+    (date "8/11/2019 6:12:49 AM")
     (tool "Eeschema (6.0.0-rc1-dev-1650-gf425f49c1)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2572,7 +2572,7 @@
       (tstamp 5CDE2131))
     (comp (ref SW1)
       (value SW_Push)
-      (footprint Button_Switch_SMD:SW_SPST_B3U-1000P)
+      (footprint Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK)
       (datasheet ~)
       (fields
         (field (name Manufacturer) TBD)
