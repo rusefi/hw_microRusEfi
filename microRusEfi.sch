@@ -6,7 +6,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 7
 Title "microRusEfi"
-Date "2019-07-13"
+Date "2019-08-11"
 Rev "R0.3"
 Comp ""
 Comment1 ""
@@ -179,17 +179,17 @@ Text Label 4050 5275 2    60   ~ 12
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5C694318
-P 8850 5725
-F 0 "TP1" H 8908 5843 50  0001 L CNN
-F 1 "5V" V 8850 5900 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 9050 5725 50  0001 C CNN
-F 3 "~" H 9050 5725 50  0001 C CNN
-F 4 "DNP" H 400 0   50  0001 C CNN "Part #"
-F 5 "DNP" H 400 0   50  0001 C CNN "VEND"
-F 6 "DNP" H 400 0   50  0001 C CNN "VEND#"
-F 7 "DNP" H 400 0   50  0001 C CNN "Manufacturer"
-	1    8850 5725
-	0    -1   -1   0   
+P 14400 1975
+F 0 "TP1" V 14400 2150 50  0000 L CNN
+F 1 "5V" V 14400 2350 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 14600 1975 50  0001 C CNN
+F 3 "~" H 14600 1975 50  0001 C CNN
+F 4 "DNP" H 5950 -3750 50  0001 C CNN "Part #"
+F 5 "DNP" H 5950 -3750 50  0001 C CNN "VEND"
+F 6 "DNP" H 5950 -3750 50  0001 C CNN "VEND#"
+F 7 "DNP" H 5950 -3750 50  0001 C CNN "Manufacturer"
+	1    14400 1975
+	0    1    1    0   
 $EndComp
 Text Label 10750 6675 0    60   ~ 12
 VDD
@@ -200,18 +200,18 @@ F0 "hi-lo" 60
 F1 "hi-lo.sch" 60
 F2 "12V" I R 10050 8175 60 
 F3 "5V" I R 10050 8075 60 
-F4 "IGN_1" I R 10050 7225 60 
-F5 "IGN_2" I R 10050 7325 60 
-F6 "IGN_3" I R 10050 7425 60 
-F7 "IGN_4" I R 10050 7525 60 
-F8 "IGN_1_MCU" I L 9000 7225 60 
-F9 "IGN_2_MCU" I L 9000 7325 60 
-F10 "IGN_3_MCU" I L 9000 7425 60 
-F11 "IGN_4_MCU" I L 9000 7525 60 
-F12 "HS1" I R 10050 7625 50 
-F13 "HS2" I R 10050 7725 50 
-F14 "HS1_MCU" I L 9000 7625 50 
-F15 "HS2_MCU" I L 9000 7725 50 
+F4 "GP5" I R 10050 7625 60 
+F5 "GP6" I R 10050 7725 60 
+F6 "Ign1" I R 10050 7225 60 
+F7 "Ign2" I R 10050 7325 60 
+F8 "GP5_MCU" I L 9000 7625 60 
+F9 "GP6_MCU" I L 9000 7725 60 
+F10 "Ign1_MCU" I L 9000 7225 60 
+F11 "Ign2_MCU" I L 9000 7325 60 
+F12 "Ign3" I R 10050 7425 60 
+F13 "Ign4" I R 10050 7525 60 
+F14 "Ign3_MCU" I L 9000 7425 60 
+F15 "Ign4_MCU" I L 9000 7525 60 
 $EndSheet
 Wire Wire Line
 	7950 7225 9000 7225
@@ -228,10 +228,10 @@ Wire Wire Line
 Text Label 10050 8075 0    60   ~ 12
 5V
 Text Label 11725 5925 0    60   ~ 12
-GP_OUT_4
+GP4
 Wire Wire Line
 	6700 5275 5600 5275
-Text Label 6200 5275 2    60   ~ 12
+Text Label 5650 5275 0    60   ~ 12
 Vref
 Text Label 11675 4025 0    60   ~ 12
 INJECTOR-2
@@ -257,13 +257,13 @@ F 7 "WM4430-ND" H 0   0   50  0001 C CNN "VEND#"
 	0    -1   -1   0   
 $EndComp
 Text Label 8350 1575 3    60   ~ 12
-GP_OUT_2
+GP2
 Text Label 7150 1575 3    60   ~ 12
 AT2
 Text Label 8050 1575 3    60   ~ 12
 AV3
 Text Label 8250 1575 3    60   ~ 12
-GP_OUT_3
+GP3
 Text Label 9550 1575 3    60   ~ 12
 CRNK+
 Text Label 9700 1575 3    60   ~ 12
@@ -279,9 +279,9 @@ Text Label 8900 1575 3    60   ~ 12
 Text Label 8150 1575 3    60   ~ 12
 AV6
 Text Label 9300 1575 3    60   ~ 12
-GP_OUT_4
+GP4
 Text Label 8450 1575 3    60   ~ 12
-GP_OUT_1
+GP1
 Text Label 6600 1575 3    60   ~ 12
 AT1
 Text Label 7250 1575 3    60   ~ 12
@@ -293,7 +293,7 @@ GND
 Text Label 9800 1575 3    60   ~ 12
 CANL
 Text Label 5700 1575 3    60   ~ 12
-COIL-4
+Ign2
 Text Label 4750 1575 3    60   ~ 12
 12V-SWITCH
 Text Label 9200 1575 3    60   ~ 12
@@ -339,13 +339,13 @@ E-THROTTLE+
 Text Label 5500 1575 3    60   ~ 12
 E-THROTTLE-
 Text Label 5400 1575 3    50   ~ 10
-VVT-1
+LS1
 Text Label 4950 1575 3    50   ~ 10
-VVT-2
+LS2
 Text Label 11700 4525 0    50   ~ 10
-VVT-1
+LS1
 Text Label 11700 4425 0    50   ~ 10
-VVT-2
+LS2
 Text Label 4725 6425 2    60   ~ 12
 GND
 Text Label 4725 6325 2    60   ~ 12
@@ -436,11 +436,11 @@ Wire Wire Line
 Wire Wire Line
 	10750 4025 11675 4025
 Text Label 11725 5725 0    60   ~ 12
-GP_OUT_2
+GP2
 Text Label 11725 5625 0    60   ~ 12
-GP_OUT_1
+GP1
 Text Label 11725 5825 0    60   ~ 12
-GP_OUT_3
+GP3
 Text Notes 11775 3725 0    50   ~ 10
 LOW SIDE OUTPUTS\n
 Text Notes 12350 4375 0    50   ~ 10
@@ -456,25 +456,25 @@ Wire Wire Line
 Text Notes 12350 4050 0    50   ~ 10
 2.2A
 Wire Wire Line
-	10050 7725 10425 7725
-Wire Wire Line
-	10425 7625 10050 7625
-Wire Wire Line
-	10425 7525 10050 7525
+	10050 7525 10425 7525
 Wire Wire Line
 	10425 7425 10050 7425
 Wire Wire Line
 	10425 7325 10050 7325
 Wire Wire Line
 	10425 7225 10050 7225
+Wire Wire Line
+	10425 7725 10050 7725
+Wire Wire Line
+	10425 7625 10050 7625
 Wire Notes Line
-	10325 7000 11400 7000
+	10325 6925 11400 6925
 Wire Notes Line
-	11400 7000 11400 8100
+	11400 6925 11400 8025
 Wire Notes Line
-	11400 8100 10325 8100
+	11400 8025 10325 8025
 Wire Notes Line
-	10325 8100 10325 7000
+	10325 8025 10325 6925
 Text Notes 11325 7925 2    50   ~ 10
 HIGH-SIDE OUTPUTS \n
 Text Notes 2550 3300 0    50   ~ 10
@@ -484,17 +484,17 @@ Wire Notes Line
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5D356EBD
-P 8500 3350
-F 0 "TP2" H 8558 3468 50  0001 L CNN
-F 1 "GND" H 8325 3400 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 8700 3350 50  0001 C CNN
-F 3 "~" H 8700 3350 50  0001 C CNN
-F 4 "DNP" H 200 -2525 50  0001 C CNN "Part #"
-F 5 "DNP" H 200 -2525 50  0001 C CNN "Manufacturer"
-F 6 "DNP" H 200 -2525 50  0001 C CNN "VEND"
-F 7 "DNP" H 200 -2525 50  0001 C CNN "VEND#"
-	1    8500 3350
-	1    0    0    -1  
+P 14400 2100
+F 0 "TP2" V 14400 2275 50  0000 L CNN
+F 1 "GND" H 14225 2150 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 14600 2100 50  0001 C CNN
+F 3 "~" H 14600 2100 50  0001 C CNN
+F 4 "DNP" H 6100 -3775 50  0001 C CNN "Part #"
+F 5 "DNP" H 6100 -3775 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 6100 -3775 50  0001 C CNN "VEND"
+F 7 "DNP" H 6100 -3775 50  0001 C CNN "VEND#"
+	1    14400 2100
+	0    1    1    0   
 $EndComp
 Text Label 7750 1575 3    60   ~ 12
 MAIN_RELAY
@@ -632,7 +632,7 @@ Text Label 6700 5400 2    50   ~ 10
 USB_D-
 Text Label 6700 5475 2    50   ~ 10
 USB_D+
-Text Label 5975 5150 0    60   ~ 12
+Text Label 5650 5150 0    60   ~ 12
 Vbat_MCU
 Text Label 5625 4425 0    60   ~ 12
 AV6_MCU
@@ -695,10 +695,10 @@ F46 "PE0" I L 6700 8350 60
 F47 "PB8" I L 6700 8725 60 
 F48 "PB6" I R 7950 4825 60 
 F49 "PB4" I R 7950 5025 60 
-F50 "PD7" I R 7950 7225 60 
+F50 "PD7" I R 7950 7625 60 
 F51 "PD5" I R 7950 5125 60 
-F52 "PD3" I R 7950 7525 60 
-F53 "PD1" I R 7950 7725 60 
+F52 "PD3" I R 7950 7325 60 
+F53 "PD1" I R 7950 7525 60 
 F54 "PC12" I R 7950 8725 60 
 F55 "PC10" I L 6700 9225 60 
 F56 "PA14" I R 7950 9425 60 
@@ -712,9 +712,9 @@ F63 "PB9" I R 7950 8425 60
 F64 "PB7" I R 7950 8625 60 
 F65 "PB5" I R 7950 5225 60 
 F66 "PB3" I R 7950 5325 60 
-F67 "PD6" I R 7950 7325 60 
-F68 "PD4" I R 7950 7425 60 
-F69 "PD2" I R 7950 7625 60 
+F67 "PD6" I R 7950 7725 60 
+F68 "PD4" I R 7950 7225 60 
+F69 "PD2" I R 7950 7425 60 
 F70 "PD0" I R 7950 9025 60 
 F71 "PC11" I L 6700 9325 60 
 F72 "PA15" I L 6700 9425 60 
@@ -798,46 +798,36 @@ F8 "WP" I R 6200 7900 50
 $EndSheet
 Text Label 5500 7625 2    50   ~ 10
 VDD
-Wire Wire Line
-	7950 5475 8125 5475
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5D358BCF
-P 8125 5475
-F 0 "TP4" H 8183 5593 50  0001 L CNN
-F 1 "TP" H 8075 5700 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8325 5475 50  0001 C CNN
-F 3 "~" H 8325 5475 50  0001 C CNN
-F 4 "DNP" H 0   0   50  0001 C CNN "Part #"
-F 5 "DNP" H 0   0   50  0001 C CNN "VEND"
-F 6 "DNP" H 0   0   50  0001 C CNN "VEND#"
-F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
-	1    8125 5475
-	-1   0    0    1   
+P 14400 2350
+F 0 "TP4" V 14400 2525 50  0000 L CNN
+F 1 "TP" H 14350 2575 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 14600 2350 50  0001 C CNN
+F 3 "~" H 14600 2350 50  0001 C CNN
+F 4 "DNP" H 6275 -3125 50  0001 C CNN "Part #"
+F 5 "DNP" H 6275 -3125 50  0001 C CNN "VEND"
+F 6 "DNP" H 6275 -3125 50  0001 C CNN "VEND#"
+F 7 "DNP" H 6275 -3125 50  0001 C CNN "Manufacturer"
+	1    14400 2350
+	0    1    1    0   
 $EndComp
-Connection ~ 8125 5475
-Wire Wire Line
-	8125 5475 8325 5475
-Wire Wire Line
-	5600 5000 6150 5000
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5D08B37F
-P 6150 5000
-F 0 "TP3" H 6208 5118 50  0001 L CNN
-F 1 "TP" H 6208 5027 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6350 5000 50  0001 C CNN
-F 3 "~" H 6350 5000 50  0001 C CNN
-F 4 "DNP" H 0   75  50  0001 C CNN "Part #"
-F 5 "DNP" H 0   75  50  0001 C CNN "VEND"
-F 6 "DNP" H 0   75  50  0001 C CNN "VEND#"
-F 7 "DNP" H 0   75  50  0001 C CNN "Manufacturer"
-	1    6150 5000
-	1    0    0    -1  
+P 14400 2225
+F 0 "TP3" V 14400 2400 50  0000 L CNN
+F 1 "TP" H 14458 2252 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 14600 2225 50  0001 C CNN
+F 3 "~" H 14600 2225 50  0001 C CNN
+F 4 "DNP" H 8250 -2700 50  0001 C CNN "Part #"
+F 5 "DNP" H 8250 -2700 50  0001 C CNN "VEND"
+F 6 "DNP" H 8250 -2700 50  0001 C CNN "VEND#"
+F 7 "DNP" H 8250 -2700 50  0001 C CNN "Manufacturer"
+	1    14400 2225
+	0    1    1    0   
 $EndComp
-Connection ~ 6150 5000
-Wire Wire Line
-	6150 5000 6700 5000
 $Comp
 L power:GND #PWR0183
 U 1 1 5D16B569
@@ -1002,20 +992,15 @@ Wire Wire Line
 	14025 6050 14125 6050
 Wire Wire Line
 	14025 6150 14125 6150
-Connection ~ 8500 3400
-Wire Wire Line
-	8500 3350 8500 3400
 Connection ~ 8500 3700
-Wire Wire Line
-	8850 5725 9000 5725
 Text Label 11725 5925 0    60   ~ 12
-GP_OUT_4
+GP4
 Text Label 11725 5725 0    60   ~ 12
-GP_OUT_2
+GP2
 Text Label 11725 5625 0    60   ~ 12
-GP_OUT_1
+GP1
 Text Label 11725 5825 0    60   ~ 12
-GP_OUT_3
+GP3
 Text Notes 12325 5700 0    50   ~ 10
 0.6A
 Text Notes 11650 5450 0    50   ~ 10
@@ -1028,30 +1013,28 @@ Wire Wire Line
 	13650 6050 13725 6050
 Wire Wire Line
 	13650 6150 13725 6150
-Text Notes 14650 6200 0    63   ~ 0
+Text Notes 14650 6200 0    63   ~ 6
 PE1 is orange - warning\nPE2 is blue - communication\nPE3 is red - fatal\nPE4 is green - running
-Text Label 10425 7525 0    60   ~ 12
-COIL-4
-Text Label 5600 1575 3    60   ~ 12
-COIL-3
-Text Label 10425 7425 0    60   ~ 12
-COIL-3
-Text Label 6000 1575 3    60   ~ 12
-COIL-2
 Text Label 10425 7325 0    60   ~ 12
-COIL-2
-Text Label 10425 7725 0    50   ~ 10
-GP_OUT_6
-Text Label 5900 1575 3    60   ~ 12
-GP_OUT_6
-Text Label 10425 7625 0    50   ~ 10
-GP_OUT_5
+Ign2
+Text Label 5600 1575 3    60   ~ 12
+Ign1
 Text Label 10425 7225 0    60   ~ 12
-COIL-1
+Ign1
+Text Label 6000 1575 3    60   ~ 12
+GP6
+Text Label 10425 7525 0    60   ~ 12
+Ign4
+Text Label 5900 1575 3    60   ~ 12
+Ign4
+Text Label 10425 7425 0    60   ~ 12
+Ign3
+Text Label 10425 7625 0    60   ~ 12
+GP5
 Text Label 6100 1575 3    60   ~ 12
-COIL-1
+GP5
 Text Label 5800 1575 3    60   ~ 12
-GP_OUT_5
+Ign3
 $Comp
 L rusefi_Logo:LOGO LOGO2
 U 1 1 5D54AA23
@@ -1378,7 +1361,7 @@ F 7 "Lite-On " H 425 -1275 50  0001 C CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 Text Label 14350 5225 3    50   ~ 10
-VVT-2
+LS2
 $Comp
 L Device:D_Schottky D32
 U 1 1 5D8FFD90
@@ -1427,7 +1410,7 @@ $EndComp
 Text Label 14725 5225 3    60   ~ 12
 INJECTOR-1
 Text Label 15075 5225 3    60   ~ 12
-COIL-1
+GP5
 NoConn ~ 7950 8525
 Wire Wire Line
 	14525 6200 14525 6150
@@ -1444,4 +1427,54 @@ Wire Notes Line
 	3900 2700 3900 4875
 Wire Notes Line
 	2225 4875 2225 2700
+Text Label 14400 2350 2    60   ~ 12
+CRANK
+Text Label 14400 1975 2    60   ~ 12
+5V
+Text Label 14400 2100 2    60   ~ 12
+GND
+Wire Wire Line
+	7950 5475 8325 5475
+Text Label 5625 5000 0    60   ~ 12
+CAM_MCU
+Wire Wire Line
+	5600 5000 6700 5000
+Text Label 14400 2225 2    60   ~ 12
+CAM_MCU
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5D743C4C
+P 14400 2475
+F 0 "TP5" V 14400 2650 50  0000 L CNN
+F 1 "5V" V 14400 2850 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 14600 2475 50  0001 C CNN
+F 3 "~" H 14600 2475 50  0001 C CNN
+F 4 "DNP" H 5950 -3250 50  0001 C CNN "Part #"
+F 5 "DNP" H 5950 -3250 50  0001 C CNN "VEND"
+F 6 "DNP" H 5950 -3250 50  0001 C CNN "VEND#"
+F 7 "DNP" H 5950 -3250 50  0001 C CNN "Manufacturer"
+	1    14400 2475
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5D743C5A
+P 14400 2600
+F 0 "TP6" V 14400 2775 50  0000 L CNN
+F 1 "GND" H 14225 2650 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 14600 2600 50  0001 C CNN
+F 3 "~" H 14600 2600 50  0001 C CNN
+F 4 "DNP" H 6100 -3275 50  0001 C CNN "Part #"
+F 5 "DNP" H 6100 -3275 50  0001 C CNN "Manufacturer"
+F 6 "DNP" H 6100 -3275 50  0001 C CNN "VEND"
+F 7 "DNP" H 6100 -3275 50  0001 C CNN "VEND#"
+	1    14400 2600
+	0    1    1    0   
+$EndComp
+Text Label 14400 2600 2    60   ~ 12
+GND
+Text Label 14400 2475 2    60   ~ 12
+12V-SWITCH
+Text Label 10425 7725 0    60   ~ 12
+GP6
 $EndSCHEMATC

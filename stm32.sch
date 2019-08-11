@@ -151,7 +151,7 @@ Text Label 12450 6000 0    60   ~ 12
 PA13
 Text Label 11600 6000 2    60   ~ 12
 NRST
-Text Label 11200 6200 2    60   ~ 12
+Text Label 10900 6200 2    60   ~ 12
 PB3
 $Comp
 L Device:LED D14
@@ -966,10 +966,6 @@ F 8 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 $EndComp
 Text Label 12100 6000 0    60   ~ 12
 SWDIO
-Wire Wire Line
-	12100 6200 12450 6200
-Wire Wire Line
-	12100 6000 12450 6000
 Text Label 12100 6200 0    60   ~ 12
 SCK
 Text Label 11600 6200 2    60   ~ 12
@@ -1159,34 +1155,7 @@ F 3 "" H 4850 4300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6150 3300 6150 3550
-Wire Wire Line
-	6250 3300 6250 3550
-Wire Wire Line
-	6350 3300 6350 3550
-Wire Wire Line
-	6450 3300 6450 3550
-Wire Wire Line
-	6550 3300 6550 3550
-Wire Wire Line
-	6650 3300 6650 3550
-Wire Wire Line
 	3475 3050 5250 3050
-$Comp
-L MCU_ST_STM32F7:STM32F767VITx U1
-U 1 1 5D33DF9D
-P 6450 6250
-F 0 "U1" H 6400 3361 50  0000 C CNN
-F 1 "STM32F767VITx" H 6400 3270 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 5750 3650 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf" H 6450 6250 50  0001 C CNN
-F 4 "STM32F767VIT6" H 0   0   50  0001 C CNN "Part #"
-F 5 "497-16643-ND" H 0   0   50  0001 C CNN "VEND#"
-F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "ST" H 0   0   50  0001 C CNN "Manufacturer"
-	1    6450 6250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0191
 U 1 1 5D3FB4FD
@@ -1388,7 +1357,7 @@ F 7 "Taiyo Yuden" H 0   25  50  0001 C CNN "Manufacturer"
 	1    14925 2900
 	1    0    0    -1  
 $EndComp
-Text Notes 725  10325 0    50   ~ 0
+Text Notes 725  10325 0    50   ~ 6
 http://www.crystek.com/documents/appnotes/Pierce-GateIntroduction.pdf\nPCB per predictions with SaturnPCB has less then 3.5pF traces, \nSTM32 pins assumed 5pF\nESR = 80ohms max???\nRf = 2meg could be between 1meg and 10meg.\nCload should be 8pF per XTAL datasheet\nCload = ([Cin+C1][C2+Cout])/(Cin+C1+C2_Cout)+PCBstray\nCload = ([5+4.7][4.7+5])/(5+4.7+4.7+5)+3.5= 8.35pF\nC1=C2=C166=C167 = 4.7pF\nRs = 1/(2piFC2) = 1/(2*pi*8MHz*4.7pF) = 4.2ohms. 
 Wire Wire Line
 	6250 3550 6350 3550
@@ -1402,10 +1371,8 @@ Wire Wire Line
 Connection ~ 6550 3550
 Wire Wire Line
 	6550 3550 6650 3550
-Connection ~ 6650 3550
 Wire Wire Line
 	6250 3550 6150 3550
-Connection ~ 6150 3550
 $Comp
 L Device:Net-Tie_2 NT2
 U 1 1 5D85D17A
@@ -1440,42 +1407,21 @@ F 3 "~" H 7400 4750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7500 4750 7600 4750
-Wire Wire Line
-	11600 6200 11200 6200
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
-U 1 1 5CDE2131
-P 11900 6200
-F 0 "J2" H 11950 5900 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 11950 6526 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11900 6200 50  0001 C CNN
-F 3 "~" H 11900 6200 50  0001 C CNN
-F 4 "MOUSER" H 100 0   50  0001 C CNN "VEND"
-F 5 "Amphenol" H 100 0   50  0001 C CNN "Manufacturer"
-F 6 "95278-801B10LF" H 100 0   50  0001 C CNN "Part #"
-F 7 "649-95278-801B10LF" H 100 0   50  0001 C CNN "VEND#"
-	1    11900 6200
-	-1   0    0    1   
-$EndComp
 Text Label 11600 6100 2    60   ~ 12
 GND
 Text Label 12100 6100 0    60   ~ 12
 GND
 Text Label 12450 6300 0    60   ~ 12
 3.3V
-Wire Wire Line
-	12100 6300 12450 6300
-Text Label 11200 6300 2    60   ~ 12
+Text Label 10900 6300 2    60   ~ 12
 3.3V
-Wire Wire Line
-	11600 6300 11200 6300
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5D4BAD74
 P 4350 4300
 F 0 "SW1" H 4350 4493 50  0000 C CNN
 F 1 "SW_Push" H 4350 4494 50  0001 C CNN
-F 2 "Button_Switch_SMD:SW_SPST_B3U-1000P" H 4350 4500 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 4350 4500 50  0001 C CNN
 F 3 "~" H 4350 4500 50  0001 C CNN
 F 4 "TBD" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "TBD" H 0   0   50  0001 C CNN "Part #"
@@ -1491,4 +1437,68 @@ Wire Wire Line
 Connection ~ 4550 4300
 Wire Wire Line
 	3475 4450 5550 4450
+Text Label 11350 6200 2    60   ~ 12
+SWIM
+Wire Notes Line
+	11700 6125 11725 6125
+Wire Notes Line
+	11725 6125 11725 6275
+Wire Notes Line
+	11725 6275 11700 6275
+Wire Notes Line
+	11700 6275 11700 6125
+Wire Wire Line
+	11600 6200 10900 6200
+Wire Wire Line
+	11600 6300 10900 6300
+Wire Wire Line
+	12100 6200 12450 6200
+Wire Wire Line
+	12100 6300 12450 6300
+Wire Wire Line
+	12100 6000 12450 6000
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5CDE2131
+P 11900 6200
+F 0 "J2" H 11950 5900 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 11950 6526 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11900 6200 50  0001 C CNN
+F 3 "~" H 11900 6200 50  0001 C CNN
+F 4 "MOUSER" H 100 0   50  0001 C CNN "VEND"
+F 5 "Amphenol" H 100 0   50  0001 C CNN "Manufacturer"
+F 6 "95278-801B10LF" H 100 0   50  0001 C CNN "Part #"
+F 7 "649-95278-801B10LF" H 100 0   50  0001 C CNN "VEND#"
+	1    11900 6200
+	-1   0    0    1   
+$EndComp
+Connection ~ 6150 3550
+Connection ~ 6650 3550
+Wire Wire Line
+	6650 3300 6650 3550
+Wire Wire Line
+	6550 3300 6550 3550
+Wire Wire Line
+	6450 3300 6450 3550
+Wire Wire Line
+	6350 3300 6350 3550
+Wire Wire Line
+	6250 3300 6250 3550
+Wire Wire Line
+	6150 3300 6150 3550
+$Comp
+L MCU_ST_STM32F7:STM32F767VITx U1
+U 1 1 5D33DF9D
+P 6450 6250
+F 0 "U1" H 6400 3361 50  0000 C CNN
+F 1 "STM32F767VITx" H 6400 3270 50  0000 C CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 5750 3650 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf" H 6450 6250 50  0001 C CNN
+F 4 "STM32F767VIT6" H 0   0   50  0001 C CNN "Part #"
+F 5 "497-16643-ND" H 0   0   50  0001 C CNN "VEND#"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "ST" H 0   0   50  0001 C CNN "Manufacturer"
+	1    6450 6250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
