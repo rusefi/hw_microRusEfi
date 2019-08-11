@@ -232,7 +232,7 @@ Wire Wire Line
 	5025 3350 5325 3350
 Wire Wire Line
 	4675 3350 5025 3350
-Text Label 6475 4200 3    50   ~ 0
+Text Label 6475 4200 3    50   ~ 6
 VDD
 Wire Wire Line
 	6475 3250 6475 2925

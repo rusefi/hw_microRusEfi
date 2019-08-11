@@ -1155,34 +1155,7 @@ F 3 "" H 4850 4300 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6150 3300 6150 3550
-Wire Wire Line
-	6250 3300 6250 3550
-Wire Wire Line
-	6350 3300 6350 3550
-Wire Wire Line
-	6450 3300 6450 3550
-Wire Wire Line
-	6550 3300 6550 3550
-Wire Wire Line
-	6650 3300 6650 3550
-Wire Wire Line
 	3475 3050 5250 3050
-$Comp
-L MCU_ST_STM32F7:STM32F767VITx U1
-U 1 1 5D33DF9D
-P 6450 6250
-F 0 "U1" H 6400 3361 50  0000 C CNN
-F 1 "STM32F767VITx" H 6400 3270 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 5750 3650 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf" H 6450 6250 50  0001 C CNN
-F 4 "STM32F767VIT6" H 0   0   50  0001 C CNN "Part #"
-F 5 "497-16643-ND" H 0   0   50  0001 C CNN "VEND#"
-F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "ST" H 0   0   50  0001 C CNN "Manufacturer"
-	1    6450 6250
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0191
 U 1 1 5D3FB4FD
@@ -1384,7 +1357,7 @@ F 7 "Taiyo Yuden" H 0   25  50  0001 C CNN "Manufacturer"
 	1    14925 2900
 	1    0    0    -1  
 $EndComp
-Text Notes 725  10325 0    50   ~ 0
+Text Notes 725  10325 0    50   ~ 6
 http://www.crystek.com/documents/appnotes/Pierce-GateIntroduction.pdf\nPCB per predictions with SaturnPCB has less then 3.5pF traces, \nSTM32 pins assumed 5pF\nESR = 80ohms max???\nRf = 2meg could be between 1meg and 10meg.\nCload should be 8pF per XTAL datasheet\nCload = ([Cin+C1][C2+Cout])/(Cin+C1+C2_Cout)+PCBstray\nCload = ([5+4.7][4.7+5])/(5+4.7+4.7+5)+3.5= 8.35pF\nC1=C2=C166=C167 = 4.7pF\nRs = 1/(2piFC2) = 1/(2*pi*8MHz*4.7pF) = 4.2ohms. 
 Wire Wire Line
 	6250 3550 6350 3550
@@ -1398,10 +1371,8 @@ Wire Wire Line
 Connection ~ 6550 3550
 Wire Wire Line
 	6550 3550 6650 3550
-Connection ~ 6650 3550
 Wire Wire Line
 	6250 3550 6150 3550
-Connection ~ 6150 3550
 $Comp
 L Device:Net-Tie_2 NT2
 U 1 1 5D85D17A
@@ -1500,5 +1471,34 @@ F 6 "95278-801B10LF" H 100 0   50  0001 C CNN "Part #"
 F 7 "649-95278-801B10LF" H 100 0   50  0001 C CNN "VEND#"
 	1    11900 6200
 	-1   0    0    1   
+$EndComp
+Connection ~ 6150 3550
+Connection ~ 6650 3550
+Wire Wire Line
+	6650 3300 6650 3550
+Wire Wire Line
+	6550 3300 6550 3550
+Wire Wire Line
+	6450 3300 6450 3550
+Wire Wire Line
+	6350 3300 6350 3550
+Wire Wire Line
+	6250 3300 6250 3550
+Wire Wire Line
+	6150 3300 6150 3550
+$Comp
+L MCU_ST_STM32F7:STM32F767VITx U1
+U 1 1 5D33DF9D
+P 6450 6250
+F 0 "U1" H 6400 3361 50  0000 C CNN
+F 1 "STM32F767VITx" H 6400 3270 50  0000 C CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 5750 3650 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf" H 6450 6250 50  0001 C CNN
+F 4 "STM32F767VIT6" H 0   0   50  0001 C CNN "Part #"
+F 5 "497-16643-ND" H 0   0   50  0001 C CNN "VEND#"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "ST" H 0   0   50  0001 C CNN "Manufacturer"
+	1    6450 6250
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

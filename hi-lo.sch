@@ -576,29 +576,29 @@ Connection ~ 5950 5650
 Wire Wire Line
 	6850 4950 6850 5450
 Text HLabel 7700 5150 2    60   Input ~ 12
-IGN_1
+GP5
 Text HLabel 7700 5750 2    60   Input ~ 12
-IGN_2
+GP6
 Text HLabel 7750 6500 2    60   Input ~ 12
-IGN_3
+Ign1
 Text HLabel 7750 7100 2    60   Input ~ 12
-IGN_4
+Ign2
 Text HLabel 7800 7700 2    60   Input ~ 12
-HS1
+Ign3
 Text HLabel 7800 8300 2    60   Input ~ 12
-HS2
+Ign4
 Text HLabel 5150 5350 0    60   Input ~ 12
-IGN_1_MCU
+GP5_MCU
 Text HLabel 5150 5550 0    60   Input ~ 12
-IGN_2_MCU
+GP6_MCU
 Text HLabel 5200 6700 0    60   Input ~ 12
-IGN_3_MCU
+Ign1_MCU
 Text HLabel 5200 6900 0    60   Input ~ 12
-IGN_4_MCU
+Ign2_MCU
 Text HLabel 5250 7900 0    60   Input ~ 12
-HS1_MCU
+Ign3_MCU
 Text HLabel 5250 8100 0    60   Input ~ 12
-HS2_MCU
+Ign4_MCU
 Wire Wire Line
 	4350 6300 4350 6800
 Wire Wire Line

@@ -1351,7 +1351,7 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7300 7050
 	1    0    0    -1  
 $EndComp
-Text Notes 8250 5175 0    50   ~ 0
+Text Notes 8250 5175 0    50   ~ 6
 rusEFI MRE was measured to consume 235mA from the 12V battery, for 2.9 watts
 Text HLabel 10600 10375 2    60   Input ~ 12
 CRNK_IN
