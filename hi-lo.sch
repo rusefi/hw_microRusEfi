@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:microRusEfi-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8

@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:microRusEfi-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr User 19685 15748
 encoding utf-8
@@ -141,9 +141,9 @@ F 1 "4.7nF" H 7025 8750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6938 8700 50  0001 C CNN
 F 3 "~" H 6900 8850 50  0001 C CNN
 F 4 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 5 "06031A470JAT2A" H 0   0   50  0001 C CNN "Part #"
-F 6 "478-1144-1-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "CGA3E2X7R1H472K080AA" H 0   0   50  0001 C CNN "Part #"
+F 6 "445-5661-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6900 8850
 	1    0    0    -1  
 $EndComp
@@ -289,9 +289,9 @@ F 1 "4.7nF" V 11275 11800 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 11188 11650 50  0001 C CNN
 F 3 "~" H 11150 11800 50  0001 C CNN
 F 4 "DIGI" H 650 100 50  0001 C CNN "VEND"
-F 5 "06031A470JAT2A" H 0   0   50  0001 C CNN "Part #"
-F 6 "478-1144-1-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "AVX" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "CGA3E2X7R1H472K080AA" H 0   0   50  0001 C CNN "Part #"
+F 6 "445-5661-1-ND" H 0   0   50  0001 C CNN "VEND#"
+F 7 "TDK" H 0   0   50  0001 C CNN "Manufacturer"
 	1    11150 11800
 	1    0    0    -1  
 $EndComp
@@ -1351,7 +1351,7 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    7300 7050
 	1    0    0    -1  
 $EndComp
-Text Notes 8250 5175 0    50   ~ 6
+Text Notes 8250 5175 0    50   ~ 10
 rusEFI MRE was measured to consume 235mA from the 12V battery, for 2.9 watts
 Text HLabel 10600 10375 2    60   Input ~ 12
 CRNK_IN

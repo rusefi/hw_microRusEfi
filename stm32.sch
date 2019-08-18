@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:microRusEfi-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -848,7 +848,7 @@ Wire Wire Line
 	6000 2500 6000 2650
 Connection ~ 4450 3850
 Wire Wire Line
-	4450 3850 5550 3850
+	4450 3850 4900 3850
 Wire Wire Line
 	6600 2000 6600 2200
 Wire Wire Line
@@ -1357,7 +1357,7 @@ F 7 "Taiyo Yuden" H 0   25  50  0001 C CNN "Manufacturer"
 	1    14925 2900
 	1    0    0    -1  
 $EndComp
-Text Notes 725  10325 0    50   ~ 6
+Text Notes 725  10325 0    50   ~ 10
 http://www.crystek.com/documents/appnotes/Pierce-GateIntroduction.pdf\nPCB per predictions with SaturnPCB has less then 3.5pF traces, \nSTM32 pins assumed 5pF\nESR = 80ohms max???\nRf = 2meg could be between 1meg and 10meg.\nCload should be 8pF per XTAL datasheet\nCload = ([Cin+C1][C2+Cout])/(Cin+C1+C2_Cout)+PCBstray\nCload = ([5+4.7][4.7+5])/(5+4.7+4.7+5)+3.5= 8.35pF\nC1=C2=C166=C167 = 4.7pF\nRs = 1/(2piFC2) = 1/(2*pi*8MHz*4.7pF) = 4.2ohms. 
 Wire Wire Line
 	6250 3550 6350 3550
@@ -1501,4 +1501,35 @@ F 7 "ST" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6450 6250
 	1    0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5D59F012
+P 5100 3600
+F 0 "SW2" H 5100 3793 50  0000 C CNN
+F 1 "SW_Push" H 5100 3794 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 5100 3800 50  0001 C CNN
+F 3 "~" H 5100 3800 50  0001 C CNN
+F 4 "TBD" H 750 -700 50  0001 C CNN "Manufacturer"
+F 5 "TBD" H 750 -700 50  0001 C CNN "Part #"
+F 6 "DIGI" H 750 -700 50  0001 C CNN "VEND"
+F 7 "TBD" H 750 -700 50  0001 C CNN "VEND#"
+	1    5100 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0145
+U 1 1 5D59F846
+P 5300 3600
+F 0 "#PWR0145" H 5300 3600 30  0001 C CNN
+F 1 "GND" H 5300 3530 30  0001 C CNN
+F 2 "" H 5300 3600 60  0001 C CNN
+F 3 "" H 5300 3600 60  0001 C CNN
+	1    5300 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3600 4900 3850
+Connection ~ 4900 3850
+Wire Wire Line
+	4900 3850 5550 3850
 $EndSCHEMATC
