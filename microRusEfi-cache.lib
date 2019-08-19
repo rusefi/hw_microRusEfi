@@ -351,7 +351,7 @@ F1 "Diode_BAS40-04" -250 225 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" -250 300 50 H I L CNN
 F3 "" -120 100 50 H I C CNN
 $FPLIST
- SOT*23*
+ SOT?23*
 $ENDFPLIST
 DRAW
 C 0 100 10 0 1 0 F
@@ -378,7 +378,7 @@ ENDDEF
 #
 # Graphic_Logo_Open_Hardware_Small
 #
-DEF ~Graphic_Logo_Open_Hardware_Small #LOGO 0 40 Y Y 1 F N
+DEF Graphic_Logo_Open_Hardware_Small #LOGO 0 40 Y Y 1 F N
 F0 "#LOGO" 0 275 50 H I C CNN
 F1 "Graphic_Logo_Open_Hardware_Small" 0 -225 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
@@ -703,7 +703,7 @@ ENDDEF
 #
 # rusefi_Logo_LOGO
 #
-DEF ~rusefi_Logo_LOGO #G 0 40 Y Y 1 F N
+DEF rusefi_Logo_LOGO #G 0 40 Y Y 1 F N
 F0 "#G" 0 -103 60 H I C CNN
 F1 "rusefi_Logo_LOGO" 0 103 60 H I C CNN
 F2 "" 0 0 50 H I C CNN

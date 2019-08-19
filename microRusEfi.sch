@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:microRusEfi-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
@@ -1013,7 +1013,7 @@ Wire Wire Line
 	13650 6050 13725 6050
 Wire Wire Line
 	13650 6150 13725 6150
-Text Notes 14650 6200 0    63   ~ 6
+Text Notes 14650 6200 0    63   ~ 13
 PE1 is orange - warning\nPE2 is blue - communication\nPE3 is red - fatal\nPE4 is green - running
 Text Label 10425 7325 0    60   ~ 12
 Ign2
