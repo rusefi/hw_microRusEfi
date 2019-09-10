@@ -40,7 +40,7 @@ Model CKKB48-1-A
 
 [Case 3D Model](https://cad.onshape.com/documents/cce953328a88b521d5673ac5/w/e2d3a78cfb432482f5aac9ea/e/2eb39a31ab72390c6384f68c)
 
-Cover bolts x4 M4
+Cover bolts M3.5x0.6
 
 PCB bolts M3 0.5mm thread, L=7.5mm
 
