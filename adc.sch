@@ -37,6 +37,7 @@ F 4 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C57112" H 7500 3350 50  0001 C CNN "LCSC"
 	1    7500 3350
 	0    -1   -1   0   
 $EndComp
@@ -175,25 +176,6 @@ $EndComp
 Wire Notes Line
 	350  2400 375  2400
 Wire Wire Line
-	7600 2050 7650 2050
-Wire Wire Line
-	7600 2150 7750 2150
-Wire Wire Line
-	7600 2250 7850 2250
-Wire Wire Line
-	7600 2350 7950 2350
-$Comp
-L power:GND #PWR0179
-U 1 1 5CDE2124
-P 8350 2550
-F 0 "#PWR0179" H 8350 2550 30  0001 C CNN
-F 1 "GND" H 8350 2480 30  0001 C CNN
-F 2 "" H 8350 2550 60  0000 C CNN
-F 3 "" H 8350 2550 60  0000 C CNN
-	1    8350 2550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	7350 3100 7350 3350
 Connection ~ 7350 3350
 Wire Wire Line
@@ -211,7 +193,7 @@ Wire Wire Line
 Wire Wire Line
 	6950 1550 7200 1550
 Wire Wire Line
-	7200 1550 7200 2050
+	7200 1550 7200 1825
 Connection ~ 6950 1550
 Wire Wire Line
 	6950 3050 7200 3050
@@ -221,16 +203,16 @@ Connection ~ 6950 3050
 Wire Wire Line
 	6950 2550 7100 2550
 Wire Wire Line
-	7100 2550 7100 2250
+	7100 2550 7100 2175
 Wire Wire Line
-	7100 2250 7200 2250
+	7100 2175 7225 2175
 Connection ~ 6950 2550
 Wire Wire Line
 	6950 2050 7100 2050
 Wire Wire Line
-	7100 2050 7100 2150
+	7100 2050 7100 2000
 Wire Wire Line
-	7100 2150 7200 2150
+	7100 2000 7225 2000
 Connection ~ 6950 2050
 Wire Wire Line
 	6350 1450 6050 1450
@@ -274,38 +256,22 @@ L Device:R R131
 U 1 1 5CF498EE
 P 9250 4500
 F 0 "R131" V 9330 4500 40  0000 C CNN
-F 1 "500k" V 9257 4501 40  0000 C CNN
+F 1 "470K" V 9257 4501 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 11055 3700 60  0001 C CNN
 F 3 "" H 14575 3725 60  0001 C CNN
 F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23178" H 9250 4500 50  0001 C CNN "LCSC"
 	1    9250 4500
 	-1   0    0    -1  
 $EndComp
 Wire Notes Line
 	2750 2200 2775 2200
-Wire Wire Line
-	7650 2050 7650 2550
-Connection ~ 7650 2050
-Wire Wire Line
-	7650 2050 7950 2050
-Wire Wire Line
-	7750 2150 7750 2550
-Connection ~ 7750 2150
-Wire Wire Line
-	7750 2150 7950 2150
-Wire Wire Line
-	7850 2250 7850 2550
-Connection ~ 7850 2250
-Wire Wire Line
-	7850 2250 7950 2250
-Wire Wire Line
-	7950 2350 7950 2550
-Text HLabel 1950 2100 0    60   Input ~ 12
+Text HLabel 1950 2400 0    60   Input ~ 12
 AT1
-Text HLabel 1950 2200 0    60   Input ~ 12
+Text HLabel 1950 2300 0    60   Input ~ 12
 AT2
 $Comp
 L power:GND #PWR0166
@@ -330,6 +296,7 @@ F 4 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C57112" H 6400 6200 50  0001 C CNN "LCSC"
 	1    6400 6200
 	0    -1   -1   0   
 $EndComp
@@ -473,32 +440,10 @@ Wire Wire Line
 	7600 4900 7850 4900
 Wire Wire Line
 	7600 5000 7950 5000
-$Comp
-L power:GND #PWR0180
-U 1 1 5CF978FC
-P 8350 5200
-F 0 "#PWR0180" H 8350 5200 30  0001 C CNN
-F 1 "GND" H 8350 5130 30  0001 C CNN
-F 2 "" H 8350 5200 60  0000 C CNN
-F 3 "" H 8350 5200 60  0000 C CNN
-	1    8350 5200
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	3350 4850 3375 4850
 Wire Wire Line
 	6250 5950 6250 6200
-Wire Wire Line
-	8350 4700 8350 4800
-Connection ~ 8350 4800
-Wire Wire Line
-	8350 4800 8350 4900
-Connection ~ 8350 4900
-Wire Wire Line
-	8350 4900 8350 5000
-Connection ~ 8350 5000
-Wire Wire Line
-	8350 5000 8350 5200
 Connection ~ 6250 6200
 Wire Wire Line
 	6250 6200 6250 6350
@@ -526,15 +471,11 @@ Wire Wire Line
 	6950 5200 7100 5200
 Wire Wire Line
 	7100 5200 7100 4900
-Wire Wire Line
-	7100 4900 7200 4900
 Connection ~ 6950 5200
 Wire Wire Line
 	6950 4700 7100 4700
 Wire Wire Line
 	7100 4700 7100 4800
-Wire Wire Line
-	7100 4800 7200 4800
 Connection ~ 6950 4700
 Wire Wire Line
 	6350 4100 6050 4100
@@ -572,42 +513,36 @@ Wire Wire Line
 	7650 4700 7650 5200
 Connection ~ 7650 4700
 Wire Wire Line
-	7650 4700 7950 4700
-Wire Wire Line
 	7750 4800 7750 5200
 Connection ~ 7750 4800
-Wire Wire Line
-	7750 4800 7950 4800
 Wire Wire Line
 	7850 4900 7850 5200
 Connection ~ 7850 4900
 Wire Wire Line
-	7850 4900 7950 4900
-Wire Wire Line
 	7950 5000 7950 5200
-Text HLabel 1725 4750 0    60   Input ~ 12
+Text HLabel 1725 4950 0    60   Input ~ 12
 AV1
-Text HLabel 1725 4850 0    60   Input ~ 12
+Text HLabel 1725 5050 0    60   Input ~ 12
 AV10
 Text HLabel 8850 3600 0    60   Input ~ 12
 AV4
-Text HLabel 8850 3700 0    60   Input ~ 12
+Text HLabel 8850 3500 0    60   Input ~ 12
 AV5
-Text HLabel 1950 2300 0    60   Input ~ 12
+Text HLabel 1950 2200 0    60   Input ~ 12
 AT3
-Text HLabel 1950 2400 0    60   Input ~ 12
+Text HLabel 1950 2100 0    60   Input ~ 12
 AT4
-Text HLabel 7650 2550 3    60   Input ~ 12
-AT1_MCU
-Text HLabel 7750 2550 3    60   Input ~ 12
-AT2_MCU
-Text HLabel 7850 2550 3    60   Input ~ 12
-AT3_MCU
 Text HLabel 7950 2550 3    60   Input ~ 12
+AT1_MCU
+Text HLabel 7850 2550 3    60   Input ~ 12
+AT2_MCU
+Text HLabel 7750 2550 3    60   Input ~ 12
+AT3_MCU
+Text HLabel 7650 2550 3    60   Input ~ 12
 AT4_MCU
-Text HLabel 1725 4950 0    60   Input ~ 12
+Text HLabel 1725 4750 0    60   Input ~ 12
 AV2
-Text HLabel 1725 5050 0    60   Input ~ 12
+Text HLabel 1725 4850 0    60   Input ~ 12
 AV3
 Text HLabel 7650 5200 3    60   Input ~ 12
 AV1_MCU
@@ -681,17 +616,6 @@ F 7 "MicroChip" H 0   0   50  0001 C CNN "Manufacturer"
 	1    13650 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0200
-U 1 1 5D0E7E31
-P 15400 3750
-F 0 "#PWR0200" H 15400 3750 30  0001 C CNN
-F 1 "GND" H 15400 3680 30  0001 C CNN
-F 2 "" H 15400 3750 60  0000 C CNN
-F 3 "" H 15400 3750 60  0000 C CNN
-	1    15400 3750
-	1    0    0    -1  
-$EndComp
 Text Label 9350 3400 0    60   ~ 12
 5V
 $Comp
@@ -706,6 +630,7 @@ F 4 "RC0603FR-0739KL" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "311-39.0KHRCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23153" H 9550 2700 50  0001 C CNN "LCSC"
 	1    9550 2700
 	-1   0    0    1   
 $EndComp
@@ -725,20 +650,21 @@ L Device:R R141
 U 1 1 5D0E7F36
 P 9750 2700
 F 0 "R141" V 9830 2700 40  0000 C CNN
-F 1 "10k" V 9757 2701 40  0000 C CNN
+F 1 "10K" V 9757 2701 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 11555 1900 60  0001 C CNN
 F 3 "TBD" H 15075 1925 60  0001 C CNN
 F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C25804" H 9750 2700 50  0001 C CNN "LCSC"
 	1    9750 2700
 	-1   0    0    1   
 $EndComp
 Text HLabel 9550 2550 1    60   Input ~ 12
 12V-SWITCH
 Text HLabel 14650 3800 3    60   Input ~ 12
-Vref
+VSense_ref
 Text HLabel 14750 3800 3    60   Input ~ 12
 Vbat_MCU
 Wire Wire Line
@@ -786,6 +712,7 @@ F 4 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C57112" H 13750 5250 50  0001 C CNN "LCSC"
 	1    13750 5250
 	0    -1   -1   0   
 $EndComp
@@ -1103,6 +1030,7 @@ F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C13167" H 2500 1450 50  0001 C CNN "LCSC"
 	1    2500 1450
 	-1   0    0    1   
 $EndComp
@@ -1122,6 +1050,7 @@ F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C13167" H 2675 1450 50  0001 C CNN "LCSC"
 	1    2675 1450
 	-1   0    0    1   
 $EndComp
@@ -1139,6 +1068,7 @@ F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C13167" H 2850 1450 50  0001 C CNN "LCSC"
 	1    2850 1450
 	-1   0    0    1   
 $EndComp
@@ -1156,15 +1086,10 @@ F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C13167" H 3025 1450 50  0001 C CNN "LCSC"
 	1    3025 1450
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	2500 1600 2500 2400
-Wire Wire Line
-	2850 2200 2850 1600
-Wire Wire Line
-	2675 1600 2675 2300
 Text Label 9025 4650 3    60   ~ 12
 5V
 $Comp
@@ -1182,18 +1107,6 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9025 4500
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 2200 2850 2200
-Wire Wire Line
-	1950 2100 3025 2100
-Wire Wire Line
-	1725 5050 2175 5050
-Wire Wire Line
-	1725 4950 2350 4950
-Wire Wire Line
-	1725 4750 2700 4750
-Wire Wire Line
-	1725 4850 2525 4850
 $Comp
 L power:GND #PWR0136
 U 1 1 5D0DDDD4
@@ -1210,158 +1123,17 @@ L Device:R R41
 U 1 1 5D0DDDE1
 P 9950 4500
 F 0 "R41" V 10030 4500 40  0000 C CNN
-F 1 "500k" V 9957 4501 40  0000 C CNN
+F 1 "470K" V 9957 4501 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 11755 3700 60  0001 C CNN
 F 3 "" H 15275 3725 60  0001 C CNN
 F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23178" H 9950 4500 50  0001 C CNN "LCSC"
 	1    9950 4500
 	-1   0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0142
-U 1 1 5D0EC742
-P 2850 2925
-F 0 "#PWR0142" H 2850 2925 30  0001 C CNN
-F 1 "GND" H 2850 2855 30  0001 C CNN
-F 2 "" H 2850 2925 60  0000 C CNN
-F 3 "" H 2850 2925 60  0000 C CNN
-	1    2850 2925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R38
-U 1 1 5D0EC74F
-P 2850 2775
-F 0 "R38" V 2930 2775 40  0000 C CNN
-F 1 "500k" V 2857 2776 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4655 1975 60  0001 C CNN
-F 3 "" H 8175 2000 60  0001 C CNN
-F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-	1    2850 2775
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0156
-U 1 1 5D0EC759
-P 2675 2925
-F 0 "#PWR0156" H 2675 2925 30  0001 C CNN
-F 1 "GND" H 2675 2855 30  0001 C CNN
-F 2 "" H 2675 2925 60  0000 C CNN
-F 3 "" H 2675 2925 60  0000 C CNN
-	1    2675 2925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R35
-U 1 1 5D0EC766
-P 2675 2775
-F 0 "R35" V 2755 2775 40  0000 C CNN
-F 1 "500k" V 2682 2776 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 1975 60  0001 C CNN
-F 3 "" H 8000 2000 60  0001 C CNN
-F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-	1    2675 2775
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0167
-U 1 1 5D0EC770
-P 2500 2925
-F 0 "#PWR0167" H 2500 2925 30  0001 C CNN
-F 1 "GND" H 2500 2855 30  0001 C CNN
-F 2 "" H 2500 2925 60  0000 C CNN
-F 3 "" H 2500 2925 60  0000 C CNN
-	1    2500 2925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R32
-U 1 1 5D0EC77D
-P 2500 2775
-F 0 "R32" V 2580 2775 40  0000 C CNN
-F 1 "500k" V 2507 2776 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4305 1975 60  0001 C CNN
-F 3 "" H 7825 2000 60  0001 C CNN
-F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-	1    2500 2775
-	1    0    0    -1  
-$EndComp
-Connection ~ 2850 2200
-$Comp
-L Device:R R39
-U 1 1 5D16664C
-P 3025 2775
-F 0 "R39" V 3105 2775 40  0000 C CNN
-F 1 "500k" V 3032 2776 40  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4830 1975 60  0001 C CNN
-F 3 "" H 8350 2000 60  0001 C CNN
-F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-	1    3025 2775
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0170
-U 1 1 5D16663F
-P 3025 2925
-F 0 "#PWR0170" H 3025 2925 30  0001 C CNN
-F 1 "GND" H 3025 2855 30  0001 C CNN
-F 2 "" H 3025 2925 60  0000 C CNN
-F 3 "" H 3025 2925 60  0000 C CNN
-	1    3025 2925
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 2200 3500 2200
-Wire Wire Line
-	2675 2300 2675 2625
-Wire Wire Line
-	2500 2400 2500 2625
-Connection ~ 3025 2100
-Connection ~ 2675 2300
-Wire Wire Line
-	2675 2300 3500 2300
-Connection ~ 2500 2400
-Wire Wire Line
-	2500 2400 3500 2400
-Wire Wire Line
-	1950 2400 2500 2400
-Wire Wire Line
-	1950 2300 2675 2300
-Wire Wire Line
-	3025 2100 3025 2625
-Wire Wire Line
-	3025 2100 3500 2100
-Wire Wire Line
-	3025 1600 3025 2100
-Wire Wire Line
-	2850 2200 2850 2625
-Connection ~ 2175 5050
-Wire Wire Line
-	2175 5050 3700 5050
-Connection ~ 2350 4950
-Wire Wire Line
-	2350 4950 3700 4950
-Connection ~ 2525 4850
-Wire Wire Line
-	2525 4850 3700 4850
-Connection ~ 2700 4750
-Wire Wire Line
-	2700 4750 3700 4750
 $Comp
 L power:GND #PWR0181
 U 1 1 5D2CAFC4
@@ -1378,13 +1150,14 @@ L Device:R R34
 U 1 1 5D2CAFD1
 P 2525 5425
 F 0 "R34" V 2605 5425 40  0000 C CNN
-F 1 "500k" V 2532 5426 40  0000 C CNN
+F 1 "470K" V 2532 5426 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 4625 60  0001 C CNN
 F 3 "" H 7850 4650 60  0001 C CNN
 F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23178" H 2525 5425 50  0001 C CNN "LCSC"
 	1    2525 5425
 	1    0    0    -1  
 $EndComp
@@ -1404,13 +1177,14 @@ L Device:R R31
 U 1 1 5D2CAFE8
 P 2350 5425
 F 0 "R31" V 2430 5425 40  0000 C CNN
-F 1 "500k" V 2357 5426 40  0000 C CNN
+F 1 "470K" V 2357 5426 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4155 4625 60  0001 C CNN
 F 3 "" H 7675 4650 60  0001 C CNN
 F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23178" H 2350 5425 50  0001 C CNN "LCSC"
 	1    2350 5425
 	1    0    0    -1  
 $EndComp
@@ -1430,13 +1204,14 @@ L Device:R R24
 U 1 1 5D2CAFFF
 P 2175 5425
 F 0 "R24" V 2255 5425 40  0000 C CNN
-F 1 "500k" V 2182 5426 40  0000 C CNN
+F 1 "470K" V 2182 5426 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3980 4625 60  0001 C CNN
 F 3 "" H 7500 4650 60  0001 C CNN
 F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23178" H 2175 5425 50  0001 C CNN "LCSC"
 	1    2175 5425
 	1    0    0    -1  
 $EndComp
@@ -1445,13 +1220,14 @@ L Device:R R37
 U 1 1 5D2CB00C
 P 2700 5425
 F 0 "R37" V 2780 5425 40  0000 C CNN
-F 1 "500k" V 2707 5426 40  0000 C CNN
+F 1 "470K" V 2707 5426 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4505 4625 60  0001 C CNN
 F 3 "" H 8025 4650 60  0001 C CNN
 F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23178" H 2700 5425 50  0001 C CNN "LCSC"
 	1    2700 5425
 	1    0    0    -1  
 $EndComp
@@ -1466,14 +1242,6 @@ F 3 "" H 2700 5575 60  0000 C CNN
 	1    2700 5575
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2350 4950 2350 5275
-Wire Wire Line
-	2175 5050 2175 5275
-Wire Wire Line
-	2700 4750 2700 5275
-Wire Wire Line
-	2525 4850 2525 5275
 Text Label 9700 4650 3    60   ~ 12
 5V
 $Comp
@@ -1491,8 +1259,6 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    9700 4500
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 2300 4700 2300
 Wire Wire Line
 	3900 2200 5075 2200
 Wire Wire Line
@@ -1516,7 +1282,7 @@ Wire Wire Line
 Wire Wire Line
 	3900 2450 4325 2450
 Wire Wire Line
-	4325 2450 5900 2450
+	4325 2450 4700 2450
 Connection ~ 4325 2450
 Connection ~ 5900 2450
 Wire Wire Line
@@ -1615,109 +1381,7 @@ F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	1    5700 6300
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R_Pack04 RN12
-U 1 1 5CE2CC2F
-P 8150 4900
-F 0 "RN12" V 7733 4900 50  0000 C CNN
-F 1 "1.5k" V 7824 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 8425 4900 50  0001 C CNN
-F 3 "~" H 8150 4900 50  0001 C CNN
-F 4 "CAY16-1501F4LF" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "CAY16-1501F4LFCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "Bourns" H 0   0   50  0001 C CNN "Manufacturer"
-	1    8150 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN9
-U 1 1 5CE2D88F
-P 7400 4900
-F 0 "RN9" V 6983 4900 50  0000 C CNN
-F 1 "1k" V 7074 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7675 4900 50  0001 C CNN
-F 3 "~" H 7400 4900 50  0001 C CNN
-F 4 "CAT16-1001F4LF" H 0   0   50  0001 C CNN "Part #"
-F 5 "CAT16-1001F4LFCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "Bourns" H 0   0   50  0001 C CNN "Manufacturer"
-	1    7400 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN8
-U 1 1 5CE7C1C9
-P 7400 2250
-F 0 "RN8" V 6983 2250 50  0000 C CNN
-F 1 "1k" V 7074 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7675 2250 50  0001 C CNN
-F 3 "~" H 7400 2250 50  0001 C CNN
-F 4 "CAT16-1001F4LF" H 0   0   50  0001 C CNN "Part #"
-F 5 "CAT16-1001F4LFCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "Bourns" H 0   0   50  0001 C CNN "Manufacturer"
-	1    7400 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN11
-U 1 1 5CE7C8F5
-P 8150 2250
-F 0 "RN11" V 7733 2250 50  0000 C CNN
-F 1 "1.5k" V 7824 2250 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 8425 2250 50  0001 C CNN
-F 3 "~" H 8150 2250 50  0001 C CNN
-F 4 "CAY16-1501F4LF" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "CAY16-1501F4LFCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "Bourns" H 0   0   50  0001 C CNN "Manufacturer"
-	1    8150 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN15
-U 1 1 5CE7CE9E
-P 14400 3500
-F 0 "RN15" V 13983 3500 50  0000 C CNN
-F 1 "1k" V 14074 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 14675 3500 50  0001 C CNN
-F 3 "~" H 14400 3500 50  0001 C CNN
-F 4 "CAT16-1001F4LF" H 0   0   50  0001 C CNN "Part #"
-F 5 "CAT16-1001F4LFCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "Bourns" H 0   0   50  0001 C CNN "Manufacturer"
-	1    14400 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN16
-U 1 1 5CE7D5F4
-P 15200 3500
-F 0 "RN16" V 14783 3500 50  0000 C CNN
-F 1 "1.5k" V 14874 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 15475 3500 50  0001 C CNN
-F 3 "~" H 15200 3500 50  0001 C CNN
-F 4 "CAY16-1501F4LF" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "CAY16-1501F4LFCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "Bourns" H 0   0   50  0001 C CNN "Manufacturer"
-	1    15200 3500
-	0    1    1    0   
-$EndComp
 Connection ~ 7950 5000
-Wire Wire Line
-	8350 2050 8350 2150
-Connection ~ 7950 2350
-Connection ~ 8350 2150
-Wire Wire Line
-	8350 2150 8350 2250
-Connection ~ 8350 2250
-Wire Wire Line
-	8350 2250 8350 2350
-Connection ~ 8350 2350
-Wire Wire Line
-	8350 2350 8350 2550
 $Comp
 L power:GND #PWR0192
 U 1 1 5D0E7DC7
@@ -1815,66 +1479,21 @@ Wire Wire Line
 Wire Wire Line
 	13950 3300 14100 3300
 Wire Wire Line
-	14100 3300 14100 3400
+	14100 3300 14100 3175
 Connection ~ 13950 3300
-Wire Wire Line
-	14200 3400 14100 3400
 Wire Wire Line
 	13950 3800 14100 3800
 Wire Wire Line
-	14100 3800 14100 3500
-Wire Wire Line
-	14100 3500 14200 3500
+	14100 3800 14100 3350
 Connection ~ 13950 3800
 Wire Wire Line
 	13950 4300 14200 4300
-Wire Wire Line
-	14200 4300 14200 3600
 Connection ~ 13950 4300
 Wire Wire Line
-	14200 3300 14200 2800
+	14200 3000 14200 2800
 Wire Wire Line
 	14200 2800 13950 2800
 Connection ~ 13950 2800
-Wire Wire Line
-	14650 3800 14650 3300
-Wire Wire Line
-	14650 3300 14600 3300
-Wire Wire Line
-	14600 3400 14750 3400
-Wire Wire Line
-	14750 3400 14750 3800
-Wire Wire Line
-	14600 3500 14850 3500
-Wire Wire Line
-	14850 3500 14850 3800
-Wire Wire Line
-	14600 3600 14950 3600
-Wire Wire Line
-	14950 3600 14950 3800
-Wire Wire Line
-	15000 3600 14950 3600
-Connection ~ 14950 3600
-Wire Wire Line
-	15000 3500 14850 3500
-Connection ~ 14850 3500
-Wire Wire Line
-	14750 3400 15000 3400
-Connection ~ 14750 3400
-Wire Wire Line
-	15000 3300 14650 3300
-Connection ~ 14650 3300
-Wire Wire Line
-	15400 3750 15400 3600
-Connection ~ 15400 3400
-Wire Wire Line
-	15400 3400 15400 3300
-Connection ~ 15400 3500
-Wire Wire Line
-	15400 3500 15400 3400
-Connection ~ 15400 3600
-Wire Wire Line
-	15400 3600 15400 3500
 $Comp
 L Device:R_Pack04 RN3
 U 1 1 5D285E4C
@@ -1887,6 +1506,7 @@ F 4 "YC164-JR-0710KL" H 0   0   50  0001 C CNN "Part #"
 F 5 "YC164J-10KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 7 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C29718" H 3700 2300 50  0001 C CNN "LCSC"
 	1    3700 2300
 	0    1    1    0   
 $EndComp
@@ -1902,6 +1522,7 @@ F 4 "YC164-JR-0710KL" H 0   0   50  0001 C CNN "Part #"
 F 5 "YC164J-10KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 7 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C29718" H 10850 3600 50  0001 C CNN "LCSC"
 	1    10850 3600
 	0    1    1    0   
 $EndComp
@@ -1917,6 +1538,7 @@ F 4 "YC164-JR-0710KL" H 0   0   50  0001 C CNN "Part #"
 F 5 "YC164J-10KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 7 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C29718" H 3900 4950 50  0001 C CNN "LCSC"
 	1    3900 4950
 	0    1    1    0   
 $EndComp
@@ -1927,20 +1549,20 @@ Wire Wire Line
 $Comp
 L Diode:BAS40-04 D11
 U 1 1 5DF73B94
-P 11450 3750
-F 0 "D11" V 11488 3830 40  0000 L CNN
-F 1 "BAS70-04" V 10900 3625 40  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 11450 3750 60  0001 C CNN
-F 3 "" H 11450 3750 60  0000 C CNN
-F 4 "SBAS70-04LT1G" H 75  50  50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "SBAS70-04LT1GOSCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "ON-SEMI" H 0   0   50  0001 C CNN "Manufacturer"
-	1    11450 3750
+P 11450 3500
+F 0 "D11" V 11488 3580 40  0000 L CNN
+F 1 "BAS70-04" V 10900 3375 40  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 11450 3500 60  0001 C CNN
+F 3 "" H 11450 3500 60  0000 C CNN
+F 4 "SBAS70-04LT1G" H 75  -200 50  0001 C CNN "Part #"
+F 5 "DIGI" H 0   -250 50  0001 C CNN "VEND"
+F 6 "SBAS70-04LT1GOSCT-ND" H 0   -250 50  0001 C CNN "VEND#"
+F 7 "ON-SEMI" H 0   -250 50  0001 C CNN "Manufacturer"
+	1    11450 3500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	11350 3050 11350 3450
+	11350 3050 11350 3200
 Wire Wire Line
 	13050 2700 13050 3350
 Connection ~ 12700 3500
@@ -1954,11 +1576,6 @@ Wire Wire Line
 	11050 3700 11100 3700
 Wire Wire Line
 	11100 3700 11100 3750
-Wire Wire Line
-	11100 3750 11550 3750
-Wire Wire Line
-	11550 3750 12900 3750
-Connection ~ 11550 3750
 Connection ~ 12900 3750
 Wire Wire Line
 	11100 3350 11100 3400
@@ -1968,14 +1585,7 @@ Wire Wire Line
 	9025 4350 9250 4350
 Wire Wire Line
 	9700 4350 9950 4350
-Wire Wire Line
-	8850 3700 9950 3700
-Wire Wire Line
-	9950 3700 9950 4350
 Connection ~ 9950 4350
-Wire Wire Line
-	9950 3700 10650 3700
-Connection ~ 9950 3700
 Wire Wire Line
 	9250 4350 9250 3600
 Connection ~ 9250 4350
@@ -1987,10 +1597,6 @@ Wire Wire Line
 	9350 3400 10650 3400
 Wire Wire Line
 	9550 2850 9750 2850
-Wire Wire Line
-	9750 2850 9750 3500
-Wire Wire Line
-	9750 3500 10650 3500
 Connection ~ 9750 2850
 $Comp
 L Device:C C40
@@ -2004,6 +1610,7 @@ F 4 "C0603C103K1RACTU" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "399-3189-1-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C57112" H 7050 9600 50  0001 C CNN "LCSC"
 	1    7050 9600
 	0    -1   -1   0   
 $EndComp
@@ -2096,14 +1703,6 @@ F 7 "MicroChip" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7150 8300 7200 8300
-Wire Wire Line
-	7150 8400 7300 8400
-Wire Wire Line
-	7150 8500 7400 8500
-Wire Wire Line
-	7150 8600 7500 8600
-Wire Wire Line
 	6900 9350 6900 9600
 Connection ~ 6900 9600
 Wire Wire Line
@@ -2121,26 +1720,24 @@ Wire Wire Line
 Wire Wire Line
 	6500 7800 6750 7800
 Wire Wire Line
-	6750 7800 6750 8300
+	6750 7800 6750 8150
 Connection ~ 6500 7800
 Wire Wire Line
 	6500 9300 6750 9300
 Wire Wire Line
-	6750 9300 6750 8600
+	6750 9300 6750 8675
 Connection ~ 6500 9300
 Wire Wire Line
 	6500 8800 6650 8800
 Wire Wire Line
 	6650 8800 6650 8500
-Wire Wire Line
-	6650 8500 6750 8500
 Connection ~ 6500 8800
 Wire Wire Line
 	6500 8300 6650 8300
 Wire Wire Line
-	6650 8300 6650 8400
+	6650 8300 6650 8325
 Wire Wire Line
-	6650 8400 6750 8400
+	6650 8325 6800 8325
 Connection ~ 6500 8300
 Wire Wire Line
 	5900 7700 5600 7700
@@ -2170,38 +1767,21 @@ Wire Wire Line
 	5900 8000 5900 7900
 Wire Notes Line
 	2300 8450 2325 8450
-Wire Wire Line
-	7200 8300 7200 8800
-Connection ~ 7200 8300
-Wire Wire Line
-	7200 8300 7500 8300
-Wire Wire Line
-	7300 8400 7300 8800
-Connection ~ 7300 8400
-Wire Wire Line
-	7300 8400 7500 8400
-Wire Wire Line
-	7400 8500 7400 8800
-Connection ~ 7400 8500
-Wire Wire Line
-	7400 8500 7500 8500
-Wire Wire Line
-	7500 8600 7500 8800
-Text HLabel 1500 8350 0    60   Input ~ 12
-AV6
-Text HLabel 1500 8450 0    60   Input ~ 12
-AV7
-Text HLabel 1500 8550 0    60   Input ~ 12
-AV8
 Text HLabel 1500 8650 0    60   Input ~ 12
+AV6
+Text HLabel 1500 8550 0    60   Input ~ 12
+AV7
+Text HLabel 1500 8450 0    60   Input ~ 12
+AV8
+Text HLabel 1500 8350 0    60   Input ~ 12
 AV9
-Text HLabel 7200 8800 3    60   Input ~ 12
-AV6_MCU
-Text HLabel 7300 8800 3    60   Input ~ 12
-AV7_MCU
-Text HLabel 7400 8800 3    60   Input ~ 12
-AV8_MCU
 Text HLabel 7500 8800 3    60   Input ~ 12
+AV6_MCU
+Text HLabel 7400 8800 3    60   Input ~ 12
+AV7_MCU
+Text HLabel 7300 8800 3    60   Input ~ 12
+AV8_MCU
+Text HLabel 7200 8800 3    60   Input ~ 12
 AV9_MCU
 Wire Wire Line
 	5250 9700 5250 8450
@@ -2329,10 +1909,6 @@ F 3 "" H 3675 9000 60  0000 C CNN
 	1    3675 9000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 8450 2400 8450
-Wire Wire Line
-	1500 8350 2575 8350
 $Comp
 L power:GND #PWR0202
 U 1 1 5CF035F0
@@ -2349,13 +1925,14 @@ L Device:R R56
 U 1 1 5CF035FD
 P 2400 9025
 F 0 "R56" V 2480 9025 40  0000 C CNN
-F 1 "500k" V 2407 9026 40  0000 C CNN
+F 1 "470K" V 2407 9026 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4205 8225 60  0001 C CNN
 F 3 "" H 7725 8250 60  0001 C CNN
 F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23178" H 2400 9025 50  0001 C CNN "LCSC"
 	1    2400 9025
 	1    0    0    -1  
 $EndComp
@@ -2375,13 +1952,14 @@ L Device:R R54
 U 1 1 5CF03614
 P 2225 9025
 F 0 "R54" V 2305 9025 40  0000 C CNN
-F 1 "500k" V 2232 9026 40  0000 C CNN
+F 1 "470K" V 2232 9026 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 8225 60  0001 C CNN
 F 3 "" H 7550 8250 60  0001 C CNN
 F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23178" H 2225 9025 50  0001 C CNN "LCSC"
 	1    2225 9025
 	1    0    0    -1  
 $EndComp
@@ -2401,29 +1979,30 @@ L Device:R R52
 U 1 1 5CF0362B
 P 2050 9025
 F 0 "R52" V 2130 9025 40  0000 C CNN
-F 1 "500k" V 2057 9026 40  0000 C CNN
+F 1 "470K" V 2057 9026 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3855 8225 60  0001 C CNN
 F 3 "" H 7375 8250 60  0001 C CNN
 F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23178" H 2050 9025 50  0001 C CNN "LCSC"
 	1    2050 9025
 	1    0    0    -1  
 $EndComp
-Connection ~ 2400 8450
 $Comp
 L Device:R R58
 U 1 1 5CF03639
 P 2575 9025
 F 0 "R58" V 2655 9025 40  0000 C CNN
-F 1 "500k" V 2582 9026 40  0000 C CNN
+F 1 "470K" V 2582 9026 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 8225 60  0001 C CNN
 F 3 "" H 7900 8250 60  0001 C CNN
 F 4 "RMCF0603FT470K" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT470KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C23178" H 2575 9025 50  0001 C CNN "LCSC"
 	1    2575 9025
 	1    0    0    -1  
 $EndComp
@@ -2439,35 +2018,12 @@ F 3 "" H 2575 9175 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 8450 3050 8450
-Wire Wire Line
-	2225 8550 2225 8875
-Wire Wire Line
-	2050 8650 2050 8875
-Connection ~ 2575 8350
-Connection ~ 2225 8550
-Wire Wire Line
-	2225 8550 3050 8550
-Connection ~ 2050 8650
-Wire Wire Line
-	2050 8650 3050 8650
-Wire Wire Line
-	1500 8650 2050 8650
-Wire Wire Line
-	1500 8550 2225 8550
-Wire Wire Line
-	2575 8350 2575 8875
-Wire Wire Line
-	2575 8350 3050 8350
-Wire Wire Line
-	2400 8450 2400 8875
-Wire Wire Line
-	3450 8550 4250 8550
+	3450 8550 3525 8550
 Wire Wire Line
 	3450 8450 4625 8450
 Connection ~ 4625 8450
 Wire Wire Line
-	4625 8450 5250 8450
+	4625 8450 4950 8450
 Connection ~ 4250 8550
 Wire Wire Line
 	4250 8550 5350 8550
@@ -2482,7 +2038,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 8700 3875 8700
 Wire Wire Line
-	3875 8700 5450 8700
+	3875 8700 3925 8700
 Connection ~ 3875 8700
 Connection ~ 5450 8700
 Wire Wire Line
@@ -2492,7 +2048,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 8350 3450 8300
 Wire Wire Line
-	3450 8300 4950 8300
+	3450 8300 4575 8300
 Wire Wire Line
 	4950 8300 5150 8300
 Connection ~ 4950 8300
@@ -2525,37 +2081,6 @@ F 7 "KEMET" H 0   0   50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Pack04 RN7
-U 1 1 5CF03680
-P 6950 8500
-F 0 "RN7" V 6533 8500 50  0000 C CNN
-F 1 "1k" V 6624 8500 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7225 8500 50  0001 C CNN
-F 3 "~" H 6950 8500 50  0001 C CNN
-F 4 "CAT16-1001F4LF" H 0   0   50  0001 C CNN "Part #"
-F 5 "CAT16-1001F4LFCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "Bourns" H 0   0   50  0001 C CNN "Manufacturer"
-	1    6950 8500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04 RN10
-U 1 1 5CF0368A
-P 7700 8500
-F 0 "RN10" V 7283 8500 50  0000 C CNN
-F 1 "1.5k" V 7374 8500 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 7975 8500 50  0001 C CNN
-F 3 "~" H 7700 8500 50  0001 C CNN
-F 4 "CAY16-1501F4LF" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "CAY16-1501F4LFCT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "Bourns" H 0   0   50  0001 C CNN "Manufacturer"
-	1    7700 8500
-	0    1    1    0   
-$EndComp
-Connection ~ 7500 8600
-$Comp
 L Device:R_Pack04 RN2
 U 1 1 5CF03695
 P 3250 8550
@@ -2567,6 +2092,7 @@ F 4 "YC164-JR-0710KL" H 0   0   50  0001 C CNN "Part #"
 F 5 "YC164J-10KCT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 7 "Yageo" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C29718" H 3250 8550 50  0001 C CNN "LCSC"
 	1    3250 8550
 	0    1    1    0   
 $EndComp
@@ -2628,25 +2154,16 @@ $EndComp
 $Comp
 L power:GND #PWR0211
 U 1 1 5CFD7A43
-P 7900 8600
-F 0 "#PWR0211" H 7900 8600 30  0001 C CNN
-F 1 "GND" H 7900 8530 30  0001 C CNN
-F 2 "" H 7900 8600 60  0000 C CNN
-F 3 "" H 7900 8600 60  0000 C CNN
-	1    7900 8600
-	1    0    0    -1  
+P 7900 8400
+F 0 "#PWR0211" H 7900 8400 30  0001 C CNN
+F 1 "GND" H 7900 8330 30  0001 C CNN
+F 2 "" H 7900 8400 60  0000 C CNN
+F 3 "" H 7900 8400 60  0000 C CNN
+	1    7900 8400
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7900 8300 7900 8400
-Connection ~ 7900 8600
-Connection ~ 7900 8400
-Wire Wire Line
-	7900 8400 7900 8500
-Connection ~ 7900 8500
-Wire Wire Line
-	7900 8500 7900 8600
-Wire Wire Line
-	11050 3500 12700 3500
+	11050 3500 11550 3500
 Wire Wire Line
 	12600 4800 12600 3350
 Connection ~ 12600 3350
@@ -2664,6 +2181,7 @@ F 4 "RMCF0603FT2K20" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT2K20CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C4190" H 10500 7075 50  0001 C CNN "LCSC"
 	1    10500 7075
 	-1   0    0    1   
 $EndComp
@@ -2672,13 +2190,14 @@ L Device:R R30
 U 1 1 5CFF714D
 P 10775 7225
 F 0 "R30" V 10855 7225 40  0000 C CNN
-F 1 "33k" V 10782 7226 40  0000 C CNN
+F 1 "10K" V 10782 7226 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 12580 6425 60  0001 C CNN
 F 3 "" H 16100 6450 60  0001 C CNN
 F 4 "RMCF0603JT33K0" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603JT33K0CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C25804" H 10775 7225 50  0001 C CNN "LCSC"
 	1    10775 7225
 	0    1    -1   0   
 $EndComp
@@ -2694,6 +2213,7 @@ F 4 "GRM1885C1H102FA01D" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "490-6377-1-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C1588" H 10975 7375 50  0001 C CNN "LCSC"
 	1    10975 7375
 	1    0    0    -1  
 $EndComp
@@ -2813,13 +2333,14 @@ L Device:LED D29
 U 1 1 5D7D9529
 P 10500 6775
 F 0 "D29" V 10500 6650 40  0000 C CNN
-F 1 "LED-BLUE" V 10500 7000 40  0000 C CNN
-F 2 "rusEFI_Ola:LED-0603-rusEFI" V 12305 5975 60  0001 C CNN
+F 1 "LED-RED" V 10500 7000 40  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 12305 5975 60  0001 C CNN
 F 3 "" H 15825 6000 60  0001 C CNN
 F 4 "LTST-C193TBKT-5A" H 0   -300 50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   -300 50  0001 C CNN "VEND"
 F 6 "160-1827-1-ND" H 0   -300 50  0001 C CNN "VEND#"
 F 7 "Lite-On " H 0   -300 50  0001 C CNN "Manufacturer"
+F 8 "C2286" H 10500 6775 50  0001 C CNN "LCSC"
 	1    10500 6775
 	0    -1   -1   0   
 $EndComp
@@ -2829,4 +2350,833 @@ Wire Wire Line
 Connection ~ 9250 3600
 Wire Wire Line
 	10650 3600 9250 3600
+$Comp
+L Power_Protection:NUP4202 U6
+U 1 1 5DE185F8
+P 4725 3300
+F 0 "U6" V 4300 3325 50  0000 C CNN
+F 1 "NUP4202" V 4400 3325 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4775 3375 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NUP4202W1-D.PDF" H 4775 3375 50  0001 C CNN
+	1    4725 3300
+	0    1    1    0   
+$EndComp
+Text Label 4925 3300 0    60   ~ 12
+5V
+$Comp
+L power:GND #PWR0142
+U 1 1 5DE1B00B
+P 4525 3300
+F 0 "#PWR0142" H 4525 3300 30  0001 C CNN
+F 1 "GND" H 4525 3230 30  0001 C CNN
+F 2 "" H 4525 3300 60  0000 C CNN
+F 3 "" H 4525 3300 60  0000 C CNN
+	1    4525 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 2725 4575 2725
+Wire Wire Line
+	4575 2725 4575 2875
+Wire Wire Line
+	4575 2875 4625 2875
+Wire Wire Line
+	4325 3400 4525 3400
+Wire Wire Line
+	4625 3000 4525 3000
+Wire Wire Line
+	4525 3000 4525 3200
+Wire Wire Line
+	4625 2875 4625 3000
+Wire Wire Line
+	4925 3200 5400 3200
+Wire Wire Line
+	5400 3200 5400 2050
+Wire Wire Line
+	4925 3400 5075 3400
+Wire Wire Line
+	5075 3400 5075 2200
+Wire Wire Line
+	4700 2725 4700 2450
+Connection ~ 4700 2450
+Wire Wire Line
+	4700 2450 5900 2450
+Wire Wire Line
+	3900 2300 4400 2300
+Wire Wire Line
+	4325 3400 4325 2575
+Wire Wire Line
+	4325 2575 4400 2575
+Wire Wire Line
+	4400 2575 4400 2300
+Connection ~ 4400 2300
+Wire Wire Line
+	4400 2300 4700 2300
+Wire Wire Line
+	1500 8350 2050 8350
+Wire Wire Line
+	1500 8450 2225 8450
+Wire Wire Line
+	1500 8650 2575 8650
+Wire Wire Line
+	2050 8875 2050 8350
+Connection ~ 2050 8350
+Wire Wire Line
+	2050 8350 3050 8350
+Wire Wire Line
+	2225 8875 2225 8450
+Connection ~ 2225 8450
+Wire Wire Line
+	2225 8450 3050 8450
+Wire Wire Line
+	2400 8875 2400 8550
+Wire Wire Line
+	1500 8550 2400 8550
+Connection ~ 2400 8550
+Wire Wire Line
+	2400 8550 3050 8550
+Wire Wire Line
+	2575 8875 2575 8650
+Connection ~ 2575 8650
+Wire Wire Line
+	2575 8650 3050 8650
+$Comp
+L Power_Protection:NUP4202 U7
+U 1 1 5E3D5586
+P 4225 9625
+F 0 "U7" V 3800 9650 50  0000 C CNN
+F 1 "NUP4202" V 3900 9650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4275 9700 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NUP4202W1-D.PDF" H 4275 9700 50  0001 C CNN
+	1    4225 9625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4025 9525 3925 9525
+Wire Wire Line
+	3925 9525 3925 8700
+Connection ~ 3925 8700
+Wire Wire Line
+	3925 8700 5450 8700
+Wire Wire Line
+	4025 9725 3525 9725
+Wire Wire Line
+	3525 9725 3525 8550
+Connection ~ 3525 8550
+Wire Wire Line
+	3525 8550 4250 8550
+Wire Wire Line
+	4425 9525 4575 9525
+Wire Wire Line
+	4575 9525 4575 8300
+Connection ~ 4575 8300
+Wire Wire Line
+	4575 8300 4950 8300
+Wire Wire Line
+	4425 9725 4950 9725
+Wire Wire Line
+	4950 9725 4950 8450
+Connection ~ 4950 8450
+Wire Wire Line
+	4950 8450 5250 8450
+Text Label 4425 9625 0    60   ~ 12
+5V
+$Comp
+L power:GND #PWR0152
+U 1 1 5E4D13B5
+P 4025 9625
+F 0 "#PWR0152" H 4025 9625 30  0001 C CNN
+F 1 "GND" H 4025 9555 30  0001 C CNN
+F 2 "" H 4025 9625 60  0000 C CNN
+F 3 "" H 4025 9625 60  0000 C CNN
+	1    4025 9625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 3700 10100 3700
+Wire Wire Line
+	10100 3700 10100 2850
+Wire Wire Line
+	10100 2850 9750 2850
+Wire Wire Line
+	10650 3500 9950 3500
+Wire Wire Line
+	9950 3500 8850 3500
+Connection ~ 9950 3500
+Wire Wire Line
+	9950 3500 9950 4350
+Connection ~ 11350 3200
+Wire Wire Line
+	11350 3200 11350 3450
+Connection ~ 11550 3500
+Wire Wire Line
+	11550 3500 12700 3500
+Wire Wire Line
+	11350 4050 11350 3800
+Wire Wire Line
+	11100 3750 12900 3750
+Wire Wire Line
+	7950 5000 8050 5000
+$Comp
+L power:GND #PWR024
+U 1 1 5E80E974
+P 8350 5000
+F 0 "#PWR024" H 8350 5000 30  0001 C CNN
+F 1 "GND" H 8350 4930 30  0001 C CNN
+F 2 "" H 8350 5000 60  0000 C CNN
+F 3 "" H 8350 5000 60  0000 C CNN
+	1    8350 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R35
+U 1 1 5E8570E8
+P 7450 5000
+F 0 "R35" V 7530 5000 40  0000 C CNN
+F 1 "6.8K" V 7457 5001 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9255 4200 60  0001 C CNN
+F 3 "" H 12775 4225 60  0001 C CNN
+F 4 "C23212" H 7450 5000 50  0001 C CNN "LCSC"
+	1    7450 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 5000 7300 5000
+$Comp
+L Device:R R32
+U 1 1 5E893987
+P 7450 4900
+F 0 "R32" V 7530 4900 40  0000 C CNN
+F 1 "6.8K" V 7457 4901 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9255 4100 60  0001 C CNN
+F 3 "" H 12775 4125 60  0001 C CNN
+F 4 "C23212" H 7450 4900 50  0001 C CNN "LCSC"
+	1    7450 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R26
+U 1 1 5E8942C8
+P 7450 4800
+F 0 "R26" V 7530 4800 40  0000 C CNN
+F 1 "6.8K" V 7457 4801 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9255 4000 60  0001 C CNN
+F 3 "" H 12775 4025 60  0001 C CNN
+F 4 "C23212" H 7450 4800 50  0001 C CNN "LCSC"
+	1    7450 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5E894D23
+P 7450 4700
+F 0 "R5" V 7530 4700 40  0000 C CNN
+F 1 "6.8K" V 7457 4701 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9255 3900 60  0001 C CNN
+F 3 "" H 12775 3925 60  0001 C CNN
+F 4 "C23212" H 7450 4700 50  0001 C CNN "LCSC"
+	1    7450 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R46
+U 1 1 5E895700
+P 8200 5000
+F 0 "R46" V 8280 5000 40  0000 C CNN
+F 1 "10K" V 8207 5001 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10005 4200 60  0001 C CNN
+F 3 "" H 13525 4225 60  0001 C CNN
+F 4 "C25804" H 8200 5000 50  0001 C CNN "LCSC"
+	1    8200 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R44
+U 1 1 5E89629F
+P 8200 4900
+F 0 "R44" V 8280 4900 40  0000 C CNN
+F 1 "10K" V 8207 4901 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10005 4100 60  0001 C CNN
+F 3 "" H 13525 4125 60  0001 C CNN
+F 4 "C25804" H 8200 4900 50  0001 C CNN "LCSC"
+	1    8200 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R39
+U 1 1 5E896D64
+P 8200 4800
+F 0 "R39" V 8280 4800 40  0000 C CNN
+F 1 "10K" V 8207 4801 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10005 4000 60  0001 C CNN
+F 3 "" H 13525 4025 60  0001 C CNN
+F 4 "C25804" H 8200 4800 50  0001 C CNN "LCSC"
+	1    8200 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 5E8977D9
+P 8200 4700
+F 0 "R38" V 8280 4700 40  0000 C CNN
+F 1 "10K" V 8207 4701 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10005 3900 60  0001 C CNN
+F 3 "" H 13525 3925 60  0001 C CNN
+F 4 "C25804" H 8200 4700 50  0001 C CNN "LCSC"
+	1    8200 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5E8B52F3
+P 8350 4900
+F 0 "#PWR027" H 8350 4900 30  0001 C CNN
+F 1 "GND" H 8350 4830 30  0001 C CNN
+F 2 "" H 8350 4900 60  0000 C CNN
+F 3 "" H 8350 4900 60  0000 C CNN
+	1    8350 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5E8B5E07
+P 8350 4800
+F 0 "#PWR026" H 8350 4800 30  0001 C CNN
+F 1 "GND" H 8350 4730 30  0001 C CNN
+F 2 "" H 8350 4800 60  0000 C CNN
+F 3 "" H 8350 4800 60  0000 C CNN
+	1    8350 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5E8B67D8
+P 8350 4700
+F 0 "#PWR025" H 8350 4700 30  0001 C CNN
+F 1 "GND" H 8350 4630 30  0001 C CNN
+F 2 "" H 8350 4700 60  0000 C CNN
+F 3 "" H 8350 4700 60  0000 C CNN
+	1    8350 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 4900 8050 4900
+Wire Wire Line
+	7750 4800 8050 4800
+Wire Wire Line
+	7650 4700 8050 4700
+Wire Wire Line
+	7100 4900 7300 4900
+Wire Wire Line
+	7100 4800 7300 4800
+Wire Wire Line
+	7200 4700 7300 4700
+$Comp
+L Device:R R55
+U 1 1 5EA4F118
+P 6950 8325
+F 0 "R55" V 7030 8325 40  0000 C CNN
+F 1 "6.8K" V 6957 8326 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8755 7525 60  0001 C CNN
+F 3 "" H 12275 7550 60  0001 C CNN
+F 4 "C23212" H 6950 8325 50  0001 C CNN "LCSC"
+	1    6950 8325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R57
+U 1 1 5EA53D8F
+P 6950 8500
+F 0 "R57" V 7030 8500 40  0000 C CNN
+F 1 "6.8K" V 6957 8501 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8755 7700 60  0001 C CNN
+F 3 "" H 12275 7725 60  0001 C CNN
+F 4 "C23212" H 6950 8500 50  0001 C CNN "LCSC"
+	1    6950 8500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R59
+U 1 1 5EA54CD0
+P 6950 8675
+F 0 "R59" V 7030 8675 40  0000 C CNN
+F 1 "6.8K" V 6957 8676 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8755 7875 60  0001 C CNN
+F 3 "" H 12275 7900 60  0001 C CNN
+F 4 "C23212" H 6950 8675 50  0001 C CNN "LCSC"
+	1    6950 8675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R53
+U 1 1 5EA55863
+P 6950 8150
+F 0 "R53" V 7030 8150 40  0000 C CNN
+F 1 "6.8K" V 6957 8151 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8755 7350 60  0001 C CNN
+F 3 "" H 12275 7375 60  0001 C CNN
+F 4 "C23212" H 6950 8150 50  0001 C CNN "LCSC"
+	1    6950 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R60
+U 1 1 5EB40C4A
+P 7750 8150
+F 0 "R60" V 7830 8150 40  0000 C CNN
+F 1 "10K" V 7757 8151 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9555 7350 60  0001 C CNN
+F 3 "" H 13075 7375 60  0001 C CNN
+F 4 "C25804" H 7750 8150 50  0001 C CNN "LCSC"
+	1    7750 8150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R61
+U 1 1 5EB46EC5
+P 7750 8325
+F 0 "R61" V 7830 8325 40  0000 C CNN
+F 1 "10K" V 7757 8326 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9555 7525 60  0001 C CNN
+F 3 "" H 13075 7550 60  0001 C CNN
+F 4 "C25804" H 7750 8325 50  0001 C CNN "LCSC"
+	1    7750 8325
+	0    1    1    0   
+$EndComp
+Connection ~ 7900 8325
+Wire Wire Line
+	7900 8325 7900 8400
+$Comp
+L Device:R R62
+U 1 1 5EB47B3C
+P 7750 8500
+F 0 "R62" V 7830 8500 40  0000 C CNN
+F 1 "10K" V 7757 8501 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9555 7700 60  0001 C CNN
+F 3 "" H 13075 7725 60  0001 C CNN
+F 4 "C25804" H 7750 8500 50  0001 C CNN "LCSC"
+	1    7750 8500
+	0    1    1    0   
+$EndComp
+Connection ~ 7900 8500
+$Comp
+L Device:R R63
+U 1 1 5EB486DB
+P 7750 8675
+F 0 "R63" V 7830 8675 40  0000 C CNN
+F 1 "10K" V 7757 8676 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9555 7875 60  0001 C CNN
+F 3 "" H 13075 7900 60  0001 C CNN
+F 4 "C25804" H 7750 8675 50  0001 C CNN "LCSC"
+	1    7750 8675
+	0    1    1    0   
+$EndComp
+Connection ~ 7900 8400
+Wire Wire Line
+	7900 8400 7900 8500
+Wire Wire Line
+	7900 8500 7900 8675
+Connection ~ 7900 8675
+Wire Wire Line
+	7900 8675 7900 8700
+Wire Wire Line
+	7900 8300 7900 8325
+Wire Wire Line
+	7900 8150 7900 8325
+Wire Wire Line
+	6750 8150 6800 8150
+Wire Wire Line
+	6650 8500 6800 8500
+Wire Wire Line
+	6750 8675 6800 8675
+Wire Wire Line
+	7100 8675 7500 8675
+Wire Wire Line
+	7100 8500 7400 8500
+Wire Wire Line
+	7100 8325 7300 8325
+Wire Wire Line
+	7100 8150 7200 8150
+Wire Wire Line
+	7200 8800 7200 8150
+Connection ~ 7200 8150
+Wire Wire Line
+	7200 8150 7600 8150
+Wire Wire Line
+	7300 8800 7300 8325
+Connection ~ 7300 8325
+Wire Wire Line
+	7300 8325 7600 8325
+Wire Wire Line
+	7400 8800 7400 8500
+Connection ~ 7400 8500
+Wire Wire Line
+	7400 8500 7600 8500
+Wire Wire Line
+	7500 8800 7500 8675
+Connection ~ 7500 8675
+Wire Wire Line
+	7500 8675 7600 8675
+$Comp
+L Device:R R64
+U 1 1 5EE262A2
+P 7375 1825
+F 0 "R64" V 7455 1825 40  0000 C CNN
+F 1 "6.8K" V 7382 1826 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 1025 60  0001 C CNN
+F 3 "" H 12700 1050 60  0001 C CNN
+F 4 "C23212" H 7375 1825 50  0001 C CNN "LCSC"
+	1    7375 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R65
+U 1 1 5EE4DECF
+P 7375 2000
+F 0 "R65" V 7455 2000 40  0000 C CNN
+F 1 "6.8K" V 7382 2001 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 1200 60  0001 C CNN
+F 3 "" H 12700 1225 60  0001 C CNN
+F 4 "C23212" H 7375 2000 50  0001 C CNN "LCSC"
+	1    7375 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R66
+U 1 1 5EE4E4CE
+P 7375 2175
+F 0 "R66" V 7455 2175 40  0000 C CNN
+F 1 "6.8K" V 7382 2176 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 1375 60  0001 C CNN
+F 3 "" H 12700 1400 60  0001 C CNN
+F 4 "C23212" H 7375 2175 50  0001 C CNN "LCSC"
+	1    7375 2175
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R67
+U 1 1 5EE4EAAB
+P 7375 2350
+F 0 "R67" V 7455 2350 40  0000 C CNN
+F 1 "6.8K" V 7382 2351 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 1550 60  0001 C CNN
+F 3 "" H 12700 1575 60  0001 C CNN
+F 4 "C23212" H 7375 2350 50  0001 C CNN "LCSC"
+	1    7375 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7225 2350 7200 2350
+Wire Wire Line
+	7200 1825 7225 1825
+$Comp
+L Device:R R68
+U 1 1 5EF6A311
+P 8250 1825
+F 0 "R68" V 8330 1825 40  0000 C CNN
+F 1 "10K" V 8257 1826 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10055 1025 60  0001 C CNN
+F 3 "" H 13575 1050 60  0001 C CNN
+F 4 "C25804" H 8250 1825 50  0001 C CNN "LCSC"
+	1    8250 1825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7525 1825 7650 1825
+$Comp
+L Device:R R69
+U 1 1 5EF93B47
+P 8250 2000
+F 0 "R69" V 8330 2000 40  0000 C CNN
+F 1 "10K" V 8257 2001 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10055 1200 60  0001 C CNN
+F 3 "" H 13575 1225 60  0001 C CNN
+F 4 "C25804" H 8250 2000 50  0001 C CNN "LCSC"
+	1    8250 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R70
+U 1 1 5EF9423C
+P 8250 2175
+F 0 "R70" V 8330 2175 40  0000 C CNN
+F 1 "10K" V 8257 2176 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10055 1375 60  0001 C CNN
+F 3 "" H 13575 1400 60  0001 C CNN
+F 4 "C25804" H 8250 2175 50  0001 C CNN "LCSC"
+	1    8250 2175
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R71
+U 1 1 5EF947D5
+P 8250 2350
+F 0 "R71" V 8330 2350 40  0000 C CNN
+F 1 "10K" V 8257 2351 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10055 1550 60  0001 C CNN
+F 3 "" H 13575 1575 60  0001 C CNN
+F 4 "C25804" H 8250 2350 50  0001 C CNN "LCSC"
+	1    8250 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7525 2000 7750 2000
+Wire Wire Line
+	7525 2175 7850 2175
+Wire Wire Line
+	7525 2350 7950 2350
+Wire Wire Line
+	8400 1825 8400 2000
+Connection ~ 8400 2000
+Wire Wire Line
+	8400 2000 8400 2075
+Connection ~ 8400 2175
+Wire Wire Line
+	8400 2175 8400 2350
+$Comp
+L power:GND #PWR028
+U 1 1 5F0316E8
+P 8400 2075
+F 0 "#PWR028" H 8400 2075 30  0001 C CNN
+F 1 "GND" H 8400 2005 30  0001 C CNN
+F 2 "" H 8400 2075 60  0000 C CNN
+F 3 "" H 8400 2075 60  0000 C CNN
+	1    8400 2075
+	0    -1   -1   0   
+$EndComp
+Connection ~ 8400 2075
+Wire Wire Line
+	8400 2075 8400 2175
+Wire Wire Line
+	7650 2550 7650 1825
+Connection ~ 7650 1825
+Wire Wire Line
+	7650 1825 8100 1825
+Wire Wire Line
+	7750 2550 7750 2000
+Connection ~ 7750 2000
+Wire Wire Line
+	7750 2000 8100 2000
+Wire Wire Line
+	7850 2550 7850 2175
+Connection ~ 7850 2175
+Wire Wire Line
+	7850 2175 8100 2175
+Wire Wire Line
+	7950 2550 7950 2350
+Connection ~ 7950 2350
+Wire Wire Line
+	7950 2350 8100 2350
+Wire Wire Line
+	1950 2400 3025 2400
+Wire Wire Line
+	1950 2100 2500 2100
+Wire Wire Line
+	2500 1600 2500 2100
+Connection ~ 2500 2100
+Wire Wire Line
+	2500 2100 3500 2100
+Wire Wire Line
+	1950 2300 2850 2300
+Wire Wire Line
+	1950 2200 2675 2200
+Connection ~ 2675 2200
+Wire Wire Line
+	2675 2200 3500 2200
+Wire Wire Line
+	2850 1600 2850 2300
+Connection ~ 2850 2300
+Wire Wire Line
+	2850 2300 3500 2300
+Wire Wire Line
+	3025 1600 3025 2400
+Connection ~ 3025 2400
+Wire Wire Line
+	3025 2400 3500 2400
+Wire Wire Line
+	2675 1600 2675 2200
+$Comp
+L Device:R R73
+U 1 1 5F35CBB1
+P 14400 3175
+F 0 "R73" V 14480 3175 40  0000 C CNN
+F 1 "6.8K" V 14407 3176 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16205 2375 60  0001 C CNN
+F 3 "" H 19725 2400 60  0001 C CNN
+F 4 "C23212" H 14400 3175 50  0001 C CNN "LCSC"
+	1    14400 3175
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R72
+U 1 1 5F360C90
+P 14400 3000
+F 0 "R72" V 14480 3000 40  0000 C CNN
+F 1 "6.8K" V 14407 3001 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16205 2200 60  0001 C CNN
+F 3 "" H 19725 2225 60  0001 C CNN
+F 4 "C23212" H 14400 3000 50  0001 C CNN "LCSC"
+	1    14400 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R74
+U 1 1 5F3611B1
+P 14400 3350
+F 0 "R74" V 14480 3350 40  0000 C CNN
+F 1 "6.8K" V 14407 3351 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16205 2550 60  0001 C CNN
+F 3 "" H 19725 2575 60  0001 C CNN
+F 4 "C23212" H 14400 3350 50  0001 C CNN "LCSC"
+	1    14400 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R75
+U 1 1 5F361666
+P 14400 3525
+F 0 "R75" V 14480 3525 40  0000 C CNN
+F 1 "6.8K" V 14407 3526 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 16205 2725 60  0001 C CNN
+F 3 "" H 19725 2750 60  0001 C CNN
+F 4 "C23212" H 14400 3525 50  0001 C CNN "LCSC"
+	1    14400 3525
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R76
+U 1 1 5F3644B5
+P 15350 3000
+F 0 "R76" V 15430 3000 40  0000 C CNN
+F 1 "10K" V 15357 3001 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17155 2200 60  0001 C CNN
+F 3 "" H 20675 2225 60  0001 C CNN
+F 4 "C25804" H 15350 3000 50  0001 C CNN "LCSC"
+	1    15350 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R77
+U 1 1 5F3695AA
+P 15350 3175
+F 0 "R77" V 15430 3175 40  0000 C CNN
+F 1 "10K" V 15357 3176 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17155 2375 60  0001 C CNN
+F 3 "" H 20675 2400 60  0001 C CNN
+F 4 "C25804" H 15350 3175 50  0001 C CNN "LCSC"
+	1    15350 3175
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R78
+U 1 1 5F369A43
+P 15350 3350
+F 0 "R78" V 15430 3350 40  0000 C CNN
+F 1 "10K" V 15357 3351 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17155 2550 60  0001 C CNN
+F 3 "" H 20675 2575 60  0001 C CNN
+F 4 "C25804" H 15350 3350 50  0001 C CNN "LCSC"
+	1    15350 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R79
+U 1 1 5F369F0C
+P 15350 3525
+F 0 "R79" V 15430 3525 40  0000 C CNN
+F 1 "10K" V 15357 3526 40  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 17155 2725 60  0001 C CNN
+F 3 "" H 20675 2750 60  0001 C CNN
+F 4 "C25804" H 15350 3525 50  0001 C CNN "LCSC"
+	1    15350 3525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14100 3350 14250 3350
+Wire Wire Line
+	14100 3175 14250 3175
+Wire Wire Line
+	14200 3000 14250 3000
+Wire Wire Line
+	14200 3525 14250 3525
+Wire Wire Line
+	14200 3525 14200 4300
+Wire Wire Line
+	14550 3525 14750 3525
+Wire Wire Line
+	14550 3350 14850 3350
+Wire Wire Line
+	14550 3175 14950 3175
+Wire Wire Line
+	14550 3000 14650 3000
+Wire Wire Line
+	15500 3000 15500 3175
+Connection ~ 15500 3175
+Wire Wire Line
+	15500 3175 15500 3275
+Connection ~ 15500 3350
+Wire Wire Line
+	15500 3350 15500 3525
+$Comp
+L power:GND #PWR0154
+U 1 1 5F5ADBB2
+P 15500 3275
+F 0 "#PWR0154" H 15500 3275 30  0001 C CNN
+F 1 "GND" H 15500 3205 30  0001 C CNN
+F 2 "" H 15500 3275 60  0000 C CNN
+F 3 "" H 15500 3275 60  0000 C CNN
+	1    15500 3275
+	0    -1   -1   0   
+$EndComp
+Connection ~ 15500 3275
+Wire Wire Line
+	15500 3275 15500 3350
+Wire Wire Line
+	14650 3800 14650 3000
+Connection ~ 14650 3000
+Wire Wire Line
+	14650 3000 15200 3000
+Wire Wire Line
+	14750 3800 14750 3525
+Connection ~ 14750 3525
+Wire Wire Line
+	14750 3525 15200 3525
+Wire Wire Line
+	14850 3800 14850 3350
+Connection ~ 14850 3350
+Wire Wire Line
+	14850 3350 15200 3350
+Wire Wire Line
+	14950 3800 14950 3175
+Connection ~ 14950 3175
+Wire Wire Line
+	14950 3175 15200 3175
+Wire Wire Line
+	1725 5050 2525 5050
+Wire Wire Line
+	2525 5275 2525 5050
+Connection ~ 2525 5050
+Wire Wire Line
+	2525 5050 3700 5050
+Wire Wire Line
+	1725 4750 2350 4750
+Wire Wire Line
+	1725 4950 2700 4950
+Wire Wire Line
+	1725 4850 2175 4850
+Wire Wire Line
+	2175 5275 2175 4850
+Connection ~ 2175 4850
+Wire Wire Line
+	2175 4850 3700 4850
+Wire Wire Line
+	2350 5275 2350 4750
+Connection ~ 2350 4750
+Wire Wire Line
+	2350 4750 3700 4750
+Wire Wire Line
+	2700 5275 2700 4950
+Connection ~ 2700 4950
+Wire Wire Line
+	2700 4950 3700 4950
 $EndSCHEMATC
