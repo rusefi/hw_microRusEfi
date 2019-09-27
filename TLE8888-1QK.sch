@@ -6,8 +6,8 @@ $Descr User 19685 15748
 encoding utf-8
 Sheet 2 7
 Title "microRusEfi"
-Date "2019-07-01"
-Rev "R0.2"
+Date "2019-09-24"
+Rev "R0.4.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -803,10 +803,6 @@ Text Label 11600 7350 0    60   ~ 12
 KEY
 Text Label 11600 7450 0    60   ~ 12
 WAKE
-Text Label 12025 9550 0    60   ~ 12
-IGN_EN
-Text Label 11550 10300 0    60   ~ 12
-INJ_EN
 Text Label 8100 9850 2    60   ~ 12
 GND
 Wire Wire Line
@@ -975,28 +971,8 @@ $EndComp
 Wire Wire Line
 	13025 7450 13300 7450
 Connection ~ 13300 7450
-$Comp
-L Device:R R7
-U 1 1 5CA0441A
-P 11900 10950
-F 0 "R7" V 11950 11125 50  0000 C CNN
-F 1 "0R" V 11900 10950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 11830 10950 50  0001 C CNN
-F 3 "~" H 11900 10950 50  0001 C CNN
-F 4 "DIGI" H 3900 250 50  0001 C CNN "VEND"
-F 5 "RMCF0603ZT0R00" H 0   0   50  0001 C CNN "Part #"
-F 6 "RMCF0603ZT0R00CT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "C21189" H 11900 10950 50  0001 C CNN "LCSC"
-	1    11900 10950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	11900 11100 11900 11300
 Wire Wire Line
 	10450 10500 11900 10500
-Wire Wire Line
-	11900 10500 11900 10800
 Text Label 12850 10300 0    60   ~ 12
 VDD
 Text Label 7200 10700 2    60   ~ 12
@@ -1005,46 +981,6 @@ Wire Wire Line
 	7500 10700 9250 10700
 Text Label 7300 10100 2    60   ~ 12
 VDD
-Wire Wire Line
-	10850 10300 11950 10300
-$Comp
-L Device:R R8
-U 1 1 5CA13776
-P 12100 10300
-F 0 "R8" V 12150 10475 50  0000 C CNN
-F 1 "4.7K" V 12100 10300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12030 10300 50  0001 C CNN
-F 3 "~" H 12100 10300 50  0001 C CNN
-F 4 "DIGI" H 4100 -400 50  0001 C CNN "VEND"
-F 5 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Part #"
-F 6 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "C23162" H 12100 10300 50  0001 C CNN "LCSC"
-	1    12100 10300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R10
-U 1 1 5CA15AC9
-P 12350 9900
-F 0 "R10" V 12400 10075 50  0000 C CNN
-F 1 "4.7K" V 12350 9900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 12280 9900 50  0001 C CNN
-F 3 "~" H 12350 9900 50  0001 C CNN
-F 4 "DIGI" H 4350 -800 50  0001 C CNN "VEND"
-F 5 "RMCF0603JT4K70" H 0   0   50  0001 C CNN "Part #"
-F 6 "RMCF0603JT4K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "C23162" H 12350 9900 50  0001 C CNN "LCSC"
-	1    12350 9900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	12350 9550 12350 9750
-Wire Wire Line
-	12350 10050 12350 10300
-Wire Wire Line
-	12250 10300 12350 10300
 Wire Wire Line
 	8650 10100 8650 10300
 Wire Wire Line
@@ -1398,4 +1334,18 @@ Text Label 7725 10100 0    50   ~ 0
 TLE_RST
 Text Label 7750 10300 0    50   ~ 0
 TLE_MON
+Text Label 11450 6350 0    50   ~ 0
+VR+
+Text Label 11450 6450 0    50   ~ 0
+VR-
+Text Label 12350 9550 0    60   ~ 12
+VDD
+Wire Wire Line
+	12350 9550 12350 10300
+Wire Wire Line
+	10850 10300 12350 10300
+Wire Wire Line
+	11900 10500 11900 11300
+Text Label 7775 10700 0    50   ~ 0
+FCLN
 $EndSCHEMATC

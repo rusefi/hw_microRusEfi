@@ -6,8 +6,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 4 7
 Title "microRusEfi"
-Date "2019-07-01"
-Rev "R0.2"
+Date "2019-09-24"
+Rev "R0.4.2"
 Comp ""
 Comment1 ""
 Comment2 ""

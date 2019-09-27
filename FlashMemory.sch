@@ -6,8 +6,8 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 7 7
 Title "microRusEfi"
-Date "2019-07-01"
-Rev "R0.2"
+Date "2019-09-24"
+Rev "R0.4.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -19,13 +19,11 @@ L Memory_Flash:IS25WP256D-xM U11
 U 1 1 5D2F2515
 P 6000 2750
 F 0 "U11" H 5600 3250 50  0000 C CNN
-F 1 "IS25WP256D-xM" H 6400 3250 50  0000 C CNN
+F 1 "IS25LP256D-xM" H 6400 3250 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 6050 3350 50  0001 C CNN
 F 3 "http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf" H 6050 2250 50  0001 C CNN
 F 4 "ISSI" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "IS25WP256D-RMLE" H 0   0   50  0001 C CNN "Part #"
-F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "706-1654-ND" H 0   0   50  0001 C CNN "VEND#"
+F 5 "IS25LP256D-RMLE" H 0   0   50  0001 C CNN "Part #"
 	1    6000 2750
 	1    0    0    -1  
 $EndComp
@@ -79,26 +77,46 @@ Wire Wire Line
 	6000 2250 6000 2075
 Text HLabel 6000 2175 0    50   Input ~ 10
 VDD
-$Comp
-L Device:R R33
-U 1 1 5D2F5EFA
-P 6650 2850
-F 0 "R33" V 6550 2825 50  0000 C CNN
-F 1 "10K" V 6650 2850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 2850 50  0001 C CNN
-F 3 "TBD" H 6650 2850 50  0001 C CNN
-F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "RMCF0603JT10K0CT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "C25804" H 6650 2850 50  0001 C CNN "LCSC"
-	1    6650 2850
-	0    1    1    0   
-$EndComp
-Text Label 6800 2850 0    50   ~ 10
-VDD
 Text HLabel 5500 2950 0    50   Input ~ 10
 HOLD
 Text HLabel 5500 2850 0    50   Input ~ 10
 WP
+$Comp
+L Memory_Flash:W25Q32JVSS U6
+U 1 1 5E09CE64
+P 4000 2725
+F 0 "U6" H 4000 3350 50  0000 C CNN
+F 1 "W25QxxJVS" H 4000 3250 50  0000 C CNN
+F 2 "hw_microRusEfi-master:SO-8_5.3x6.2mm_P1.27mm-150+208" H 4000 2725 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 4000 2725 50  0001 C CNN
+F 4 "C97521" H 4000 2725 50  0001 C CNN "LCSC"
+	1    4000 2725
+	1    0    0    -1  
+$EndComp
+Text HLabel 3500 2825 0    50   Input ~ 10
+SCK
+Text HLabel 3500 2625 0    50   Input ~ 10
+CS
+Text HLabel 4500 2825 2    50   Input ~ 10
+WP
+Text HLabel 4500 2925 2    50   Input ~ 10
+HOLD
+Text HLabel 4500 2625 2    50   Input ~ 10
+SO
+Text HLabel 4500 2525 2    50   Input ~ 10
+SI
+Text HLabel 4000 2325 0    50   Input ~ 10
+VDD
+$Comp
+L power:GND #PWR024
+U 1 1 5E148347
+P 4000 3125
+F 0 "#PWR024" H 4000 2875 50  0001 C CNN
+F 1 "GND" H 4005 2952 50  0000 C CNN
+F 2 "" H 4000 3125 50  0001 C CNN
+F 3 "" H 4000 3125 50  0001 C CNN
+	1    4000 3125
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6500 2850
 $EndSCHEMATC
