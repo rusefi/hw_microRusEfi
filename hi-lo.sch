@@ -4,12 +4,12 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 3 7
-Title "microRusEfi"
-Date "2019-09-24"
-Rev "R0.4.2"
+Sheet 2 7
+Title "microRusEfi-2L"
+Date "2019-10-06"
+Rev "R0.4.5"
 Comp "rusEFI.com"
-Comment1 ""
+Comment1 "Donald Becker"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -74,14 +74,10 @@ L Device:C C78
 U 1 1 5D15752C
 P 4600 6450
 F 0 "C78" V 4725 6450 40  0000 C CNN
-F 1 "10nF" V 4650 6200 40  0000 L CNN
+F 1 "100nF" V 4650 6200 40  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V -1720 1500 60  0001 C CNN
 F 3 "" H 4600 6450 60  0001 C CNN
-F 4 "C0603C103K1RACTU" H 400 -350 50  0001 C CNN "Part #"
-F 5 "DIGI" H 400 -350 50  0001 C CNN "VEND"
-F 6 "399-3189-1-ND" H 400 -350 50  0001 C CNN "VEND#"
-F 7 "KEMET" H 400 -350 50  0001 C CNN "Manufacturer"
-F 8 "C57112" H 4600 6450 50  0001 C CNN "LCSC"
+F 4 "C14663" H 4600 6450 50  0001 C CNN "LCSC"
 	1    4600 6450
 	-1   0    0    -1  
 $EndComp
@@ -386,6 +382,7 @@ F 0 "U31" H 6400 6050 50  0000 C CNN
 F 1 "MIC4427" H 6400 5950 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6375 5150 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf" H 6375 5150 50  0001 C CNN
+F 4 "C144205" H 6375 5450 50  0001 C CNN "LCSC"
 	1    6375 5450
 	1    0    0    -1  
 $EndComp
@@ -412,6 +409,7 @@ F 0 "U33" H 6550 8600 50  0000 C CNN
 F 1 "MIC4427" H 6550 8500 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6550 7700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf" H 6550 7700 50  0001 C CNN
+F 4 "C144205" H 6550 8000 50  0001 C CNN "LCSC"
 	1    6550 8000
 	1    0    0    -1  
 $EndComp
@@ -434,6 +432,7 @@ F 0 "U32" H 6500 7400 50  0000 C CNN
 F 1 "MIC4427" H 6500 7300 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6500 6500 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf" H 6500 6500 50  0001 C CNN
+F 4 "C144205" H 6500 6800 50  0001 C CNN "LCSC"
 	1    6500 6800
 	1    0    0    -1  
 $EndComp

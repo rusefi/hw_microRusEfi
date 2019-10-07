@@ -4,12 +4,12 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 7
-Title "microRusEfi"
-Date "2019-09-24"
-Rev "R0.4.2"
-Comp ""
-Comment1 ""
+Sheet 3 7
+Title "microRusEfi-2L"
+Date "2019-10-06"
+Rev "R0.4.5"
+Comp "rusEFI.com"
+Comment1 "Donald Becker"
 Comment2 ""
 Comment3 ""
 Comment4 ""
