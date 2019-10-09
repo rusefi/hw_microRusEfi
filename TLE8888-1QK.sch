@@ -6,7 +6,7 @@ $Descr User 19685 15748
 encoding utf-8
 Sheet 7 7
 Title "microRusEfi-2L"
-Date "2019-10-06"
+Date "2019-10-08"
 Rev "R0.4.5"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
@@ -550,8 +550,6 @@ Wire Wire Line
 	8650 6700 8650 6600
 Text HLabel 8650 6600 0    60   Input ~ 12
 GND
-Text Label 8650 6650 0    60   ~ 12
-GND
 Wire Wire Line
 	6900 9100 8100 9100
 Text Label 11500 7750 0    60   ~ 12
@@ -924,9 +922,7 @@ Wire Wire Line
 	12500 6550 12675 6550
 Connection ~ 12850 6550
 Wire Wire Line
-	12925 5950 12725 5950
-Wire Wire Line
-	12925 5950 12925 5900
+	12725 5900 12925 5900
 Wire Wire Line
 	13000 6800 13050 6800
 Wire Wire Line
@@ -969,20 +965,6 @@ Connection ~ 13000 6750
 Wire Wire Line
 	13000 6750 13000 6800
 Wire Wire Line
-	10950 6450 11050 6450
-Wire Wire Line
-	11050 6450 11050 6350
-Wire Wire Line
-	10950 6450 10950 6700
-Wire Wire Line
-	11050 6700 11050 6500
-Wire Wire Line
-	11050 6500 11150 6500
-Wire Wire Line
-	11150 6500 11150 6450
-Wire Wire Line
-	12725 5950 12725 6250
-Wire Wire Line
 	12850 6550 12850 6750
 Wire Notes Line
 	14500 5650 11800 5650
@@ -992,8 +974,8 @@ Wire Notes Line
 	11800 7000 14500 7000
 Wire Notes Line
 	14500 7000 14500 5650
-Text Notes 13750 6050 0    50   ~ 10
-TRIGGER CONFIG\nAS SEEN\nAT PCB
+Text Notes 13525 6050 0    50   ~ 10
+VR INPUT ADJUSTMENT\nR17, R18, R19, R9, C12\nON BOTTOM LAYER
 Text Label 13475 6800 0    60   ~ 12
 V5V
 Text Label 13475 6700 0    60   ~ 12
@@ -1162,10 +1144,6 @@ Wire Wire Line
 Connection ~ 11600 8150
 Wire Wire Line
 	11600 8150 12025 8150
-Wire Wire Line
-	11150 6450 11900 6450
-Wire Wire Line
-	11050 6350 11900 6350
 $Comp
 L rusefi_tle8888:TLE8888QK U2
 U 1 1 5C5DF903
@@ -1360,4 +1338,26 @@ F 4 "C68978" H 11150 5625 50  0001 C CNN "LCSC"
 	1    11150 5625
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	12725 5900 12725 6250
+Wire Wire Line
+	10950 6350 10950 6700
+Wire Wire Line
+	10950 6350 11900 6350
+Wire Wire Line
+	11050 6450 11050 6700
+Wire Wire Line
+	11050 6450 11900 6450
+Text Label 9250 6700 1    50   ~ 10
+DFB8
+Text Label 9150 6700 1    50   ~ 10
+DFB9
+Text Label 9050 6700 1    50   ~ 10
+OUT_8
+Text Label 8950 6700 1    50   ~ 10
+OUT_9
+Text Label 8850 6700 1    50   ~ 10
+DFB10
+Text Label 8750 6700 1    50   ~ 10
+OUT_10
 $EndSCHEMATC

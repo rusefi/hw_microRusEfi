@@ -6,7 +6,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 7
 Title "microRusEfi-2L"
-Date "2019-10-06"
+Date "2019-10-08"
 Rev "R0.4.5"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
@@ -893,7 +893,6 @@ NoConn ~ 7950 9525
 NoConn ~ 6700 8350
 NoConn ~ 10750 5525
 NoConn ~ 10750 5425
-NoConn ~ 10750 4925
 NoConn ~ 6700 8150
 NoConn ~ 7950 8825
 $Comp
@@ -1593,6 +1592,7 @@ F55 "12V_SAFE" I L 9000 6425 50
 F56 "LIN_TX" I L 9000 6575 50 
 F57 "LIN_RX" O L 9000 6675 50 
 F58 "LIN_IO" B R 10750 6275 50 
+F59 "DFB11" I R 10750 4800 60 
 $EndSheet
 Text Label 10750 6275 0    60   ~ 12
 LINBUS
@@ -1614,7 +1614,7 @@ U 1 1 5EB5BF5A
 P 11075 6275
 F 0 "LIN1" V 11075 6450 50  0000 L CNN
 F 1 "LIN" V 11075 6450 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 11275 6275 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11275 6275 50  0001 C CNN
 F 3 "~" H 11275 6275 50  0001 C CNN
 F 4 "DNP" H 4925 1350 50  0001 C CNN "Part #"
 F 5 "DNP" H 4925 1350 50  0001 C CNN "VEND"
@@ -1687,4 +1687,21 @@ Text Label 12900 2150 2    50   ~ 10
 PB8
 Text Label 6700 8725 2    50   ~ 10
 PB8
+$Comp
+L Connector:TestPoint OUT14
+U 1 1 5F7A14B4
+P 10750 4925
+F 0 "OUT14" V 10750 5100 50  0000 L CNN
+F 1 "OUT14" V 10750 5100 50  0001 L CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 10950 4925 50  0001 C CNN
+F 3 "~" H 10950 4925 50  0001 C CNN
+F 4 "DNP" H 4600 0   50  0001 C CNN "Part #"
+F 5 "DNP" H 4600 0   50  0001 C CNN "VEND"
+F 6 "DNP" H 4600 0   50  0001 C CNN "VEND#"
+F 7 "DNP" H 4600 0   50  0001 C CNN "Manufacturer"
+	1    10750 4925
+	0    1    1    0   
+$EndComp
+Text Label 10750 4800 0    60   ~ 12
+AV9
 $EndSCHEMATC
