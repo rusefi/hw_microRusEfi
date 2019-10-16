@@ -6,7 +6,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 5 7
 Title "microRusEfi-2L"
-Date "2019-10-08"
+Date "2019-10-06"
 Rev "R0.4.5"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
@@ -260,7 +260,7 @@ L Device:C C25
 U 1 1 52D139A3
 P 5400 4250
 F 0 "C25" V 5270 4250 50  0000 C CNN
-F 1 "2.2uF" V 5150 4175 50  0000 L CNN
+F 1 "2.2uF" V 5305 3985 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V -670 -850 60  0001 C CNN
 F 3 "" H 5400 4250 60  0001 C CNN
 F 4 "stm32f407_board" H 10850 -1275 60  0001 C CNN "PageName"
@@ -277,7 +277,7 @@ L Device:C C26
 U 1 1 52D139AE
 P 5400 4350
 F 0 "C26" V 5545 4350 50  0000 C CNN
-F 1 "2.2uF" V 5625 4250 50  0000 L CNN
+F 1 "2.2uF" V 5540 4080 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" V -1170 -750 60  0001 C CNN
 F 3 "" H 5400 4350 60  0001 C CNN
 F 4 "stm32f407_board" H 10350 -1175 60  0001 C CNN "PageName"
@@ -937,6 +937,19 @@ F 3 "" H 4550 5600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 4850 5150
+$Comp
+L Device:Crystal X1
+U 1 1 52D13AFB
+P 4850 5300
+F 0 "X1" H 4850 5450 60  0000 C CNN
+F 1 "8MHz" H 4850 5150 60  0000 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 4850 5300 60  0001 C CNN
+F 3 "" H 4850 5300 60  0001 C CNN
+F 4 "stm32f407_board" H 16200 4825 60  0001 C CNN "PageName"
+F 5 "C115962" H 4850 5300 50  0001 C CNN "LCSC"
+	1    4850 5300
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	5100 5350 5100 5450
 Wire Wire Line
@@ -1540,17 +1553,4 @@ Wire Wire Line
 	11500 4600 11500 4750
 Wire Wire Line
 	5575 3225 5800 3225
-$Comp
-L Device:Crystal X1
-U 1 1 52D13AFB
-P 4850 5300
-F 0 "X1" H 4850 5450 60  0000 C CNN
-F 1 "8MHz 20pF" H 4850 5150 60  0000 C CNN
-F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 4850 5300 60  0001 C CNN
-F 3 "" H 4850 5300 60  0001 C CNN
-F 4 "stm32f407_board" H 16200 4825 60  0001 C CNN "PageName"
-F 5 "C115962" H 4850 5300 50  0001 C CNN "LCSC"
-	1    4850 5300
-	0    -1   -1   0   
-$EndComp
 $EndSCHEMATC
