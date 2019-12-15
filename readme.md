@@ -35,6 +35,10 @@ Cover bolts M3.5x0.6
 
 PCB bolts M3 0.5mm thread, L=7.5mm
 
+## Gerbers
+
+[Gerbers and pictures of fabricated boards](gerbers)
+
 
 ## ST-LINK
 
