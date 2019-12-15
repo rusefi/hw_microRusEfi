@@ -21,5 +21,5 @@ Pre-assembled by jlcpcb
 
 More-assembled, based on pre-assembled by jlcpcb. 
 
-![img](https://raw.githubusercontent.com/wiki/rusefi/rusefi_documentation/Hardware/Hardware_microRusEfi_0.4.5_more_assembled_front.jpg)
-![img](https://raw.githubusercontent.com/wiki/rusefi/rusefi_documentation/Hardware/Hardware_microRusEfi_0.4.5_more_assembled_back.jpg)
+![img](https://raw.githubusercontent.com/wiki/rusefi/rusefi_documentation/Hardware/microrusefi/Hardware_microRusEfi_0.4.5_more_assembled_front.jpg)
+![img](https://raw.githubusercontent.com/wiki/rusefi/rusefi_documentation/Hardware/microrusefi/Hardware_microRusEfi_0.4.5_more_assembled_back.jpg)
