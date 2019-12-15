@@ -1,0 +1,81 @@
+Comment,Designator,Footprint,LCSC Part #
+100UF 50V Polarized capacitor,C2,CP_Elec_8x10.5,
+4.7nF Unpolarized capacitor,"C3,C11",C_0603_1608Metric,C53987
+470nF Unpolarized capacitor,"C4,C5",C_0603_1608Metric,C1623
+10uF Unpolarized capacitor,"C7,C9,C8",C_0603_1608Metric,C19702
+1nF Unpolarized capacitor,"C12,C35",C_0603_1608Metric,C1588
+10nF Unpolarized capacitor,"C19,C79,C80,C82,C40,C29,C20",C_0603_1608Metric,C57112
+18pF Unpolarized capacitor,"C21,C22",C_0603_1608Metric,C1647
+2.2uF Unpolarized capacitor,"C25,C26,C41",C_0603_1608Metric,C23630
+1uF Unpolarized capacitor,"C27,C23,C36",C_0603_1608Metric,C15849
+6.8pF Unpolarized capacitor,"C28,C44",C_0603_1608Metric,C1679
+22uF Unpolarized capacitor,C39,C_0603_1608Metric,C59461
+22uF 25V Unpolarized capacitor,C43,C_0805_2012Metric,C45783
+100nF Unpolarized capacitor,"C78,C17,C15,C18,C38,C34,C33,C32,C31,C30,C37,C24,C42,C10,C1,C6,C13,C14",C_0603_1608Metric,C14663
+"10nF 4 resistor network, parallel topology, DIP package","CN17,CN6,CN5,CN14",R_Array_Convex_4x0603,
+"BAV70 Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23",D1,SOT-23,C68978
+PESD1CAN-UX ,D2,SOT-23,
+BAS70-04 40V 0.2A Dual Small Signal Schottky Diodes,"D10,D8,D6,D4,D9,D7,D5,D3,D12,D11,D26,D25,D24,D18",SOT-23,
+LED-GREEN Light emitting diode,D14,C_0805_2012Metric,C2297
+DNP Schottky diode,"D15,D20",D_SOD-323,
+B5819W Schottky diode,D17,D_SOD-123,C8598
+LED-RED Light emitting diode,D21,LED_0805_2012Metric,C84256
+LED-GREEN Light emitting diode,D22,LED_0805_2012Metric,C2297
+LED-BLUE Light emitting diode,D23,LED_0805_2012Metric,C2293
+LED-YELLOW Light emitting diode,D27,LED_0805_2012Metric,C2296
+LED-RED Light emitting diode,"D28,D31,D33,D35,D29,D19",LED_0603_1608Metric,C2286
+1N4148WS Diode,"D32,D34,D30",D_SOD-323,C2128
+"SS54 40V 3A Schottky Barrier Rectifier Diode, SMC","D36,D37",D_SMA,C22452
+"SRV05-4 Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning","D38,D13,D40,D39,D16",SOT-23-6,C85364
+SM15T33C Bidirectional transient-voltage-suppression diode,D41,D_SMC,
+FILTER Ferrite bead,FB1,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C1034
+Fiducial Fiducial Marker,"FID5,FID6,FID1,FID2,FID3,FID4",Fiducial_0.5mm_Mask1mm,
+IGNOUT test point,"IGN3,IGN4,IGN2,IGN1",Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork,
+USB_B_Micro USB Micro Type B connector,J1,USB_Micro-B_Molex-105133-0031,
+"Conn_02x05_Odd_Even Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",J2,PinSocket_2x05_P2.54mm_Vertical_SMD,
+"Conn_01x02 Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",J3,Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical,
+"Conn_02x05_Counter_Clockwise Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",J4,PinHeader_2x05_P2.54mm_Vertical_SMD,
+"VRef Source 5Vsense VDDA 3-pole Solder Jumper, pins 1+2 closed/bridged",JP1,SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm,
+"High side voltage 5V 12V 3-pole Solder Jumper, pins 1+2 closed/bridged",JP2,SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm,
+LIN test point,LIN1,TestPoint_Pad_1.0x1.0mm,
+"DNP Open Hardware logo, small",LOGO1,LogoMRE,
+DNP ,LOGO2,LOGO,
+"Net-Tie_2 Net tie, 2 pins",NT1,Net-Tie_2_8.5mil,
+"Net-Tie_2 Net tie, 2 pins",NT2,Net-Tie_2_8.5mil,
+"Analog Ground Net Tie Net tie, 2 pins",NT3,NetTie-2_SMD_Pad0.5mm,
+OUT15 test point,OUT15,Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork,
+OUT16 test point,OUT16,Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork,
+OUT17 test point,OUT17,Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork,
+OUT18 test point,OUT18,Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork,
+"IPD30N06S2L-23 30A Id, 50V Vds, N-Channel Power MOSFET, TO-220",Q1,TO-252-2,
+10K Resistor,"R1,R16,R141,R46,R44,R39,R38,R60,R61,R62,R63,R68,R69,R70,R71,R76,R77,R78,R79,R43,R45,R12,R13,R3,R4,R2,R6",R_0603_1608Metric,C25804
+DNP Resistor,"R11,R40,R7,R17,R19,R18",R_0603_1608Metric,
+2.7k Resistor,"R14,R23,R25,R27,R20",R_0603_1608Metric,C13167
+15k Resistor,R15,R_0603_1608Metric,C22809
+120 Resistor,R22,R_0805_2012Metric,C17437
+2.2k Resistor,R28,R_0603_1608Metric,C4190
+1k Resistor,"R29,R49,R36,R51,R48,R50",R_0603_1608Metric,C21190
+6.8K Resistor,"R35,R32,R26,R5,R55,R57,R59,R53,R64,R65,R66,R67,R73,R72,R74,R75",R_0603_1608Metric,C23212
+4.7K Resistor,"R42,R9",R_0603_1608Metric,C23162
+100K Resistor,R47,R_0603_1608Metric,C25803
+100 Resistor,"R120,R121,R122,R124,R125,R123",R_1206_3216Metric,C17901
+470K Resistor,"R131,R41,R34,R31,R24,R37,R56,R54,R52,R58",R_0603_1608Metric,C23178
+39k Resistor,R139,R_0603_1608Metric,C23153
+"1k 4 resistor network, parallel topology, DIP package",RN1,R_Array_Convex_4x0603,C20197
+"10k 4 resistor network, parallel topology, DIP package","RN5,RN6,RN3,RN13,RN4,RN2",R_Array_Convex_4x0603,C29718
+"SW_Push Push button switch, generic, two pins","SW1,SW2",SW_Push_SPST_NO_Alps_SKRK,
+5V test point,"TP1,TP5",TestPoint_Pad_D4.0mm,
+GND test point,"TP2,TP6",TestPoint_Pad_D4.0mm,
+TP test point,"TP4,TP3",TestPoint_Pad_D2.0mm,
+"STM32F407VGT6 ARM Cortex-M4 MCU, 1024KB flash, 128KB RAM, 168MHz, 1.8-3.6V, 82 GPIO, LQFP-100",U1,LQFP-100_14x14mm_P0.5mm,C12345
+TLE8888QK ,U2,LQFP-100_14x14mm_P0.5mm_THERMAL,
+Molex_48_pin ,U3,Molex_48,
+TLE9201SG ,U4,Infineon_PG-DSO-12-11,
+"LM1117-3.3 800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223",U5,SOT-223-3_TabPin2,C6186
+"W25QxxJVS 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8",U6,SO-8_5.3x6.2mm_P1.27mm-150+208,C97521
+"XC6206 3.3V Low Quiescent Current LDO Regulator, 3.3V, 250mA, Vin<=16V, SOT-23",U7,SOT-23,C5446
+"IS25LP256D-xM 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16",U11,SOIC-16W_7.5x10.3mm_P1.27mm,
+"MIC4427 Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8","U31,U33,U32",SOIC-8_3.9x4.9mm_P1.27mm,C144205
+"MCP6004 1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14","U35,U36,U46,U8",TSSOP-14_4.4x5mm_P0.65mm,C50282
+8MHz Two pin crystal,X1,Crystal_SMD_5032-2Pin_5.0x3.2mm,C115962
+"32768 Hz Two pin crystal, small symbol",Y2,Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346
