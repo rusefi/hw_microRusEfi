@@ -12,6 +12,9 @@ R0.4.5 - 2 layers, use microRusEfi-bom.csv and microRusEfi-cpl.csv files for top
 ![img](https://raw.githubusercontent.com/wiki/rusefi/rusefi_documentation/Hardware/microrusefi/Hardware_microRusEfi_0_1_assembled_front_hall_setup.jpg)
 
 
+##R0.3 Hall Mode Mazda Miata 2003
+![img](https://raw.githubusercontent.com/wiki/rusefi/rusefi_documentation/Hardware/microrusefi/Hardware_microRusEfi_0_3_assembled_front_hall_setup.jpg)
+
 
 # R0.4.5
 
