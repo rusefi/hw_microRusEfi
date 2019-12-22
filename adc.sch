@@ -6,11 +6,11 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 4 7
 Title "microRusEfi-2L"
-Date "2019-10-08"
-Rev "R0.4.5"
+Date "2019-12-21"
+Rev "R0.4.6"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
-Comment2 ""
+Comment2 "AI6OD"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -2865,39 +2865,11 @@ Wire Wire Line
 Wire Wire Line
 	14200 3525 14200 4300
 Wire Wire Line
-	14550 3525 14750 3525
-Wire Wire Line
-	14550 3350 14850 3350
-Wire Wire Line
-	14550 3175 14950 3175
-Wire Wire Line
-	14550 3000 14650 3000
-Wire Wire Line
 	15500 3000 15500 3175
 Connection ~ 15500 3175
 Connection ~ 15500 3350
 Wire Wire Line
 	15500 3350 15500 3525
-Wire Wire Line
-	14650 3800 14650 3000
-Connection ~ 14650 3000
-Wire Wire Line
-	14650 3000 15200 3000
-Wire Wire Line
-	14750 3800 14750 3525
-Connection ~ 14750 3525
-Wire Wire Line
-	14750 3525 15200 3525
-Wire Wire Line
-	14850 3800 14850 3350
-Connection ~ 14850 3350
-Wire Wire Line
-	14850 3350 15200 3350
-Wire Wire Line
-	14950 3800 14950 3175
-Connection ~ 14950 3175
-Wire Wire Line
-	14950 3175 15200 3175
 $Comp
 L Power_Protection:NUP4202 D40
 U 1 1 5DE30B50
@@ -3185,4 +3157,32 @@ Text Label 2050 7975 0    60   ~ 12
 5V
 Wire Wire Line
 	2050 8275 2050 8350
+Wire Wire Line
+	14550 3175 14850 3175
+Wire Wire Line
+	14550 3000 14950 3000
+Wire Wire Line
+	14550 3350 14750 3350
+Wire Wire Line
+	14950 3800 14950 3000
+Connection ~ 14950 3000
+Wire Wire Line
+	14950 3000 15200 3000
+Wire Wire Line
+	14850 3800 14850 3175
+Connection ~ 14850 3175
+Wire Wire Line
+	14850 3175 15200 3175
+Wire Wire Line
+	14550 3525 14650 3525
+Wire Wire Line
+	14750 3800 14750 3350
+Connection ~ 14750 3350
+Wire Wire Line
+	14750 3350 15200 3350
+Wire Wire Line
+	14650 3800 14650 3525
+Connection ~ 14650 3525
+Wire Wire Line
+	14650 3525 15200 3525
 $EndSCHEMATC

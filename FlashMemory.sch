@@ -6,11 +6,11 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 6 7
 Title "microRusEfi-2L"
-Date "2019-10-08"
-Rev "R0.4.5"
+Date "2019-12-21"
+Rev "R0.4.6"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
-Comment2 ""
+Comment2 "AI6OD"
 Comment3 ""
 Comment4 ""
 $EndDescr

@@ -6,11 +6,11 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 7
 Title "microRusEfi-2L"
-Date "2019-10-08"
-Rev "R0.4.5"
+Date "2019-12-21"
+Rev "R0.4.6"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
-Comment2 ""
+Comment2 "AI6OD"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -124,7 +124,7 @@ U 1 1 5C694318
 P 14400 1975
 F 0 "TP1" V 14400 2150 50  0000 L CNN
 F 1 "5V" V 14400 2350 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 14600 1975 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 14600 1975 50  0001 C CNN
 F 3 "~" H 14600 1975 50  0001 C CNN
 F 4 "DNP" H 5950 -3750 50  0001 C CNN "Part #"
 F 5 "DNP" H 5950 -3750 50  0001 C CNN "VEND"
@@ -429,7 +429,7 @@ U 1 1 5D356EBD
 P 14400 2100
 F 0 "TP2" V 14400 2275 50  0000 L CNN
 F 1 "GND" H 14225 2150 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D4.0mm" H 14600 2100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 14600 2100 50  0001 C CNN
 F 3 "~" H 14600 2100 50  0001 C CNN
 F 4 "DNP" H 6100 -3775 50  0001 C CNN "Part #"
 F 5 "DNP" H 6100 -3775 50  0001 C CNN "Manufacturer"
@@ -976,7 +976,6 @@ F 7 "DNP" H -465 -20 50  0001 C CNN "Manufacturer"
 	1    11425 10225
 	1    0    0    -1  
 $EndComp
-NoConn ~ 7950 8425
 $Comp
 L Connector:TestPoint OUT15
 U 1 1 5D637E6F
@@ -1043,36 +1042,6 @@ F 5 "DNP" H 4600 400 50  0001 C CNN "VEND"
 F 6 "DNP" H 4600 400 50  0001 C CNN "VEND#"
 F 7 "DNP" H 4600 400 50  0001 C CNN "Manufacturer"
 	1    10750 5325
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint IGN3
-U 1 1 5D67A09D
-P 10750 3625
-F 0 "IGN3" V 10750 3800 50  0000 L CNN
-F 1 "IGNOUT" V 10750 3800 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 10950 3625 50  0001 C CNN
-F 3 "~" H 10950 3625 50  0001 C CNN
-F 4 "DNP" H 4600 -1300 50  0001 C CNN "Part #"
-F 5 "DNP" H 4600 -1300 50  0001 C CNN "VEND"
-F 6 "DNP" H 4600 -1300 50  0001 C CNN "VEND#"
-F 7 "DNP" H 4600 -1300 50  0001 C CNN "Manufacturer"
-	1    10750 3625
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint IGN4
-U 1 1 5D67E489
-P 10750 3725
-F 0 "IGN4" V 10750 3900 50  0000 L CNN
-F 1 "IGNOUT" V 10750 3900 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 10950 3725 50  0001 C CNN
-F 3 "~" H 10950 3725 50  0001 C CNN
-F 4 "DNP" H 4600 -1200 50  0001 C CNN "Part #"
-F 5 "DNP" H 4600 -1200 50  0001 C CNN "VEND"
-F 6 "DNP" H 4600 -1200 50  0001 C CNN "VEND#"
-F 7 "DNP" H 4600 -1200 50  0001 C CNN "Manufacturer"
-	1    10750 3725
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1384,36 +1353,6 @@ Wire Wire Line
 Text Label 11600 1950 0    60   ~ 12
 12V_SAFE
 $Comp
-L Connector:TestPoint IGN2
-U 1 1 5D96131B
-P 10750 3525
-F 0 "IGN2" V 10750 3700 50  0000 L CNN
-F 1 "IGNOUT" V 10750 3700 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 10950 3525 50  0001 C CNN
-F 3 "~" H 10950 3525 50  0001 C CNN
-F 4 "DNP" H 4600 -1400 50  0001 C CNN "Part #"
-F 5 "DNP" H 4600 -1400 50  0001 C CNN "VEND"
-F 6 "DNP" H 4600 -1400 50  0001 C CNN "VEND#"
-F 7 "DNP" H 4600 -1400 50  0001 C CNN "Manufacturer"
-	1    10750 3525
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint IGN1
-U 1 1 5D9617F5
-P 10750 3425
-F 0 "IGN1" V 10750 3600 50  0000 L CNN
-F 1 "IGNOUT" V 10750 3600 50  0001 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 10950 3425 50  0001 C CNN
-F 3 "~" H 10950 3425 50  0001 C CNN
-F 4 "DNP" H 4600 -1500 50  0001 C CNN "Part #"
-F 5 "DNP" H 4600 -1500 50  0001 C CNN "VEND"
-F 6 "DNP" H 4600 -1500 50  0001 C CNN "VEND#"
-F 7 "DNP" H 4600 -1500 50  0001 C CNN "Manufacturer"
-	1    10750 3425
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR013
 U 1 1 5DAF58A9
 P 6275 5600
@@ -1637,7 +1576,7 @@ F 3 "~" H 13100 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 13400 2250 0    50   ~ 0
-PD0
+PB9
 Wire Wire Line
 	6700 9225 6600 9225
 Text Label 6600 9225 2    50   ~ 0
@@ -1704,4 +1643,44 @@ F 7 "DNP" H 4600 0   50  0001 C CNN "Manufacturer"
 $EndComp
 Text Label 10750 4800 0    60   ~ 12
 AV9
+Text Label 8050 8425 0    50   ~ 0
+PB9
+Wire Wire Line
+	7950 8425 8050 8425
+NoConn ~ 7950 9025
+Wire Wire Line
+	11275 3725 11275 3175
+Wire Wire Line
+	11250 3075 11250 3625
+Wire Wire Line
+	11250 3625 10750 3625
+Wire Wire Line
+	10750 3525 11225 3525
+Wire Wire Line
+	11225 3525 11225 2975
+Wire Wire Line
+	10750 3425 11200 3425
+Wire Wire Line
+	11200 3425 11200 2875
+Wire Wire Line
+	11275 3175 13125 3175
+Wire Wire Line
+	11250 3075 13125 3075
+Wire Wire Line
+	11225 2975 13125 2975
+Wire Wire Line
+	11200 2875 13125 2875
+$Comp
+L Connector:Conn_01x04_Male J5
+U 1 1 5E292BCB
+P 13325 2975
+F 0 "J5" H 13275 3000 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 13275 2900 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13325 2975 50  0001 C CNN
+F 3 "~" H 13325 2975 50  0001 C CNN
+	1    13325 2975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 3725 11275 3725
 $EndSCHEMATC
