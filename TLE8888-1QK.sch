@@ -6,11 +6,11 @@ $Descr User 19685 15748
 encoding utf-8
 Sheet 7 7
 Title "microRusEfi-2L"
-Date "2019-10-08"
-Rev "R0.4.5"
+Date "2019-12-21"
+Rev "R0.4.6"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
-Comment2 ""
+Comment2 "AI6OD"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -555,12 +555,10 @@ Wire Wire Line
 Text Label 11500 7750 0    60   ~ 12
 V5V
 NoConn ~ 9250 6700
-NoConn ~ 9150 6700
 NoConn ~ 9050 6700
 NoConn ~ 8950 6700
 NoConn ~ 8850 6700
 NoConn ~ 8750 6700
-NoConn ~ 8100 7200
 NoConn ~ 8100 7300
 NoConn ~ 8100 7400
 NoConn ~ 8100 7500
@@ -1139,11 +1137,9 @@ Text Label 9725 11225 2    50   ~ 0
 V6GATE
 Wire Wire Line
 	11500 8050 11600 8050
-Wire Wire Line
-	11600 8050 11600 8150
 Connection ~ 11600 8150
 Wire Wire Line
-	11600 8150 12025 8150
+	11600 8150 11900 8150
 $Comp
 L rusefi_tle8888:TLE8888QK U2
 U 1 1 5C5DF903
@@ -1350,8 +1346,6 @@ Wire Wire Line
 	11050 6450 11900 6450
 Text Label 9250 6700 1    50   ~ 10
 DFB8
-Text Label 9150 6700 1    50   ~ 10
-DFB9
 Text Label 9050 6700 1    50   ~ 10
 OUT_8
 Text Label 8950 6700 1    50   ~ 10
@@ -1360,4 +1354,40 @@ Text Label 8850 6700 1    50   ~ 10
 DFB10
 Text Label 8750 6700 1    50   ~ 10
 OUT_10
+$Comp
+L Device:R R8
+U 1 1 5E15579B
+P 11750 8050
+F 0 "R8" V 11800 8225 50  0000 C CNN
+F 1 "0" V 11750 8050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11680 8050 50  0001 C CNN
+F 3 "~" H 11750 8050 50  0001 C CNN
+F 4 "C21189" H 11750 8050 50  0001 C CNN "LCSC"
+	1    11750 8050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11900 8050 11900 8150
+Connection ~ 11900 8150
+Wire Wire Line
+	11900 8150 12025 8150
+Text Label 8100 7300 2    50   ~ 10
+OUT_11
+Text Label 8100 7500 2    50   ~ 10
+OUT_12
+Text Label 8100 7700 2    50   ~ 10
+OUT_13
+Text Label 8100 7200 2    50   ~ 10
+DFB11
+Text Label 8100 7400 2    50   ~ 10
+DFB12
+Text Label 8100 7600 2    50   ~ 10
+DFB13
+Text HLabel 7750 7200 0    60   Input ~ 12
+DFB11
+Wire Wire Line
+	8100 7200 7750 7200
+Text Label 9150 6700 1    50   ~ 10
+DFB9
+NoConn ~ 9150 6700
 $EndSCHEMATC
