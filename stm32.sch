@@ -6,8 +6,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 5 7
 Title "microRusEfi-2L"
-Date "2019-12-21"
-Rev "R0.4.6"
+Date "2019-12-30"
+Rev "R0.4.7"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
 Comment2 "AI6OD"
@@ -79,7 +79,7 @@ Text Notes 11750 6650 0    60   ~ 12
 SWD
 Text Label 12100 6300 0    60   ~ 12
 VDD
-Text Notes 12400 3650 0    60   ~ 12
+Text Notes 11900 3600 0    60   ~ 12
 USB power
 Text Label 12450 6200 0    60   ~ 12
 PA14
@@ -832,18 +832,9 @@ Wire Wire Line
 Wire Wire Line
 	12950 5050 12950 4950
 Wire Wire Line
-	11800 4300 12850 4300
-Wire Wire Line
 	13200 4950 13200 4525
 Wire Wire Line
-	13200 4525 13125 4525
-Wire Wire Line
 	13050 4950 13200 4950
-Wire Wire Line
-	12850 4550 12850 4300
-Connection ~ 12850 4300
-Wire Wire Line
-	12850 4300 13450 4300
 Connection ~ 7875 8825
 $Comp
 L power:GND #PWR0151
@@ -857,19 +848,7 @@ F 3 "" H 5550 3025 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	11800 4200 13125 4200
-Wire Wire Line
-	11800 4400 12750 4400
-Wire Wire Line
-	13125 4525 13125 4200
-Connection ~ 13125 4200
-Wire Wire Line
-	13125 4200 13450 4200
-Wire Wire Line
-	12750 4500 12750 4400
-Connection ~ 12750 4400
-Wire Wire Line
-	12750 4400 13450 4400
+	11800 4200 12850 4200
 Wire Wire Line
 	6850 3550 6850 2850
 Wire Wire Line
@@ -1030,7 +1009,7 @@ U 1 1 5D59F012
 P 5100 3600
 F 0 "SW2" H 5100 3793 50  0000 C CNN
 F 1 "SW_Push" H 5100 3794 50  0001 C CNN
-F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 5100 3800 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 5100 3800 50  0001 C CNN
 F 3 "~" H 5100 3800 50  0001 C CNN
 	1    5100 3600
 	1    0    0    -1  
@@ -1070,10 +1049,10 @@ U 1 1 5D4BAD74
 P 4350 4300
 F 0 "SW1" H 4350 4493 50  0000 C CNN
 F 1 "SW_Push" H 4350 4494 50  0001 C CNN
-F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 4350 4500 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 4350 4500 50  0001 C CNN
 F 3 "~" H 4350 4500 50  0001 C CNN
-F 4 "TBD" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "TBD" H 0   0   50  0001 C CNN "Part #"
+F 4 "" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "" H 0   0   50  0001 C CNN "Part #"
 F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 7 "TBD" H 0   0   50  0001 C CNN "VEND#"
 	1    4350 4300
@@ -1154,7 +1133,7 @@ U 1 1 5CDEB9A6
 P 11500 4200
 F 0 "J1" H 11557 4667 50  0000 C CNN
 F 1 "USB_B_Micro" H 11557 4576 50  0000 C CNN
-F 2 "Connector_USB:USB_Micro-B_Molex-105133-0031" H 11650 4150 50  0001 C CNN
+F 2 "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical" H 11650 4150 50  0001 C CNN
 F 3 "~" H 11650 4150 50  0001 C CNN
 F 4 "MOLEX" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "105133-0031" H 0   0   50  0001 C CNN "Part #"
@@ -1529,15 +1508,15 @@ L Device:R R48
 U 1 1 5C5BFED0
 P 12550 3800
 F 0 "R48" V 12650 3800 50  0000 C CNN
-F 1 "1k" V 12550 3825 50  0000 C CNN
+F 1 "2.2k" V 12550 3825 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 855 1700 60  0001 C CNN
 F 3 "" H 12550 3800 60  0001 C CNN
 F 4 "stm32f407_board" H 12375 1275 60  0001 C CNN "PageName"
-F 5 "RMCF0603JJ1K00" H 0   0   50  0001 C CNN "Part #"
-F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "RMCF0603JJ1K00CT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 8 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-F 9 "C21190" H 12550 3800 50  0001 C CNN "LCSC"
+F 5 "RMCF0603FT2K20" H 0   0   50  0001 C CNN "Part #"
+F 6 "" H 0   0   50  0001 C CNN "VEND"
+F 7 "" H 0   0   50  0001 C CNN "VEND#"
+F 8 "" H 0   0   50  0001 C CNN "Manufacturer"
+F 9 "C4190" H 12550 3800 50  0001 C CNN "LCSC"
 	1    12550 3800
 	0    1    -1   0   
 $EndComp
@@ -1555,14 +1534,11 @@ $EndComp
 Wire Wire Line
 	6125 3125 6125 3300
 Wire Wire Line
-	5550 3125 6025 3125
-Wire Wire Line
 	5525 3300 5525 3375
 Wire Wire Line
 	5825 3500 6150 3500
 Text Label 5825 3500 0    50   ~ 0
 Vrtcc
-NoConn ~ 12950 4550
 $Comp
 L power:PWR_FLAG #FLG0109
 U 1 1 5E1FC7D0
@@ -1574,12 +1550,57 @@ F 3 "~" H 6150 3500 50  0001 C CNN
 	1    6150 3500
 	1    0    0    -1  
 $EndComp
-Connection ~ 6025 3125
-Wire Wire Line
-	6025 3125 6125 3125
 Text Label 5650 3125 0    50   ~ 0
 Vrtc
 Connection ~ 6150 3500
 Wire Wire Line
 	6150 3500 6150 3550
+Wire Wire Line
+	5550 3125 6125 3125
+Wire Wire Line
+	11800 4300 13100 4300
+Wire Wire Line
+	12850 4200 12850 4550
+Connection ~ 12850 4200
+Wire Wire Line
+	12850 4200 13450 4200
+Wire Wire Line
+	11800 4400 12750 4400
+Wire Wire Line
+	13100 4300 13100 4525
+Wire Wire Line
+	13100 4525 13200 4525
+Connection ~ 13100 4300
+Wire Wire Line
+	13100 4300 13450 4300
+Wire Wire Line
+	12750 4500 12750 4400
+Connection ~ 12750 4400
+Wire Wire Line
+	12750 4400 13450 4400
+Text Label 12950 4550 1    60   ~ 12
+5V
+$Comp
+L Connector:Conn_01x06_Male J7
+U 1 1 5E644ACF
+P 11950 7100
+F 0 "J7" H 11900 6950 50  0000 R CNN
+F 1 "TC2030" H 11900 7050 50  0000 R CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 11950 7100 50  0001 C CNN
+F 3 "~" H 11950 7100 50  0001 C CNN
+	1    11950 7100
+	-1   0    0    1   
+$EndComp
+Text Label 11750 7300 2    60   ~ 12
+3.3V
+Text Label 11750 7200 2    60   ~ 12
+SWDIO
+Text Label 11750 7100 2    60   ~ 12
+NRST
+Text Label 11750 7000 2    60   ~ 12
+SCK
+Text Label 11750 6900 2    60   ~ 12
+GND
+Text Label 11750 6800 2    60   ~ 12
+SWO
 $EndSCHEMATC
