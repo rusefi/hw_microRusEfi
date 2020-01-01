@@ -12,8 +12,8 @@
   (page A)
   (title_block
     (title microRusEfi)
-    (date 2019-08-11)
-    (rev R0.3)
+    (date 2019-12-30)
+    (rev R0.4.7)
   )
 
   (layers
