@@ -9,7 +9,7 @@ echo "Translating grom %inputFile% to %outputFile%"
 
 echo "Designator,Mid X,Mid Y,Layer,Rotation" > %outputFile%
 
-grep -v Package %inputFile% | gawk -F "," '{ sub(/\..*/,"", $6); print $1 "," $4 "mm," $5 "mm,Top," $6}' >> %outputFile%.temp
-sed -f unquote.sed %outputFile%.temp > %outputFile%
+grep -v Package %inputFile% | gawk -F "," '{ sub(/\..*/,"", $6); print $1 "," $4 "mm," $5 "mm,Top," $6}' > %outputFile%.temp
+sed -f unquote.sed %outputFile%.temp >> %outputFile%
 
 
