@@ -1,5 +1,8 @@
 #Front side
 
+TODO 0.4.7 add to BOM and CPL: LIN termination D43 R10
+TODO 0.4.7 add to BOM and CPL: RTC diode D42
+
 Alternatives for C50282 op-amp: C248577
 
 100UF 50V Polarized capacitor,C2,CP_Elec_8x10.5,
