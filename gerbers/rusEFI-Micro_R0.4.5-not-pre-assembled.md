@@ -18,6 +18,7 @@ PESD1CAN-UX ,D2,SOT-23,771-PESD1CANUX,C152727
 "Conn_02x05_Counter_Clockwise Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",J4,PinHeader_2x05_P2.54mm_Vertical_SMD,
 
 "SW_Push Push button switch, generic, two pins","SW1,SW2",SW_Push_SPST_NO_Alps_SKRK,
+3*6*2.5 MM Tactile Tact Push Button Micro Switch Momentary Two Pin
 
 TLE9201SG ,U4,Infineon_PG-DSO-12-11,726-TLE9201SGAUMA1
 
