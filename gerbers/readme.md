@@ -1,4 +1,4 @@
-All microRusEfi boards 81x94mm
+All microRusEfi boards are 81x94mm
 
 
 R0.1, R0.2, R03 - 4 layers, no assembly files
