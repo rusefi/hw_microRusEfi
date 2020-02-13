@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:microRusEfi-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
@@ -962,7 +961,7 @@ GP5
 Text Label 5800 1575 3    60   ~ 12
 Ign3
 $Comp
-L microRusEfi-rescue:LOGO-rusefi_Logo LOGO2
+L rusefi_Logo:LOGO LOGO2
 U 1 1 5D54AA23
 P 11425 10225
 F 0 "LOGO2" H 11425 10500 50  0001 C CNN

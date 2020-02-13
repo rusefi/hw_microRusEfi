@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:microRusEfi-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
