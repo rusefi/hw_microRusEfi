@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:microRusEfi-cache
 EELAYER 30 0
 EELAYER END
 $Descr User 19685 15748
 encoding utf-8
 Sheet 7 7
 Title "microRusEfi-2L"
-Date "2019-12-30"
-Rev "R0.4.7"
+Date "2020-02-12"
+Rev "R0.4.8"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
 Comment2 "AI6OD"

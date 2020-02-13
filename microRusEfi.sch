@@ -1,13 +1,12 @@
 EESchema Schematic File Version 4
-LIBS:microRusEfi-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 1 7
 Title "microRusEfi-2L"
-Date "2019-12-30"
-Rev "R0.4.7"
+Date "2020-02-12"
+Rev "R0.4.8"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
 Comment2 "AI6OD"
@@ -962,7 +961,7 @@ GP5
 Text Label 5800 1575 3    60   ~ 12
 Ign3
 $Comp
-L microRusEfi-rescue:LOGO-rusefi_Logo LOGO2
+L rusefi_Logo:LOGO LOGO2
 U 1 1 5D54AA23
 P 11425 10225
 F 0 "LOGO2" H 11425 10500 50  0001 C CNN
@@ -1684,4 +1683,95 @@ F 8 "C21189" H 11025 4800 50  0001 C CNN "LCSC"
 	1    11025 4800
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x03 M2
+U 1 1 5E6A6A86
+P 850 10300
+F 0 "M2" H 930 10296 50  0000 L CNN
+F 1 "Conn_01x03" H 930 10251 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 850 10300 50  0001 C CNN
+F 3 "~" H 850 10300 50  0001 C CNN
+	1    850  10300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 M1
+U 1 1 5E6A716D
+P 850 9950
+F 0 "M1" H 930 9946 50  0000 L CNN
+F 1 "Conn_01x03" H 930 9901 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 850 9950 50  0001 C CNN
+F 3 "~" H 850 9950 50  0001 C CNN
+	1    850  9950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 650  10400
+NoConn ~ 650  10300
+NoConn ~ 650  10200
+NoConn ~ 650  10050
+NoConn ~ 650  9950
+NoConn ~ 650  9850
+$Comp
+L Connector:TestPoint M4
+U 1 1 5E6EA5F0
+P 1175 10400
+F 0 "M4" V 1175 10575 50  0000 L CNN
+F 1 "LIN" V 1175 10575 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1375 10400 50  0001 C CNN
+F 3 "~" H 1375 10400 50  0001 C CNN
+F 4 "DNP" H -4975 5475 50  0001 C CNN "Part #"
+F 5 "DNP" H -4975 5475 50  0001 C CNN "VEND"
+F 6 "DNP" H -4975 5475 50  0001 C CNN "VEND#"
+F 7 "DNP" H -4975 5475 50  0001 C CNN "Manufacturer"
+	1    1175 10400
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint M3
+U 1 1 5E6EC0BE
+P 1175 10300
+F 0 "M3" V 1175 10475 50  0000 L CNN
+F 1 "LIN" V 1175 10475 50  0001 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1375 10300 50  0001 C CNN
+F 3 "~" H 1375 10300 50  0001 C CNN
+F 4 "DNP" H -4975 5375 50  0001 C CNN "Part #"
+F 5 "DNP" H -4975 5375 50  0001 C CNN "VEND"
+F 6 "DNP" H -4975 5375 50  0001 C CNN "VEND#"
+F 7 "DNP" H -4975 5375 50  0001 C CNN "Manufacturer"
+	1    1175 10300
+	0    1    1    0   
+$EndComp
+NoConn ~ 1175 10400
+NoConn ~ 1175 10300
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J8
+U 1 1 5E7157B9
+P 13100 1325
+F 0 "J8" H 13150 1775 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 13150 1675 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 13100 1325 50  0001 C CNN
+F 3 "~" H 13100 1325 50  0001 C CNN
+	1    13100 1325
+	1    0    0    -1  
+$EndComp
+Text Label 13400 1325 0    50   ~ 0
+PB9
+Text Label 13400 1525 0    50   ~ 0
+PC12
+Text Label 12900 1325 2    50   ~ 0
+PC11
+Text Label 13400 1425 0    50   ~ 0
+PC10
+Text Label 12900 1125 2    60   ~ 0
+5V
+Text Label 13400 1125 0    60   ~ 0
+12V_MREL
+Text Label 13400 1225 0    60   ~ 0
+VDD
+Text Label 12900 1425 2    50   ~ 0
+PA15
+Text Label 12900 1225 2    50   ~ 0
+PB8
+Text Label 12900 1525 2    60   ~ 0
+GND
 $EndSCHEMATC
