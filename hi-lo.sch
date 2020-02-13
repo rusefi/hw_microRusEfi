@@ -287,12 +287,12 @@ F 8 "C17901" V 7600 7100 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP2
+L Jumper:SolderJumper_3_Open JP2
 U 1 1 5DAB9BDF
 P 3550 4700
 F 0 "JP2" H 3550 4950 50  0000 C CNN
 F 1 "High side voltage 5V 12V" H 3550 4850 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" H 3550 4700 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" H 3550 4700 50  0001 C CNN
 F 3 "~" H 3550 4700 50  0001 C CNN
 	1    3550 4700
 	1    0    0    -1  

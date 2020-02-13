@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Owner\Desktop\hw_microRusEfi\microRusEfi.sch)
-    (date "2/13/2020 5:40:14 AM")
+    (date "2/13/2020 5:49:44 AM")
     (tool "Eeschema (5.1.5)-3")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -642,9 +642,9 @@
       (tstamp 5D8F9107))
     (comp (ref JP2)
       (value "High side voltage 5V 12V")
-      (footprint Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm)
+      (footprint Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm)
       (datasheet ~)
-      (libsource (lib Jumper) (part SolderJumper_3_Bridged12) (description "3-pole Solder Jumper, pins 1+2 closed/bridged"))
+      (libsource (lib Jumper) (part SolderJumper_3_Open) (description "Solder Jumper, 3-pole, open"))
       (sheetpath (names /hi-lo/) (tstamps /5CBDF691/))
       (tstamp 5DAB9BDF))
     (comp (ref RN5)
@@ -3011,6 +3011,18 @@
       (fields
         (field (name Reference) JP)
         (field (name Value) SolderJumper_3_Bridged12))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name C) (type input))
+        (pin (num 3) (name B) (type passive))))
+    (libpart (lib Jumper) (part SolderJumper_3_Open)
+      (description "Solder Jumper, 3-pole, open")
+      (docs ~)
+      (footprints
+        (fp SolderJumper*Open*))
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) SolderJumper_3_Open))
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name C) (type input))
