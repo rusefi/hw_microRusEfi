@@ -1743,4 +1743,35 @@ F 7 "DNP" H -4975 5375 50  0001 C CNN "Manufacturer"
 $EndComp
 NoConn ~ 1175 10400
 NoConn ~ 1175 10300
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J8
+U 1 1 5E7157B9
+P 13100 1325
+F 0 "J8" H 13150 1775 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 13150 1675 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 13100 1325 50  0001 C CNN
+F 3 "~" H 13100 1325 50  0001 C CNN
+	1    13100 1325
+	1    0    0    -1  
+$EndComp
+Text Label 13400 1325 0    50   ~ 0
+PB9
+Text Label 13400 1525 0    50   ~ 0
+PC12
+Text Label 12900 1325 2    50   ~ 0
+PC11
+Text Label 13400 1425 0    50   ~ 0
+PC10
+Text Label 12900 1125 2    60   ~ 0
+5V
+Text Label 13400 1125 0    60   ~ 0
+12V_MREL
+Text Label 13400 1225 0    60   ~ 0
+VDD
+Text Label 12900 1425 2    50   ~ 0
+PA15
+Text Label 12900 1225 2    50   ~ 0
+PB8
+Text Label 12900 1525 2    60   ~ 0
+GND
 $EndSCHEMATC
