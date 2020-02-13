@@ -1000,7 +1000,7 @@ F 1 "VRef Source 5Vsense VDDA" H 5250 2650 50  0000 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5250 2500 50  0001 C CNN
 F 3 "~" H 5250 2500 50  0001 C CNN
 	1    5250 2500
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW2
