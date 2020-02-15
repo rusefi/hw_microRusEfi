@@ -11362,7 +11362,7 @@
   (gr_text "R0.1 PCB DESIGN BY OLA RUUD\nR0.2 PCB DESIGN BY DAECU\nR0.3 PCB DESIGN BY DAECU\nR0.4 PCB DESIGN BY DBECKER" (at 34.544 71.9455) (layer B.SilkS) (tstamp 5D2F32EA)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "microRusEfi\nR0.4.7-2L\nAI6OD" (at 90.043 52.3875) (layer F.SilkS)
+  (gr_text "microRusEfi\nR0.4.8-2L\nAI6OD" (at 90.043 52.3875) (layer F.SilkS)
     (effects (font (size 1.6 1.6) (thickness 0.2)))
   )
   (gr_line (start 25.8959 22.4) (end 95.8413 22.4) (layer Edge.Cuts) (width 0.2) (tstamp 5CF257C9))
