@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 380)
+    (drawings 381)
     (tracks 3721)
     (zones 0)
     (modules 242)
@@ -29,7 +29,7 @@
     (39 F.Mask user)
     (40 Dwgs.User user)
     (41 Cmts.User user)
-    (42 Eco1.User user hide)
+    (42 Eco1.User user)
     (43 Eco2.User user)
     (44 Edge.Cuts user)
     (45 Margin user hide)
@@ -40,7 +40,7 @@
   )
 
   (setup
-    (last_trace_width 0.2159)
+    (last_trace_width 0.2032)
     (user_trace_width 0.2032)
     (user_trace_width 0.2159)
     (user_trace_width 0.2159)
@@ -10880,6 +10880,9 @@
       (net 5 /5V))
   )
 
+  (gr_text "        bright when \nhi/lo GP5 is driving low" (at 28.5242 32.2326 90) (layer F.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.13)))
+  )
   (gr_text 3.3V (at 22.2885 80.391 90) (layer F.SilkS) (tstamp 5E19D8BE)
     (effects (font (size 1.016 1.016) (thickness 0.1524)))
   )
