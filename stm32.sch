@@ -1619,4 +1619,18 @@ Connection ~ 4700 3725
 Wire Wire Line
 	5100 3450 5100 3725
 Connection ~ 5100 3725
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5E49AEC0
+P 4350 4050
+F 0 "SW4" H 4550 4125 50  0000 C CNN
+F 1 "SW_Push" H 4350 4244 50  0001 C CNN
+F 2 "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK" H 4350 4250 50  0001 C CNN
+F 3 "~" H 4350 4250 50  0001 C CNN
+	1    4350 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 4050
+Wire Wire Line
+	4150 4300 4150 4050
 $EndSCHEMATC
