@@ -1,3 +1,7 @@
+Available on eBay https://www.ebay.com/itm/333517397424
+
+[microRusEfi kit instructions](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_kit_instructions)
+
 [microRusEfi documentation wiki](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi)
 
 
