@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:microRusEfi-cache
+EELAYER 29 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -222,6 +223,7 @@ F 4 "TLE9201SG" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "TLE9201SGAUMA1CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "Infineon " H 0   0   50  0001 C CNN "Manufacturer"
+F 8 "C112633" H 5525 3100 50  0001 C CNN "LCSC"
 	1    5525 3100
 	1    0    0    -1  
 $EndComp
