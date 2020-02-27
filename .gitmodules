@@ -1,3 +1,6 @@
 [submodule "rusefi_lib"]
 	path = rusefi_lib_external
 	url = https://github.com/rusefi/kicad-libraries
+[submodule "gerbers/bom_jlc"]
+	path = gerbers/bom_jlc
+	url = https://github.com/andreika-git/bom_jlc
