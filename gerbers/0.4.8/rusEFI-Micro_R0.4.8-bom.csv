@@ -76,7 +76,7 @@ TLE9201SG ,U4,Infineon_PG-DSO-12-11,C112633
 "XC6206 3.3V Low Quiescent Current LDO Regulator, 3.3V, 250mA, Vin<=16V, SOT-23",U7,SOT-23,C5446
 "IS25LP256D-xM 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16",U11,SOIC-16W_7.5x10.3mm_P1.27mm,
 "MIC4427 Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8","U31,U33,U32",SOIC-8_3.9x4.9mm_P1.27mm,C144205
-"MCP6004 1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14","U35,U36,U46,U8",TSSOP-14_4.4x5mm_P0.65mm,C50282
+"MCP6004 1MHz, Low-Power Op Amp, DIP-14/SOIC-14/TSSOP-14","U35,U36,U46,U8",TSSOP-14_4.4x5mm_P0.65mm,C248577
 8MHz Two pin crystal,X1,Crystal_SMD_5032-2Pin_5.0x3.2mm,C115962
 "32768 Hz Two pin crystal, small symbol",Y2,Crystal_SMD_3215-2Pin_3.2x1.5mm,C32346
 0R Resistor,"R21",R_0603_1608Metric,C21189
