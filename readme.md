@@ -1,4 +1,14 @@
+# microRusEfi
+
+microRusEfi is a small & cheap engine management system designed for 1, 2, 3 and 4 cylinder applications.
+microRusEfi uses a waterproof connector and it's aluminum enclose would be sealed.
+
+microRusEfi supports dual Hall shaft position sensor input or 1xHall + 1xVR shaft position sensor input (A few 
+resistors need to replaced on the PCB in order to switch from one setup to another)
+
 Available on eBay https://www.ebay.com/itm/333517397424
+
+# Documentation
 
 [microRusEfi kit instructions](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_kit_instructions)
 
