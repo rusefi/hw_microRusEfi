@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-2")
 
   (general
     (thickness 1.6)
-    (drawings 392)
+    (drawings 393)
     (tracks 3721)
     (zones 0)
     (modules 242)
@@ -80,7 +80,7 @@
     (pad_drill 0)
     (pad_to_mask_clearance 0.000076)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFDF7FF)
+    (visible_elements 7FFDFFFF)
     (pcbplotparams
       (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
@@ -10880,6 +10880,9 @@
       (net 5 /5V))
   )
 
+  (gr_text "microRusEfi\nR0.4.8-2L\nAI6OD" (at 90.043 52.3875) (layer B.SilkS) (tstamp 5E585BD9)
+    (effects (font (size 1.6 1.6) (thickness 0.2)) (justify mirror))
+  )
   (gr_text GND (at 40.894 79.756 270) (layer B.SilkS) (tstamp 5E4B3B0F)
     (effects (font (size 0.75 0.75) (thickness 0.13)) (justify mirror))
   )
