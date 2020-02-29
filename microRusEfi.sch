@@ -183,12 +183,12 @@ INJECTOR-3
 Text Label 11675 4225 0    60   ~ 12
 INJECTOR-4
 $Comp
-L rusefi_molex48:molex_48pin U3
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
 U 1 1 5DD8BB43
 P 7750 2125
 F 0 "U3" V 9037 2530 60  0000 C CNN
-F 1 "Molex_48_pin" V 8931 2530 60  0000 C CNN
-F 2 "rusefi_lib:Molex_48" H 7750 2125 60  0001 C CNN
+F 1 "molex_48pin_MRE" V 8931 2530 60  0000 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 7750 2125 60  0001 C CNN
 F 3 "" H 7750 2125 60  0001 C CNN
 F 4 "MOLEX" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "500762-0481" H 0   0   50  0001 C CNN "Part #"
@@ -1470,7 +1470,7 @@ F57 "LIN_RX" O L 9000 6675 50
 F58 "LIN_IO" B R 10750 6275 50 
 F59 "DFB11" I R 10750 4800 60 
 $EndSheet
-Text Label 10750 6275 0    60   ~ 12
+Text Label 11075 6275 2    60   ~ 12
 LINBUS
 Wire Wire Line
 	7950 7125 8925 7125
@@ -1484,21 +1484,6 @@ Wire Wire Line
 	8875 6575 8875 7025
 Wire Wire Line
 	8875 7025 7950 7025
-$Comp
-L Connector:TestPoint LIN1
-U 1 1 5EB5BF5A
-P 11075 6275
-F 0 "LIN1" V 11075 6450 50  0000 L CNN
-F 1 "LIN" V 11075 6450 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 11275 6275 50  0001 C CNN
-F 3 "~" H 11275 6275 50  0001 C CNN
-F 4 "DNP" H 4925 1350 50  0001 C CNN "Part #"
-F 5 "DNP" H 4925 1350 50  0001 C CNN "VEND"
-F 6 "DNP" H 4925 1350 50  0001 C CNN "VEND#"
-F 7 "DNP" H 4925 1350 50  0001 C CNN "Manufacturer"
-	1    11075 6275
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10750 6275 11075 6275
 $Comp
@@ -1634,17 +1619,6 @@ Text Label 14625 6825 2    60   ~ 12
 12V_SAFE
 Text Notes 14125 7575 0    60   ~ 12
 LIN bus termination
-$Comp
-L Connector:Conn_01x05_Female J6
-U 1 1 5E4D4F4D
-P 11075 5125
-F 0 "J6" H 11125 5200 50  0000 L CNN
-F 1 "Conn_01x05_Female" H 11125 5100 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 11075 5125 50  0001 C CNN
-F 3 "~" H 11075 5125 50  0001 C CNN
-	1    11075 5125
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 4925 10875 4925
 Wire Wire Line
@@ -1683,95 +1657,57 @@ F 8 "C21189" H 11025 4800 50  0001 C CNN "LCSC"
 	1    11025 4800
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x03 M2
-U 1 1 5E6A6A86
-P 850 10300
-F 0 "M2" H 930 10296 50  0000 L CNN
-F 1 "Conn_01x03" H 930 10251 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 850 10300 50  0001 C CNN
-F 3 "~" H 850 10300 50  0001 C CNN
-	1    850  10300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 M1
-U 1 1 5E6A716D
-P 850 9950
-F 0 "M1" H 930 9946 50  0000 L CNN
-F 1 "Conn_01x03" H 930 9901 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 850 9950 50  0001 C CNN
-F 3 "~" H 850 9950 50  0001 C CNN
-	1    850  9950
-	1    0    0    -1  
-$EndComp
-NoConn ~ 650  10400
-NoConn ~ 650  10300
-NoConn ~ 650  10200
-NoConn ~ 650  10050
-NoConn ~ 650  9950
-NoConn ~ 650  9850
-$Comp
-L Connector:TestPoint M4
-U 1 1 5E6EA5F0
-P 1175 10400
-F 0 "M4" V 1175 10575 50  0000 L CNN
-F 1 "LIN" V 1175 10575 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1375 10400 50  0001 C CNN
-F 3 "~" H 1375 10400 50  0001 C CNN
-F 4 "DNP" H -4975 5475 50  0001 C CNN "Part #"
-F 5 "DNP" H -4975 5475 50  0001 C CNN "VEND"
-F 6 "DNP" H -4975 5475 50  0001 C CNN "VEND#"
-F 7 "DNP" H -4975 5475 50  0001 C CNN "Manufacturer"
-	1    1175 10400
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint M3
-U 1 1 5E6EC0BE
-P 1175 10300
-F 0 "M3" V 1175 10475 50  0000 L CNN
-F 1 "LIN" V 1175 10475 50  0001 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1375 10300 50  0001 C CNN
-F 3 "~" H 1375 10300 50  0001 C CNN
-F 4 "DNP" H -4975 5375 50  0001 C CNN "Part #"
-F 5 "DNP" H -4975 5375 50  0001 C CNN "VEND"
-F 6 "DNP" H -4975 5375 50  0001 C CNN "VEND#"
-F 7 "DNP" H -4975 5375 50  0001 C CNN "Manufacturer"
-	1    1175 10300
-	0    1    1    0   
-$EndComp
-NoConn ~ 1175 10400
-NoConn ~ 1175 10300
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J8
-U 1 1 5E7157B9
-P 13100 1325
-F 0 "J8" H 13150 1775 50  0000 C CNN
-F 1 "Conn_02x05_Counter_Clockwise" H 13150 1675 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 13100 1325 50  0001 C CNN
-F 3 "~" H 13100 1325 50  0001 C CNN
-	1    13100 1325
-	1    0    0    -1  
-$EndComp
-Text Label 13400 1325 0    50   ~ 0
-PB9
-Text Label 13400 1525 0    50   ~ 0
-PC12
-Text Label 12900 1325 2    50   ~ 0
-PC11
-Text Label 13400 1425 0    50   ~ 0
-PC10
-Text Label 12900 1125 2    60   ~ 0
-5V
-Text Label 13400 1125 0    60   ~ 0
-12V_MREL
-Text Label 13400 1225 0    60   ~ 0
-VDD
-Text Label 12900 1425 2    50   ~ 0
-PA15
-Text Label 12900 1225 2    50   ~ 0
-PB8
-Text Label 12900 1525 2    60   ~ 0
+NoConn ~ 4550 1075
+NoConn ~ 4550 1175
+NoConn ~ 4550 1275
+NoConn ~ 5100 1125
+NoConn ~ 9600 1125
+NoConn ~ 10150 1075
+NoConn ~ 10150 1175
+NoConn ~ 10150 1275
+NoConn ~ 9200 1125
+NoConn ~ 9200 1225
+NoConn ~ 9200 1325
+NoConn ~ 8650 1325
+NoConn ~ 8650 1225
+NoConn ~ 8650 1125
+Text Label 8100 1325 0    50   ~ 0
+12V_SAFE
+Text Label 8100 1225 0    50   ~ 0
+12V_SAFE
+Text Label 8100 1125 0    50   ~ 0
+12V_SAFE
+Text Label 6450 1125 0    50   ~ 0
 GND
+Text Label 7550 1125 0    50   ~ 0
+PB8
+Text Label 6450 1325 0    50   ~ 0
+PA15
+Text Label 7550 1325 0    50   ~ 0
+5V
+Text Label 7000 1225 0    50   ~ 0
+PC11
+Text Label 7000 1125 0    50   ~ 0
+PB9
+Text Label 5900 1325 0    50   ~ 0
+PC12
+Text Label 6450 1225 0    50   ~ 0
+PC10
+Text Label 7550 1225 0    50   ~ 0
+12V_MREL
+Text Label 7000 1325 0    50   ~ 0
+VDD
+Text Label 5900 1125 0    50   ~ 0
+LINBUS
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 2 1 5E9380F7
+P 10875 5125
+F 0 "U3" H 11075 5100 60  0000 L CNN
+F 1 "molex_48pin_MRE" V 12025 5125 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 10875 5125 60  0001 C CNN
+F 3 "" H 10875 5125 60  0001 C CNN
+	2    10875 5125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

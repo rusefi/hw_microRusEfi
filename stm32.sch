@@ -916,17 +916,6 @@ F 5 "C115962" H 4850 5300 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J3
-U 1 1 5DBCAD10
-P 5350 3125
-F 0 "J3" H 5225 2775 50  0000 C CNN
-F 1 "Conn_01x02" H 5225 2875 50  0000 C CNN
-F 2 "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical" H 5350 3125 50  0001 C CNN
-F 3 "~" H 5350 3125 50  0001 C CNN
-	1    5350 3125
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C C44
 U 1 1 5DA996EF
 P 7875 8975
@@ -1633,4 +1622,15 @@ $EndComp
 Connection ~ 4550 4050
 Wire Wire Line
 	4150 4300 4150 4050
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 3 1 5E8EE3BC
+P 5550 3075
+F 0 "U3" H 5650 2875 60  0000 C CNN
+F 1 "molex_48pin_MRE" H 6279 5950 60  0001 L CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 5550 3075 60  0001 C CNN
+F 3 "" H 5550 3075 60  0001 C CNN
+	3    5550 3075
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
