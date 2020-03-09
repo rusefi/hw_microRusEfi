@@ -10,6 +10,21 @@ resistors need to replaced on the PCB in order to switch from one setup to anoth
 
 Available on eBay https://www.ebay.com/itm/333517397424
 
+# Capabilities
+* Primary VR or Hall input (configurable with few resistor changes)
+* Secondary Hall inpit
+* Four analog temperate inputs
+* TDB analog inputs
+* Four high-Z injector outputs
+* Two high-current low side outputs for IAC/VVT/other solenoids
+* Dedicated main relay control output 
+* TBD low-current low side outputs for relays or warning lights 
+* Six high-side logic level outputs (x4 5v + x2 5v or 12v)
+* H-bridge for DC motor electronic throttle body
+ 
+
+
+
 # Documentation
 
 [microRusEfi kit instructions](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_kit_instructions)
