@@ -33,7 +33,7 @@ Do you like what you see here? Maybe https://www.patreon.com/rusefi
 
 stm32f767
 
-[TLE8888-1QK](https://www.infineon.com/dgdl/Infineon-Infineon-TLE8888QK-DS-v01_02-EN.pdf?fileId=5546d4624f205c9a014f402ebd1c6095)
+[TLE8888-2QK](https://www.infineon.com/dgdl/Infineon-Infineon-TLE8888QK-DS-v01_02-EN.pdf?fileId=5546d4624f205c9a014f402ebd1c6095)
 
 [48 pin connector](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_connectors)
 
