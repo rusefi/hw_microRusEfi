@@ -1566,17 +1566,6 @@ Wire Wire Line
 	11225 2975 13125 2975
 Wire Wire Line
 	11200 2875 13125 2875
-$Comp
-L Connector:Conn_01x04_Male J5
-U 1 1 5E292BCB
-P 13325 2975
-F 0 "J5" H 13275 3000 50  0000 R CNN
-F 1 "Conn_01x04_Male" H 13275 2900 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 13325 2975 50  0001 C CNN
-F 3 "~" H 13325 2975 50  0001 C CNN
-	1    13325 2975
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 3725 11275 3725
 $Comp
@@ -1677,27 +1666,27 @@ Text Label 8100 1225 0    50   ~ 0
 12V_SAFE
 Text Label 8100 1125 0    50   ~ 0
 12V_SAFE
-Text Label 6450 1125 0    50   ~ 0
+Text Label 12925 1525 2    50   ~ 0
 GND
-Text Label 7550 1125 0    50   ~ 0
+Text Label 12925 1225 2    50   ~ 0
 PB8
-Text Label 6450 1325 0    50   ~ 0
+Text Label 12925 1425 2    50   ~ 0
 PA15
-Text Label 7550 1325 0    50   ~ 0
+Text Label 12925 1125 2    50   ~ 0
 5V
-Text Label 7000 1225 0    50   ~ 0
+Text Label 12925 1325 2    50   ~ 0
 PC11
-Text Label 7000 1125 0    50   ~ 0
+Text Label 13325 1325 0    50   ~ 0
 PB9
-Text Label 5900 1325 0    50   ~ 0
+Text Label 13325 1525 0    50   ~ 0
 PC12
-Text Label 6450 1225 0    50   ~ 0
+Text Label 13325 1425 0    50   ~ 0
 PC10
-Text Label 7550 1225 0    50   ~ 0
+Text Label 13325 1125 0    50   ~ 0
 12V_MREL
-Text Label 7000 1325 0    50   ~ 0
+Text Label 13325 1225 0    50   ~ 0
 VDD
-Text Label 5900 1125 0    50   ~ 0
+Text Label 2775 1025 0    50   ~ 0
 LINBUS
 $Comp
 L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
@@ -1708,6 +1697,51 @@ F 1 "molex_48pin_MRE" V 12025 5125 60  0001 C CNN
 F 2 "rusefi_lib:Molex_48_MRE" H 10875 5125 60  0001 C CNN
 F 3 "" H 10875 5125 60  0001 C CNN
 	2    10875 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 4 1 5E7587F2
+P 12225 1325
+F 0 "U3" H 13125 1650 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 13406 1730 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 12225 1325 60  0001 C CNN
+F 3 "" H 12225 1325 60  0001 C CNN
+F 4 "MOLEX" H 4475 -800 50  0001 C CNN "Manufacturer"
+F 5 "500762-0481" H 4475 -800 50  0001 C CNN "Part #"
+F 6 "DIGI" H 4475 -800 50  0001 C CNN "VEND"
+F 7 "WM4430-ND" H 4475 -800 50  0001 C CNN "VEND#"
+	4    12225 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 5 1 5E75ADBD
+P 2175 1025
+F 0 "U3" H 2750 1175 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 3356 1430 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 2175 1025 60  0001 C CNN
+F 3 "" H 2175 1025 60  0001 C CNN
+F 4 "MOLEX" H -5575 -1100 50  0001 C CNN "Manufacturer"
+F 5 "500762-0481" H -5575 -1100 50  0001 C CNN "Part #"
+F 6 "DIGI" H -5575 -1100 50  0001 C CNN "VEND"
+F 7 "WM4430-ND" H -5575 -1100 50  0001 C CNN "VEND#"
+	5    2175 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 6 1 5E75E517
+P 12575 3025
+F 0 "U3" H 13225 3325 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 13756 3430 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 12575 3025 60  0001 C CNN
+F 3 "" H 12575 3025 60  0001 C CNN
+F 4 "MOLEX" H 4825 900 50  0001 C CNN "Manufacturer"
+F 5 "500762-0481" H 4825 900 50  0001 C CNN "Part #"
+F 6 "DIGI" H 4825 900 50  0001 C CNN "VEND"
+F 7 "WM4430-ND" H 4825 900 50  0001 C CNN "VEND#"
+	6    12575 3025
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
