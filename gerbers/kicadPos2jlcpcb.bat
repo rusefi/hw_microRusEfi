@@ -7,9 +7,9 @@ set outputFile=0.4.8/rusEFI-Micro_R0.4.8-cpl.csv
 
 echo "Translating grom %inputFile% to %outputFile%"
 
-echo "Designator,Mid X,Mid Y,Layer,Rotation" > %outputFile%
+echo Designator,Mid X,Mid Y,Layer,Rotation> %outputFile%
 
 grep -v Package %inputFile% | gawk -F "," '{ sub(/\..*/,"", $6); print $1 "," $4 "mm," $5 "mm,Top," $6}' > %outputFile%.temp
-sed -f unquote.sed %outputFile%.temp >> %outputFile%
+sed -f ../rusefi_lib_external/BOM_related/unquote.sed %outputFile%.temp >> %outputFile%
 
 
