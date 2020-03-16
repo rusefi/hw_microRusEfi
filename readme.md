@@ -22,7 +22,7 @@ or available as a kit or completely assembled from https://www.ebay.com/itm/3335
 * x4 high-Z injector outputs
 * x2 high-current low side outputs for IAC/VVT/other solenoids
 * Dedicated main relay control output 
-* TBD low-current low side outputs for relays or warning lights 
+* x4 low-current low side outputs for relays or warning lights 
 * x4 5v logic-level ignition outputs
 * x2 5v/12v configurable logic level outputs (requires resistor changes)
 * Electronic throttle body (drive by wire)
