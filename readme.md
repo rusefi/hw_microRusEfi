@@ -9,7 +9,7 @@ microRusEfi uses a waterproof connector and it's aluminum enclose could be seale
 microRusEfi hardware runs [rusEfi firmware](https://github.com/rusefi/rusefi).
 
 microRusEfi supports dual Hall shaft position sensor input or 1xHall + 1xVR shaft position sensor input (A few 
-resistors need to replaced on the PCB in order to switch from one setup to another)
+resistors need to be replaced on the PCB in order to switch from one setup to another)
 
 Available on eBay https://www.ebay.com/itm/333517397424
 
