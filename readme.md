@@ -4,7 +4,7 @@ microRusEfi is a small & cheap engine management system board designed for fully
 
 6 and 8 cylinders are possible with some limitations. 5 cylinder application not recommended. You would need at least two microRusEfi units to run a v12.
 
-microRusEfi uses a waterproof connector and it's aluminum enclose could be sealed. 
+microRusEfi uses a waterproof connector and its aluminum enclosure could be sealed. 
 
 microRusEfi hardware runs [rusEfi firmware](https://github.com/rusefi/rusefi).
 
