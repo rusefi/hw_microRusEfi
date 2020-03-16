@@ -28,9 +28,7 @@ Molex_48_pin ,U3,Molex_48,
 
 #Back side
 
-0.4.5: DNP Schottky diode,"D15,D20",D_SOD-323,
-0.4.7: chottky diode,"D15,D20",SMA,C22452
-
+0.4.x: Schottky diode,"D15,D20",SMA,C22452
 
 "10nF 4 resistor network, parallel topology, DIP package","CN17,CN6,CN5,CN14",R_Array_Convex_4x0603,
 
