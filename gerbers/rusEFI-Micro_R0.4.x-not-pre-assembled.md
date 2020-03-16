@@ -11,7 +11,7 @@ Alternatives for C50282 op-amp: C248577
 
 PESD1CAN-UX ,D2,SOT-23,771-PESD1CANUX,C152727
 
-[below 0.4.8 only]  USB_B_Micro USB Micro Type B connector,J1,USB_Micro-B_Molex-105133-0031,
+[0.4.5 and below]  USB_B_Micro USB Micro Type B connector,J1,USB_Micro-B_Molex-105133-0031,
 [0.4.7 and above]: USB Type B Vertical 614105150721 Wurth Elektronik,J1,USB_Micro,710-614105150721
 
 
