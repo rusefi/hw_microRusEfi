@@ -1,29 +1,36 @@
 # microRusEfi
 
-microRusEfi is a small & cheap engine management system board designed for 1, 2, 3 and 4 cylinder applications.
-microRusEfi uses a waterproof connector and it's aluminum enclose could be sealed. 
+microRusEfi is a small & cheap engine management system board designed for fully sequential 1, 2, 3 and 4 cylinder applications.
+
+6 and 8 cylinders are possible with some limitations. 5 cylinder application not recommended. You would need at least two microRusEfi units to run a v12.
+
+microRusEfi uses a waterproof connector and its aluminum enclosure could be sealed. 
 
 microRusEfi hardware runs [rusEfi firmware](https://github.com/rusefi/rusefi).
 
-microRusEfi supports dual Hall shaft position sensor input or 1xHall + 1xVR shaft position sensor input (A few 
-resistors need to replaced on the PCB in order to switch from one setup to another)
+microRusEfi supports dual Hall shaft position sensor input or 1xHall + 1xVR shaft position sensor input
+(A few resistors must be replaced on the PCB in order to switch from one setup to another)
 
-Available on eBay https://www.ebay.com/itm/333517397424
+Open source design available in this repository,
+or available as a kit or completely assembled from https://www.ebay.com/itm/333532119947
 
 # Capabilities
 * Primary VR or Hall input (configurable with few resistor changes)
 * Secondary Hall input
-* Four analog temperate inputs
-* 10 analog inputs
-* Four high-Z injector outputs
-* Two high-current low side outputs for IAC/VVT/other solenoids
+* x4 analog thermistor (temperature) inputs
+* x10 analog voltage inputs (0-5v)
+* x4 high-Z injector outputs
+* x2 high-current low side outputs for IAC/VVT/other solenoids
 * Dedicated main relay control output 
-* TBD low-current low side outputs for relays or warning lights 
-* Six high-side logic level outputs (x4 5v + x2 5v or 12v)
-* H-bridge for DC motor electronic throttle body
+* x4 low-current low side outputs for relays or warning lights 
+* x4 5v logic-level ignition outputs
+* x2 5v/12v configurable logic level outputs (requires resistor changes)
+* Electronic throttle body (drive by wire)
 * CAN connectivity on the plug
 * USB connectivity on the plug 
-* (TODO: stepper IAC support)
+
+# Will be supported soon
+* stepper IAC support
 
 
 
