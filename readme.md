@@ -17,17 +17,20 @@ or available as a kit or completely assembled from https://www.ebay.com/itm/3335
 # Capabilities
 * Primary VR or Hall input (configurable with few resistor changes)
 * Secondary Hall input
-* Four analog temperate inputs
-* 10 analog inputs
-* Four high-Z injector outputs
-* Two high-current low side outputs for IAC/VVT/other solenoids
+* x4 analog thermistor (temperature) inputs
+* x10 analog voltage inputs (0-5v)
+* x4 high-Z injector outputs
+* x2 high-current low side outputs for IAC/VVT/other solenoids
 * Dedicated main relay control output 
 * TBD low-current low side outputs for relays or warning lights 
-* Six high-side logic level outputs (x4 5v + x2 5v or 12v)
-* H-bridge for DC motor electronic throttle body
+* x4 5v logic-level ignition outputs
+* x2 5v/12v configurable logic level outputs (requires resistor changes)
+* Electronic throttle body (drive by wire)
 * CAN connectivity on the plug
 * USB connectivity on the plug 
-* (TODO: stepper IAC support)
+
+# Will be supported soon
+* stepper IAC support
 
 
 
