@@ -1,7 +1,9 @@
 #Front side
 
+Open question if anyone needs those:
 TODO add to BOM and CPL: LIN termination D43 R10
 TODO add to BOM and CPL: RTC diode D42
+Wake-up CAN R8
 
 Alternatives for C50282 op-amp: C248577
 
