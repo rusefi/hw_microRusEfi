@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.2)-2")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
 
   (general
     (thickness 1.6)
@@ -12,8 +12,8 @@
   (page A)
   (title_block
     (title microRusEfi)
-    (date 2020-02-12)
-    (rev R0.4.8)
+    (date 2020-03-22)
+    (rev R0.4.9)
   )
 
   (layers
@@ -11107,7 +11107,7 @@
       (net 5 /5V))
   )
 
-  (gr_text "microRusEfi\nR0.4.8-2L\nAI6OD" (at 90.805 51.435) (layer B.SilkS) (tstamp 5E585BD9)
+  (gr_text "microRusEfi\nR0.4.9-2L\nAI6OD" (at 90.805 51.435) (layer B.SilkS) (tstamp 5E585BD9)
     (effects (font (size 1.6 1.6) (thickness 0.2)) (justify mirror))
   )
   (gr_poly (pts (xy 88.9 115.57) (xy 80.01 115.57) (xy 80.01 107.95) (xy 96.901 107.95)) (layer F.SilkS) (width 0.1))
@@ -11465,7 +11465,7 @@
   (gr_text "R0.1 PCB DESIGN BY OLA RUUD\nR0.2 PCB DESIGN BY DAECU\nR0.3 PCB DESIGN BY DAECU\nR0.4 PCB DESIGN BY DBECKER" (at 33.147 67.056) (layer B.SilkS) (tstamp 5D2F32EA)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "microRusEfi\nR0.4.8-2L\nAI6OD" (at 90.043 52.3875) (layer F.SilkS)
+  (gr_text "microRusEfi\nR0.4.9-2L\nAI6OD" (at 90.043 52.3875) (layer F.SilkS)
     (effects (font (size 1.6 1.6) (thickness 0.2)))
   )
   (gr_line (start 25.8959 22.4) (end 95.8413 22.4) (layer Edge.Cuts) (width 0.2) (tstamp 5CF257C9))
