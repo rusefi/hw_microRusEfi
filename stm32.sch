@@ -1516,6 +1516,7 @@ F 0 "D42" H 5925 3200 50  0000 C CNN
 F 1 "BAV70" H 5925 3400 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5825 3300 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf" H 5825 3300 50  0001 C CNN
+F 4 "C82479" H 5825 3300 50  0001 C CNN "LCSC"
 	1    5825 3300
 	1    0    0    -1  
 $EndComp

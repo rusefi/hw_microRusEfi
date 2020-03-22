@@ -1,81 +1,77 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"D1";"SOT-23";1;"BAV70";;;
-2;"D2";"SOT-23";1;"PESD1CAN-UX";;;
-3;"J4";"PinHeader_2x05_P2.54mm_Vertical_SMD";1;"Conn_02x05_Counter_Clockwise";;;
-4;"R7,R40,R19,R18,R17,R11";"R_0603_1608Metric";6;"DNP";;;
-5;"D28,D35,D33,D31,D29,D19";"LED_0603_1608Metric";6;"LED-RED";;;
-6;"LIN1";"TestPoint_Pad_1.0x1.0mm";1;"LIN";;;
-7;"U7";"SOT-23";1;"XC6206 3.3V";;;
-8;"D37,D36";"D_SMA";2;"SS54";;;
-9;"C41,C26,C25";"C_0603_1608Metric";3;"2.2uF";;;
-10;"NT2";"Net-Tie_2_8.5mil";1;"Net-Tie_2";;;
-11;"U31,U33,U32";"SOIC-8_3.9x4.9mm_P1.27mm";3;"MIC4427";;;
-12;"C21,C22";"C_0603_1608Metric";2;"18pF";;;
-13;"D17";"D_SOD-123";1;"B5819W";;;
-14;"D41";"D_SMC";1;"SM15T33C";;;
-15;"U6";"SO-8_5.3x6.2mm_P1.27mm-150+208";1;"W25QxxJVS";;;
-16;"D39,D13,D38,D40,D16";"SOT-23-6";5;"SRV05-4";;;
-17;"R79,R78,R77,R76,R71,R70,R69,R68,R63,R62,R61,R60,R46,R44,R39,R38,R16,R141,R45,R43,R13,R12,R6,R4,R3,R2,R1";"R_0603_1608Metric";27;"10K";;;
-18;"R75,R74,R73,R72,R67,R66,R65,R64,R59,R57,R55,R53,R26,R35,R32,R5";"R_0603_1608Metric";16;"6.8K";;;
-19;"C39";"C_0603_1608Metric";1;"22uF";;;
-20;"D23";"LED_0805_2012Metric";1;"LED-BLUE";;;
-21;"D22";"LED_0805_2012Metric";1;"LED-GREEN";;;
-22;"D21";"LED_0805_2012Metric";1;"LED-RED";;;
-23;"D27";"LED_0805_2012Metric";1;"LED-YELLOW";;;
-24;"D14";"C_0805_2012Metric";1;"LED-GREEN";;;
-25;"J3";"Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical";1;"Conn_01x02";;;
-26;"RN6,RN5,RN2,RN13,RN4,RN3";"R_Array_Convex_4x0603";6;"10k";;;
-27;"R22";"R_0805_2012Metric";1;"120";;;
-28;"C43";"C_0805_2012Metric";1;"22uF 25V";;;
-29;"JP2";"SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm";1;"High side voltage 5V 12V";;;
-30;"C44,C28";"C_0603_1608Metric";2;"6.8pF";;;
-31;"Y2";"Crystal_SMD_3215-2Pin_3.2x1.5mm";1;"32768 Hz";;;
-32;"X1";"Crystal_SMD_5032-2Pin_5.0x3.2mm";1;"8MHz";;;
-33;"U5";"SOT-223-3_TabPin2";1;"LM1117-3.3";;;
-34;"JP1";"SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm";1;"VRef Source 5Vsense VDDA";;;
-35;"R120,R125,R124,R123,R122,R121";"R_1206_3216Metric";6;"100";;;
-36;"NT3";"NetTie-2_SMD_Pad0.5mm";1;"Analog Ground Net Tie";;;
-37;"IGN2,IGN1,IGN4,IGN3";"Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork";4;"IGNOUT";;;
-38;"OUT15";"Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork";1;"OUT15";;;
-39;"OUT17";"Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork";1;"OUT17";;;
-40;"OUT18";"Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork";1;"OUT18";;;
-41;"OUT16";"Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork";1;"OUT16";;;
-42;"U3";"Molex_48";1;"Molex_48_pin";;;
-43;"D10,D26,D25,D24,D18,D12,D11,D9,D8,D7,D6,D5,D4,D3";"SOT-23";14;"BAS70-04";;;
-44;"C33,C78,C42,C38,C37,C34,C32,C31,C30,C24,C18,C17,C15,C14,C13,C10,C6,C1";"C_0603_1608Metric";18;"100nF";;;
-45;"U1";"LQFP-100_14x14mm_P0.5mm";1;"STM32F407VGT6";;;
-46;"LOGO1";"LogoMRE";1;"DNP";;;
-47;"R31,R34,R131,R58,R56,R54,R52,R41,R37,R24";"R_0603_1608Metric";10;"470K";;;
-48;"U8,U46,U36,U35";"TSSOP-14_4.4x5mm_P0.65mm";4;"MCP6004";;;
-49;"NT1";"Net-Tie_2_8.5mil";1;"Net-Tie_2";;;
-50;"D15,D20";"D_SOD-323";2;"DNP";;;
-51;"FID2,FID1,FID3,FID4,FID5,FID6";"Fiducial_0.5mm_Mask1mm";6;"Fiducial";;;
-52;"R139";"R_0603_1608Metric";1;"39k";;;
-53;"R50,R48,R29,R36,R49,R51";"R_0603_1608Metric";6;"1k";;;
-54;"R47";"R_0603_1608Metric";1;"100K";;;
-55;"R42,R9";"R_0603_1608Metric";2;"4.7K";;;
-56;"R28";"R_0603_1608Metric";1;"2.2k";;;
-57;"R27,R25,R23,R20,R14";"R_0603_1608Metric";5;"2.7k";;;
-58;"R15";"R_0603_1608Metric";1;"15k";;;
-59;"C82,C80,C79,C40,C29,C20,C19";"C_0603_1608Metric";7;"10nF";;;
-60;"C36,C27,C23";"C_0603_1608Metric";3;"1uF";;;
-61;"C35,C12";"C_0603_1608Metric";2;"1nF";;;
-62;"C11,C3";"C_0603_1608Metric";2;"4.7nF";;;
-63;"C9,C8,C7";"C_0603_1608Metric";3;"10uF";;;
-64;"C5,C4";"C_0603_1608Metric";2;"470nF";;;
-65;"RN1";"R_Array_Convex_4x0603";1;"1k";;;
-66;"TP3,TP4";"TestPoint_Pad_D2.0mm";2;"TP";;;
-67;"U11";"SOIC-16W_7.5x10.3mm_P1.27mm";1;"IS25LP256D-xM";;;
-68;"J2";"PinSocket_2x05_P2.54mm_Vertical_SMD";1;"Conn_02x05_Odd_Even";;;
-69;"FB1";"R_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"FILTER";;;
-70;"CN5,CN14,CN6,CN17";"R_Array_Convex_4x0603";4;"10nF";;;
-71;"J1";"USB_Micro-B_Molex-105133-0031";1;"USB_B_Micro";;;
-72;"Q1";"TO-252-2";1;"IPD30N06S2L-23";;;
-73;"TP2,TP6";"TestPoint_Pad_D4.0mm";2;"GND";;;
-74;"U2";"LQFP-100_14x14mm_P0.5mm_THERMAL";1;"TLE8888QK";;;
-75;"C2";"CP_Elec_8x10.5";1;"100UF 50V";;;
-76;"U4";"Infineon_PG-DSO-12-11";1;"TLE9201SG";;;
-77;"TP1,TP5";"TestPoint_Pad_D4.0mm";2;"5V";;;
-78;"LOGO2";"LOGO";1;"DNP";;;
-79;"D30,D32,D34";"D_SOD-323";3;"1N4148WS";;;
-80;"SW1,SW2";"SW_Push_SPST_NO_Alps_SKRK";2;"SW_Push";;;
+Reference, Quantity, Value, Footprint, Datasheet, Manufacturer, Part #, VEND, VEND#, LCSC, PageName
+C12 C35 ,2,"1nF","Capacitor_SMD:C_0603_1608Metric","~","MURATA","GRM1885C1H102FA01D","DIGI","490-6377-1-ND","C1588",""
+C19 C79 C80 C82 C40 C20 C29 ,7,"10nF","Capacitor_SMD:C_0603_1608Metric","~","KEMET","C0603C103K1RACTU","DIGI","399-3189-1-ND","C57112",""
+C2 ,1,"100UF 50V","Capacitor_SMD:CP_Elec_8x10.5","~","NICHICON","UCD1H101MNL1GS","DIGI","493-6388-1-ND","",""
+C22 C21 ,2,"18pF","Capacitor_SMD:C_0603_1608Metric","","","CC0603CRNPO9BN4R7","","","C1647","stm32f407_board"
+C26 C25 C41 ,3,"2.2uF","Capacitor_SMD:C_0603_1608Metric","","MURATA","GRM188R6YA225KA12D","DIGI","490-7204-1-ND","C23630","stm32f407_board"
+C3 C11 ,2,"4.7nF","Capacitor_SMD:C_0603_1608Metric","~","TDK","CGA3E2X7R1H472K080AA","DIGI","445-5661-1-ND","C53987",""
+C36 C23 C27 ,3,"1uF","Capacitor_SMD:C_0603_1608Metric","","Taiyo Yuden","UMK107BJ105KA-T","DIGI","587-2400-1-ND","C15849",""
+C39 ,1,"22uF","Capacitor_SMD:C_0603_1608Metric","","","","","","C59461","stm32f407_board"
+C4 C5 ,2,"470nF","Capacitor_SMD:C_0603_1608Metric","~","TDK","CGA3E3X7R1H474K080AE","DIGI","445-172475-1-ND","C1623",""
+C43 ,1,"22uF 25V","Capacitor_SMD:C_0805_2012Metric","~","TDK","C1608X5R1E106M080AC","DIGI","445-9015-1-ND","C45783",""
+C44 C28 ,2,"6.8pF","Capacitor_SMD:C_0603_1608Metric","","","","","","C1679","stm32f407_board"
+C7 C9 C8 ,3,"10uF","Capacitor_SMD:C_0603_1608Metric","~","TDK","C1608X5R1E106M080AC","DIGI","445-9015-1-ND","C19702",""
+C78 C17 C15 C18 C24 C37 C30 C31 C32 C33 C34 C38 C42 C10 C1 C6 C13 C14 ,18,"100nF","Capacitor_SMD:C_0603_1608Metric","","","","","","C14663",""
+CN17 CN6 CN5 CN14 ,4,"10nF","Resistor_SMD:R_Array_Convex_4x0603","~","KEMET","CA064X103K2RACAUTO","DIGI","399-12382-1-ND","",""
+D10 D8 D6 D4 D9 D7 D5 D3 D12 D11 D26 D25 D24 D18 ,14,"BAS70-04","Package_TO_SOT_SMD:SOT-23","","ON-SEMI","SBAS70-04LT1G","DIGI","SBAS70-04LT1GOSCT-ND","",""
+D14 ,1,"LED-GREEN","Capacitor_SMD:C_0805_2012Metric","","","","","","C2297","stm32f407_board"
+D15 D20 D36 D37 ,4,"SS54","Diode_SMD:D_SMA","","","","","","C22452",""
+D17 ,1,"B5819W","Diode_SMD:D_SOD-123","","","","","","C8598",""
+D2 ,1,"PESD1CAN-UX","Package_TO_SOT_SMD:SOT-23","https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf","Nexperia ","PESD1CANUX","DIGI","1727-1306-1-ND","C152727",""
+D21 ,1,"LED-RED","LED_SMD:LED_0805_2012Metric","~","","","","","C84256",""
+D22 ,1,"LED-GREEN","LED_SMD:LED_0805_2012Metric","~","","","","","C2297",""
+D23 ,1,"LED-BLUE","LED_SMD:LED_0805_2012Metric","~","","","","","C2293",""
+D27 ,1,"LED-YELLOW","LED_SMD:LED_0805_2012Metric","~","","","","","C2296",""
+D28 D31 D33 D35 D29 D19 ,6,"LED-RED","LED_SMD:LED_0603_1608Metric","~","Lite-On ","LTST-C193TBKT-5A","DIGI","160-1827-1-ND","C2286",""
+D32 D34 D30 D43 ,4,"1N4148WS","Diode_SMD:D_SOD-323","~","ON-SEMI","NSR0530HT","DIGI","NSR0530HT1GOSCT-ND","C2128",""
+D38 D13 D40 D39 D16 ,5,"SRV05-4","Package_TO_SOT_SMD:SOT-23-6","","","","","","C85364",""
+D41 ,1,"SM15T33C","Diode_SMD:D_SMC","~"
+D42 D1 ,2,"BAV70","Package_TO_SOT_SMD:SOT-23","https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf","","","","","C82479",""
+FB1 ,1,"FILTER","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","","Murata ","BLM21PG221SN1D","DIGI","490-1054-1-ND","C1034","stm32f407_board"
+FID5 FID6 FID2 FID1 FID3 FID4 ,6,"Fiducial","Fiducial:Fiducial_0.5mm_Mask1mm","DNP","DNP","DNP","DNP","DNP","",""
+J1 ,1,"USB_B_Micro","Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical","~","MOLEX","105133-0031","MOUSER","538-105133-0031","",""
+J2 ,1,"Conn_02x05_Odd_Even","Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD","~","Amphenol","95278-801B10LF","MOUSER","649-95278-801B10LF","",""
+J4 ,1,"Conn_02x05_Counter_Clockwise","Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD","~"
+J7 ,1,"TC2030","Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical","~"
+JP1 ,1,"VRef Source 5Vsense VDDA","Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm","~"
+JP2 ,1,"High side voltage 5V 12V","Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm","~"
+LOGO1 ,1,"DNP","rusEFI:LogoMRE","~","DNP","DNP","DNP","DNP","",""
+LOGO2 ,1,"DNP","rusEFI:LOGO","~","DNP","DNP","DNP","DNP","",""
+NT1 ,1,"Net-Tie_2","rusEFI_Ola:Net-Tie_2_8.5mil","~"
+NT2 ,1,"Net-Tie_2","hw_microRusEfi-master:Net-Tie_2_8.5mil","~"
+NT3 ,1,"Analog Ground Net Tie","NetTie:NetTie-2_SMD_Pad0.5mm","~"
+Q1 ,1,"IPD30N06S2L-23","Package_TO_SOT_SMD:TO-252-2","http://www.fairchildsemi.com/ds/BU/BUZ11.pdf","INFINEON","IPD30N06S2L23AT3","DIGI","IPD30N06S2L23ATMA3CT-ND","",""
+R1 R16 R141 R46 R44 R39 R38 R60 R61 R62 R63 R68 R69 R70 R71 R76 R77 R78 R79 R45 R43 R12 R13 R3 R4 R2 R6 ,27,"10K","Resistor_SMD:R_0603_1608Metric","TBD","StackPole","RMCF0603JT10K0","DIGI","RMCF0603JT10K0CT-ND","C25804",""
+R10 ,1,"1k","Resistor_SMD:R_1206_3216Metric","~","","","","","C4410",""
+R11 R40 R7 R17 R19 R18 ,6,"DNP","Resistor_SMD:R_0603_1608Metric","","DNP","DNP","DIGI","DNP","",""
+R120 R121 R122 R124 R125 R123 ,6,"100","Resistor_SMD:R_1206_3216Metric","","StackPole","RMCF0603FT100R","DIGI","RMCF0603FT100RCT-ND","C17901",""
+R131 R41 R34 R31 R24 R37 R56 R54 R52 R58 ,10,"470K","Resistor_SMD:R_0603_1608Metric","","StackPole","RMCF0603FT470K","DIGI","RMCF0603FT470KCT-ND","C23178",""
+R139 ,1,"39k","Resistor_SMD:R_0603_1608Metric","","Yageo","RC0603FR-0739KL","DIGI","311-39.0KHRCT-ND","C23153",""
+R14 R23 R25 R27 R20 ,5,"2.7k","Resistor_SMD:R_0603_1608Metric","","StackPole","RMCF0603FT2K70","DIGI","RMCF0603FT2K70CT-ND","C13167",""
+R15 ,1,"15k","Resistor_SMD:R_0603_1608Metric","~","StackPole","RMCF0603JG15K0","DIGI","RMCF0603JG15K0CT-ND","C22809",""
+R21 R8 ,2,"0","Resistor_SMD:R_0603_1608Metric","~","","","","","C21189",""
+R22 ,1,"120","Resistor_SMD:R_0805_2012Metric","~","","","","","C17437",""
+R28 R48 ,2,"2.2k","Resistor_SMD:R_0603_1608Metric","","StackPole","RMCF0603FT2K20","DIGI","RMCF0603FT2K20CT-ND","C4190",""
+R29 R49 R36 R51 R50 ,5,"1k","Resistor_SMD:R_0603_1608Metric","~","StackPole","RMCF0603JJ1K00","DIGI","RMCF0603JJ1K00CT-ND","C21190",""
+R35 R32 R26 R5 R55 R57 R59 R53 R64 R65 R66 R67 R73 R72 R74 R75 ,16,"6.8K","Resistor_SMD:R_0603_1608Metric","","","","","","C23212",""
+R42 R9 ,2,"4.7K","Resistor_SMD:R_0603_1608Metric","~","StackPole","RMCF0603JT4K70","DIGI","RMCF0603JT4K70CT-ND","C23162",""
+R47 ,1,"100K","Resistor_SMD:R_0603_1608Metric","","StackPole","RMCF0603JT100K","DIGI","RMCF0603JT100KCT-ND","C25803","stm32f407_board"
+RN1 ,1,"1k","Resistor_SMD:R_Array_Convex_4x0603","~","Bourns","CAT16-1001F4LF","DIGI","CAT16-1001F4LFCT-ND","C20197",""
+RN5 RN6 RN3 RN13 RN4 RN2 ,6,"10k","Resistor_SMD:R_Array_Convex_4x0603","~","","","","","C29718",""
+SW2 SW1 ,2,"SW_Push","Button_Switch_SMD:SW_SPST_CK_RS282G05A3","~"
+SW3 SW4 ,2,"SW_Push","Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK","~"
+TP0 TP3 ,2,"GND","TestPoint:TestPoint_Pad_D2.0mm","~","DNP","DNP","DNP","DNP","",""
+TP4 TP2 ,2,"TP","TestPoint:TestPoint_Pad_D2.0mm","~","DNP","DNP","DNP","DNP","",""
+TP5 TP12 ,2,"5V","TestPoint:TestPoint_Pad_D2.0mm","~","DNP","DNP","DNP","DNP","",""
+U1 ,1,"STM32F407VGT6","Package_QFP:LQFP-100_14x14mm_P0.5mm","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00273119.pdf","ST","STM32F407VGT6","","","C12345",""
+U11 ,1,"IS25LP256D-xM","Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm","http://www.issi.com/WW/pdf/IS25LP(WP)256D.pdf","ISSI","IS25LP256D-RMLE","","","",""
+U2 ,1,"TLE8888QK","Package_QFP:LQFP-100_14x14mm_P0.5mm_THERMAL","","Infineon ","TLE88882QKXUMA1","DIGI","TLE88882QKXUMA1-ND","",""
+U3 ,1,"molex_48pin_MRE","rusefi_lib:Molex_48_MRE","","MOLEX","500762-0481","DIGI","WM4430-ND","",""
+U31 U33 U32 ,3,"MIC4427","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/mic4426.pdf","","","","","C144205",""
+U35 U36 U46 U8 ,4,"MCP6004","Package_SO:TSSOP-14_4.4x5mm_P0.65mm","http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf","MicroChip","MCP6004T-I/ST","DIGI","MCP6004T-I/STCT-ND","C248577",""
+U4 ,1,"TLE9201SG","Package_SO:Infineon_PG-DSO-12-11","","Infineon ","TLE9201SG","DIGI","TLE9201SGAUMA1CT-ND","C112633",""
+U5 ,1,"LM1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.ti.com/lit/ds/symlink/lm1117.pdf","","","","","C6186",""
+U6 ,1,"W25QxxJVS","hw_microRusEfi-master:SO-8_5.3x6.2mm_P1.27mm-150+208","http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf","","","","","C97521",""
+U7 ,1,"XC6206 3.3V","Package_TO_SOT_SMD:SOT-23","http://ww1.microchip.com/downloads/en/DeviceDoc/20005122B.pdf","","","","","C5446",""
+X1 ,1,"8MHz 20pF","Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm","","","","","","C115962","stm32f407_board"
+Y2 ,1,"32768 Hz","Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm","~","","","","","C32346",""
