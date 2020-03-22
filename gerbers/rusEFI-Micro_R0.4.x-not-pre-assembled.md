@@ -1,3 +1,14 @@
+# Not pre-assembled BOM:
+
+1,TLE88882QK ,U2,LQFP-100_14x14mm_P0.5mm_THERMAL,TLE88882QKXUMA1
+
+1,614105150721
+
+2,PTS636 SM43 SMTR LFS
+
+4,CA064X103K2RACAUTO
+
+
 #Front side
 
 Open question if anyone needs those:
@@ -25,8 +36,6 @@ PESD1CAN-UX ,D2,SOT-23,771-PESD1CANUX,C152727
 "SW_Push Push button switch, generic, two pins","SW1,SW2",SW_Push_SPST_NO_Alps_SKRK,
 3*6*2.5 MM Tactile Tact Push Button Micro Switch Momentary Two Pin
 
-
-TLE8888QK ,U2,LQFP-100_14x14mm_P0.5mm_THERMAL,726-TLE8888QKXUMA1
 
 Molex_48_pin ,U3,Molex_48,
 
