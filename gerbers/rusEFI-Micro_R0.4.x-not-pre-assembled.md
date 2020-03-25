@@ -44,6 +44,8 @@ Molex_48_pin ,U3,Molex_48,
 
 0.4.x: Schottky diode,"D15,D20",SMA,C22452
 
+D15&D20 Alternative part: SS16T3G
+
 "10nF 4 resistor network, parallel topology, DIP package","CN17,CN6,CN5,CN14",R_Array_Convex_4x0603,
 
 
