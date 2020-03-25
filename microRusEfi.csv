@@ -13,7 +13,6 @@ C44 C28 ,2,"6.8pF","Capacitor_SMD:C_0603_1608Metric","","","","","","C1679","stm
 C7 C9 C8 ,3,"10uF","Capacitor_SMD:C_0603_1608Metric","~","TDK","C1608X5R1E106M080AC","DIGI","445-9015-1-ND","C19702",""
 C78 C17 C15 C18 C24 C37 C30 C31 C32 C33 C34 C38 C42 C10 C1 C6 C13 C14 ,18,"100nF","Capacitor_SMD:C_0603_1608Metric","","","","","","C14663",""
 CN17 CN6 CN5 CN14 ,4,"10nF","Resistor_SMD:R_Array_Convex_4x0603","~","KEMET","CA064X103K2RACAUTO","DIGI","399-12382-1-ND","",""
-D10 D8 D6 D4 D9 D7 D5 D3 D12 D11 D26 D25 D24 D18 ,14,"BAS70-04","Package_TO_SOT_SMD:SOT-23","","ON-SEMI","SBAS70-04LT1G","DIGI","SBAS70-04LT1GOSCT-ND","",""
 D14 ,1,"LED-GREEN","Capacitor_SMD:C_0805_2012Metric","","","","","","C2297","stm32f407_board"
 D15 D20 D36 D37 ,4,"SS54","Diode_SMD:D_SMA","","","","","","C22452",""
 D17 ,1,"B5819W","Diode_SMD:D_SOD-123","","","","","","C8598",""
