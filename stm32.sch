@@ -520,8 +520,6 @@ Text Label 12100 6400 0    60   ~ 12
 5V
 Text HLabel 7350 4650 2    60   Input ~ 12
 PA8
-Text HLabel 4150 2500 0    60   Input ~ 12
-VRef_IN
 $Comp
 L power:GND #PWR0147
 U 1 1 5CCA057A
@@ -776,13 +774,7 @@ Wire Wire Line
 Wire Wire Line
 	4750 2675 5050 2675
 Connection ~ 5050 2675
-Wire Wire Line
-	5250 2650 5250 2675
 Connection ~ 5250 2675
-Wire Wire Line
-	5450 2500 6000 2500
-Wire Wire Line
-	5050 2500 4150 2500
 Text Label 5525 2500 0    50   ~ 0
 VDDA
 Text Label 4150 2675 0    50   ~ 0
@@ -979,17 +971,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 14600 3400 50  0001 C CNN
 F 4 "C6186" H 14600 3400 50  0001 C CNN "LCSC"
 	1    14600 3400
 	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP1
-U 1 1 5D88E8BD
-P 5250 2500
-F 0 "JP1" H 5250 2750 50  0000 C CNN
-F 1 "VRef Source 5Vsense VDDA" H 5250 2650 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm" H 5250 2500 50  0001 C CNN
-F 3 "~" H 5250 2500 50  0001 C CNN
-	1    5250 2500
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Switch:SW_Push SW2
@@ -1634,4 +1615,8 @@ F 3 "" H 5550 3075 60  0001 C CNN
 	3    5550 3075
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5250 2500 5250 2675
+Wire Wire Line
+	5250 2500 6000 2500
 $EndSCHEMATC
