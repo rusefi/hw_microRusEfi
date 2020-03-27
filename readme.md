@@ -36,10 +36,11 @@ or available as a kit or completely assembled from https://www.ebay.com/itm/3335
 
 # Documentation
 
-[microRusEfi kit instructions](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_kit_instructions)
+[Connector Pinout](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_wiring)
 
 [microRusEfi documentation wiki](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi)
 
+[microRusEfi kit instructions](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_kit_instructions)
 
 [microRusEfi forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
