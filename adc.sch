@@ -658,7 +658,7 @@ $EndComp
 Text HLabel 10425 4350 1    60   Input ~ 12
 12V-SWITCH
 Text HLabel 14650 3800 3    60   Input ~ 12
-VSense_ref
+AV11_MCU
 Text HLabel 14750 3800 3    60   Input ~ 12
 Vbat_MCU
 Wire Wire Line
