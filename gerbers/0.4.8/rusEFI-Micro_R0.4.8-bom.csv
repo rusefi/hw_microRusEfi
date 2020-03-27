@@ -15,7 +15,6 @@ Comment,Designator,Footprint,LCSC Part #
 "10nF 4 resistor network, parallel topology, DIP package","CN17,CN6,CN5,CN14",R_Array_Convex_4x0603,
 "BAV70 Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23",D1,SOT-23,C68978
 PESD1CAN-UX ,D2,SOT-23,
-BAS70-04 40V 0.2A Dual Small Signal Schottky Diodes,"D10,D8,D6,D4,D9,D7,D5,D3,D12,D11,D26,D25,D24,D18",SOT-23,
 LED-GREEN Light emitting diode,D14,C_0805_2012Metric,C2297
 DNP Schottky diode,"D15,D20",D_SOD-323,
 B5819W Schottky diode,D17,D_SOD-123,C8598
