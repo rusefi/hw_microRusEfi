@@ -36,10 +36,11 @@ or available as a kit or completely assembled from https://www.ebay.com/itm/3335
 
 # Documentation
 
-[microRusEfi kit instructions](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_kit_instructions)
+[Connector Pinout](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_wiring)
 
 [microRusEfi documentation wiki](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi)
 
+[microRusEfi kit instructions](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_kit_instructions)
 
 [microRusEfi forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
@@ -58,6 +59,8 @@ Do you like what you see here? Maybe https://www.patreon.com/rusefi
 stm32f767
 
 [TLE8888-2QK](https://www.infineon.com/dgdl/Infineon-Infineon-TLE8888QK-DS-v01_02-EN.pdf?fileId=5546d4624f205c9a014f402ebd1c6095)
+
+[Final assembly BOM notes](https://github.com/rusefi/hw_microRusEfi/blob/master/gerbers/rusEFI-Micro_R0.4.x-not-pre-assembled.md)
 
 [48 pin connector](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_connectors)
 

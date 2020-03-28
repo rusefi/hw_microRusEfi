@@ -1,3 +1,14 @@
+# Not pre-assembled BOM:
+
+1,TLE88882QK ,U2,LQFP-100_14x14mm_P0.5mm_THERMAL,TLE88882QKXUMA1
+
+1,614105150721
+
+2,PTS636 SM43 SMTR LFS
+
+4,CA064X103K2RACAUTO
+
+
 #Front side
 
 Open question if anyone needs those:
@@ -26,14 +37,14 @@ PESD1CAN-UX ,D2,SOT-23,771-PESD1CANUX,C152727
 3*6*2.5 MM Tactile Tact Push Button Micro Switch Momentary Two Pin
 
 
-TLE8888QK ,U2,LQFP-100_14x14mm_P0.5mm_THERMAL,726-TLE8888QKXUMA1
-
 Molex_48_pin ,U3,Molex_48,
 
 
 #Back side
 
 0.4.x: Schottky diode,"D15,D20",SMA,C22452
+
+D15&D20 Alternative part: SS16T3G
 
 "10nF 4 resistor network, parallel topology, DIP package","CN17,CN6,CN5,CN14",R_Array_Convex_4x0603,
 
