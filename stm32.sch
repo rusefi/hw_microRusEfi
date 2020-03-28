@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 5 7
+Sheet 5 9
 Title "microRusEfi-2L"
 Date "2020-02-12"
 Rev "R0.4.9"
@@ -583,8 +583,6 @@ Wire Wire Line
 Wire Wire Line
 	6750 2650 6000 2650
 Wire Wire Line
-	6750 2650 6750 2675
-Wire Wire Line
 	15550 3400 15650 3400
 Wire Wire Line
 	15950 3400 16050 3400
@@ -635,17 +633,6 @@ F 2 "" H 5250 2675 50  0001 C CNN
 F 3 "~" H 5250 2675 50  0001 C CNN
 	1    5250 2675
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0105
-U 1 1 5D335721
-P 6750 2675
-F 0 "#FLG0105" H 6750 2750 50  0001 C CNN
-F 1 "PWR_FLAG" V 6750 2803 50  0001 L CNN
-F 2 "" H 6750 2675 50  0001 C CNN
-F 3 "~" H 6750 2675 50  0001 C CNN
-	1    6750 2675
-	0    1    1    0   
 $EndComp
 Connection ~ 5550 4250
 Connection ~ 5550 4350
@@ -844,9 +831,6 @@ Wire Wire Line
 	6850 3550 6850 2850
 Wire Wire Line
 	6850 2850 6750 2850
-Wire Wire Line
-	6750 2850 6750 2675
-Connection ~ 6750 2675
 Wire Wire Line
 	6650 3550 6750 3550
 Wire Wire Line
@@ -1619,4 +1603,6 @@ Wire Wire Line
 	5250 2500 5250 2675
 Wire Wire Line
 	5250 2500 6000 2500
+Wire Wire Line
+	6750 2650 6750 2850
 $EndSCHEMATC
