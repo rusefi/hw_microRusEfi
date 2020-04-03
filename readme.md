@@ -67,6 +67,12 @@ stm32f767
 
 iBom https://rusefi.com/docs/ibom/microRusEfi_latest.html
 
+## Adapter Boards
+
+microRusEfi could be used as a brain for Plug&Play vehicle specific adapter boards
+
+1) https://github.com/rusefi/hw_55_te For Yanvar/Micas case
+
 ## Case
 
 Model CKKB48-1-A (Weigh 200g)
