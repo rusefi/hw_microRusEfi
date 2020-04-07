@@ -13,8 +13,8 @@ Comment,Designator,Footprint,LCSC Part #
 22uF 25V Unpolarized capacitor,C43,C_0805_2012Metric,C45783
 100nF Unpolarized capacitor,"C78,C17,C15,C18,C38,C34,C33,C32,C31,C30,C37,C24,C42,C10,C1,C6,C13,C14",C_0603_1608Metric,C14663
 "10nF 4 resistor network, parallel topology, DIP package","CN17,CN6,CN5,CN14",R_Array_Convex_4x0603,
-"BAV70 Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23",D1,SOT-23,C68978
-PESD1CAN-UX ,D2,SOT-23,
+"BAV70 Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23","D1,D42",SOT-23,C68978
+PESD1CAN-UX ,D2,SOT-23,C152727
 LED-GREEN Light emitting diode,D14,C_0805_2012Metric,C2297
 DNP Schottky diode,"D15,D20",D_SOD-323,
 B5819W Schottky diode,D17,D_SOD-123,C8598
@@ -23,7 +23,7 @@ LED-GREEN Light emitting diode,D22,LED_0805_2012Metric,C2297
 LED-BLUE Light emitting diode,D23,LED_0805_2012Metric,C2293
 LED-YELLOW Light emitting diode,D27,LED_0805_2012Metric,C2296
 LED-RED Light emitting diode,"D28,D31,D33,D35,D29,D19",LED_0603_1608Metric,C2286
-1N4148WS Diode,"D32,D34,D30",D_SOD-323,C2128
+1N4148WS Diode,"D32,D34,D30,D43",D_SOD-323,C2128
 "SS54 40V 3A Schottky Barrier Rectifier Diode, SMC","D36,D37",D_SMA,C22452
 "SRV05-4 Transient voltage suppressor designed to protect high speed data lines from ESD, EFT, and lightning","D38,D13,D40,D39,D16",SOT-23-6,C85364
 SM15T33C Bidirectional transient-voltage-suppression diode,D41,D_SMC,
@@ -48,6 +48,7 @@ OUT17 test point,OUT17,Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork,
 OUT18 test point,OUT18,Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork,
 "IPD30N06S2L-23 30A Id, 50V Vds, N-Channel Power MOSFET, TO-220",Q1,TO-252-2,C3010
 10K Resistor,"R1,R16,R141,R46,R44,R39,R38,R60,R61,R62,R63,R68,R69,R70,R71,R76,R77,R78,R79,R43,R45,R12,R13,R3,R4,R2,R6",R_0603_1608Metric,C25804
+1k resistor,R10,R_1206_3216Metric,C4410
 DNP Resistor,"R11,R40,R7,R17,R19,R18",R_0603_1608Metric,
 2.7k Resistor,"R14,R23,R25,R27,R20",R_0603_1608Metric,C13167
 15k Resistor,R15,R_0603_1608Metric,C22809
