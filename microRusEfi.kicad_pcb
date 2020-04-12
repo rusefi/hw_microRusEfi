@@ -1909,7 +1909,7 @@
       (net 1 GND))
     (pad 8 smd roundrect (at 2.575 -1.905 90) (size 1.75 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 122 /AV7))
-    (model ${KISYS3DMOD}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2545,7 +2545,7 @@
       (net 1 GND))
     (pad 8 smd roundrect (at 2.575 -1.905 90) (size 1.75 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 121 /AV8))
-    (model ${KISYS3DMOD}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
