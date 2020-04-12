@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 19685 15748
 encoding utf-8
-Sheet 7 9
+Sheet 6 9
 Title "microRusEfi-2L"
 Date "2020-02-12"
 Rev "R0.4.9"
@@ -555,15 +555,8 @@ Wire Wire Line
 Text Label 11500 7750 0    60   ~ 12
 V5V
 NoConn ~ 9250 6700
-NoConn ~ 9050 6700
-NoConn ~ 8950 6700
 NoConn ~ 8850 6700
-NoConn ~ 8750 6700
 NoConn ~ 8100 7300
-NoConn ~ 8100 7400
-NoConn ~ 8100 7500
-NoConn ~ 8100 7600
-NoConn ~ 8100 7700
 Wire Wire Line
 	10150 10900 10600 10900
 Text Label 11250 10700 0    60   ~ 12
@@ -1335,14 +1328,8 @@ Wire Wire Line
 	11050 6450 11900 6450
 Text Label 9250 6700 1    50   ~ 10
 DFB8
-Text Label 9050 6700 1    50   ~ 10
-OUT_8
-Text Label 8950 6700 1    50   ~ 10
-OUT_9
 Text Label 8850 6700 1    50   ~ 10
 DFB10
-Text Label 8750 6700 1    50   ~ 10
-OUT_10
 $Comp
 L Device:R R8
 U 1 1 5E15579B
@@ -1357,16 +1344,8 @@ F 4 "C21189" H 11925 8050 50  0001 C CNN "LCSC"
 $EndComp
 Text Label 8100 7300 2    50   ~ 10
 OUT_11
-Text Label 8100 7500 2    50   ~ 10
-OUT_12
-Text Label 8100 7700 2    50   ~ 10
-OUT_13
 Text Label 8100 7200 2    50   ~ 10
 DFB11
-Text Label 8100 7400 2    50   ~ 10
-DFB12
-Text Label 8100 7600 2    50   ~ 10
-DFB13
 Text HLabel 7750 7200 0    60   Input ~ 12
 DFB11
 Wire Wire Line
@@ -1392,4 +1371,26 @@ Wire Wire Line
 Text Notes 11800 8225 0    50   ~ 0
 R8 enables Wake-on-CAN
 Connection ~ 12250 8150
+NoConn ~ 8100 7600
+NoConn ~ 8100 7400
+Text HLabel 7750 7700 0    50   Output ~ 0
+OUT13
+Text HLabel 7750 7500 0    50   Output ~ 0
+OUT12
+Text HLabel 9050 6475 1    50   Output ~ 0
+OUT8
+Text HLabel 8950 6475 1    50   Output ~ 0
+OUT9
+Text HLabel 8750 6475 1    50   Output ~ 0
+OU10
+Wire Wire Line
+	8950 6475 8950 6700
+Wire Wire Line
+	9050 6475 9050 6700
+Wire Wire Line
+	8750 6475 8750 6700
+Wire Wire Line
+	7750 7500 8100 7500
+Wire Wire Line
+	7750 7700 8100 7700
 $EndSCHEMATC
