@@ -1580,4 +1580,28 @@ Wire Wire Line
 	7425 10150 7275 10150
 Wire Wire Line
 	7425 10050 7425 10150
+$Comp
+L Connector_Generic:Conn_01x01 J15
+U 1 1 5EA3F4B2
+P 8100 6675
+F 0 "J15" H 8180 6717 50  0000 L CNN
+F 1 "Conn_01x01" H 8180 6626 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8100 6675 50  0001 C CNN
+F 3 "~" H 8100 6675 50  0001 C CNN
+	1    8100 6675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J17
+U 1 1 5EA86A4A
+P 11500 10100
+F 0 "J17" H 11580 10142 50  0000 L CNN
+F 1 "Conn_01x01" H 11580 10051 50  0000 L CNN
+F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 11500 10100 50  0001 C CNN
+F 3 "~" H 11500 10100 50  0001 C CNN
+	1    11500 10100
+	-1   0    0    1   
+$EndComp
+NoConn ~ 7900 6675
+NoConn ~ 11700 10100
 $EndSCHEMATC
