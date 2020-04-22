@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 7
-Title "ME7 ECU"
-Date "2019-01-31"
-Rev "R2.1"
-Comp ""
+Title "microRusEfi-2L"
+Date "2020-04-22"
+Rev "R0.5.0"
+Comp "rusEFI.com"
 Comment1 ""
 Comment2 ""
 Comment3 ""

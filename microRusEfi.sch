@@ -5,8 +5,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 9
 Title "microRusEfi-2L"
-Date "2020-02-12"
-Rev "R0.4.9"
+Date "2020-04-22"
+Rev "R0.5.0"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
 Comment2 "AI6OD"
@@ -1895,11 +1895,11 @@ $EndSheet
 Text Label 3425 4425 2    60   ~ 12
 AV6
 Text Label 13450 6775 0    50   ~ 0
-AV6
+AV9
 Text Label 13450 6875 0    50   ~ 0
-AV7
-Text Label 13450 7450 0    50   ~ 0
 AV8
+Text Label 13450 7450 0    50   ~ 0
+AV10
 Wire Wire Line
 	3425 4425 4050 4425
 Wire Wire Line
@@ -1938,7 +1938,7 @@ Connection ~ 13375 7550
 Wire Wire Line
 	13375 7550 13450 7550
 Text Label 13450 7550 0    50   ~ 0
-AV9
+AV6
 Text Label 10925 7275 0    50   ~ 0
 TLE_DFB10
 Text Label 10925 7575 0    50   ~ 0
