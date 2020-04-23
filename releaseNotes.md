@@ -1,5 +1,11 @@
 
 
+# 0.5
+May 2020
+Four more low-side channels
+Many more changes! See https://github.com/rusefi/hw_microRusEfi/pull/155
+
+
 # 0.4.8
 2020
 Improved stitching around Q1 in order to improve thermal properties.
