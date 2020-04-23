@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 19685 15748
 encoding utf-8
-Sheet 9 9
+Sheet 8 9
 Title "microRusEfi-2L"
 Date "2020-04-22"
 Rev "R0.5.0"
