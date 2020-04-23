@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 5 9
+Sheet 3 9
 Title "microRusEfi-2L"
-Date "2020-02-12"
-Rev "R0.4.9"
+Date "2020-04-22"
+Rev "R0.5.0"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
 Comment2 "AI6OD"
@@ -154,7 +154,7 @@ Text Label 12150 4200 0    60   ~ 12
 USB_D+
 Connection ~ 13150 4000
 Wire Wire Line
-	13150 4000 13750 4000
+	13150 4000 13375 4000
 Wire Wire Line
 	14300 3400 14150 3400
 $Comp
@@ -575,7 +575,7 @@ $EndComp
 Wire Wire Line
 	3475 2675 3475 4450
 Wire Wire Line
-	4200 3850 4450 3850
+	4200 3850 4275 3850
 Wire Wire Line
 	4850 5450 4850 5600
 Wire Wire Line
@@ -1605,4 +1605,22 @@ Wire Wire Line
 	5250 2500 6000 2500
 Wire Wire Line
 	6750 2650 6750 2850
+Text HLabel 13450 4075 2    50   Input ~ 10
+USB_VBUS
+Wire Wire Line
+	13450 4075 13375 4075
+Wire Wire Line
+	13375 4075 13375 4000
+Connection ~ 13375 4000
+Wire Wire Line
+	13375 4000 13750 4000
+Text HLabel 4200 3675 0    50   BiDi ~ 0
+NRST
+Wire Wire Line
+	4200 3675 4275 3675
+Wire Wire Line
+	4275 3675 4275 3850
+Connection ~ 4275 3850
+Wire Wire Line
+	4275 3850 4450 3850
 $EndSCHEMATC
