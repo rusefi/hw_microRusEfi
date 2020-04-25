@@ -44,6 +44,7 @@ or available as a kit or completely assembled from https://www.ebay.com/itm/3335
 
 [microRusEfi forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
+[asembled images & assembly files](gerbers)
 
 
 ![img](microRusEfi.jpg)
