@@ -8,7 +8,7 @@ R0.4.5 - 2 layers, use microRusEfi-bom.csv and microRusEfi-cpl.csv files for top
 
 # R0.4.8
 
-![img](https://github.com/rusefi/rusefi_documentation/blob/master/Hardware/microrusefi/Hardware_microRusEfi_0.4.8_pre_assembled_front.jpg)
+![img](https://raw.githubusercontent.com/rusefi/rusefi_documentation/master/Hardware/microrusefi/Hardware_microRusEfi_0.4.8_pre_assembled_front.jpg)
 
 # R0.4.5
 
