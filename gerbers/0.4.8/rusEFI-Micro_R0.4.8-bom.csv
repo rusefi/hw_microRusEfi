@@ -72,7 +72,7 @@ TLE8888QK ,U2,LQFP-100_14x14mm_P0.5mm_THERMAL,
 Molex_48_pin ,U3,Molex_48,
 TLE9201SG ,U4,Infineon_PG-DSO-12-11,C112633
 "LM1117-3.3 800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223",U5,SOT-223-3_TabPin2,C6186
-"W25QxxJVS 32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8",U6,SO-8_5.3x6.2mm_P1.27mm-150+208,C97521
+"W25QxxJVS Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8",U6,SO-8_5.3x6.2mm_P1.27mm-150+208,C97521
 "XC6206 3.3V Low Quiescent Current LDO Regulator, 3.3V, 250mA, Vin<=16V, SOT-23",U7,SOT-23,C5446
 "IS25LP256D-xM 256-Mbit, 1.8V SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-16",U11,SOIC-16W_7.5x10.3mm_P1.27mm,
 "MIC4427 Dual 1.5A-Peak Low-Side MOSFET Driver, DIP-8/SOIC-8/MSOP-8","U31,U33,U32",SOIC-8_3.9x4.9mm_P1.27mm,C144205
