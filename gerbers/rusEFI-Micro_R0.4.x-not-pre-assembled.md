@@ -55,3 +55,7 @@ D15&D20 Alternative part: SS16T3G
 [below 0.4.8 only] 1nF Unpolarized capacitor,"C12",C_0603_1608Metric,C1588
 
 
+# Flash chip
+W25Q128JV
+
+W25Q128JW soic16 option
