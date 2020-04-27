@@ -64,7 +64,7 @@ Comment,Designator,Footprint,LCSC, Manufacturer, Part #, VEND, VEND#, LCSC, MFG,
 "GND","TP0,TP3","TestPoint:TestPoint_Pad_D2.0mm","","DNP","DNP","DNP","DNP","","","",""
 "TP","TP4,TP2,TP1","TestPoint:TestPoint_Pad_D2.0mm","","DNP","DNP","DNP","DNP","","","",""
 "5V","TP5,TP12","TestPoint:TestPoint_Pad_D2.0mm","","DNP","DNP","DNP","DNP","","","",""
-"STM32F407VGT6","U1","Package_QFP:LQFP-100_14x14mm_P0.5mm","","ST","STM32F407VGT6","","","C12345","","",""
+"STM32F427VGT6","U1","Package_QFP:LQFP-100_14x14mm_P0.5mm","","ST","STM32F427VGT6","","","C117815","","",""
 "VNLD5090","U10,U9","Package_SO:SO-8_3.9x4.9mm_P1.27mm","","","","","","C377942","ST,VNLD5090TR-E","DIGI,497-14323-1-ND",""
 "IS25LP256D-xM","U11","Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm","","ISSI","IS25LP256D-RMLE","","","","","",""
 "TLE8888QK","U2","Package_QFP:LQFP-100_14x14mm_P0.5mm_THERMAL","","Infineon ","TLE88882QKXUMA1","DIGI","TLE88882QKXUMA1-ND","","","",""
