@@ -74,20 +74,14 @@ F 3 "" H 12950 5050 60  0001 C CNN
 	1    12950 5050
 	1    0    0    -1  
 $EndComp
-Text Notes 11750 6650 0    60   ~ 12
+Text Notes 11750 6950 0    60   ~ 12
 SWD
-Text Label 12100 6300 0    60   ~ 12
+Text Label 12050 6600 0    60   ~ 12
 VDD
 Text Notes 11900 3600 0    60   ~ 12
 USB power
-Text Label 12450 6200 0    60   ~ 12
-PA14
-Text Label 12450 6000 0    60   ~ 12
-PA13
-Text Label 11600 6000 2    60   ~ 12
+Text Label 11650 6300 2    60   ~ 12
 NRST
-Text Label 10900 6200 2    60   ~ 12
-PB3
 Text Notes 15050 3150 0    60   ~ 12
 3.3v
 Text Label 12700 4000 2    60   ~ 12
@@ -502,17 +496,17 @@ F 3 "" H 11400 5150 60  0001 C CNN
 	1    11400 5150
 	1    0    0    -1  
 $EndComp
-Text Label 12100 6000 0    60   ~ 12
+Text Label 12050 6300 0    60   ~ 12
 SWDIO
-Text Label 12100 6200 0    60   ~ 12
+Text Label 12050 6500 0    60   ~ 12
 SCK
-Text Label 11600 6200 2    60   ~ 12
+Text Label 11650 6500 2    60   ~ 12
 SWO
-Text Label 11600 6300 2    60   ~ 12
+Text Label 11650 6600 2    60   ~ 12
 VDD
-Text Label 11600 6400 2    60   ~ 12
+Text Label 11650 6700 2    60   ~ 12
 5V
-Text Label 12100 6400 0    60   ~ 12
+Text Label 12050 6700 0    60   ~ 12
 5V
 Text HLabel 7350 4650 2    60   Input ~ 12
 PA8
@@ -661,14 +655,10 @@ Wire Wire Line
 	7350 5050 7600 5050
 Wire Wire Line
 	7600 4750 7700 4750
-Text Label 11600 6100 2    60   ~ 12
+Text Label 11650 6400 2    60   ~ 12
 GND
-Text Label 12100 6100 0    60   ~ 12
+Text Label 12050 6400 0    60   ~ 12
 GND
-Text Label 12450 6300 0    60   ~ 12
-3.3V
-Text Label 10900 6300 2    60   ~ 12
-3.3V
 Wire Wire Line
 	4550 4300 4550 4050
 Wire Wire Line
@@ -676,26 +666,14 @@ Wire Wire Line
 Connection ~ 4550 4300
 Wire Wire Line
 	3475 4450 5550 4450
-Text Label 11350 6200 2    60   ~ 12
-SWIM
 Wire Notes Line
-	11700 6125 11725 6125
+	11400 6425 11425 6425
 Wire Notes Line
-	11725 6125 11725 6275
+	11425 6425 11425 6575
 Wire Notes Line
-	11725 6275 11700 6275
+	11425 6575 11400 6575
 Wire Notes Line
-	11700 6275 11700 6125
-Wire Wire Line
-	11600 6200 10900 6200
-Wire Wire Line
-	11600 6300 10900 6300
-Wire Wire Line
-	12100 6200 12450 6200
-Wire Wire Line
-	12100 6300 12450 6300
-Wire Wire Line
-	12100 6000 12450 6000
+	11400 6575 11400 6425
 Connection ~ 6650 3550
 Wire Wire Line
 	6650 3300 6650 3550
@@ -969,21 +947,6 @@ F 5 "STM32F407VGT6" H 0   0   50  0001 C CNN "Part #"
 F 6 "ST" H 0   0   50  0001 C CNN "Manufacturer"
 	1    6450 6250
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
-U 1 1 5CDE2131
-P 11900 6200
-F 0 "J2" H 11950 5900 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 11950 6526 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11900 6200 50  0001 C CNN
-F 3 "~" H 11900 6200 50  0001 C CNN
-F 4 "MOUSER" H 100 0   50  0001 C CNN "VEND"
-F 5 "Amphenol" H 100 0   50  0001 C CNN "Manufacturer"
-F 6 "95278-801B10LF" H 100 0   50  0001 C CNN "Part #"
-F 7 "649-95278-801B10LF" H 100 0   50  0001 C CNN "VEND#"
-	1    11900 6200
-	-1   0    0    1   
 $EndComp
 $Comp
 L Switch:SW_Push SW1
@@ -1527,25 +1490,25 @@ Text Label 12950 4550 1    60   ~ 12
 $Comp
 L Connector:Conn_01x06_Male J7
 U 1 1 5E644ACF
-P 11950 7100
-F 0 "J7" H 11900 6950 50  0000 R CNN
-F 1 "TC2030" H 11900 7050 50  0000 R CNN
-F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 11950 7100 50  0001 C CNN
-F 3 "~" H 11950 7100 50  0001 C CNN
-	1    11950 7100
+P 11950 7400
+F 0 "J7" H 11900 7250 50  0000 R CNN
+F 1 "TC2030" H 11900 7350 50  0000 R CNN
+F 2 "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical" H 11950 7400 50  0001 C CNN
+F 3 "~" H 11950 7400 50  0001 C CNN
+	1    11950 7400
 	-1   0    0    1   
 $EndComp
-Text Label 11750 7300 2    60   ~ 12
+Text Label 11750 7600 2    60   ~ 12
 3.3V
-Text Label 11750 7200 2    60   ~ 12
+Text Label 11750 7500 2    60   ~ 12
 SWDIO
-Text Label 11750 7100 2    60   ~ 12
+Text Label 11750 7400 2    60   ~ 12
 NRST
-Text Label 11750 7000 2    60   ~ 12
+Text Label 11750 7300 2    60   ~ 12
 SCK
-Text Label 11750 6900 2    60   ~ 12
+Text Label 11750 7200 2    60   ~ 12
 GND
-Text Label 11750 6800 2    60   ~ 12
+Text Label 11750 7100 2    60   ~ 12
 SWO
 $Comp
 L Switch:SW_Push SW3
@@ -1584,7 +1547,7 @@ U 3 1 5E8EE3BC
 P 5550 3075
 F 0 "U3" H 5650 2875 60  0000 C CNN
 F 1 "molex_48pin_MRE" H 6279 5950 60  0001 L CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 5550 3075 60  0001 C CNN
+F 2 "" H 5550 3075 60  0001 C CNN
 F 3 "" H 5550 3075 60  0001 C CNN
 	3    5550 3075
 	-1   0    0    1   
@@ -1623,4 +1586,80 @@ Wire Wire Line
 	5100 5350 5100 5600
 Wire Wire Line
 	5100 5000 5100 5250
+Text Label 12125 5875 0    60   ~ 12
+VDD
+Text Label 12475 5775 0    60   ~ 12
+PA14
+Text Label 12475 5575 0    60   ~ 12
+PA13
+Text Label 11625 5575 2    60   ~ 12
+NRST
+Text Label 10925 5775 2    60   ~ 12
+PB3
+Text Label 12125 5575 0    60   ~ 12
+SWDIO
+Text Label 12125 5775 0    60   ~ 12
+SCK
+Text Label 11625 5775 2    60   ~ 12
+SWO
+Text Label 11625 5875 2    60   ~ 12
+VDD
+Text Label 11625 5975 2    60   ~ 12
+5V
+Text Label 12125 5975 0    60   ~ 12
+5V
+Text Label 11625 5675 2    60   ~ 12
+GND
+Text Label 12125 5675 0    60   ~ 12
+GND
+Text Label 12475 5875 0    60   ~ 12
+3.3V
+Text Label 10925 5875 2    60   ~ 12
+3.3V
+Text Label 11375 5775 2    60   ~ 12
+SWIM
+Wire Notes Line
+	11725 5700 11750 5700
+Wire Notes Line
+	11750 5700 11750 5850
+Wire Notes Line
+	11750 5850 11725 5850
+Wire Notes Line
+	11725 5850 11725 5700
+Wire Wire Line
+	11625 5775 10925 5775
+Wire Wire Line
+	11625 5875 10925 5875
+Wire Wire Line
+	12125 5775 12475 5775
+Wire Wire Line
+	12125 5875 12475 5875
+Wire Wire Line
+	12125 5575 12475 5575
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5EBB8D9A
+P 11925 5775
+F 0 "J2" H 11975 5475 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 11975 6101 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 11925 5775 50  0001 C CNN
+F 3 "~" H 11925 5775 50  0001 C CNN
+F 4 "MOUSER" H 125 -425 50  0001 C CNN "VEND"
+F 5 "Amphenol" H 125 -425 50  0001 C CNN "Manufacturer"
+F 6 "95278-801B10LF" H 125 -425 50  0001 C CNN "Part #"
+F 7 "649-95278-801B10LF" H 125 -425 50  0001 C CNN "VEND#"
+	1    11925 5775
+	-1   0    0    1   
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 7 1 5EBAF142
+P 12750 6500
+F 0 "U3" H 13650 6159 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 13950 6500 60  0001 C CNN
+F 2 "" H 12750 6500 60  0001 C CNN
+F 3 "" H 12750 6500 60  0001 C CNN
+	7    12750 6500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
