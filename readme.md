@@ -28,6 +28,7 @@ or available as a kit or completely assembled from https://www.ebay.com/itm/3335
 * Electronic throttle body (drive by wire)
 * CAN connectivity on the plug
 * USB connectivity on the plug 
+* SPI and TTL available on PCB
 
 # Will be supported soon
 * stepper IAC support
