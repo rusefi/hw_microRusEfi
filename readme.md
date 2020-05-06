@@ -37,11 +37,11 @@ or available as a kit or completely assembled from https://www.ebay.com/itm/3335
 
 # Documentation
 
-[Connector Pinout](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_wiring)
+[Connector Pinout](https://github.com/rusefi/rusefi/wiki/Hardware_microRusEfi_wiring)
 
-[microRusEfi documentation wiki](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi)
+[microRusEfi documentation wiki](https://github.com/rusefi/rusefi/wiki/Hardware_microRusEfi)
 
-[microRusEfi kit instructions](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_kit_instructions)
+[microRusEfi kit instructions](https://github.com/rusefi/rusefi/wiki/Hardware_microRusEfi_kit_instructions)
 
 [microRusEfi forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
@@ -64,7 +64,7 @@ stm32f767
 
 [Final assembly BOM notes](https://github.com/rusefi/hw_microRusEfi/blob/master/gerbers/rusEFI-Micro_R0.4.x-not-pre-assembled.md)
 
-[48 pin connector](https://github.com/rusefi/rusefi_documentation/wiki/Hardware_microRusEfi_connectors)
+[48 pin connector](https://github.com/rusefi/rusefi/wiki/Hardware_microRusEfi_connectors)
 
 
 iBom https://rusefi.com/docs/ibom/microRusEfi_latest.html
