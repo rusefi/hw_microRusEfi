@@ -4,3 +4,6 @@
 [submodule "gerbers/bom_jlc"]
 	path = gerbers/bom_jlc
 	url = https://github.com/andreika-git/bom_jlc
+[submodule "gerbers/InteractiveHtmlBom"]
+	path = gerbers/InteractiveHtmlBom
+	url = https://github.com/openscopeproject/InteractiveHtmlBom.git
