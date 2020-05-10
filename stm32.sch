@@ -1545,6 +1545,8 @@ $Comp
 L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
 U 3 1 5E8EE3BC
 P 5550 3075
+AR Path="/5E8EE3BC" Ref="U3"  Part="3" 
+AR Path="/5D0250FB/5E8EE3BC" Ref="U3"  Part="3" 
 F 0 "U3" H 5650 2875 60  0000 C CNN
 F 1 "molex_48pin_MRE" H 6279 5950 60  0001 L CNN
 F 2 "" H 5550 3075 60  0001 C CNN
@@ -1655,6 +1657,8 @@ $Comp
 L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
 U 7 1 5EBAF142
 P 12750 6500
+AR Path="/5EBAF142" Ref="U3"  Part="7" 
+AR Path="/5D0250FB/5EBAF142" Ref="U3"  Part="7" 
 F 0 "U3" H 13650 6159 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 13950 6500 60  0001 C CNN
 F 2 "" H 12750 6500 60  0001 C CNN
