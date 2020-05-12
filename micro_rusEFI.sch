@@ -1406,69 +1406,14 @@ F3 "IN2" I L 12450 7550 50
 F4 "OUT1" O R 13275 7450 50 
 F5 "OUT2" O R 13275 7550 50 
 $EndSheet
-$Comp
-L Connector_Generic:Conn_01x01 J8
-U 1 1 5F20C313
-P 8450 8925
-F 0 "J8" H 8600 8925 50  0000 C CNN
-F 1 "Conn_01x01" H 8368 8791 50  0001 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8450 8925 50  0001 C CNN
-F 3 "~" H 8450 8925 50  0001 C CNN
-	1    8450 8925
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7950 8925 8250 8925
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5F21FF07
-P 6250 8350
-F 0 "J6" H 6400 8350 50  0000 C CNN
-F 1 "Conn_01x01" H 6168 8216 50  0001 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6250 8350 50  0001 C CNN
-F 3 "~" H 6250 8350 50  0001 C CNN
-	1    6250 8350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6700 8350 6450 8350
-$Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 5F231677
-P 8450 9325
-F 0 "J10" H 8600 9325 50  0000 C CNN
-F 1 "Conn_01x01" H 8368 9191 50  0001 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8450 9325 50  0001 C CNN
-F 3 "~" H 8450 9325 50  0001 C CNN
-	1    8450 9325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J11
-U 1 1 5F231C34
-P 8450 9425
-F 0 "J11" H 8600 9425 50  0000 C CNN
-F 1 "Conn_01x01" H 8368 9291 50  0001 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8450 9425 50  0001 C CNN
-F 3 "~" H 8450 9425 50  0001 C CNN
-	1    8450 9425
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7950 9325 8250 9325
 Wire Wire Line
 	7950 9425 8250 9425
-$Comp
-L Connector_Generic:Conn_01x01 J9
-U 1 1 5F2548AA
-P 8450 9225
-F 0 "J9" H 8600 9225 50  0000 C CNN
-F 1 "Conn_01x01" H 8368 9091 50  0001 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8450 9225 50  0001 C CNN
-F 3 "~" H 8450 9225 50  0001 C CNN
-	1    8450 9225
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7950 9225 8250 9225
 $Comp
@@ -1547,17 +1492,6 @@ Connection ~ 13275 5025
 Connection ~ 13275 5125
 Wire Wire Line
 	13275 5125 13275 5025
-$Comp
-L Connector_Generic:Conn_01x01 J16
-U 1 1 5F3E511F
-P 8450 9125
-F 0 "J16" H 8600 9125 50  0000 C CNN
-F 1 "Conn_01x01" H 8368 8991 50  0001 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8450 9125 50  0001 C CNN
-F 3 "~" H 8450 9125 50  0001 C CNN
-	1    8450 9125
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7950 9125 8250 9125
 Text Label 10400 8625 0    60   ~ 12
@@ -2125,17 +2059,6 @@ F 8 "C21190" H 8800 6025 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	8600 6025 8650 6025
-$Comp
-L Connector_Generic:Conn_01x01 J14
-U 1 1 5EF49354
-P 11050 4625
-F 0 "J14" H 11200 4625 50  0000 C CNN
-F 1 "Conn_01x01" H 10968 4491 50  0001 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 11050 4625 50  0001 C CNN
-F 3 "~" H 11050 4625 50  0001 C CNN
-	1    11050 4625
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10750 4625 10850 4625
 NoConn ~ 10925 6900
@@ -2293,6 +2216,83 @@ F 1 "LOGO" H 15875 9620 60  0001 C CNN
 F 2 "rusefi_lib:MRE_QR_code" H 15875 9150 50  0001 C CNN
 F 3 "" H 15875 9150 50  0001 C CNN
 	1    15875 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 8 1 5FDEA88F
+P 7000 8350
+F 0 "U3" H 7825 8350 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 8181 8755 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 7000 8350 60  0001 C CNN
+F 3 "" H 7000 8350 60  0001 C CNN
+	8    7000 8350
+	-1   0    0    1   
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 9 1 5FE1BBB9
+P 7700 8925
+F 0 "U3" H 8525 8925 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 8881 9330 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 7700 8925 60  0001 C CNN
+F 3 "" H 7700 8925 60  0001 C CNN
+	9    7700 8925
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 10 1 5FE33973
+P 7700 9225
+F 0 "U3" H 8525 9225 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 8881 9630 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 7700 9225 60  0001 C CNN
+F 3 "" H 7700 9225 60  0001 C CNN
+	10   7700 9225
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 11 1 5FE3397D
+P 7700 9325
+F 0 "U3" H 8525 9325 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 8881 9730 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 7700 9325 60  0001 C CNN
+F 3 "" H 7700 9325 60  0001 C CNN
+	11   7700 9325
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 12 1 5FE4FA20
+P 7700 9425
+F 0 "U3" H 8525 9425 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 8881 9830 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 7700 9425 60  0001 C CNN
+F 3 "" H 7700 9425 60  0001 C CNN
+	12   7700 9425
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 13 1 5FE4FA2A
+P 7700 9125
+F 0 "U3" H 8525 9125 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 8881 9530 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 7700 9125 60  0001 C CNN
+F 3 "" H 7700 9125 60  0001 C CNN
+	13   7700 9125
+	1    0    0    -1  
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 14 1 5FE4FA34
+P 10300 4625
+F 0 "U3" H 11125 4625 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 11481 5030 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 10300 4625 60  0001 C CNN
+F 3 "" H 10300 4625 60  0001 C CNN
+	14   10300 4625
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
