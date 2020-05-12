@@ -145,36 +145,6 @@ AV9
 Text Label 7650 1650 3    60   ~ 12
 AV10
 $Comp
-L Connector:TestPoint TP4
-U 1 1 5D358BCF
-P 16000 1050
-F 0 "TP4" V 16000 1225 50  0000 L CNN
-F 1 "TP" H 15950 1275 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 16200 1050 50  0001 C CNN
-F 3 "~" H 16200 1050 50  0001 C CNN
-F 4 "DNP" H 7875 -4425 50  0001 C CNN "Part #"
-F 5 "DNP" H 7875 -4425 50  0001 C CNN "VEND"
-F 6 "DNP" H 7875 -4425 50  0001 C CNN "VEND#"
-F 7 "DNP" H 7875 -4425 50  0001 C CNN "Manufacturer"
-	1    16000 1050
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5D08B37F
-P 16000 925
-F 0 "TP3" V 16000 1100 50  0000 L CNN
-F 1 "TP" H 16058 952 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 16200 925 50  0001 C CNN
-F 3 "~" H 16200 925 50  0001 C CNN
-F 4 "DNP" H 9850 -4000 50  0001 C CNN "Part #"
-F 5 "DNP" H 9850 -4000 50  0001 C CNN "VEND"
-F 6 "DNP" H 9850 -4000 50  0001 C CNN "VEND#"
-F 7 "DNP" H 9850 -4000 50  0001 C CNN "Manufacturer"
-	1    16000 925 
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:LED D9
 U 1 1 5D1BAEB2
 P 4150 3425
@@ -237,14 +207,10 @@ F 7 "DNP" H -465 -20 50  0001 C CNN "Manufacturer"
 	1    11425 10225
 	1    0    0    -1  
 $EndComp
-Text Label 16000 1050 2    60   ~ 12
-CRANK
 Text Label 16000 675  2    60   ~ 12
 5V
 Text Label 16000 800  2    60   ~ 12
 GND
-Text Label 16000 925  2    60   ~ 12
-CAM_MCU
 $Comp
 L Connector:TestPoint TP5
 U 1 1 5D743C4C
@@ -2383,8 +2349,6 @@ Wire Wire Line
 	2775 1775 3050 1775
 Wire Wire Line
 	3050 1875 3050 1775
-Text Label 11275 2350 0    50   ~ 0
-????
 $Comp
 L Connector_Generic:Conn_01x01 J6
 U 1 1 5F76E6A7
