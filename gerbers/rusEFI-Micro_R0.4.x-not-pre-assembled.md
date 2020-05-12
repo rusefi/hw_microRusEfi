@@ -4,10 +4,23 @@
 
 1,614105150721
 
+newark/digikey USB3131-30-0230-A is a cheaper vertical USB with better length contacts
+
 2,PTS636 SM43 SMTR LFS
 
 4,CA064X103K2RACAUTO
 
+
+
+SO-8 drivers:
+VNLD5090
+90 mOhm / 18A
+
+VNLD5160
+160 mOhm / 3.5 A
+
+VNLD5300
+300 mOhm / 2A
 
 #Front side
 
