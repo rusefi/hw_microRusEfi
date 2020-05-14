@@ -5,7 +5,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "zMRETestFixture"
-Date "2020-05-11"
+Date "2020-05-14"
 Rev "R0.1"
 Comp "rusEFI.com"
 Comment1 ""
