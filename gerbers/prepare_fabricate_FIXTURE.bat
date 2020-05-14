@@ -1,6 +1,6 @@
 
 set posInputFile=zMRETestFixture_R0.1/zMRETestFixture-top-pos.csv
-set posOutputFile=zMRETestFixture_R0.1/zMRETestFixture-cpl_initial.csv
+set posOutputFile=zMRETestFixture_R0.1/zMRETestFixture-JLC_CPL.csv
 set lib_path=../rusefi_lib_external
 
 rem set bomInputFile=../microRusEfi.csv
