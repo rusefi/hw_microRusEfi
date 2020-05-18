@@ -1,4 +1,7 @@
 
+# 0.5.1
+TBD, in the works!
+
 
 # 0.5
 May 2020
@@ -10,7 +13,16 @@ R21,R33,R80,R81 0R, R122,R123,R124,R125 DNP: TLE8888 is driving external smart c
 
 R2 0R - TLE8888 watchdog reset will reset stm32 reset and vice versa, stm32 reset would reset tle8888
 
+Four more high-current low-side drivers on board!
 
+U9 uses AV6 & AV10 pins.
+
+U10 uses AV8 and AV9 pins.
+
+It's now possible to power up microRusEFI with 5v with the case closed - please feed your USB +5v into pin #19 AV4.
+This would affect AV4 reading while USB cable is connected so plan accordingly.
+
+We are now using stm32f427 chip instead of stm32f407. As of May 14, 2020 we simply use the same stm32f407 firmware on the stm32f427 chip. 
 
 # 0.4.8
 2020
