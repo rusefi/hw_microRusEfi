@@ -17,7 +17,7 @@ Four more high-current low-side drivers on board!
 
 U9 uses AV6 & AV10 pins.
 
-U10 uses ?? and ?? pins.
+U10 uses AV8 and AV9 pins.
 
 It's now possible to power up microRusEFI with 5v with the case closed - please feed your USB +5v into pin #19 AV4.
 This would affect AV4 reading while USB cable is connected so plan accordingly.
