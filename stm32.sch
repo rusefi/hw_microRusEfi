@@ -1666,4 +1666,36 @@ F 3 "" H 12750 6500 60  0001 C CNN
 	7    12750 6500
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J19
+U 1 1 601B4012
+P 10600 4175
+F 0 "J19" H 10518 4500 50  0000 C CNN
+F 1 "Conn_01x06" H 10518 4501 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical" H 10600 4175 50  0001 C CNN
+F 3 "~" H 10600 4175 50  0001 C CNN
+	1    10600 4175
+	-1   0    0    -1  
+$EndComp
+Text Notes 10200 3700 0    50   ~ 0
+USB bulk head connector\nUSB UB-20PMFP-LC7002\n\nCover / Cap\nCAP-WADMLP_ _
+Text Label 10800 4275 0    60   ~ 12
+Vbus
+Text Label 10800 4075 0    60   ~ 12
+USB_D-
+Text Label 10800 4175 0    60   ~ 12
+USB_D+
+Text Label 10800 3975 0    50   ~ 10
+USB_ID
+$Comp
+L power:GND #PWR026
+U 1 1 601C7010
+P 10800 4375
+F 0 "#PWR026" H 10800 4375 30  0001 C CNN
+F 1 "GND" H 10800 4305 30  0001 C CNN
+F 2 "" H 10800 4375 60  0001 C CNN
+F 3 "" H 10800 4375 60  0001 C CNN
+	1    10800 4375
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
