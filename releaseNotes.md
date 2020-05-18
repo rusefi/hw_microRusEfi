@@ -1,6 +1,7 @@
 
 # 0.5.1
 TBD, in the works!
+Added J19 the optional USB bulk head connector. 
 
 
 # 0.5
