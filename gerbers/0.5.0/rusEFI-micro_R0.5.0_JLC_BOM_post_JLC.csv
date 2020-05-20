@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,LCSC, Manufacturer, Part #, VEND, VEND#, LCSC, MFG,MFG#, Vend1,Vend1#, PageName
+10nF","CN17,CN6,CN5,CN14","Resistor_SMD:R_Array_Convex_4x0603","","KEMET","CA064X103K2RACAUTO","DIGI","399-12382-1-ND","","","",""
+"USB_B_Micro","J1","Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical","","GCT","USB3131-30-0230-A","","","","","",""
+"SW_Push","SW2,SW1","Button_Switch_SMD:SW_SPST_CK_RS282G05A3","","","","","","C398054","","",""
+"VNLD5090","U10,U9","Package_SO:SO-8_3.9x4.9mm_P1.27mm","","","","","","C377942","ST,VNLD5090TR-E","DIGI,497-14323-1-ND",""
+"TLE88882QK","U2","Package_QFP:LQFP-100_14x14mm_P0.5mm_THERMAL","","Infineon ","TLE88882QKXUMA1","DIGI","TLE88882QKXUMA1-ND","","","",""
