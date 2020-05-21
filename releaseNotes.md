@@ -1,7 +1,11 @@
 
 # 0.5.1
 TBD, in the works!
+Added J19 the optional USB bulk head connector. 
 
+Some passives are now 0402 in order to move stuff from the back side of the board.
+
+Analog input RC filter changed from 10nF to 100nF
 
 # 0.5
 May 2020
