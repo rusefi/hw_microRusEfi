@@ -8,4 +8,5 @@
   (lib (name rusefi_Molex_MRE_Connector)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib_external/molex_48pin_MRE.lib)(options "")(descr ""))
   (lib (name vnld5090)(type Legacy)(uri "$(KIPRJMOD)/rusefi_lib_external/vnld5090.lib")(options "")(descr ""))
   (lib (name MRE_QR_code)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib_external/MRE_QR_code.lib)(options "")(descr ""))
+  (lib (name Off_Road_Disclaimer)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib_external/Off_Road_Disclaimer.lib)(options "")(descr ""))
 )

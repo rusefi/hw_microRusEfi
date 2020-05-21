@@ -2295,4 +2295,15 @@ F 3 "" H 10300 4625 60  0001 C CNN
 	14   10300 4625
 	1    0    0    -1  
 $EndComp
+$Comp
+L Off_Road_Disclaimer:Disclaimer G1
+U 1 1 5F63E1FA
+P 14600 9250
+F 0 "G1" H 14600 9600 60  0001 C CNN
+F 1 "Disclaimer" H 14600 9500 60  0001 C CNN
+F 2 "rusefi_lib:Off_Road_Disclaimer" H 14600 9250 50  0001 C CNN
+F 3 "" H 14600 9250 50  0001 C CNN
+	1    14600 9250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
