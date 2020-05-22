@@ -13,37 +13,37 @@ Comment2 "AI6OD"
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 11500 9450 2    60   Input ~ 12
+Text HLabel 11600 9450 2    60   Input ~ 12
 INJ_IN_1
-Text HLabel 11500 9350 2    60   Input ~ 12
+Text HLabel 11600 9350 2    60   Input ~ 12
 INJ_IN_2
-Text HLabel 11500 9250 2    60   Input ~ 12
+Text HLabel 11600 9250 2    60   Input ~ 12
 INJ_IN_3
-Text HLabel 11500 9150 2    60   Input ~ 12
+Text HLabel 11600 9150 2    60   Input ~ 12
 INJ_IN_4
-Text HLabel 11500 9050 2    60   Input ~ 12
+Text HLabel 11600 9050 2    60   Input ~ 12
 IGN_IN_1
-Text HLabel 11500 8950 2    60   Input ~ 12
+Text HLabel 11600 8950 2    60   Input ~ 12
 IGN_IN_2
-Text HLabel 11500 8850 2    60   Input ~ 12
+Text HLabel 11600 8850 2    60   Input ~ 12
 IGN_IN_3
-Text HLabel 11500 8750 2    60   Input ~ 12
+Text HLabel 11600 8750 2    60   Input ~ 12
 IGN_IN_4
-Text HLabel 11500 8650 2    60   Input ~ 12
+Text HLabel 11600 8650 2    60   Input ~ 12
 IN_9
-Text HLabel 11500 8550 2    60   Input ~ 12
+Text HLabel 11600 8550 2    60   Input ~ 12
 IN_10
-Text HLabel 11500 8450 2    60   Input ~ 12
+Text HLabel 11600 8450 2    60   Input ~ 12
 IN_11
-Text HLabel 11500 8350 2    60   Input ~ 12
+Text HLabel 11600 8350 2    60   Input ~ 12
 IN_12
-Text HLabel 8100 9200 0    60   Input ~ 12
+Text HLabel 8000 9200 0    60   Input ~ 12
 IGN_OUT_1
-Text HLabel 8100 9300 0    60   Input ~ 12
+Text HLabel 8000 9300 0    60   Input ~ 12
 IGN_OUT_2
-Text HLabel 8100 9400 0    60   Input ~ 12
+Text HLabel 8000 9400 0    60   Input ~ 12
 IGN_OUT_3
-Text HLabel 8100 9500 0    60   Input ~ 12
+Text HLabel 8000 9500 0    60   Input ~ 12
 IGN_OUT_4
 Wire Wire Line
 	10250 6700 10250 6600
@@ -371,15 +371,15 @@ Text HLabel 10600 10775 2    60   Input ~ 12
 OUT_19
 Text HLabel 10600 10900 2    60   Input ~ 12
 OUT_20
-Text HLabel 9350 6700 1    60   Input ~ 12
+Text HLabel 9350 6600 1    60   Input ~ 12
 OUT_14
-Text HLabel 9450 6700 1    60   Input ~ 12
+Text HLabel 9450 6600 1    60   Input ~ 12
 OUT_15
-Text HLabel 10350 6700 1    60   Input ~ 12
+Text HLabel 10350 6600 1    60   Input ~ 12
 OUT_16
-Text HLabel 10450 6700 1    60   Input ~ 12
+Text HLabel 10450 6600 1    60   Input ~ 12
 OUT_17
-Text HLabel 10550 6700 1    60   Input ~ 12
+Text HLabel 10550 6600 1    60   Input ~ 12
 OUT_18
 $Comp
 L Device:C C12
@@ -478,9 +478,9 @@ Wire Wire Line
 	11500 7550 14025 7550
 Wire Wire Line
 	11500 7650 14025 7650
-Text HLabel 11500 7850 2    60   Input ~ 12
+Text HLabel 11600 7850 2    60   Input ~ 12
 CAN_TX
-Text HLabel 11500 7950 2    60   Input ~ 12
+Text HLabel 11600 7950 2    60   Input ~ 12
 CAN_RX
 Wire Wire Line
 	14025 7250 14025 7550
@@ -554,14 +554,14 @@ $EndComp
 $Comp
 L power:GND #PWR016
 U 1 1 5CA2C3D4
-P 11500 7250
+P 11550 7250
 AR Path="/5C5D7FA6/5CA2C3D4" Ref="#PWR016"  Part="1" 
 AR Path="/5F5E0E7A/5CA2C3D4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR016" H 11500 7000 50  0001 C CNN
-F 1 "GND" V 11500 7075 50  0000 C CNN
-F 2 "" H 11500 7250 50  0001 C CNN
-F 3 "" H 11500 7250 50  0001 C CNN
-	1    11500 7250
+F 0 "#PWR016" H 11550 7000 50  0001 C CNN
+F 1 "GND" V 11550 7075 50  0000 C CNN
+F 2 "" H 11550 7250 50  0001 C CNN
+F 3 "" H 11550 7250 50  0001 C CNN
+	1    11550 7250
 	0    -1   -1   0   
 $EndComp
 Text HLabel 8000 8500 0    60   Input ~ 12
@@ -581,17 +581,17 @@ F 3 "" H 8100 9600 50  0001 C CNN
 	1    8100 9600
 	0    1    1    0   
 $EndComp
-Text HLabel 8750 10100 3    60   Input ~ 12
+Text HLabel 8750 10200 3    60   Input ~ 12
 CSN
-Text HLabel 8950 10100 3    60   Input ~ 12
+Text HLabel 8950 10200 3    60   Input ~ 12
 SIP
-Text HLabel 9150 10100 3    60   Input ~ 12
+Text HLabel 9150 10200 3    60   Input ~ 12
 FCLP
 Wire Wire Line
 	10850 10100 10850 10300
 Wire Wire Line
 	9250 10100 9250 10700
-Text HLabel 8850 10100 3    60   Input ~ 12
+Text HLabel 8850 10200 3    60   Input ~ 12
 SDO
 Wire Wire Line
 	8650 6700 8650 6600
@@ -738,11 +738,11 @@ F 8 "C19702" H 9700 12050 50  0001 C CNN "LCSC"
 	1    9700 12050
 	1    0    0    -1  
 $EndComp
-Text Label 11600 7350 0    60   ~ 12
+Text Label 11775 7350 0    60   ~ 12
 KEY
-Text Label 11600 7450 0    60   ~ 12
+Text Label 11650 7450 0    60   ~ 12
 WAKE
-Text Label 8100 9850 2    60   ~ 12
+Text Label 8000 9850 2    60   ~ 12
 GND
 Text Label 11900 11300 3    60   ~ 12
 VDD
@@ -779,18 +779,18 @@ $EndComp
 $Comp
 L power:GND #PWR08
 U 1 1 5C7CA872
-P 9050 10350
+P 9050 10450
 AR Path="/5C5D7FA6/5C7CA872" Ref="#PWR08"  Part="1" 
 AR Path="/5F5E0E7A/5C7CA872" Ref="#PWR?"  Part="1" 
-F 0 "#PWR08" H 9050 10100 50  0001 C CNN
-F 1 "GND" H 9050 10200 50  0000 C CNN
-F 2 "" H 9050 10350 50  0001 C CNN
-F 3 "" H 9050 10350 50  0001 C CNN
-	1    9050 10350
+F 0 "#PWR08" H 9050 10200 50  0001 C CNN
+F 1 "GND" H 9050 10300 50  0000 C CNN
+F 2 "" H 9050 10450 50  0001 C CNN
+F 3 "" H 9050 10450 50  0001 C CNN
+	1    9050 10450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9050 10100 9050 10350
+	9050 10100 9050 10450
 $Comp
 L power:GND #PWR011
 U 1 1 5C7D9FD6
@@ -1616,7 +1616,7 @@ L Connector_Generic:Conn_01x01 J15
 U 1 1 5EA3F4B2
 P 8100 6675
 F 0 "J15" H 8180 6717 50  0000 L CNN
-F 1 "Conn_01x01" H 8180 6626 50  0000 L CNN
+F 1 "Conn_01x01" H 8180 6626 50  0001 L CNN
 F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 8100 6675 50  0001 C CNN
 F 3 "~" H 8100 6675 50  0001 C CNN
 	1    8100 6675
@@ -1635,4 +1635,66 @@ F 3 "~" H 11500 10100 50  0001 C CNN
 $EndComp
 NoConn ~ 7900 6675
 NoConn ~ 11700 10100
+Wire Wire Line
+	11500 9450 11600 9450
+Wire Wire Line
+	11500 9350 11600 9350
+Wire Wire Line
+	11500 9250 11600 9250
+Wire Wire Line
+	11500 9150 11600 9150
+Wire Wire Line
+	11500 9050 11600 9050
+Wire Wire Line
+	11500 8950 11600 8950
+Wire Wire Line
+	11500 8850 11600 8850
+Wire Wire Line
+	11500 8750 11600 8750
+Wire Wire Line
+	11500 8650 11600 8650
+Wire Wire Line
+	11500 8550 11600 8550
+Wire Wire Line
+	11500 8450 11600 8450
+Wire Wire Line
+	11500 8350 11600 8350
+Wire Wire Line
+	11500 7850 11600 7850
+Wire Wire Line
+	11500 7950 11600 7950
+Wire Wire Line
+	8000 9200 8100 9200
+Wire Wire Line
+	8000 9300 8100 9300
+Wire Wire Line
+	8000 9400 8100 9400
+Wire Wire Line
+	8000 9500 8100 9500
+Wire Wire Line
+	8750 10100 8750 10200
+Wire Wire Line
+	8850 10100 8850 10200
+Wire Wire Line
+	8950 10100 8950 10200
+Wire Wire Line
+	9150 10100 9150 10200
+Wire Wire Line
+	11500 7250 11550 7250
+Wire Wire Line
+	10350 6600 10350 6700
+Wire Wire Line
+	10450 6600 10450 6700
+Wire Wire Line
+	10550 6600 10550 6700
+Wire Wire Line
+	9450 6600 9450 6700
+Wire Wire Line
+	9350 6600 9350 6700
+Text Notes 7750 6575 0    50   ~ 0
+J15 is a potentail \nmounting point \nif a heat sink \nis needed. 
+Text Notes 11425 10025 0    50   ~ 0
+J17 is a potentail \nmounting point \nif a heat sink \nis needed. 
+Wire Wire Line
+	8100 9850 8000 9850
 $EndSCHEMATC
