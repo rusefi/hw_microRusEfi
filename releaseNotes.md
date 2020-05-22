@@ -5,11 +5,11 @@ Added J19 the optional USB bulk head connector.
 
 Some passives are now 0402 in order to move stuff from the back side of the board.
 
-Analog input RC filter changed from 10nF to 100nF
+Analog input RC filter changed from 10nF to 100nF.
 
 # 0.5
 May 2020
-Four more low-side channels
+Four more low-side channels.
 Many more changes! See https://github.com/rusefi/hw_microRusEfi/pull/155
 
 R21,R33,R80,R81 DNP, R122,R123,R124,R125 100R: U32,U33 are driving smart coils via PD4, PD3, PD2, PD1
@@ -31,17 +31,17 @@ We are now using stm32f427 chip instead of stm32f407. As of May 14, 2020 we simp
 # 0.4.8
 2020
 Improved stitching around Q1 in order to improve thermal properties.
-JP1 track flipped to fix VRef issue
+JP1 track flipped to fix VRef issue.
 
 Andrey has one, Nick has one, Matt has one.
 
 # 0.4.7
 2020
-Different USB connector
+Different USB connector.
 
 # 0.4.6 
 Dec 2019
-Corrected scrambled Vref/Vbat/AV4/AV5 inputs
+Corrected scrambled Vref/Vbat/AV4/AV5 inputs.
 
 # 0.4.5 
 2019
@@ -49,13 +49,13 @@ We have switched to cheaper F4 MCU and 2 layer design with focus on JLC pre-asse
 
 # 0.3
 2019
-There was progress
+There was progress!
 
 Andrey has two!
 
 # 0.2
 2019
-There was progress
+There was progress :)
 
 # 0.1
 Summer 2019
