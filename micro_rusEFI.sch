@@ -5,7 +5,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 9
 Title "microRusEfi-2L"
-Date "2020-05-01"
+Date "2020-05-24"
 Rev "R0.5.1"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"

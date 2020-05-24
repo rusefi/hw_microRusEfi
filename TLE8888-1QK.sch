@@ -5,8 +5,8 @@ $Descr User 19685 15748
 encoding utf-8
 Sheet 8 9
 Title "microRusEfi-2L"
-Date "2020-04-22"
-Rev "R0.5.0"
+Date "2020-05-24"
+Rev "R0.5.1"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
 Comment2 "AI6OD"
