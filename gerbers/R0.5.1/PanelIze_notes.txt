@@ -20,6 +20,9 @@ JLC mousebit hole diameter 0.8mm with 0.2 materail remaining.
 -- 48:35 suggested to provide a sample of a completed board, so the assembler knows what to do. At least provide pictures. 
 
 As of 2020, this is one of the better tools for KICAD
+https://hackaday.com/2020/04/25/kicad-panelization-made-easy/
+
+Also this 2019 article. 
 https://hackaday.com/2019/03/12/panelizing-boards-in-kicad/
 https://gitlab.com/dren.dk/kicad-util
 
