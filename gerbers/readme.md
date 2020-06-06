@@ -2,6 +2,12 @@ All microRusEFI boards are 81x94mm
 
 rusEFI 130x128
 
+[Connector Pinout](https://github.com/rusefi/rusefi/wiki/Hardware_microRusEfi_wiring)
+
+[microRusEfi documentation wiki](https://github.com/rusefi/rusefi/wiki/Hardware_microRusEfi)
+
+[microRusEfi kit instructions](https://github.com/rusefi/rusefi/wiki/Hardware_microRusEfi_kit_instructions)
+
 
 R0.1, R0.2, R03 - 4 layers, no assembly files
 
