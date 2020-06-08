@@ -3020,4 +3020,30 @@ Wire Wire Line
 	6950 4700 7300 4700
 Wire Wire Line
 	6950 2050 7225 2050
+Wire Notes Line
+	6800 8600 6800 8775
+Wire Notes Line
+	6800 8775 7100 8775
+Wire Notes Line
+	7100 8775 7100 8600
+Wire Notes Line
+	7100 8600 6800 8600
+Wire Notes Line
+	7325 4825 7325 5000
+Wire Notes Line
+	7325 5000 7575 5000
+Wire Notes Line
+	7575 5000 7575 4825
+Wire Notes Line
+	7575 4825 7325 4825
+Wire Notes Line
+	6825 8425 7075 8425
+Wire Notes Line
+	7075 8250 6825 8250
+Wire Notes Line
+	6825 8075 7075 8075
+Wire Notes Line
+	6825 8075 6825 8425
+Wire Notes Line
+	7075 8075 7075 8425
 $EndSCHEMATC
