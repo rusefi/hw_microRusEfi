@@ -1,14 +1,12 @@
+set version=R0.5.1
+set base_name=micro_rusEFI
 
-set posInputFile=microRusEfi-top-pos.csv
-set posOutputFile=0.5.0/rusEFI-Micro_R0.5.0-cpl_initial.csv
+set posInputFile=%version%/%base_name%-top-pos.csv
+set posOutputFile=%version%/%base_name%_JLC-CPL_%version%.csv
 set lib_path=../rusefi_lib_external
 
-rem set bomInputFile=../microRusEfi.csv
-rem set bomOutputFile=0.4.9/rusEFI-Micro_R0.4.9-bom.csv
-
-mkdir 0.5.0
+mkdir %version%
 
 call %lib_path%/Fabrication/jlc_prepare_position.bat %posInputFile% %posOutputFile% %lib_path%
 
-
-rem call %lib_path%/Fabrication/jlc_prepare_bom.bat      %bomInputFile% %bomOutputFile% %lib_path%
+pause
