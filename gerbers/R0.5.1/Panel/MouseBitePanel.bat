@@ -1,1 +1,0 @@
-java -jar kicadutil.jar pcb -f Panel_R0.5.1_100x300_2layer_step2.kicad_pcb panel
