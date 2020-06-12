@@ -1,6 +1,8 @@
 All microRusEFI boards are 81x94mm
 
-rusEFI 130x128
+A panel of 9 boards is 267*300mm
+
+rusEFI text fixture is 130x128
 
 [Connector Pinout](https://github.com/rusefi/rusefi/wiki/Hardware_microRusEfi_wiring)
 
