@@ -37,7 +37,7 @@ Comment,Designator,Footprint,LCSC, Manufacturer, Part #, VEND, VEND#, LCSC, MFG,
 "39k","R139","Resistor_SMD:R_0603_1608Metric","","Yageo","RC0603FR-0739KL","DIGI","311-39.0KHRCT-ND","C23153","","",""
 "2.7k","R14,R23,R25,R27,R20","Resistor_SMD:R_0603_1608Metric","","StackPole","RMCF0603FT2K70","DIGI","RMCF0603FT2K70CT-ND","C13167","","",""
 "15k","R15","Resistor_SMD:R_0603_1608Metric","","StackPole","RMCF0603JG15K0","DIGI","RMCF0603JG15K0CT-ND","C22809","","",""
-"0R","R21,R2,R33,R80,R81","Resistor_SMD:R_0603_1608Metric","","","","DIGI","","C21190","","",""
+"0R","R21,R33,R80,R81","Resistor_SMD:R_0603_1608Metric","","","","DIGI","","C21190","","",""
 "120","R22","Resistor_SMD:R_0805_2012Metric","","","","","","C17437","","",""
 "2.2k","R28,R48","Resistor_SMD:R_0603_1608Metric","","StackPole","RMCF0603FT2K20","DIGI","RMCF0603FT2K20CT-ND","C4190","","",""
 "1k","R29,R51,R49,R36,R50","Resistor_SMD:R_0603_1608Metric","","StackPole","RMCF0603JJ1K00","DIGI","RMCF0603JJ1K00CT-ND","C21190","","",""
