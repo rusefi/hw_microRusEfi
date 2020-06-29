@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 9
 Title "microRusEfi-2L"
 Date "2020-05-24"
-Rev "R0.5.1"
+Rev "R0.5.2"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
 Comment2 "AI6OD"
