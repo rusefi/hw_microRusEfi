@@ -1,4 +1,4 @@
-set version=R0.5.1
+set version=R0.5.2
 set base_name=micro_rusEFI
 
 set posInputFile=%version%/%base_name%-top-pos.csv
