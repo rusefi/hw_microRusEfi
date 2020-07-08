@@ -5,8 +5,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "zMRETestFixture"
-Date "2020-05-14"
-Rev "R0.1"
+Date "2020-07-08"
+Rev "R0.2"
 Comp "rusEFI.com"
 Comment1 ""
 Comment2 ""
@@ -2496,17 +2496,17 @@ $EndComp
 $Comp
 L rusefi_Molex_MRE_Connector:molex_48pin_MRE U1
 U 7 1 5EE5179C
-P 13825 3900
-F 0 "U1" H 14725 4250 60  0000 C CNN
-F 1 "molex_48pin_MRE" V 15006 4305 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 13825 3900 60  0001 C CNN
-F 3 "" H 13825 3900 60  0001 C CNN
-F 4 "MOLEX" H 6075 1775 50  0001 C CNN "Manufacturer"
-F 5 "500762-0481" H 6075 1775 50  0001 C CNN "Part #"
-F 6 "DIGI" H 6075 1775 50  0001 C CNN "VEND"
-F 7 "WM4430-ND" H 6075 1775 50  0001 C CNN "VEND#"
-	7    13825 3900
-	1    0    0    -1  
+P 15625 3900
+F 0 "U1" H 16525 3550 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 16806 4305 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 15625 3900 60  0001 C CNN
+F 3 "" H 15625 3900 60  0001 C CNN
+F 4 "MOLEX" H 7875 1775 50  0001 C CNN "Manufacturer"
+F 5 "500762-0481" H 7875 1775 50  0001 C CNN "Part #"
+F 6 "DIGI" H 7875 1775 50  0001 C CNN "VEND"
+F 7 "WM4430-ND" H 7875 1775 50  0001 C CNN "VEND#"
+	7    15625 3900
+	-1   0    0    1   
 $EndComp
 $Comp
 L rusefi_Molex_MRE_Connector:molex_48pin_MRE U1
