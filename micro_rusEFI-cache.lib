@@ -38,23 +38,6 @@ X V+ 4 -100 300 150 D 50 50 5 1 W
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x01_Female
-#
-DEF Connector_Conn_01x01_Female J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x01_Female" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*
-$ENDFPLIST
-DRAW
-A 0 0 20 901 -901 1 1 6 N 0 20 0 -20
-P 2 1 1 6 -50 0 -20 0 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Connector_Conn_01x06_Male
 #
 DEF Connector_Conn_01x06_Male J 0 40 Y N 1 F N
@@ -1044,7 +1027,7 @@ ENDDEF
 #
 # rusefi_Molex_MRE_Connector_molex_48pin_MRE
 #
-DEF rusefi_Molex_MRE_Connector_molex_48pin_MRE U? 0 8 Y N 14 L N
+DEF rusefi_Molex_MRE_Connector_molex_48pin_MRE U? 0 8 Y N 16 L N
 F0 "U?" 300 0 60 H V C CNN
 F1 "rusefi_Molex_MRE_Connector_molex_48pin_MRE" 1200 0 60 V I C CNN
 F2 "" 0 0 60 H I C CNN
@@ -1156,6 +1139,8 @@ X J10 J10 550 0 150 R 50 50 11 1 P
 X J11 J11 550 0 150 R 50 50 12 1 P
 X J16 J16 550 0 150 R 50 50 13 1 P
 X J14 J14 550 0 150 R 50 50 14 1 P
+X J12 J12 550 0 150 R 50 50 15 1 P
+X J13 J13 550 0 150 R 50 50 16 1 P
 ENDDRAW
 ENDDEF
 #

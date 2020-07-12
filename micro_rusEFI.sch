@@ -2544,34 +2544,34 @@ Wire Wire Line
 	5675 7800 5750 7800
 Wire Wire Line
 	5675 7900 5750 7900
-$Comp
-L Connector:Conn_01x01_Female J6
-U 1 1 5F134DAE
-P 6275 8025
-F 0 "J6" H 6400 8025 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 6167 7891 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6275 8025 50  0001 C CNN
-F 3 "~" H 6275 8025 50  0001 C CNN
-	1    6275 8025
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J8
-U 1 1 5F199C4D
-P 6275 8125
-F 0 "J8" H 6400 8125 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 6167 7991 50  0001 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6275 8125 50  0001 C CNN
-F 3 "~" H 6275 8125 50  0001 C CNN
-	1    6275 8125
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6700 8025 6475 8025
 Wire Wire Line
 	6700 8125 6475 8125
-Text Label 6625 8125 2    50   ~ 0
+Text Label 6675 8125 2    50   ~ 0
 PB10
-Text Label 6625 8025 2    50   ~ 0
+Text Label 6675 8025 2    50   ~ 0
 PB11
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 16 1 5F86BB48
+P 7025 8125
+F 0 "U3" H 7850 8125 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 8206 8530 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 7025 8125 60  0001 C CNN
+F 3 "" H 7025 8125 60  0001 C CNN
+	16   7025 8125
+	-1   0    0    1   
+$EndComp
+$Comp
+L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+U 15 1 5F86E169
+P 7025 8025
+F 0 "U3" H 7850 8025 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 8206 8430 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE" H 7025 8025 60  0001 C CNN
+F 3 "" H 7025 8025 60  0001 C CNN
+	15   7025 8025
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
