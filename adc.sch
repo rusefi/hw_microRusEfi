@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 7 9
 Title "microRusEFI-2L"
 Date "2020-05-24"
-Rev "R0.5.3"
+Rev "R0.5.2"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
 Comment2 "AI6OD"
@@ -748,7 +748,7 @@ F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "C13167" H 2500 1450 50  0001 C CNN "LCSC"
+F 8 "C25885" H 2500 1450 50  0001 C CNN "LCSC"
 	1    2500 1450
 	-1   0    0    1   
 $EndComp
@@ -766,7 +766,7 @@ F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "C13167" H 2675 1450 50  0001 C CNN "LCSC"
+F 8 "C25885" H 2675 1450 50  0001 C CNN "LCSC"
 	1    2675 1450
 	-1   0    0    1   
 $EndComp
@@ -784,7 +784,7 @@ F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "C13167" H 2850 1450 50  0001 C CNN "LCSC"
+F 8 "C25885" H 2850 1450 50  0001 C CNN "LCSC"
 	1    2850 1450
 	-1   0    0    1   
 $EndComp
@@ -802,7 +802,7 @@ F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
 F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
 F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
 F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
-F 8 "C13167" H 3025 1450 50  0001 C CNN "LCSC"
+F 8 "C25885" H 3025 1450 50  0001 C CNN "LCSC"
 	1    3025 1450
 	-1   0    0    1   
 $EndComp
