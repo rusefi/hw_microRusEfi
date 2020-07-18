@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
-Title "microRusEfi-2L"
+Title "microRusEFI-2L"
 Date "2020-05-24"
-Rev "R0.5.1"
+Rev "R0.5.2"
 Comp "rusEFI.com"
 Comment1 ""
 Comment2 ""
