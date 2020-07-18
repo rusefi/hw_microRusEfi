@@ -1,3 +1,8 @@
+# 0.5.2
+
+https://github.com/rusefi/hw_microRusEfi/issues/165 progress miniUSB option
+https://github.com/rusefi/hw_microRusEfi/issues/180 improvement for SD+BT wiring
+https://github.com/rusefi/hw_microRusEfi/issues/184 BOM issue wrong size of 2.7K resistors
 
 # 0.5.1
 TBD, in the works!
@@ -6,6 +11,8 @@ Added J19 the optional USB bulk head connector.
 Some passives are now 0402 in order to move stuff from the back side of the board.
 
 Analog input RC filter changed from 10nF to 100nF.
+
+https://github.com/rusefi/hw_microRusEfi/issues/184 BOM issue wrong size of 2.7K resistors
 
 # 0.5
 May 2020
