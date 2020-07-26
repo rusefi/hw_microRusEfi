@@ -744,10 +744,10 @@ F 0 "R14" V 2580 1450 40  0000 C CNN
 F 1 "2.7k" V 2507 1451 40  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4305 1150 60  0001 C CNN
 F 3 "" H 7825 1175 60  0001 C CNN
-F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 4 "" H 0   0   50  0001 C CNN "Part #"
+F 5 "" H 0   0   50  0001 C CNN "VEND"
+F 6 "" H 0   0   50  0001 C CNN "VEND#"
+F 7 "" H 0   0   50  0001 C CNN "Manufacturer"
 F 8 "C25885" H 2500 1450 50  0001 C CNN "LCSC"
 	1    2500 1450
 	-1   0    0    1   
@@ -762,10 +762,10 @@ F 0 "R23" V 2755 1450 40  0000 C CNN
 F 1 "2.7k" V 2682 1451 40  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4480 1150 60  0001 C CNN
 F 3 "" H 8000 1175 60  0001 C CNN
-F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 4 "" H 0   0   50  0001 C CNN "Part #"
+F 5 "" H 0   0   50  0001 C CNN "VEND"
+F 6 "" H 0   0   50  0001 C CNN "VEND#"
+F 7 "" H 0   0   50  0001 C CNN "Manufacturer"
 F 8 "C25885" H 2675 1450 50  0001 C CNN "LCSC"
 	1    2675 1450
 	-1   0    0    1   
@@ -780,10 +780,10 @@ F 0 "R25" V 2930 1450 40  0000 C CNN
 F 1 "2.7k" V 2857 1451 40  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4655 1150 60  0001 C CNN
 F 3 "" H 8175 1175 60  0001 C CNN
-F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 4 "" H 0   0   50  0001 C CNN "Part #"
+F 5 "" H 0   0   50  0001 C CNN "VEND"
+F 6 "" H 0   0   50  0001 C CNN "VEND#"
+F 7 "" H 0   0   50  0001 C CNN "Manufacturer"
 F 8 "C25885" H 2850 1450 50  0001 C CNN "LCSC"
 	1    2850 1450
 	-1   0    0    1   
@@ -798,10 +798,10 @@ F 0 "R27" V 3105 1450 40  0000 C CNN
 F 1 "2.7k" V 3032 1451 40  0000 C CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" V 4830 1150 60  0001 C CNN
 F 3 "" H 8350 1175 60  0001 C CNN
-F 4 "RMCF0603FT2K70" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "RMCF0603FT2K70CT-ND" H 0   0   50  0001 C CNN "VEND#"
-F 7 "StackPole" H 0   0   50  0001 C CNN "Manufacturer"
+F 4 "" H 0   0   50  0001 C CNN "Part #"
+F 5 "" H 0   0   50  0001 C CNN "VEND"
+F 6 "" H 0   0   50  0001 C CNN "VEND#"
+F 7 "" H 0   0   50  0001 C CNN "Manufacturer"
 F 8 "C25885" H 3025 1450 50  0001 C CNN "LCSC"
 	1    3025 1450
 	-1   0    0    1   
