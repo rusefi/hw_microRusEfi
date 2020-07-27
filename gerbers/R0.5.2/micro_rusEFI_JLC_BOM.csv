@@ -52,6 +52,7 @@ Comment,Designator,Footprint,LCSC, Manufacturer, Part #, VEND, VEND#, LCSC, MFG,
 "2.7k","R14,R23,R25,R27","Resistor_SMD:R_0402_1005Metric","","","","","","C25885","","",""
 "15k","R15","Resistor_SMD:R_0603_1608Metric","","StackPole","RMCF0603JG15K0","DIGI","RMCF0603JG15K0CT-ND","DNP","","",""
 "DNP","R17,R19,R18","Resistor_SMD:R_0603_1608Metric","","DNP","DNP","DIGI","DNP","","","",""
+"0R DNP","R2","Resistor_SMD:R_0603_1608Metric","","DNP","DNP","","","","","",""
 "2.7k","R20","Resistor_SMD:R_0603_1608Metric","","StackPole","RMCF0603FT2K70","DIGI","RMCF0603FT2K70CT-ND","C13167","","",""
 "0R","R21,R33,R80,R81,R85,R30,R84,R8","Resistor_SMD:R_0603_1608Metric","","Uniroyal Elec","0603WAF0000T5E","","","C21189","","",""
 "120","R22","Resistor_SMD:R_0805_2012Metric","","","","","","C17437","","",""
