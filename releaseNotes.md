@@ -1,7 +1,11 @@
+# 0.5.3
+
+Traces clean-up to reduce chances of botched fabrication 
+
 # 0.5.2
 
 https://github.com/rusefi/hw_microRusEfi/issues/165 progress miniUSB option
-https://github.com/rusefi/hw_microRusEfi/issues/180 improvement for SD+BT wiring
+https://github.com/rusefi/hw_microRusEfi/issues/180 improvement for SD+BT wiring (SPI Flash pinout was changed to accomodate but no one uses SPI Flash anyway)
 https://github.com/rusefi/hw_microRusEfi/issues/184 BOM issue wrong size of 2.7K resistors
 
 # 0.5.1
@@ -14,6 +18,8 @@ Analog input RC filter changed from 10nF to 100nF.
 
 https://github.com/rusefi/hw_microRusEfi/issues/184 BOM issue wrong size of 2.7K resistors
 
+U9&U10 are now controlled directly without TLE8888, those are now useable
+
 # 0.5
 May 2020
 Four more low-side channels.
@@ -24,7 +30,7 @@ R21,R33,R80,R81 0R, R122,R123,R124,R125 DNP: TLE8888 is driving external smart c
 
 R2 0R - TLE8888 watchdog reset will reset stm32 reset and vice versa, stm32 reset would reset tle8888
 
-Four more high-current low-side drivers on board!
+Four more high-current low-side drivers on board! (but we do not have firmware to run U9&U10 via TLE8888 at the moment)
 
 U9 uses AV6 & AV10 pins.
 
