@@ -1,12 +1,12 @@
-# microRusEfi
+# microRusEFI
 
 microRusEfi is a small & cheap engine management system board designed for fully sequential 1, 2, 3 and 4 cylinder applications.
 
 6 and 8 cylinders are possible with some limitations. 5 cylinder application not recommended. You would need at least two microRusEfi units to run a v12.
 
-microRusEfi uses a waterproof connector and its aluminum enclosure could be sealed. 
+microRusEFI uses a waterproof connector and its aluminum enclosure could be sealed. 
 
-microRusEfi hardware runs [rusEfi firmware](https://github.com/rusefi/rusefi).
+microRusEFI hardware runs [rusEFI firmware](https://github.com/rusefi/rusefi).
 
 microRusEfi supports dual Hall shaft position sensor input or 1xHall + 1xVR shaft position sensor input
 (A few resistors must be replaced on the PCB in order to switch from one setup to another)
