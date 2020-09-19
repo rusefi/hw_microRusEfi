@@ -1,8 +1,8 @@
 # microRusEFI
 
-microRusEfi is a small & cheap engine management system board designed for fully sequential 1, 2, 3 and 4 cylinder applications.
+microRusEFI is a small & cheap engine management system board designed for fully sequential 1, 2, 3 and 4 cylinder applications.
 
-6 and 8 cylinders are possible with some limitations. 5 cylinder application not recommended. You would need at least two microRusEfi units to run a v12.
+6 and 8 cylinders are possible with some limitations. 5 cylinder application not recommended. You would need at least two microRusEFI units to run a v12.
 
 microRusEFI uses a waterproof connector and its aluminum enclosure could be sealed. 
 
@@ -41,9 +41,9 @@ or available as a kit or completely assembled from https://www.ebay.com/itm/3335
 
 [microRusEFI documentation wiki](https://github.com/rusefi/rusefi/wiki/Hardware-microRusEfi)
 
-[microRusEEFI kit instructions](https://github.com/rusefi/rusefi/wiki/Hardware-microRusEfi-kit-instructions)
+[microRusEFI kit instructions](https://github.com/rusefi/rusefi/wiki/Hardware-microRusEfi-kit-instructions)
 
-[microRusEEFI forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
+[microRusEFI forum thread](https://rusefi.com/forum/viewtopic.php?f=4&t=1538)
 
 [asembled images & assembly files](gerbers)
 
@@ -71,7 +71,7 @@ iBom https://rusefi.com/docs/ibom/microRusEfi_latest.html
 
 ## Adapter Boards
 
-microRusEfi could be used as a brain for Plug&Play vehicle specific adapter boards
+microRusEFI could be used as a brain for Plug&Play vehicle specific adapter boards
 
 1) https://github.com/rusefi/hw_55_te For Yanvar/Micas case
 
