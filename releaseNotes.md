@@ -62,7 +62,7 @@ We have switched to cheaper F4 MCU and 2 layer design with focus on JLC pre-asse
 
 # 0.3
 2019
-There was progress!
+'reset' and 'program' buttons added.
 
 Andrey has two!
 
