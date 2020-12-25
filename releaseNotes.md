@@ -1,3 +1,7 @@
+# 0.5.4
+
+0.5.4 is 0.5.3 with "rusefi.com/s/microrusefi" text on top layer 
+
 # 0.5.3
 
 Traces clean-up to reduce chances of botched fabrication 
