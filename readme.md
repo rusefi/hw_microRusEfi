@@ -83,7 +83,7 @@ Model CKKB48-1-A (Weigh 200g)
 
 Cover bolts M3.5x0.6
 
-PCB bolts M3 0.5mm thread, L=7.5mm
+PCB bolts M3 0.5mm thread, L=7.5mm https://www.mcmaster.com/94209A619/
 
 ## Gerbers
 
