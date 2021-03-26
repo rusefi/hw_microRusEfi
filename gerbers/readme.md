@@ -1,5 +1,7 @@
 All microRusEFI boards are 81x94mm
 
+Case outside dimensions are about 10x11cm (not including mounting tabs)
+
 A panel of 9 boards is 267*300mm
 
 rusEFI text fixture is 130x128
