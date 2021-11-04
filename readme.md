@@ -48,6 +48,8 @@ or available as a kit or completely assembled from https://www.ebay.com/itm/3335
 [asembled images & assembly files](gerbers)
 
 
+[ChangeLog](releaseNotes.md)
+
 ![img](microRusEfi.jpg)
 
 If you download complete repo do not forget to download libraries. If you git clone be sure to also
