@@ -1,6 +1,6 @@
-update=7/7/2020 9:46:39 AM
+update=Po 15. november 2021, 23:27:27
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -12,10 +12,20 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=rusefi_lib_external/Border.kicad_wks
+PlotDirectoryName=./
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=rusefi_lib_external/Border.kicad_wks
-LastNetListRead=microRusEfi.net
+LastNetListRead=micro_rusEFI.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -354,13 +364,3 @@ uViaDrill=0.127
 dPairWidth=0.2032
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=rusefi_lib_external/Border.kicad_wks
-PlotDirectoryName=./
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
