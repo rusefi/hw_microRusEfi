@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 9
+Sheet 2 10
 Title "microRusEFI-2L"
 Date "2020-05-24"
 Rev "R0.5.2"
@@ -54,7 +54,7 @@ Wire Wire Line
 Wire Wire Line
 	4675 3250 5325 3250
 $Comp
-L power:GND #PWR0109
+L micro_rusEFI-rescue:GND-power #PWR0109
 U 1 1 5DE49458
 P 5725 4025
 F 0 "#PWR0109" H 5725 3775 50  0001 C CNN
@@ -70,7 +70,7 @@ Connection ~ 4825 3550
 Wire Wire Line
 	4825 3550 5325 3550
 $Comp
-L Device:C C15
+L micro_rusEFI-rescue:C-Device C15
 U 1 1 5DE4B24C
 P 4825 4150
 F 0 "C15" H 4600 4250 50  0000 L CNN
@@ -86,7 +86,7 @@ F 8 "C14663" H 4825 4150 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L micro_rusEFI-rescue:R-Device R1
 U 1 1 5DE4B55B
 P 6475 4050
 F 0 "R1" H 6250 4000 50  0000 L CNN
@@ -102,7 +102,7 @@ F 8 "C25804" H 6475 4050 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0110
+L micro_rusEFI-rescue:GND-power #PWR0110
 U 1 1 5DE4B957
 P 4825 4350
 F 0 "#PWR0110" H 4825 4100 50  0001 C CNN
@@ -113,7 +113,7 @@ F 3 "" H 4825 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0161
+L micro_rusEFI-rescue:GND-power #PWR0161
 U 1 1 5E76AE52
 P 6475 2550
 F 0 "#PWR0161" H 6475 2300 50  0001 C CNN
@@ -131,7 +131,7 @@ Connection ~ 6475 3350
 Wire Wire Line
 	6475 3350 6750 3350
 $Comp
-L Device:C C18
+L micro_rusEFI-rescue:C-Device C18
 U 1 1 5D324D41
 P 5025 4150
 F 0 "C18" H 5050 4250 50  0000 L CNN
@@ -147,7 +147,7 @@ F 8 "C14663" H 5025 4150 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0189
+L micro_rusEFI-rescue:GND-power #PWR0189
 U 1 1 5D324D4B
 P 5025 4350
 F 0 "#PWR0189" H 5025 4100 50  0001 C CNN
@@ -160,7 +160,7 @@ $EndComp
 Wire Wire Line
 	5025 4000 5025 3350
 $Comp
-L Device:R R42
+L micro_rusEFI-rescue:R-Device R42
 U 1 1 5D02EEB5
 P 7100 4000
 F 0 "R42" H 7200 4150 50  0000 C CNN
@@ -176,7 +176,7 @@ F 8 "C23162" H 7100 4000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C19
+L micro_rusEFI-rescue:C-Device C19
 U 1 1 5D02EEB4
 P 7400 4000
 F 0 "C19" H 7500 4100 50  0000 C CNN
@@ -245,7 +245,7 @@ Connection ~ 6475 3250
 Wire Wire Line
 	6475 3250 6125 3250
 $Comp
-L Device:R R16
+L micro_rusEFI-rescue:R-Device R16
 U 1 1 5D2D1AE3
 P 6475 2775
 F 0 "R16" H 6250 2725 50  0000 L CNN

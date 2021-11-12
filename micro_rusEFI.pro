@@ -1,6 +1,6 @@
-update=7/7/2020 9:46:39 AM
+update=Pi 12. november 2021, 16:17:34
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=rusefi_lib_external/Border.kicad_wks
-LastNetListRead=microRusEfi.net
+LastNetListRead=micro_rusEFI.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -76,7 +76,7 @@ OthersTextUpright=1
 SolderMaskClearance=7.599999999999999e-05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

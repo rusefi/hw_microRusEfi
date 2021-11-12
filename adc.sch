@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 7 9
+Sheet 6 10
 Title "microRusEFI-2L"
 Date "2020-05-24"
 Rev "R0.5.2"
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR0165
+L micro_rusEFI-rescue:GND-power #PWR0165
 U 1 1 5234EFAC
 P 7350 4150
 F 0 "#PWR0165" H 7350 4150 30  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 7350 4150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C79
+L micro_rusEFI-rescue:C-Device C79
 U 1 1 524A0814
 P 7500 3350
 F 0 "C79" H 7500 3450 40  0000 L CNN
@@ -41,7 +41,7 @@ F 8 "C57112" H 7500 3350 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0168
+L micro_rusEFI-rescue:GND-power #PWR0168
 U 1 1 524A0830
 P 7700 3350
 F 0 "#PWR0168" H 7700 3350 30  0001 C CNN
@@ -52,7 +52,7 @@ F 3 "" H 7700 3350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U35
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U35
 U 4 1 52895DF7
 P 6650 2550
 F 0 "U35" H 6800 2400 60  0000 C CNN
@@ -68,7 +68,7 @@ F 8 "C248577" H 6650 2550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U35
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U35
 U 3 1 52895E33
 P 6650 3050
 F 0 "U35" H 6800 2900 60  0000 C CNN
@@ -84,7 +84,7 @@ F 8 "C248577" H 6650 3050 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U35
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U35
 U 2 1 52895E54
 P 6650 1550
 F 0 "U35" H 6800 1400 60  0000 C CNN
@@ -100,7 +100,7 @@ F 8 "C248577" H 6650 1550 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U35
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U35
 U 1 1 52895E70
 P 6650 2050
 F 0 "U35" H 6800 1900 60  0000 C CNN
@@ -118,7 +118,7 @@ $EndComp
 Text HLabel 7350 3100 1    60   Input ~ 12
 5V
 $Comp
-L Amplifier_Operational:MCP6004 U35
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U35
 U 5 1 5CC37B44
 P 7450 3800
 F 0 "U35" H 7408 3846 50  0000 L CNN
@@ -134,47 +134,47 @@ F 8 "C248577" H 7450 3800 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0177
+L micro_rusEFI-rescue:GND-power #PWR0177
 U 1 1 5CCBC822
-P 5900 3800
-F 0 "#PWR0177" H 5900 3800 30  0001 C CNN
-F 1 "GND" H 5900 3730 30  0001 C CNN
-F 2 "" H 5900 3800 60  0000 C CNN
-F 3 "" H 5900 3800 60  0000 C CNN
-	1    5900 3800
+P 5900 3900
+F 0 "#PWR0177" H 5900 3900 30  0001 C CNN
+F 1 "GND" H 5900 3830 30  0001 C CNN
+F 2 "" H 5900 3900 60  0000 C CNN
+F 3 "" H 5900 3900 60  0000 C CNN
+	1    5900 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0175
+L micro_rusEFI-rescue:GND-power #PWR0175
 U 1 1 5CCBD0F3
-P 5800 3800
-F 0 "#PWR0175" H 5800 3800 30  0001 C CNN
-F 1 "GND" H 5800 3730 30  0001 C CNN
-F 2 "" H 5800 3800 60  0000 C CNN
-F 3 "" H 5800 3800 60  0000 C CNN
-	1    5800 3800
+P 5800 3900
+F 0 "#PWR0175" H 5800 3900 30  0001 C CNN
+F 1 "GND" H 5800 3830 30  0001 C CNN
+F 2 "" H 5800 3900 60  0000 C CNN
+F 3 "" H 5800 3900 60  0000 C CNN
+	1    5800 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0173
+L micro_rusEFI-rescue:GND-power #PWR0173
 U 1 1 5CCBD2DF
-P 5700 3800
-F 0 "#PWR0173" H 5700 3800 30  0001 C CNN
-F 1 "GND" H 5700 3730 30  0001 C CNN
-F 2 "" H 5700 3800 60  0000 C CNN
-F 3 "" H 5700 3800 60  0000 C CNN
-	1    5700 3800
+P 5700 3900
+F 0 "#PWR0173" H 5700 3900 30  0001 C CNN
+F 1 "GND" H 5700 3830 30  0001 C CNN
+F 2 "" H 5700 3900 60  0000 C CNN
+F 3 "" H 5700 3900 60  0000 C CNN
+	1    5700 3900
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0171
+L micro_rusEFI-rescue:GND-power #PWR0171
 U 1 1 5CCBD43C
-P 5600 3800
-F 0 "#PWR0171" H 5600 3800 30  0001 C CNN
-F 1 "GND" H 5600 3730 30  0001 C CNN
-F 2 "" H 5600 3800 60  0000 C CNN
-F 3 "" H 5600 3800 60  0000 C CNN
-	1    5600 3800
+P 5600 3900
+F 0 "#PWR0171" H 5600 3900 30  0001 C CNN
+F 1 "GND" H 5600 3830 30  0001 C CNN
+F 2 "" H 5600 3900 60  0000 C CNN
+F 3 "" H 5600 3900 60  0000 C CNN
+	1    5600 3900
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -239,7 +239,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 1750 6350 1650
 $Comp
-L power:GND #PWR0163
+L micro_rusEFI-rescue:GND-power #PWR0163
 U 1 1 5CF498E1
 P 9250 4750
 F 0 "#PWR0163" H 9250 4750 30  0001 C CNN
@@ -250,7 +250,7 @@ F 3 "" H 9250 4750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R131
+L micro_rusEFI-rescue:R-Device R131
 U 1 1 5CF498EE
 P 9250 4500
 F 0 "R131" V 9330 4500 40  0000 C CNN
@@ -272,7 +272,7 @@ AT1
 Text HLabel 1950 2300 0    60   Input ~ 12
 AT2
 $Comp
-L power:GND #PWR0166
+L micro_rusEFI-rescue:GND-power #PWR0166
 U 1 1 5CF977E6
 P 6250 7000
 F 0 "#PWR0166" H 6250 7000 30  0001 C CNN
@@ -283,7 +283,7 @@ F 3 "" H 6250 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C80
+L micro_rusEFI-rescue:C-Device C80
 U 1 1 5CF977F2
 P 6400 6200
 F 0 "C80" H 6400 6300 40  0000 L CNN
@@ -299,7 +299,7 @@ F 8 "C57112" H 6400 6200 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0169
+L micro_rusEFI-rescue:GND-power #PWR0169
 U 1 1 5CF977FC
 P 6600 6200
 F 0 "#PWR0169" H 6600 6200 30  0001 C CNN
@@ -310,7 +310,7 @@ F 3 "" H 6600 6200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U36
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U36
 U 4 1 5CF97816
 P 6650 4200
 F 0 "U36" H 6800 4050 60  0000 C CNN
@@ -326,7 +326,7 @@ F 8 "C248577" H 6650 4200 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U36
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U36
 U 3 1 5CF97823
 P 6650 4700
 F 0 "U36" H 6800 4550 60  0000 C CNN
@@ -342,7 +342,7 @@ F 8 "C248577" H 6650 4700 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U36
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U36
 U 2 1 5CF97830
 P 6650 5200
 F 0 "U36" H 6800 5050 60  0000 C CNN
@@ -358,7 +358,7 @@ F 8 "C248577" H 6650 5200 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U36
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U36
 U 1 1 5CF9783D
 P 6650 5700
 F 0 "U36" H 6800 5550 60  0000 C CNN
@@ -376,7 +376,7 @@ $EndComp
 Text HLabel 6250 5950 1    60   Input ~ 12
 5V
 $Comp
-L Amplifier_Operational:MCP6004 U36
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U36
 U 5 1 5CF9784B
 P 6350 6650
 F 0 "U36" H 6308 6696 50  0000 L CNN
@@ -392,47 +392,47 @@ F 8 "C248577" H 6350 6650 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0178
+L micro_rusEFI-rescue:GND-power #PWR0178
 U 1 1 5CF97873
-P 5900 6525
-F 0 "#PWR0178" H 5900 6525 30  0001 C CNN
-F 1 "GND" H 5900 6455 30  0001 C CNN
-F 2 "" H 5900 6525 60  0000 C CNN
-F 3 "" H 5900 6525 60  0000 C CNN
-	1    5900 6525
+P 5900 6625
+F 0 "#PWR0178" H 5900 6625 30  0001 C CNN
+F 1 "GND" H 5900 6555 30  0001 C CNN
+F 2 "" H 5900 6625 60  0000 C CNN
+F 3 "" H 5900 6625 60  0000 C CNN
+	1    5900 6625
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0176
+L micro_rusEFI-rescue:GND-power #PWR0176
 U 1 1 5CF9787D
-P 5800 6525
-F 0 "#PWR0176" H 5800 6525 30  0001 C CNN
-F 1 "GND" H 5800 6455 30  0001 C CNN
-F 2 "" H 5800 6525 60  0000 C CNN
-F 3 "" H 5800 6525 60  0000 C CNN
-	1    5800 6525
+P 5800 6625
+F 0 "#PWR0176" H 5800 6625 30  0001 C CNN
+F 1 "GND" H 5800 6555 30  0001 C CNN
+F 2 "" H 5800 6625 60  0000 C CNN
+F 3 "" H 5800 6625 60  0000 C CNN
+	1    5800 6625
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0174
+L micro_rusEFI-rescue:GND-power #PWR0174
 U 1 1 5CF97887
-P 5700 6525
-F 0 "#PWR0174" H 5700 6525 30  0001 C CNN
-F 1 "GND" H 5700 6455 30  0001 C CNN
-F 2 "" H 5700 6525 60  0000 C CNN
-F 3 "" H 5700 6525 60  0000 C CNN
-	1    5700 6525
+P 5700 6625
+F 0 "#PWR0174" H 5700 6625 30  0001 C CNN
+F 1 "GND" H 5700 6555 30  0001 C CNN
+F 2 "" H 5700 6625 60  0000 C CNN
+F 3 "" H 5700 6625 60  0000 C CNN
+	1    5700 6625
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0172
+L micro_rusEFI-rescue:GND-power #PWR0172
 U 1 1 5CF97891
-P 5600 6525
-F 0 "#PWR0172" H 5600 6525 30  0001 C CNN
-F 1 "GND" H 5600 6455 30  0001 C CNN
-F 2 "" H 5600 6525 60  0000 C CNN
-F 3 "" H 5600 6525 60  0000 C CNN
-	1    5600 6525
+P 5600 6625
+F 0 "#PWR0172" H 5600 6625 30  0001 C CNN
+F 1 "GND" H 5600 6555 30  0001 C CNN
+F 2 "" H 5600 6625 60  0000 C CNN
+F 3 "" H 5600 6625 60  0000 C CNN
+	1    5600 6625
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -537,7 +537,7 @@ AV4_MCU
 Text HLabel 14950 3800 3    60   Input ~ 12
 AV5_MCU
 $Comp
-L Amplifier_Operational:MCP6004 U46
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U46
 U 4 1 5D0E7D4C
 P 13650 2800
 F 0 "U46" H 13700 3000 60  0000 C CNN
@@ -553,7 +553,7 @@ F 8 "C248577" H 13650 2800 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U46
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U46
 U 3 1 5D0E7D59
 P 13650 3300
 F 0 "U46" H 13700 3500 60  0000 C CNN
@@ -569,7 +569,7 @@ F 8 "C248577" H 13650 3300 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U46
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U46
 U 2 1 5D0E7D66
 P 13650 3800
 F 0 "U46" H 13700 4000 60  0000 C CNN
@@ -585,7 +585,7 @@ F 8 "C248577" H 13650 3800 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U46
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U46
 U 1 1 5D0E7D73
 P 13650 4300
 F 0 "U46" H 13700 4500 60  0000 C CNN
@@ -601,7 +601,7 @@ F 8 "C248577" H 13650 4300 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R139
+L micro_rusEFI-rescue:R-Device R139
 U 1 1 5D0E7F1F
 P 10250 4350
 F 0 "R139" V 10330 4350 40  0000 C CNN
@@ -617,7 +617,7 @@ F 8 "C23153" H 10250 4350 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0182
+L micro_rusEFI-rescue:GND-power #PWR0182
 U 1 1 5D0E7F29
 P 10100 4750
 F 0 "#PWR0182" H 10100 4750 30  0001 C CNN
@@ -628,7 +628,7 @@ F 3 "" H 10100 4750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R141
+L micro_rusEFI-rescue:R-Device R141
 U 1 1 5D0E7F36
 P 10100 4500
 F 0 "R141" V 10180 4500 40  0000 C CNN
@@ -653,7 +653,7 @@ Connection ~ 13600 5250
 Wire Wire Line
 	13600 5000 13600 5250
 $Comp
-L Amplifier_Operational:MCP6004 U46
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U46
 U 5 1 5D0E7D81
 P 13700 5700
 F 0 "U46" H 13658 5746 50  0000 L CNN
@@ -671,7 +671,7 @@ $EndComp
 Text HLabel 13600 5000 1    60   Input ~ 12
 5V
 $Comp
-L power:GND #PWR0188
+L micro_rusEFI-rescue:GND-power #PWR0188
 U 1 1 5D0E7D32
 P 13950 5250
 F 0 "#PWR0188" H 13950 5250 30  0001 C CNN
@@ -682,7 +682,7 @@ F 3 "" H 13950 5250 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C82
+L micro_rusEFI-rescue:C-Device C82
 U 1 1 5D0E7D28
 P 13750 5250
 F 0 "C82" H 13750 5350 40  0000 L CNN
@@ -698,7 +698,7 @@ F 8 "C57112" H 13750 5250 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0185
+L micro_rusEFI-rescue:GND-power #PWR0185
 U 1 1 5D0E7D1C
 P 13600 6050
 F 0 "#PWR0185" H 13600 6050 30  0001 C CNN
@@ -708,18 +708,6 @@ F 3 "" H 13600 6050 60  0000 C CNN
 	1    13600 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 3450 5700 2200
-Connection ~ 5700 2200
-Wire Wire Line
-	5700 2200 6200 2200
-Wire Wire Line
-	5800 3450 5800 2300
-Connection ~ 5800 2300
-Wire Wire Line
-	5800 2300 6200 2300
-Wire Wire Line
-	5900 3450 5900 2400
 Wire Wire Line
 	5700 6100 5700 4850
 Connection ~ 5700 4850
@@ -737,7 +725,7 @@ Wire Notes Line
 Text Label 2500 1225 0    60   ~ 12
 5V
 $Comp
-L Device:R R14
+L micro_rusEFI-rescue:R-Device R14
 U 1 1 5E34902F
 P 2500 1450
 F 0 "R14" V 2580 1450 40  0000 C CNN
@@ -755,7 +743,7 @@ $EndComp
 Text Label 2675 1225 0    60   ~ 12
 5V
 $Comp
-L Device:R R23
+L micro_rusEFI-rescue:R-Device R23
 U 1 1 5E4A2D71
 P 2675 1450
 F 0 "R23" V 2755 1450 40  0000 C CNN
@@ -773,7 +761,7 @@ $EndComp
 Text Label 2850 1225 0    60   ~ 12
 5V
 $Comp
-L Device:R R25
+L micro_rusEFI-rescue:R-Device R25
 U 1 1 5E4BE55A
 P 2850 1450
 F 0 "R25" V 2930 1450 40  0000 C CNN
@@ -791,7 +779,7 @@ $EndComp
 Text Label 3025 1225 0    60   ~ 12
 5V
 $Comp
-L Device:R R27
+L micro_rusEFI-rescue:R-Device R27
 U 1 1 5E4BE568
 P 3025 1450
 F 0 "R27" V 3105 1450 40  0000 C CNN
@@ -809,7 +797,7 @@ $EndComp
 Text Label 8850 4350 2    60   ~ 12
 5V
 $Comp
-L Device:R R11
+L micro_rusEFI-rescue:R-Device R11
 U 1 1 5E614938
 P 9100 4350
 F 0 "R11" V 9180 4350 40  0000 C CNN
@@ -824,7 +812,7 @@ F 7 "DNP" H 75  -150 50  0001 C CNN "Manufacturer"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0136
+L micro_rusEFI-rescue:GND-power #PWR0136
 U 1 1 5D0DDDD4
 P 9950 4750
 F 0 "#PWR0136" H 9950 4750 30  0001 C CNN
@@ -835,7 +823,7 @@ F 3 "" H 9950 4750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R41
+L micro_rusEFI-rescue:R-Device R41
 U 1 1 5D0DDDE1
 P 9950 4500
 F 0 "R41" V 10030 4500 40  0000 C CNN
@@ -851,7 +839,7 @@ F 8 "C25790" H 9950 4500 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0181
+L micro_rusEFI-rescue:GND-power #PWR0181
 U 1 1 5D2CAFC4
 P 2525 5650
 F 0 "#PWR0181" H 2525 5650 30  0001 C CNN
@@ -862,7 +850,7 @@ F 3 "" H 2525 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R34
+L micro_rusEFI-rescue:R-Device R34
 U 1 1 5D2CAFD1
 P 2525 5425
 F 0 "R34" V 2605 5425 40  0000 C CNN
@@ -878,7 +866,7 @@ F 8 "C25790" H 2525 5425 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0184
+L micro_rusEFI-rescue:GND-power #PWR0184
 U 1 1 5D2CAFDB
 P 2350 5650
 F 0 "#PWR0184" H 2350 5650 30  0001 C CNN
@@ -889,7 +877,7 @@ F 3 "" H 2350 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R31
+L micro_rusEFI-rescue:R-Device R31
 U 1 1 5D2CAFE8
 P 2350 5425
 F 0 "R31" V 2430 5425 40  0000 C CNN
@@ -905,7 +893,7 @@ F 8 "C25790" H 2350 5425 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0186
+L micro_rusEFI-rescue:GND-power #PWR0186
 U 1 1 5D2CAFF2
 P 2175 5650
 F 0 "#PWR0186" H 2175 5650 30  0001 C CNN
@@ -916,7 +904,7 @@ F 3 "" H 2175 5650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R24
+L micro_rusEFI-rescue:R-Device R24
 U 1 1 5D2CAFFF
 P 2175 5425
 F 0 "R24" V 2255 5425 40  0000 C CNN
@@ -932,7 +920,7 @@ F 8 "C25790" H 2175 5425 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R37
+L micro_rusEFI-rescue:R-Device R37
 U 1 1 5D2CB00C
 P 2700 5425
 F 0 "R37" V 2780 5425 40  0000 C CNN
@@ -948,7 +936,7 @@ F 8 "C25790" H 2700 5425 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0187
+L micro_rusEFI-rescue:GND-power #PWR0187
 U 1 1 5D2CB016
 P 2700 5650
 F 0 "#PWR0187" H 2700 5650 30  0001 C CNN
@@ -961,7 +949,7 @@ $EndComp
 Text Label 9550 4350 2    60   ~ 12
 5V
 $Comp
-L Device:R R40
+L micro_rusEFI-rescue:R-Device R40
 U 1 1 5D2DFC9E
 P 9800 4350
 F 0 "R40" V 9880 4350 40  0000 C CNN
@@ -981,24 +969,12 @@ Wire Wire Line
 	4100 4950 4225 4950
 Connection ~ 5125 2200
 Wire Wire Line
-	5125 2200 5700 2200
-Connection ~ 5900 2400
-Wire Wire Line
-	5900 2400 6050 2400
-Wire Wire Line
 	6050 2400 6050 2950
 Wire Wire Line
 	3900 2100 5050 2100
-Wire Wire Line
-	5050 2100 5600 2100
 Connection ~ 5050 2100
 Wire Wire Line
 	6050 1450 6050 2100
-Wire Wire Line
-	5600 2100 6050 2100
-Connection ~ 5600 2100
-Wire Wire Line
-	5600 2100 5600 3450
 Wire Wire Line
 	4100 5050 4300 5050
 Wire Wire Line
@@ -1017,47 +993,47 @@ Wire Wire Line
 Wire Wire Line
 	6050 5050 6050 5600
 $Comp
-L power:GND #PWR0192
+L micro_rusEFI-rescue:GND-power #PWR0192
 U 1 1 5D0E7DC7
-P 12600 5175
-F 0 "#PWR0192" H 12600 5175 30  0001 C CNN
-F 1 "GND" H 12600 5105 30  0001 C CNN
-F 2 "" H 12600 5175 60  0000 C CNN
-F 3 "" H 12600 5175 60  0000 C CNN
-	1    12600 5175
+P 12600 5275
+F 0 "#PWR0192" H 12600 5275 30  0001 C CNN
+F 1 "GND" H 12600 5205 30  0001 C CNN
+F 2 "" H 12600 5275 60  0000 C CNN
+F 3 "" H 12600 5275 60  0000 C CNN
+	1    12600 5275
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0194
+L micro_rusEFI-rescue:GND-power #PWR0194
 U 1 1 5D0E7DBD
-P 12700 5175
-F 0 "#PWR0194" H 12700 5175 30  0001 C CNN
-F 1 "GND" H 12700 5105 30  0001 C CNN
-F 2 "" H 12700 5175 60  0000 C CNN
-F 3 "" H 12700 5175 60  0000 C CNN
-	1    12700 5175
+P 12700 5275
+F 0 "#PWR0194" H 12700 5275 30  0001 C CNN
+F 1 "GND" H 12700 5205 30  0001 C CNN
+F 2 "" H 12700 5275 60  0000 C CNN
+F 3 "" H 12700 5275 60  0000 C CNN
+	1    12700 5275
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0196
+L micro_rusEFI-rescue:GND-power #PWR0196
 U 1 1 5D0E7DB3
-P 12800 5175
-F 0 "#PWR0196" H 12800 5175 30  0001 C CNN
-F 1 "GND" H 12800 5105 30  0001 C CNN
-F 2 "" H 12800 5175 60  0000 C CNN
-F 3 "" H 12800 5175 60  0000 C CNN
-	1    12800 5175
+P 12800 5275
+F 0 "#PWR0196" H 12800 5275 30  0001 C CNN
+F 1 "GND" H 12800 5205 30  0001 C CNN
+F 2 "" H 12800 5275 60  0000 C CNN
+F 3 "" H 12800 5275 60  0000 C CNN
+	1    12800 5275
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0198
+L micro_rusEFI-rescue:GND-power #PWR0198
 U 1 1 5D0E7DA9
-P 12900 5175
-F 0 "#PWR0198" H 12900 5175 30  0001 C CNN
-F 1 "GND" H 12900 5105 30  0001 C CNN
-F 2 "" H 12900 5175 60  0000 C CNN
-F 3 "" H 12900 5175 60  0000 C CNN
-	1    12900 5175
+P 12900 5275
+F 0 "#PWR0198" H 12900 5275 30  0001 C CNN
+F 1 "GND" H 12900 5205 30  0001 C CNN
+F 2 "" H 12900 5275 60  0000 C CNN
+F 3 "" H 12900 5275 60  0000 C CNN
+	1    12900 5275
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1121,7 +1097,7 @@ Wire Wire Line
 	14200 2800 13950 2800
 Connection ~ 13950 2800
 $Comp
-L Device:R_Pack04 RN3
+L micro_rusEFI-rescue:R_Pack04-Device RN3
 U 1 1 5D285E4C
 P 3700 2300
 F 0 "RN3" V 3283 2300 50  0000 C CNN
@@ -1137,7 +1113,7 @@ F 8 "C29718" H 3700 2300 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04 RN13
+L micro_rusEFI-rescue:R_Pack04-Device RN13
 U 1 1 5D287216
 P 10850 3600
 F 0 "RN13" V 10433 3600 50  0000 C CNN
@@ -1157,7 +1133,7 @@ Wire Wire Line
 	12800 3600 11500 3600
 Connection ~ 12800 3600
 $Comp
-L Device:C C40
+L micro_rusEFI-rescue:C-Device C40
 U 1 1 5CF034BB
 P 7050 9600
 F 0 "C40" H 7050 9700 40  0000 L CNN
@@ -1173,7 +1149,7 @@ F 8 "C57112" H 7050 9600 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0193
+L micro_rusEFI-rescue:GND-power #PWR0193
 U 1 1 5CF034C5
 P 7300 9600
 F 0 "#PWR0193" H 7300 9600 30  0001 C CNN
@@ -1184,7 +1160,7 @@ F 3 "" H 7300 9600 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U8
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U8
 U 4 1 5CF034D4
 P 6200 8800
 F 0 "U8" H 6400 8650 60  0000 C CNN
@@ -1200,7 +1176,7 @@ F 8 "C248577" H 6200 8800 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U8
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U8
 U 3 1 5CF034E3
 P 6200 9300
 F 0 "U8" H 6400 9150 60  0000 C CNN
@@ -1216,7 +1192,7 @@ F 8 "C248577" H 6200 9300 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U8
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U8
 U 2 1 5CF034F2
 P 6200 7800
 F 0 "U8" H 6400 7650 60  0000 C CNN
@@ -1232,7 +1208,7 @@ F 8 "C248577" H 6200 7800 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:MCP6004 U8
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U8
 U 1 1 5CF03501
 P 6200 8300
 F 0 "U8" H 6400 8150 60  0000 C CNN
@@ -1250,7 +1226,7 @@ $EndComp
 Text HLabel 6900 9350 1    60   Input ~ 12
 5V
 $Comp
-L Amplifier_Operational:MCP6004 U8
+L micro_rusEFI-rescue:MCP6004-Amplifier_Operational U8
 U 5 1 5CF0350F
 P 7000 10050
 F 0 "U8" H 6958 10096 50  0000 L CNN
@@ -1355,7 +1331,7 @@ Wire Wire Line
 Wire Notes Line
 	1900 8450 1925 8450
 $Comp
-L power:GND #PWR0202
+L micro_rusEFI-rescue:GND-power #PWR0202
 U 1 1 5CF035F0
 P 2400 9225
 F 0 "#PWR0202" H 2400 9225 30  0001 C CNN
@@ -1366,7 +1342,7 @@ F 3 "" H 2400 9225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R56
+L micro_rusEFI-rescue:R-Device R56
 U 1 1 5CF035FD
 P 2400 9025
 F 0 "R56" V 2480 9025 40  0000 C CNN
@@ -1382,7 +1358,7 @@ F 8 "C25790" H 2400 9025 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0203
+L micro_rusEFI-rescue:GND-power #PWR0203
 U 1 1 5CF03607
 P 2225 9225
 F 0 "#PWR0203" H 2225 9225 30  0001 C CNN
@@ -1393,7 +1369,7 @@ F 3 "" H 2225 9225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R54
+L micro_rusEFI-rescue:R-Device R54
 U 1 1 5CF03614
 P 2225 9025
 F 0 "R54" V 2305 9025 40  0000 C CNN
@@ -1409,7 +1385,7 @@ F 8 "C25790" H 2225 9025 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0204
+L micro_rusEFI-rescue:GND-power #PWR0204
 U 1 1 5CF0361E
 P 2050 9225
 F 0 "#PWR0204" H 2050 9225 30  0001 C CNN
@@ -1420,7 +1396,7 @@ F 3 "" H 2050 9225 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R52
+L micro_rusEFI-rescue:R-Device R52
 U 1 1 5CF0362B
 P 2050 9025
 F 0 "R52" V 2130 9025 40  0000 C CNN
@@ -1436,7 +1412,7 @@ F 8 "C25790" H 2050 9025 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R58
+L micro_rusEFI-rescue:R-Device R58
 U 1 1 5CF03639
 P 2575 9025
 F 0 "R58" V 2655 9025 40  0000 C CNN
@@ -1452,7 +1428,7 @@ F 8 "C25790" H 2575 9025 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0205
+L micro_rusEFI-rescue:GND-power #PWR0205
 U 1 1 5CF03643
 P 2575 9225
 F 0 "#PWR0205" H 2575 9225 30  0001 C CNN
@@ -1477,51 +1453,51 @@ Connection ~ 5150 8350
 Wire Wire Line
 	5150 8350 5150 9700
 $Comp
-L power:GND #PWR0206
+L micro_rusEFI-rescue:GND-power #PWR0206
 U 1 1 5CF71A62
-P 5450 10075
-F 0 "#PWR0206" H 5450 10075 30  0001 C CNN
-F 1 "GND" H 5450 10005 30  0001 C CNN
-F 2 "" H 5450 10075 60  0000 C CNN
-F 3 "" H 5450 10075 60  0000 C CNN
-	1    5450 10075
+P 5450 10175
+F 0 "#PWR0206" H 5450 10175 30  0001 C CNN
+F 1 "GND" H 5450 10105 30  0001 C CNN
+F 2 "" H 5450 10175 60  0000 C CNN
+F 3 "" H 5450 10175 60  0000 C CNN
+	1    5450 10175
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0207
+L micro_rusEFI-rescue:GND-power #PWR0207
 U 1 1 5CF71A6C
-P 5350 10075
-F 0 "#PWR0207" H 5350 10075 30  0001 C CNN
-F 1 "GND" H 5350 10005 30  0001 C CNN
-F 2 "" H 5350 10075 60  0000 C CNN
-F 3 "" H 5350 10075 60  0000 C CNN
-	1    5350 10075
+P 5350 10175
+F 0 "#PWR0207" H 5350 10175 30  0001 C CNN
+F 1 "GND" H 5350 10105 30  0001 C CNN
+F 2 "" H 5350 10175 60  0000 C CNN
+F 3 "" H 5350 10175 60  0000 C CNN
+	1    5350 10175
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0208
+L micro_rusEFI-rescue:GND-power #PWR0208
 U 1 1 5CF71A76
-P 5250 10075
-F 0 "#PWR0208" H 5250 10075 30  0001 C CNN
-F 1 "GND" H 5250 10005 30  0001 C CNN
-F 2 "" H 5250 10075 60  0000 C CNN
-F 3 "" H 5250 10075 60  0000 C CNN
-	1    5250 10075
+P 5250 10175
+F 0 "#PWR0208" H 5250 10175 30  0001 C CNN
+F 1 "GND" H 5250 10105 30  0001 C CNN
+F 2 "" H 5250 10175 60  0000 C CNN
+F 3 "" H 5250 10175 60  0000 C CNN
+	1    5250 10175
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0209
+L micro_rusEFI-rescue:GND-power #PWR0209
 U 1 1 5CF71A80
-P 5150 10075
-F 0 "#PWR0209" H 5150 10075 30  0001 C CNN
-F 1 "GND" H 5150 10005 30  0001 C CNN
-F 2 "" H 5150 10075 60  0000 C CNN
-F 3 "" H 5150 10075 60  0000 C CNN
-	1    5150 10075
+P 5150 10175
+F 0 "#PWR0209" H 5150 10175 30  0001 C CNN
+F 1 "GND" H 5150 10105 30  0001 C CNN
+F 2 "" H 5150 10175 60  0000 C CNN
+F 3 "" H 5150 10175 60  0000 C CNN
+	1    5150 10175
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0210
+L micro_rusEFI-rescue:GND-power #PWR0210
 U 1 1 5CF951CC
 P 6900 10400
 F 0 "#PWR0210" H 6900 10400 30  0001 C CNN
@@ -1534,7 +1510,7 @@ $EndComp
 Wire Wire Line
 	12600 4800 12600 3400
 $Comp
-L Device:R R28
+L micro_rusEFI-rescue:R-Device R28
 U 1 1 5CFF5765
 P 9825 3100
 F 0 "R28" V 9905 3100 40  0000 C CNN
@@ -1554,7 +1530,7 @@ CAM_MCU
 Text Label 9825 2550 0    60   ~ 12
 5V
 $Comp
-L power:PWR_FLAG #FLG0104
+L micro_rusEFI-rescue:PWR_FLAG-power #FLG0104
 U 1 1 5D32079B
 P 13600 5250
 F 0 "#FLG0104" H 13600 5325 50  0001 C CNN
@@ -1565,7 +1541,7 @@ F 3 "~" H 13600 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:Fiducial FID5
+L micro_rusEFI-rescue:Fiducial-Mechanical FID5
 U 1 1 5D1FF61B
 P 6550 620
 F 0 "FID5" H 6635 666 50  0000 L CNN
@@ -1580,7 +1556,7 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID6
+L micro_rusEFI-rescue:Fiducial-Mechanical FID6
 U 1 1 5D20808D
 P 6550 805
 F 0 "FID6" H 6635 851 50  0000 L CNN
@@ -1595,7 +1571,7 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D29
+L micro_rusEFI-rescue:LED-Device D29
 U 1 1 5D7D9529
 P 9825 2750
 F 0 "D29" V 9825 2625 40  0000 C CNN
@@ -1638,7 +1614,7 @@ Wire Wire Line
 	2575 8875 2575 8650
 Connection ~ 2575 8650
 $Comp
-L Power_Protection:NUP4202 D13
+L micro_rusEFI-rescue:NUP4202-Power_Protection D13
 U 1 1 5E3D5586
 P 4225 9625
 F 0 "D13" V 3800 9650 50  0000 C CNN
@@ -1666,7 +1642,7 @@ Wire Wire Line
 Text Label 4500 9625 0    60   ~ 12
 5V
 $Comp
-L power:GND #PWR0152
+L micro_rusEFI-rescue:GND-power #PWR0152
 U 1 1 5E4D13B5
 P 3950 9625
 F 0 "#PWR0152" H 3950 9625 30  0001 C CNN
@@ -1677,7 +1653,7 @@ F 3 "" H 3950 9625 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R35
+L micro_rusEFI-rescue:R-Device R35
 U 1 1 5E8570E8
 P 7450 5050
 F 0 "R35" V 7530 5050 40  0000 C CNN
@@ -1691,7 +1667,7 @@ $EndComp
 Wire Wire Line
 	7200 5050 7300 5050
 $Comp
-L Device:R R32
+L micro_rusEFI-rescue:R-Device R32
 U 1 1 5E893987
 P 7450 4875
 F 0 "R32" V 7530 4875 40  0000 C CNN
@@ -1703,7 +1679,7 @@ F 4 "C23212" H 7450 4875 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R26
+L micro_rusEFI-rescue:R-Device R26
 U 1 1 5E8942C8
 P 7450 4700
 F 0 "R26" V 7530 4700 40  0000 C CNN
@@ -1715,7 +1691,7 @@ F 4 "C23212" H 7450 4700 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R5
+L micro_rusEFI-rescue:R-Device R5
 U 1 1 5E894D23
 P 7450 4525
 F 0 "R5" V 7530 4525 40  0000 C CNN
@@ -1727,7 +1703,7 @@ F 4 "C23212" H 7450 4525 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R46
+L micro_rusEFI-rescue:R-Device R46
 U 1 1 5E895700
 P 8200 5050
 F 0 "R46" V 8280 5050 40  0000 C CNN
@@ -1743,7 +1719,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 8200 5050 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R44
+L micro_rusEFI-rescue:R-Device R44
 U 1 1 5E89629F
 P 8200 4875
 F 0 "R44" V 8280 4875 40  0000 C CNN
@@ -1759,7 +1735,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 8200 4875 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R39
+L micro_rusEFI-rescue:R-Device R39
 U 1 1 5E896D64
 P 8200 4700
 F 0 "R39" V 8280 4700 40  0000 C CNN
@@ -1775,7 +1751,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 8200 4700 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R38
+L micro_rusEFI-rescue:R-Device R38
 U 1 1 5E8977D9
 P 8200 4525
 F 0 "R38" V 8280 4525 40  0000 C CNN
@@ -1795,7 +1771,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 4525 7300 4525
 $Comp
-L Device:R R55
+L micro_rusEFI-rescue:R-Device R55
 U 1 1 5EA4F118
 P 6950 8300
 F 0 "R55" V 7030 8300 40  0000 C CNN
@@ -1807,7 +1783,7 @@ F 4 "" H 6950 8300 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R57
+L micro_rusEFI-rescue:R-Device R57
 U 1 1 5EA53D8F
 P 6950 8475
 F 0 "R57" V 7030 8475 40  0000 C CNN
@@ -1819,7 +1795,7 @@ F 4 "C23212" H 6950 8475 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R59
+L micro_rusEFI-rescue:R-Device R59
 U 1 1 5EA54CD0
 P 6950 8650
 F 0 "R59" V 7030 8650 40  0000 C CNN
@@ -1831,7 +1807,7 @@ F 4 "C23212" H 6950 8650 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R53
+L micro_rusEFI-rescue:R-Device R53
 U 1 1 5EA55863
 P 6950 8125
 F 0 "R53" V 7030 8125 40  0000 C CNN
@@ -1843,7 +1819,7 @@ F 4 "" H 6950 8125 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R60
+L micro_rusEFI-rescue:R-Device R60
 U 1 1 5EB40C4A
 P 7750 8125
 F 0 "R60" V 7830 8125 40  0000 C CNN
@@ -1859,7 +1835,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 7750 8125 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R61
+L micro_rusEFI-rescue:R-Device R61
 U 1 1 5EB46EC5
 P 7750 8300
 F 0 "R61" V 7830 8300 40  0000 C CNN
@@ -1876,7 +1852,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 7750 8300 50  0001 C CNN "VEND#"
 $EndComp
 Connection ~ 7900 8300
 $Comp
-L Device:R R62
+L micro_rusEFI-rescue:R-Device R62
 U 1 1 5EB47B3C
 P 7750 8475
 F 0 "R62" V 7830 8475 40  0000 C CNN
@@ -1893,7 +1869,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 7750 8475 50  0001 C CNN "VEND#"
 $EndComp
 Connection ~ 7900 8475
 $Comp
-L Device:R R63
+L micro_rusEFI-rescue:R-Device R63
 U 1 1 5EB486DB
 P 7750 8650
 F 0 "R63" V 7830 8650 40  0000 C CNN
@@ -1945,7 +1921,7 @@ Connection ~ 7500 8650
 Wire Wire Line
 	7500 8650 7600 8650
 $Comp
-L Device:R R64
+L micro_rusEFI-rescue:R-Device R64
 U 1 1 5EE262A2
 P 7375 1875
 F 0 "R64" V 7455 1875 40  0000 C CNN
@@ -1957,7 +1933,7 @@ F 4 "C23212" H 7375 1875 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R65
+L micro_rusEFI-rescue:R-Device R65
 U 1 1 5EE4DECF
 P 7375 2050
 F 0 "R65" V 7455 2050 40  0000 C CNN
@@ -1969,7 +1945,7 @@ F 4 "C23212" H 7375 2050 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R66
+L micro_rusEFI-rescue:R-Device R66
 U 1 1 5EE4E4CE
 P 7375 2225
 F 0 "R66" V 7455 2225 40  0000 C CNN
@@ -1981,7 +1957,7 @@ F 4 "C23212" H 7375 2225 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R67
+L micro_rusEFI-rescue:R-Device R67
 U 1 1 5EE4EAAB
 P 7375 2400
 F 0 "R67" V 7455 2400 40  0000 C CNN
@@ -1997,7 +1973,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 1875 7225 1875
 $Comp
-L Device:R R68
+L micro_rusEFI-rescue:R-Device R68
 U 1 1 5EF6A311
 P 8250 1875
 F 0 "R68" V 8330 1875 40  0000 C CNN
@@ -2015,7 +1991,7 @@ $EndComp
 Wire Wire Line
 	7525 1875 7650 1875
 $Comp
-L Device:R R69
+L micro_rusEFI-rescue:R-Device R69
 U 1 1 5EF93B47
 P 8250 2050
 F 0 "R69" V 8330 2050 40  0000 C CNN
@@ -2031,7 +2007,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 8250 2050 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R70
+L micro_rusEFI-rescue:R-Device R70
 U 1 1 5EF9423C
 P 8250 2225
 F 0 "R70" V 8330 2225 40  0000 C CNN
@@ -2047,7 +2023,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 8250 2225 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R71
+L micro_rusEFI-rescue:R-Device R71
 U 1 1 5EF947D5
 P 8250 2400
 F 0 "R71" V 8330 2400 40  0000 C CNN
@@ -2123,7 +2099,7 @@ Wire Wire Line
 Wire Wire Line
 	2675 1600 2675 2200
 $Comp
-L Device:R R73
+L micro_rusEFI-rescue:R-Device R73
 U 1 1 5F35CBB1
 P 14400 3175
 F 0 "R73" V 14480 3175 40  0000 C CNN
@@ -2135,7 +2111,7 @@ F 4 "C23212" H 14400 3175 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R72
+L micro_rusEFI-rescue:R-Device R72
 U 1 1 5F360C90
 P 14400 3000
 F 0 "R72" V 14480 3000 40  0000 C CNN
@@ -2147,7 +2123,7 @@ F 4 "C23212" H 14400 3000 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R74
+L micro_rusEFI-rescue:R-Device R74
 U 1 1 5F3611B1
 P 14400 3350
 F 0 "R74" V 14480 3350 40  0000 C CNN
@@ -2159,7 +2135,7 @@ F 4 "C23212" H 14400 3350 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R75
+L micro_rusEFI-rescue:R-Device R75
 U 1 1 5F361666
 P 14400 3525
 F 0 "R75" V 14480 3525 40  0000 C CNN
@@ -2171,7 +2147,7 @@ F 4 "C23212" H 14400 3525 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R76
+L micro_rusEFI-rescue:R-Device R76
 U 1 1 5F3644B5
 P 15350 3000
 F 0 "R76" V 15430 3000 40  0000 C CNN
@@ -2187,7 +2163,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 15350 3000 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R77
+L micro_rusEFI-rescue:R-Device R77
 U 1 1 5F3695AA
 P 15350 3175
 F 0 "R77" V 15430 3175 40  0000 C CNN
@@ -2203,7 +2179,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 15350 3175 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R78
+L micro_rusEFI-rescue:R-Device R78
 U 1 1 5F369A43
 P 15350 3350
 F 0 "R78" V 15430 3350 40  0000 C CNN
@@ -2219,7 +2195,7 @@ F 8 "RMCF0603JT10K0CT-ND" H 15350 3350 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R79
+L micro_rusEFI-rescue:R-Device R79
 U 1 1 5F369F0C
 P 15350 3525
 F 0 "R79" V 15430 3525 40  0000 C CNN
@@ -2251,7 +2227,7 @@ Connection ~ 15500 3350
 Wire Wire Line
 	15500 3350 15500 3525
 $Comp
-L Power_Protection:NUP4202 D40
+L micro_rusEFI-rescue:NUP4202-Power_Protection D40
 U 1 1 5DE30B50
 P 12025 4500
 F 0 "D40" V 11600 4525 50  0000 C CNN
@@ -2263,7 +2239,7 @@ F 4 "C85364" H 12025 4500 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0155
+L micro_rusEFI-rescue:GND-power #PWR0155
 U 1 1 5DE3E61A
 P 12275 4500
 F 0 "#PWR0155" H 12275 4500 30  0001 C CNN
@@ -2291,7 +2267,7 @@ Text HLabel 8850 3700 0    60   Input ~ 12
 CAM
 Connection ~ 12600 3400
 $Comp
-L Power_Protection:NUP4202 D39
+L micro_rusEFI-rescue:NUP4202-Power_Protection D39
 U 1 1 5E439029
 P 4650 5975
 F 0 "D39" V 4225 6000 50  0000 C CNN
@@ -2303,7 +2279,7 @@ F 4 "C85364" H 4650 5975 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR029
+L micro_rusEFI-rescue:GND-power #PWR029
 U 1 1 5E44C048
 P 4925 5975
 F 0 "#PWR029" H 4925 5975 30  0001 C CNN
@@ -2450,7 +2426,7 @@ Connection ~ 7950 4525
 Wire Wire Line
 	7950 4525 8050 4525
 $Comp
-L Device:R R7
+L micro_rusEFI-rescue:R-Device R7
 U 1 1 5F4672B7
 P 2050 8125
 F 0 "R7" V 2130 8125 40  0000 C CNN
@@ -2497,8 +2473,6 @@ Connection ~ 14650 3525
 Wire Wire Line
 	14650 3525 15200 3525
 Wire Wire Line
-	4300 2300 5800 2300
-Wire Wire Line
 	4300 2300 4300 3400
 Wire Wire Line
 	5000 4750 5600 4750
@@ -2525,7 +2499,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 3400 4525 3400
 $Comp
-L power:GND #PWR0142
+L micro_rusEFI-rescue:GND-power #PWR0142
 U 1 1 5DE1B00B
 P 4450 3300
 F 0 "#PWR0142" H 4450 3300 30  0001 C CNN
@@ -2538,7 +2512,7 @@ $EndComp
 Wire Wire Line
 	3900 2400 4400 2400
 $Comp
-L Power_Protection:NUP4202 D38
+L micro_rusEFI-rescue:NUP4202-Power_Protection D38
 U 1 1 5DE185F8
 P 4725 3300
 F 0 "D38" V 4300 3325 50  0000 C CNN
@@ -2554,8 +2528,6 @@ Wire Wire Line
 Wire Wire Line
 	4400 3200 4400 2400
 Connection ~ 4400 2400
-Wire Wire Line
-	4400 2400 5900 2400
 Wire Wire Line
 	12400 3400 12600 3400
 Wire Wire Line
@@ -2603,134 +2575,6 @@ Wire Wire Line
 	2525 4950 3700 4950
 Wire Wire Line
 	2700 5050 3700 5050
-$Comp
-L Device:C C48
-U 1 1 5ED534FB
-P 5600 6250
-F 0 "C48" V 5550 6075 40  0000 L CNN
-F 1 "100nF" V 5550 6300 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 2230 600 60  0001 C CNN
-F 3 "" H 5600 6250 60  0001 C CNN
-F 4 "" H -8150 1000 50  0001 C CNN "Part #"
-F 5 "" H -8150 1000 50  0001 C CNN "VEND"
-F 6 "" H -8150 1000 50  0001 C CNN "VEND#"
-F 7 "" H -8150 1000 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5600 6250 50  0001 C CNN "LCSC"
-	1    5600 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C49
-U 1 1 5ED604F9
-P 5700 6250
-F 0 "C49" V 5650 6075 40  0000 L CNN
-F 1 "100nF" V 5650 6300 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 2330 600 60  0001 C CNN
-F 3 "" H 5700 6250 60  0001 C CNN
-F 4 "" H -8050 1000 50  0001 C CNN "Part #"
-F 5 "" H -8050 1000 50  0001 C CNN "VEND"
-F 6 "" H -8050 1000 50  0001 C CNN "VEND#"
-F 7 "" H -8050 1000 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5700 6250 50  0001 C CNN "LCSC"
-	1    5700 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C50
-U 1 1 5ED60DB2
-P 5800 6250
-F 0 "C50" V 5750 6075 40  0000 L CNN
-F 1 "100nF" V 5750 6300 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 2430 600 60  0001 C CNN
-F 3 "" H 5800 6250 60  0001 C CNN
-F 4 "" H -7950 1000 50  0001 C CNN "Part #"
-F 5 "" H -7950 1000 50  0001 C CNN "VEND"
-F 6 "" H -7950 1000 50  0001 C CNN "VEND#"
-F 7 "" H -7950 1000 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5800 6250 50  0001 C CNN "LCSC"
-	1    5800 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C51
-U 1 1 5ED616A9
-P 5900 6250
-F 0 "C51" V 5850 6075 40  0000 L CNN
-F 1 "100nF" V 5850 6300 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 2530 600 60  0001 C CNN
-F 3 "" H 5900 6250 60  0001 C CNN
-F 4 "" H -7850 1000 50  0001 C CNN "Part #"
-F 5 "" H -7850 1000 50  0001 C CNN "VEND"
-F 6 "" H -7850 1000 50  0001 C CNN "VEND#"
-F 7 "" H -7850 1000 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5900 6250 50  0001 C CNN "LCSC"
-	1    5900 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C16
-U 1 1 5ED8C0E0
-P 5150 9850
-F 0 "C16" V 5100 9675 40  0000 L CNN
-F 1 "100nF" V 5100 9900 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 1780 4200 60  0001 C CNN
-F 3 "" H 5150 9850 60  0001 C CNN
-F 4 "" H -8600 4600 50  0001 C CNN "Part #"
-F 5 "" H -8600 4600 50  0001 C CNN "VEND"
-F 6 "" H -8600 4600 50  0001 C CNN "VEND#"
-F 7 "" H -8600 4600 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5150 9850 50  0001 C CNN "LCSC"
-	1    5150 9850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C45
-U 1 1 5ED92AF7
-P 5250 9850
-F 0 "C45" V 5200 9675 40  0000 L CNN
-F 1 "100nF" V 5200 9900 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 1880 4200 60  0001 C CNN
-F 3 "" H 5250 9850 60  0001 C CNN
-F 4 "" H -8500 4600 50  0001 C CNN "Part #"
-F 5 "" H -8500 4600 50  0001 C CNN "VEND"
-F 6 "" H -8500 4600 50  0001 C CNN "VEND#"
-F 7 "" H -8500 4600 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5250 9850 50  0001 C CNN "LCSC"
-	1    5250 9850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C46
-U 1 1 5ED93342
-P 5350 9850
-F 0 "C46" V 5300 9675 40  0000 L CNN
-F 1 "100nF" V 5300 9900 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 1980 4200 60  0001 C CNN
-F 3 "" H 5350 9850 60  0001 C CNN
-F 4 "" H -8400 4600 50  0001 C CNN "Part #"
-F 5 "" H -8400 4600 50  0001 C CNN "VEND"
-F 6 "" H -8400 4600 50  0001 C CNN "VEND#"
-F 7 "" H -8400 4600 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5350 9850 50  0001 C CNN "LCSC"
-	1    5350 9850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C47
-U 1 1 5ED93D0B
-P 5450 9850
-F 0 "C47" V 5400 9675 40  0000 L CNN
-F 1 "100nF" V 5400 9900 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 2080 4200 60  0001 C CNN
-F 3 "" H 5450 9850 60  0001 C CNN
-F 4 "" H -8300 4600 50  0001 C CNN "Part #"
-F 5 "" H -8300 4600 50  0001 C CNN "VEND"
-F 6 "" H -8300 4600 50  0001 C CNN "VEND#"
-F 7 "" H -8300 4600 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5450 9850 50  0001 C CNN "LCSC"
-	1    5450 9850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2050 8350 3050 8350
 Wire Wire Line
@@ -2740,7 +2584,7 @@ Wire Wire Line
 Wire Wire Line
 	2575 8650 3050 8650
 $Comp
-L Device:R_Pack04 RN2
+L micro_rusEFI-rescue:R_Pack04-Device RN2
 U 1 1 5EED1FB8
 P 3250 8550
 F 0 "RN2" V 2833 8550 50  0000 C CNN
@@ -2756,7 +2600,7 @@ F 8 "C29718" H 3250 8550 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04 RN4
+L micro_rusEFI-rescue:R_Pack04-Device RN4
 U 1 1 5EF25B11
 P 3900 4950
 F 0 "RN4" V 3483 4950 50  0000 C CNN
@@ -2770,134 +2614,6 @@ F 7 "Yageo" H 200 2650 50  0001 C CNN "Manufacturer"
 F 8 "C29718" H 3900 4950 50  0001 C CNN "LCSC"
 	1    3900 4950
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C52
-U 1 1 5EFF5FCC
-P 5600 3600
-F 0 "C52" V 5550 3425 40  0000 L CNN
-F 1 "100nF" V 5550 3650 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 2230 -2050 60  0001 C CNN
-F 3 "" H 5600 3600 60  0001 C CNN
-F 4 "" H -8150 -1650 50  0001 C CNN "Part #"
-F 5 "" H -8150 -1650 50  0001 C CNN "VEND"
-F 6 "" H -8150 -1650 50  0001 C CNN "VEND#"
-F 7 "" H -8150 -1650 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5600 3600 50  0001 C CNN "LCSC"
-	1    5600 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C53
-U 1 1 5EFFFD76
-P 5700 3600
-F 0 "C53" V 5650 3425 40  0000 L CNN
-F 1 "100nF" V 5650 3650 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 2330 -2050 60  0001 C CNN
-F 3 "" H 5700 3600 60  0001 C CNN
-F 4 "" H -8050 -1650 50  0001 C CNN "Part #"
-F 5 "" H -8050 -1650 50  0001 C CNN "VEND"
-F 6 "" H -8050 -1650 50  0001 C CNN "VEND#"
-F 7 "" H -8050 -1650 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5700 3600 50  0001 C CNN "LCSC"
-	1    5700 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C54
-U 1 1 5F000553
-P 5800 3600
-F 0 "C54" V 5750 3425 40  0000 L CNN
-F 1 "100nF" V 5750 3650 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 2430 -2050 60  0001 C CNN
-F 3 "" H 5800 3600 60  0001 C CNN
-F 4 "" H -7950 -1650 50  0001 C CNN "Part #"
-F 5 "" H -7950 -1650 50  0001 C CNN "VEND"
-F 6 "" H -7950 -1650 50  0001 C CNN "VEND#"
-F 7 "" H -7950 -1650 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5800 3600 50  0001 C CNN "LCSC"
-	1    5800 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C55
-U 1 1 5F000D78
-P 5900 3600
-F 0 "C55" V 5850 3425 40  0000 L CNN
-F 1 "100nF" V 5850 3650 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 2530 -2050 60  0001 C CNN
-F 3 "" H 5900 3600 60  0001 C CNN
-F 4 "" H -7850 -1650 50  0001 C CNN "Part #"
-F 5 "" H -7850 -1650 50  0001 C CNN "VEND"
-F 6 "" H -7850 -1650 50  0001 C CNN "VEND#"
-F 7 "" H -7850 -1650 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 5900 3600 50  0001 C CNN "LCSC"
-	1    5900 3600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C56
-U 1 1 5F02B3FF
-P 12600 4950
-F 0 "C56" V 12550 4775 40  0000 L CNN
-F 1 "100nF" V 12550 5000 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 9230 -700 60  0001 C CNN
-F 3 "" H 12600 4950 60  0001 C CNN
-F 4 "" H -1150 -300 50  0001 C CNN "Part #"
-F 5 "" H -1150 -300 50  0001 C CNN "VEND"
-F 6 "" H -1150 -300 50  0001 C CNN "VEND#"
-F 7 "" H -1150 -300 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 12600 4950 50  0001 C CNN "LCSC"
-	1    12600 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C57
-U 1 1 5F0367B8
-P 12700 4950
-F 0 "C57" V 12650 4775 40  0000 L CNN
-F 1 "100nF" V 12650 5000 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 9330 -700 60  0001 C CNN
-F 3 "" H 12700 4950 60  0001 C CNN
-F 4 "" H -1050 -300 50  0001 C CNN "Part #"
-F 5 "" H -1050 -300 50  0001 C CNN "VEND"
-F 6 "" H -1050 -300 50  0001 C CNN "VEND#"
-F 7 "" H -1050 -300 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 12700 4950 50  0001 C CNN "LCSC"
-	1    12700 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C58
-U 1 1 5F036D6D
-P 12800 4950
-F 0 "C58" V 12750 4775 40  0000 L CNN
-F 1 "100nF" V 12750 5000 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 9430 -700 60  0001 C CNN
-F 3 "" H 12800 4950 60  0001 C CNN
-F 4 "" H -950 -300 50  0001 C CNN "Part #"
-F 5 "" H -950 -300 50  0001 C CNN "VEND"
-F 6 "" H -950 -300 50  0001 C CNN "VEND#"
-F 7 "" H -950 -300 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 12800 4950 50  0001 C CNN "LCSC"
-	1    12800 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C59
-U 1 1 5F0372DA
-P 12900 4950
-F 0 "C59" V 12850 4775 40  0000 L CNN
-F 1 "100nF" V 12850 5000 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" V 9530 -700 60  0001 C CNN
-F 3 "" H 12900 4950 60  0001 C CNN
-F 4 "" H -850 -300 50  0001 C CNN "Part #"
-F 5 "" H -850 -300 50  0001 C CNN "VEND"
-F 6 "" H -850 -300 50  0001 C CNN "VEND#"
-F 7 "" H -850 -300 50  0001 C CNN "Manufacturer"
-F 8 "C1525" H 12900 4950 50  0001 C CNN "LCSC"
-	1    12900 4950
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9950 4650 9950 4750
@@ -2932,13 +2648,13 @@ Wire Wire Line
 Wire Wire Line
 	4850 5975 4925 5975
 Wire Wire Line
-	5600 6400 5600 6525
+	5600 6500 5600 6625
 Wire Wire Line
-	5700 6400 5700 6525
+	5700 6500 5700 6625
 Wire Wire Line
-	5800 6400 5800 6525
+	5800 6500 5800 6625
 Wire Wire Line
-	5900 6400 5900 6525
+	5900 6500 5900 6625
 Wire Wire Line
 	3950 9625 4025 9625
 Wire Wire Line
@@ -2974,33 +2690,33 @@ Wire Wire Line
 Wire Wire Line
 	4925 3300 5000 3300
 Wire Wire Line
-	5600 3750 5600 3800
+	5600 3850 5600 3900
 Wire Wire Line
-	5700 3750 5700 3800
+	5700 3850 5700 3900
 Wire Wire Line
-	5800 3750 5800 3800
+	5800 3850 5800 3900
 Wire Wire Line
-	5900 3750 5900 3800
+	5900 3850 5900 3900
 Wire Wire Line
-	5150 10000 5150 10075
+	5150 10100 5150 10175
 Wire Wire Line
-	5250 10000 5250 10075
+	5250 10100 5250 10175
 Wire Wire Line
-	5350 10000 5350 10075
+	5350 10100 5350 10175
 Wire Wire Line
-	5450 10000 5450 10075
+	5450 10100 5450 10175
 Wire Wire Line
 	7200 9600 7300 9600
 Wire Wire Line
 	6900 10350 6900 10400
 Wire Wire Line
-	12600 5175 12600 5100
+	12600 5275 12600 5200
 Wire Wire Line
-	12700 5100 12700 5175
+	12700 5200 12700 5275
 Wire Wire Line
-	12800 5100 12800 5175
+	12800 5200 12800 5275
 Wire Wire Line
-	12900 5100 12900 5175
+	12900 5200 12900 5275
 Wire Wire Line
 	6500 8300 6800 8300
 Wire Wire Line
@@ -3046,4 +2762,76 @@ Text Notes 7250 7850 0    50   ~ 0
 NOT OEM POPULATED\nOEM IS \nAV6 AND AV10 ARE ANALOG\nAV8 AND AV9 ARE DIGITAL OUTPUTS
 Wire Notes Line
 	7000 8075 7225 7800
+$Comp
+L micro_rusEFI-rescue:C_Pack04-Device CN2
+U 1 1 619F9B29
+P 5250 9900
+F 0 "CN2" H 4970 9854 50  0000 R CNN
+F 1 "100nF" H 4970 9945 50  0000 R CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 5525 9900 50  0001 C CNN
+F 3 "" H 5300 10000 50  0001 C CNN
+	1    5250 9900
+	-1   0    0    1   
+$EndComp
+$Comp
+L micro_rusEFI-rescue:C_Pack04-Device CN4
+U 1 1 61A19574
+P 5800 6300
+F 0 "CN4" H 5988 6346 50  0000 L CNN
+F 1 "100nF" H 5988 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 6075 6300 50  0001 C CNN
+F 3 "" H 5850 6400 50  0001 C CNN
+	1    5800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L micro_rusEFI-rescue:C_Pack04-Device CN1
+U 1 1 61C3A0BD
+P 12800 5000
+F 0 "CN1" H 12988 5046 50  0000 L CNN
+F 1 "100nF" H 12988 4955 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 13075 5000 50  0001 C CNN
+F 3 "" H 12850 5100 50  0001 C CNN
+	1    12800 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2100 6050 2100
+Wire Wire Line
+	5050 2100 5600 2100
+Connection ~ 5600 2100
+Wire Wire Line
+	5600 2100 5600 3450
+Wire Wire Line
+	4400 2400 5900 2400
+Wire Wire Line
+	5900 2400 6050 2400
+Connection ~ 5900 2400
+Wire Wire Line
+	5900 3450 5900 2400
+Wire Wire Line
+	4300 2300 5800 2300
+Wire Wire Line
+	5800 2300 6200 2300
+Connection ~ 5800 2300
+Wire Wire Line
+	5800 3450 5800 2300
+Wire Wire Line
+	5125 2200 5700 2200
+Wire Wire Line
+	5700 2200 6200 2200
+Connection ~ 5700 2200
+Wire Wire Line
+	5700 3450 5700 2200
+$Comp
+L micro_rusEFI-rescue:C_Pack04-Device CN3
+U 1 1 61D108AF
+P 5800 3650
+F 0 "CN3" H 5988 3696 50  0000 L CNN
+F 1 "100nF" H 5988 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0603" V 6075 3650 50  0001 C CNN
+F 3 "" H 5850 3750 50  0001 C CNN
+	1    5800 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

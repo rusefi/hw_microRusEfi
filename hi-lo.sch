@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 6 9
+Sheet 6 10
 Title "microRusEFI-2L"
 Date "2020-05-24"
 Rev "R0.5.2"
@@ -20,7 +20,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 8100 6150 8100
 $Comp
-L power:GND #PWR0153
+L micro_rusEFI-rescue:GND-power #PWR0153
 U 1 1 5D14AE1C
 P 5900 8800
 AR Path="/5CBDF691/5D14AE1C" Ref="#PWR0153"  Part="1" 
@@ -49,7 +49,7 @@ Wire Wire Line
 	5500 6900 5950 6900
 Connection ~ 5950 6900
 $Comp
-L Device:C C78
+L micro_rusEFI-rescue:C-Device C78
 U 1 1 5D15752C
 P 4600 6550
 AR Path="/5CBDF691/5D15752C" Ref="C78"  Part="1" 
@@ -67,7 +67,7 @@ F 8 "399-7844-1-ND" H 4600 6550 50  0001 C CNN "VEND#"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0149
+L micro_rusEFI-rescue:GND-power #PWR0149
 U 1 1 5D157536
 P 4600 6750
 AR Path="/5CBDF691/5D157536" Ref="#PWR0149"  Part="1" 
@@ -80,7 +80,7 @@ F 3 "" H 4600 6750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R120
+L micro_rusEFI-rescue:R-Device R120
 U 1 1 5D157560
 P 7550 5350
 AR Path="/5CBDF691/5D157560" Ref="R120"  Part="1" 
@@ -98,7 +98,7 @@ F 8 "C17901" V 7550 5350 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0158
+L micro_rusEFI-rescue:GND-power #PWR0158
 U 1 1 5D157576
 P 6375 5925
 AR Path="/5CBDF691/5D157576" Ref="#PWR0158"  Part="1" 
@@ -115,7 +115,7 @@ Text HLabel 4350 6400 0    60   Input ~ 12
 Wire Wire Line
 	5650 5550 5975 5550
 $Comp
-L power:GND #PWR0150
+L micro_rusEFI-rescue:GND-power #PWR0150
 U 1 1 5D1575C4
 P 5950 6175
 AR Path="/5CBDF691/5D1575C4" Ref="#PWR0150"  Part="1" 
@@ -158,7 +158,7 @@ Ign3_MCU
 Text HLabel 5550 8100 0    60   Input ~ 12
 Ign4_MCU
 $Comp
-L Device:C C17
+L micro_rusEFI-rescue:C-Device C17
 U 1 1 5E89211D
 P 4000 5200
 AR Path="/5CBDF691/5E89211D" Ref="C17"  Part="1" 
@@ -177,7 +177,7 @@ F 9 "399-7844-1-ND" H 4000 5200 50  0001 C CNN "VEND#"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0164
+L micro_rusEFI-rescue:GND-power #PWR0164
 U 1 1 5E892127
 P 4000 5425
 AR Path="/5CBDF691/5E892127" Ref="#PWR0164"  Part="1" 
@@ -195,7 +195,7 @@ Wire Wire Line
 Text HLabel 3825 4800 2    50   Input ~ 10
 12V
 $Comp
-L Device:R R121
+L micro_rusEFI-rescue:R-Device R121
 U 1 1 5D8F7DF1
 P 7550 5550
 AR Path="/5CBDF691/5D8F7DF1" Ref="R121"  Part="1" 
@@ -213,7 +213,7 @@ F 8 "C17901" V 7550 5550 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R122
+L micro_rusEFI-rescue:R-Device R122
 U 1 1 5D8F8794
 P 7600 6700
 AR Path="/5CBDF691/5D8F8794" Ref="R122"  Part="1" 
@@ -231,7 +231,7 @@ F 8 "C17901" V 7600 6700 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R124
+L micro_rusEFI-rescue:R-Device R124
 U 1 1 5D8FA32D
 P 7650 7900
 AR Path="/5CBDF691/5D8FA32D" Ref="R124"  Part="1" 
@@ -249,7 +249,7 @@ F 8 "C17901" V 7650 7900 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R125
+L micro_rusEFI-rescue:R-Device R125
 U 1 1 5D8FA880
 P 7650 8100
 AR Path="/5CBDF691/5D8FA880" Ref="R125"  Part="1" 
@@ -267,7 +267,7 @@ F 8 "C17901" V 7650 8100 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R123
+L micro_rusEFI-rescue:R-Device R123
 U 1 1 5D8F9107
 P 7600 6900
 AR Path="/5CBDF691/5D8F9107" Ref="R123"  Part="1" 
@@ -285,7 +285,7 @@ F 8 "C17901" V 7600 6900 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_3_Open JP2
+L micro_rusEFI-rescue:SolderJumper_3_Open-Jumper JP2
 U 1 1 5DAB9BDF
 P 3550 4800
 AR Path="/5CBDF691/5DAB9BDF" Ref="JP2"  Part="1" 
@@ -300,7 +300,7 @@ $EndComp
 Wire Wire Line
 	3550 4950 3550 5050
 $Comp
-L Device:R_Pack04 RN5
+L micro_rusEFI-rescue:R_Pack04-Device RN5
 U 1 1 5DB3A3BD
 P 5950 8500
 AR Path="/5CBDF691/5DB3A3BD" Ref="RN5"  Part="1" 
@@ -331,7 +331,7 @@ Connection ~ 5950 8700
 Wire Wire Line
 	5950 8700 6050 8700
 $Comp
-L Device:R_Pack04 RN6
+L micro_rusEFI-rescue:R_Pack04-Device RN6
 U 1 1 5DB70BD2
 P 5850 5975
 AR Path="/5CBDF691/5DB70BD2" Ref="RN6"  Part="1" 
@@ -360,7 +360,7 @@ Wire Wire Line
 NoConn ~ 5850 5775
 NoConn ~ 5950 5775
 $Comp
-L Driver_FET:MIC4427 U31
+L micro_rusEFI-rescue:MIC4427-Driver_FET U31
 U 1 1 5DB97186
 P 6375 5450
 AR Path="/5CBDF691/5DB97186" Ref="U31"  Part="1" 
@@ -378,7 +378,7 @@ Wire Wire Line
 Text HLabel 3275 4800 0    60   Input ~ 12
 5V
 $Comp
-L Driver_FET:MIC4427 U33
+L micro_rusEFI-rescue:MIC4427-Driver_FET U33
 U 1 1 5DBA9C1F
 P 6550 8000
 AR Path="/5CBDF691/5DBA9C1F" Ref="U33"  Part="1" 
@@ -392,7 +392,7 @@ F 4 "C144205" H 6550 8000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0137
+L micro_rusEFI-rescue:GND-power #PWR0137
 U 1 1 5DBAA76F
 P 6550 8450
 AR Path="/5CBDF691/5DBAA76F" Ref="#PWR0137"  Part="1" 
@@ -405,7 +405,7 @@ F 3 "" H 6550 8450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Driver_FET:MIC4427 U32
+L micro_rusEFI-rescue:MIC4427-Driver_FET U32
 U 1 1 5DBAB8DF
 P 6500 6800
 AR Path="/5CBDF691/5DBAB8DF" Ref="U32"  Part="1" 
@@ -419,7 +419,7 @@ F 4 "C144205" H 6500 6800 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0146
+L micro_rusEFI-rescue:GND-power #PWR0146
 U 1 1 5DBABE2E
 P 6500 7250
 AR Path="/5CBDF691/5DBABE2E" Ref="#PWR0146"  Part="1" 
@@ -439,7 +439,7 @@ Wire Wire Line
 	7000 6400 6500 6400
 Connection ~ 6500 6400
 $Comp
-L power:PWR_FLAG #FLG0107
+L micro_rusEFI-rescue:PWR_FLAG-power #FLG0107
 U 1 1 5DBBE02C
 P 3550 5050
 AR Path="/5CBDF691/5DBBE02C" Ref="#FLG0107"  Part="1" 

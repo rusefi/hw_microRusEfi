@@ -1,66 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# MRE_QR_code_LOGO
+# B340-Diode
 #
-DEF MRE_QR_code_LOGO #G 0 40 Y Y 1 F N
-F0 "#G" 0 -470 60 H I C CNN
-F1 "MRE_QR_code_LOGO" 0 470 60 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 5 0 0 1 -380 -140 -380 -180 -340 -180 -340 -140 -380 -140 F
-P 5 0 0 1 -300 -300 -420 -300 -420 -420 -300 -420 -300 -300 F
-P 5 0 0 1 -300 420 -420 420 -420 300 -300 300 -300 420 F
-P 5 0 0 1 -180 380 -180 340 -140 340 -140 380 -180 380 F
-P 5 0 0 1 -180 460 -180 420 -140 420 -140 460 -180 460 F
-P 5 0 0 1 -140 60 -180 60 -180 20 -140 20 -140 60 F
-P 5 0 0 1 -140 380 -100 380 -100 420 -140 420 -140 380 F
-P 5 0 0 1 -100 100 -100 60 -60 60 -60 100 -100 100 F
-P 5 0 0 1 -100 340 -60 340 -60 380 -100 380 -100 340 F
-P 5 0 0 1 -100 420 -60 420 -60 460 -100 460 -100 420 F
-P 5 0 0 1 -100 500 -140 500 -140 460 -100 460 -100 500 F
-P 5 0 0 1 -60 300 -20 300 -20 340 -60 340 -60 300 F
-P 5 0 0 1 -20 100 -20 140 -60 140 -60 100 -20 100 F
-P 5 0 0 1 -20 500 -60 500 -60 460 -20 460 -20 500 F
-P 5 0 0 1 100 260 60 260 60 180 100 180 100 260 F
-P 5 0 0 1 180 -60 180 -20 140 -20 140 -60 180 -60 F
-P 5 0 0 1 260 -220 220 -220 220 -260 260 -260 260 -220 F
-P 5 0 0 1 380 100 340 100 340 60 380 60 380 100 F
-P 5 0 0 1 380 180 340 180 340 140 380 140 380 180 F
-P 5 0 0 1 420 420 300 420 300 300 420 300 420 420 F
-P 11 0 0 1 60 -60 60 -140 20 -140 20 -220 60 -220 60 -180 100 -180 100 -100 140 -100 140 -60 60 -60 F
-P 12 0 0 1 -220 -220 -500 -220 -500 -460 -460 -460 -460 -260 -260 -260 -260 -460 -460 -460 -500 -460 -500 -500 -220 -500 -220 -220 F
-P 12 0 0 1 -220 500 -500 500 -500 260 -460 260 -460 460 -260 460 -260 260 -460 260 -500 260 -500 220 -220 220 -220 500 F
-P 12 0 0 1 500 500 220 500 220 260 260 260 260 460 460 460 460 260 260 260 220 260 220 220 500 220 500 500 F
-P 19 0 0 1 420 -20 420 -100 460 -100 460 -140 500 -140 500 -60 460 -60 460 -20 500 -20 500 100 460 100 460 180 420 180 420 60 460 60 460 20 380 20 380 -20 420 -20 F
-P 27 0 0 1 -140 -20 -220 -20 -220 -60 -180 -60 -180 -140 -140 -140 -140 -60 -100 -60 -100 -20 -60 -20 -60 -60 -100 -60 -100 -100 -60 -100 -60 -60 -20 -60 -20 -100 -60 -100 -60 -140 20 -140 20 -60 -20 -60 -20 -20 -60 -20 -60 20 -140 20 -140 -20 F
-P 288 0 0 1 340 -20 340 20 300 20 300 180 260 180 260 100 220 100 220 180 180 180 180 340 140 340 140 300 100 300 100 380 180 380 180 460 60 460 60 500 20 500 20 420 60 420 60 380 -20 380 -20 340 60 340 60 300 20 300 20 260 60 260 60 300 100 300 100 260 140 260 140 180 180 180 180 140 140 140 140 100 60 100 60 180 20 180 20 260 -20 260 -20 220 -60 220 -60 260 -100 260 -100 300 -180 300 -180 220 -140 220 -140 260 -100 260 -100 220 -140 220 -140 180 -260 180 -260 140 -300 140 -300 180 -500 180 -500 140 -420 140 -420 100 -460 100 -460 60 -500 60 -500 20 -460 20 -460 60 -420 60 -420 100 -380 100 -380 140 -300 140 -300 100 -260 100 -260 140 -220 140 -220 100 -260 100 -300 100 -340 100 -340 60 -380 60 -380 20 -340 20 -340 -60 -380 -60 -380 -20 -420 -20 -420 20 -460 20 -500 20 -500 -180 -460 -180 -460 -20 -420 -20 -420 -100 -340 -100 -340 -60 -300 -60 -300 -20 -220 -20 -220 20 -260 20 -260 60 -180 60 -180 100 -140 100 -140 140 -100 140 -100 180 20 180 20 60 60 60 60 20 20 20 20 -60 60 -60 60 -20 140 -20 140 20 100 20 100 60 180 60 180 100 220 100 220 60 180 60 180 20 220 20 220 60 260 60 260 20 220 20 180 20 180 -20 260 -20 260 -60 180 -60 180 -100 140 -100 140 -140 260 -140 260 -60 300 -60 300 -20 340 -20 340 -60 300 -60 300 -100 340 -100 340 -140 260 -140 140 -140 140 -180 100 -180 100 -220 140 -220 140 -260 60 -260 60 -300 180 -300 180 -180 300 -180 340 -180 340 -140 380 -140 380 -180 340 -180 300 -180 300 -300 380 -300 380 -260 420 -260 420 -300 380 -300 300 -300 180 -300 60 -300 -20 -300 -20 -260 -60 -260 -60 -220 -20 -220 -20 -180 -60 -180 -60 -140 -140 -140 -140 -180 -180 -180 -180 -140 -260 -140 -260 -100 -220 -100 -220 -60 -300 -60 -300 -100 -340 -100 -340 -140 -260 -140 -260 -180 -180 -180 -180 -220 -140 -220 -140 -180 -100 -180 -100 -220 -140 -220 -180 -220 -180 -260 -140 -260 -140 -300 -180 -300 -180 -340 -140 -340 -140 -300 -100 -300 -100 -340 -140 -340 -180 -340 -180 -500 -140 -500 -140 -460 -100 -460 -100 -420 -140 -420 -140 -380 -100 -380 -100 -340 -60 -340 -60 -380 -20 -380 -20 -340 180 -340 180 -380 100 -380 100 -420 180 -420 180 -380 260 -380 260 -420 300 -420 300 -380 340 -380 340 -340 380 -340 380 -420 300 -420 260 -420 180 -420 100 -420 60 -420 60 -380 -20 -380 -20 -420 -60 -420 -60 -460 20 -460 20 -420 60 -420 60 -460 20 -460 20 -500 100 -500 100 -460 260 -460 380 -460 380 -420 420 -420 420 -380 460 -380 460 -460 380 -460 260 -460 260 -500 500 -500 500 -340 460 -340 460 -260 500 -260 500 -220 420 -220 420 -140 380 -140 380 -20 340 -20 F
-ENDDRAW
-ENDDEF
-#
-# Off_Road_Disclaimer_Disclaimer
-#
-DEF Off_Road_Disclaimer_Disclaimer G 0 40 Y Y 1 F N
-F0 "G" 0 350 60 H I C CNN
-F1 "Off_Road_Disclaimer_Disclaimer" 0 250 60 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-T 0 50 -150 50 0 0 0 "(AKA not for street use). This is " Normal 0 C C
-T 0 0 -350 50 0 0 0 "and equipment." Normal 0 C C
-T 0 0 -50 50 0 0 0 "emissions or safety regulations" Normal 0 C C
-T 0 0 -250 50 0 0 0 "for closed stages, track" Normal 0 C C
-T 0 0 150 50 0 0 0 "FOR OFF ROAD PURPOSES ONLY" Normal 0 C C
-T 0 0 50 50 0 0 0 "This is not for applications with" Normal 0 C C
-ENDDRAW
-ENDDEF
-#
-# micro_rusEFI-rescue_B340-Diode
-#
-DEF micro_rusEFI-rescue_B340-Diode D 0 40 N N 1 F N
+DEF B340-Diode D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "micro_rusEFI-rescue_B340-Diode" 0 -100 50 H V C CNN
+F1 "B340-Diode" 0 -100 50 H V C CNN
 F2 "Diode_SMD:D_SMC" 0 -175 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -75,11 +20,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_BAV70-Diode
+# BAV70-Diode
 #
-DEF micro_rusEFI-rescue_BAV70-Diode D 0 30 Y N 1 F N
+DEF BAV70-Diode D 0 30 Y N 1 F N
 F0 "D" 25 -100 50 H V L CNN
-F1 "micro_rusEFI-rescue_BAV70-Diode" 0 100 50 H V C CNN
+F1 "BAV70-Diode" 0 100 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -99,11 +44,11 @@ X K 3 0 -200 100 U 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_BUZ11-Transistor_FET
+# BUZ11-Transistor_FET
 #
-DEF micro_rusEFI-rescue_BUZ11-Transistor_FET Q 0 20 Y N 1 F N
+DEF BUZ11-Transistor_FET Q 0 20 Y N 1 F N
 F0 "Q" 250 75 50 H V L CNN
-F1 "micro_rusEFI-rescue_BUZ11-Transistor_FET" 250 0 50 H V L CNN
+F1 "BUZ11-Transistor_FET" 250 0 50 H V L CNN
 F2 "Package_TO_SOT_THT:TO-220-3_Vertical" 250 -75 50 H I L CIN
 F3 "" 0 0 50 H I L CNN
 $FPLIST
@@ -130,11 +75,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_C-Device
+# C-Device
 #
-DEF micro_rusEFI-rescue_C-Device C 0 10 N Y 1 F N
+DEF C-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "micro_rusEFI-rescue_C-Device" 25 -100 50 H V L CNN
+F1 "C-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -148,11 +93,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_CP-Device
+# CP-Device
 #
-DEF micro_rusEFI-rescue_CP-Device C 0 10 N Y 1 F N
+DEF CP-Device C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "micro_rusEFI-rescue_CP-Device" 25 -100 50 H V L CNN
+F1 "CP-Device" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -168,11 +113,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_C_Pack04-Device
+# C_Pack04-Device
 #
-DEF micro_rusEFI-rescue_C_Pack04-Device CN 0 0 Y N 1 F N
+DEF C_Pack04-Device CN 0 0 Y N 1 F N
 F0 "CN" -300 0 50 V V C CNN
-F1 "micro_rusEFI-rescue_C_Pack04-Device" 200 0 50 V V C CNN
+F1 "C_Pack04-Device" 200 0 50 V V C CNN
 F2 "Resistor_SMD:R_Array_Convex_4x0603" 275 0 50 V I C CNN
 F3 "" 50 100 50 H I C CNN
 $FPLIST
@@ -204,11 +149,11 @@ X C1.2 8 -200 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Conn_01x01-Connector_Generic
+# Conn_01x01-Connector_Generic
 #
-DEF micro_rusEFI-rescue_Conn_01x01-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x01-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "micro_rusEFI-rescue_Conn_01x01-Connector_Generic" 0 -100 50 H V C CNN
+F1 "Conn_01x01-Connector_Generic" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -221,11 +166,11 @@ X Pin_1 1 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Conn_01x05-Connector_Generic
+# Conn_01x05-Connector_Generic
 #
-DEF micro_rusEFI-rescue_Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_01x05-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "micro_rusEFI-rescue_Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
+F1 "Conn_01x05-Connector_Generic" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -246,11 +191,11 @@ X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Conn_01x06_Male-Connector
+# Conn_01x06_Male-Connector
 #
-DEF micro_rusEFI-rescue_Conn_01x06_Male-Connector J 0 40 Y N 1 F N
+DEF Conn_01x06_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "micro_rusEFI-rescue_Conn_01x06_Male-Connector" 0 -400 50 H V C CNN
+F1 "Conn_01x06_Male-Connector" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -278,11 +223,11 @@ X Pin_6 6 200 -300 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Conn_02x05_Odd_Even-Connector_Generic
+# Conn_02x05_Odd_Even-Connector_Generic
 #
-DEF micro_rusEFI-rescue_Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+DEF Conn_02x05_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "micro_rusEFI-rescue_Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
+F1 "Conn_02x05_Odd_Even-Connector_Generic" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -313,11 +258,11 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Crystal-Device
+# Crystal-Device
 #
-DEF micro_rusEFI-rescue_Crystal-Device Y 0 40 N N 1 F N
+DEF Crystal-Device Y 0 40 N N 1 F N
 F0 "Y" 0 150 50 H V C CNN
-F1 "micro_rusEFI-rescue_Crystal-Device" 0 -150 50 H V C CNN
+F1 "Crystal-Device" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -334,11 +279,11 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Crystal_Small-Device
+# Crystal_Small-Device
 #
-DEF micro_rusEFI-rescue_Crystal_Small-Device Y 0 40 N N 1 F N
+DEF Crystal_Small-Device Y 0 40 N N 1 F N
 F0 "Y" 0 100 50 H V C CNN
-F1 "micro_rusEFI-rescue_Crystal_Small-Device" 0 -100 50 H V C CNN
+F1 "Crystal_Small-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -353,11 +298,11 @@ X 2 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_D-Device
+# D-Device
 #
-DEF micro_rusEFI-rescue_D-Device D 0 40 N N 1 F N
+DEF D-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "micro_rusEFI-rescue_D-Device" 0 -100 50 H V C CNN
+F1 "D-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -375,11 +320,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_D_Schottky-Device
+# D_Schottky-Device
 #
-DEF micro_rusEFI-rescue_D_Schottky-Device D 0 40 N N 1 F N
+DEF D_Schottky-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "micro_rusEFI-rescue_D_Schottky-Device" 0 -100 50 H V C CNN
+F1 "D_Schottky-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -397,11 +342,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_D_TVS-Device
+# D_TVS-Device
 #
-DEF micro_rusEFI-rescue_D_TVS-Device D 0 40 N N 1 F N
+DEF D_TVS-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "micro_rusEFI-rescue_D_TVS-Device" 0 -100 50 H V C CNN
+F1 "D_TVS-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -419,11 +364,11 @@ X A2 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Ferrite_Bead-Device
+# Ferrite_Bead-Device
 #
-DEF micro_rusEFI-rescue_Ferrite_Bead-Device FB 0 0 N Y 1 F N
+DEF Ferrite_Bead-Device FB 0 0 N Y 1 F N
 F0 "FB" -150 25 50 V V C CNN
-F1 "micro_rusEFI-rescue_Ferrite_Bead-Device" 150 0 50 V V C CNN
+F1 "Ferrite_Bead-Device" 150 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -440,11 +385,11 @@ X ~ 2 0 -150 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Fiducial-Mechanical
+# Fiducial-Mechanical
 #
-DEF micro_rusEFI-rescue_Fiducial-Mechanical FID 0 20 Y Y 1 F N
+DEF Fiducial-Mechanical FID 0 20 Y Y 1 F N
 F0 "FID" 0 200 50 H V C CNN
-F1 "micro_rusEFI-rescue_Fiducial-Mechanical" 0 125 50 H V C CNN
+F1 "Fiducial-Mechanical" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -455,11 +400,11 @@ C 0 0 50 0 1 20 f
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_GND-power
+# GND-power
 #
-DEF micro_rusEFI-rescue_GND-power #PWR 0 0 Y Y 1 F P
+DEF GND-power #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "micro_rusEFI-rescue_GND-power" 0 -150 50 H V C CNN
+F1 "GND-power" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -468,11 +413,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_GND-power-proteus-rescue
+# GND-power-proteus-rescue
 #
-DEF micro_rusEFI-rescue_GND-power-proteus-rescue #PWR 0 0 Y Y 1 F P
+DEF GND-power-proteus-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "micro_rusEFI-rescue_GND-power-proteus-rescue" 0 -150 50 H V C CNN
+F1 "GND-power-proteus-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -481,11 +426,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_IS25WP256D-xM-Memory_Flash
+# IS25WP256D-xM-Memory_Flash
 #
-DEF micro_rusEFI-rescue_IS25WP256D-xM-Memory_Flash U 0 20 Y Y 1 F N
+DEF IS25WP256D-xM-Memory_Flash U 0 20 Y Y 1 F N
 F0 "U" -350 450 50 H V C CNN
-F1 "micro_rusEFI-rescue_IS25WP256D-xM-Memory_Flash" 350 450 50 H V C CNN
+F1 "IS25WP256D-xM-Memory_Flash" 350 450 50 H V C CNN
 F2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" 50 600 50 H I C CNN
 F3 "" 50 -500 50 H I C CNN
 $FPLIST
@@ -512,11 +457,11 @@ X ~WP~/IO2 9 -500 -100 100 R 50 50 0 1 B
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_LED-Device
+# LED-Device
 #
-DEF micro_rusEFI-rescue_LED-Device D 0 40 N N 1 F N
+DEF LED-Device D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "micro_rusEFI-rescue_LED-Device" 0 -100 50 H V C CNN
+F1 "LED-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -535,11 +480,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_LM1117-3.3-Regulator_Linear
+# LM1117-3.3-Regulator_Linear
 #
-DEF micro_rusEFI-rescue_LM1117-3.3-Regulator_Linear U 0 10 Y Y 1 F N
+DEF LM1117-3.3-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "micro_rusEFI-rescue_LM1117-3.3-Regulator_Linear" 0 125 50 H V L CNN
+F1 "LM1117-3.3-Regulator_Linear" 0 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -556,11 +501,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Logo_Open_Hardware_Small-Graphic
+# Logo_Open_Hardware_Small-Graphic
 #
-DEF micro_rusEFI-rescue_Logo_Open_Hardware_Small-Graphic #LOGO 0 40 Y Y 1 F N
+DEF Logo_Open_Hardware_Small-Graphic #LOGO 0 40 Y Y 1 F N
 F0 "#LOGO" 0 275 50 H I C CNN
-F1 "micro_rusEFI-rescue_Logo_Open_Hardware_Small-Graphic" 0 -225 50 H I C CNN
+F1 "Logo_Open_Hardware_Small-Graphic" 0 -225 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -568,11 +513,11 @@ P 277 0 1 0 132 -171 130 -170 125 -167 118 -162 109 -156 100 -150 93 -146 88 -14
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_MCP1703A-3302_SOT23-Regulator_Linear
+# MCP1703A-3302_SOT23-Regulator_Linear
 #
-DEF micro_rusEFI-rescue_MCP1703A-3302_SOT23-Regulator_Linear U 0 10 Y Y 1 F N
+DEF MCP1703A-3302_SOT23-Regulator_Linear U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
-F1 "micro_rusEFI-rescue_MCP1703A-3302_SOT23-Regulator_Linear" 0 125 50 H V L CNN
+F1 "MCP1703A-3302_SOT23-Regulator_Linear" 0 125 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" 0 200 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
@@ -586,11 +531,11 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_MCP6004-Amplifier_Operational
+# MCP6004-Amplifier_Operational
 #
-DEF micro_rusEFI-rescue_MCP6004-Amplifier_Operational U 0 5 Y Y 5 L N
+DEF MCP6004-Amplifier_Operational U 0 5 Y Y 5 L N
 F0 "U" 0 200 50 H V L CNN
-F1 "micro_rusEFI-rescue_MCP6004-Amplifier_Operational" 0 -200 50 H V L CNN
+F1 "MCP6004-Amplifier_Operational" 0 -200 50 H V L CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 $FPLIST
@@ -622,11 +567,11 @@ X V+ 4 -100 300 150 D 50 50 5 1 W
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_MIC4427-Driver_FET
+# MIC4427-Driver_FET
 #
-DEF micro_rusEFI-rescue_MIC4427-Driver_FET U 0 20 Y Y 1 F N
+DEF MIC4427-Driver_FET U 0 20 Y Y 1 F N
 F0 "U" -300 350 50 H V L CNN
-F1 "micro_rusEFI-rescue_MIC4427-Driver_FET" 50 350 50 H V L CNN
+F1 "MIC4427-Driver_FET" 50 350 50 H V L CNN
 F2 "" 0 -300 50 H I C CNN
 F3 "" 0 -300 50 H I C CNN
 $FPLIST
@@ -647,11 +592,11 @@ X NC 8 300 0 100 L 50 50 1 1 N N
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Micro_SD_Card-Connector-proteus-rescue
+# Micro_SD_Card-Connector-proteus-rescue
 #
-DEF micro_rusEFI-rescue_Micro_SD_Card-Connector-proteus-rescue J 0 40 Y Y 1 F N
+DEF Micro_SD_Card-Connector-proteus-rescue J 0 40 Y Y 1 F N
 F0 "J" -650 600 50 H V C CNN
-F1 "micro_rusEFI-rescue_Micro_SD_Card-Connector-proteus-rescue" 650 600 50 H V R CNN
+F1 "Micro_SD_Card-Connector-proteus-rescue" 650 600 50 H V R CNN
 F2 "" 1150 300 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -680,11 +625,11 @@ X SHIELD 9 800 -600 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_NUP4202-Power_Protection
+# NUP4202-Power_Protection
 #
-DEF micro_rusEFI-rescue_NUP4202-Power_Protection U 0 20 Y Y 1 F N
+DEF NUP4202-Power_Protection U 0 20 Y Y 1 F N
 F0 "U" -275 -100 50 H V C CNN
-F1 "micro_rusEFI-rescue_NUP4202-Power_Protection" 250 50 50 V V C CNN
+F1 "NUP4202-Power_Protection" 250 50 50 V V C CNN
 F2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" 50 75 50 H I C CNN
 F3 "" 50 75 50 H I C CNN
 $FPLIST
@@ -769,11 +714,11 @@ X ~ 6 -100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_Net-Tie_2-Device
+# Net-Tie_2-Device
 #
-DEF micro_rusEFI-rescue_Net-Tie_2-Device NT 0 0 N N 1 F N
+DEF Net-Tie_2-Device NT 0 0 N N 1 F N
 F0 "NT" 0 50 50 H V C CNN
-F1 "micro_rusEFI-rescue_Net-Tie_2-Device" 0 -50 50 H V C CNN
+F1 "Net-Tie_2-Device" 0 -50 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -786,11 +731,11 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_PWR_FLAG-power
+# PWR_FLAG-power
 #
-DEF micro_rusEFI-rescue_PWR_FLAG-power #FLG 0 0 N N 1 F P
+DEF PWR_FLAG-power #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "micro_rusEFI-rescue_PWR_FLAG-power" 0 150 50 H V C CNN
+F1 "PWR_FLAG-power" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -799,11 +744,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_R-Device
+# R-Device
 #
-DEF micro_rusEFI-rescue_R-Device R 0 0 N Y 1 F N
+DEF R-Device R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "micro_rusEFI-rescue_R-Device" 0 0 50 V V C CNN
+F1 "R-Device" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -816,11 +761,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_R_Pack04-Device
+# R_Pack04-Device
 #
-DEF micro_rusEFI-rescue_R_Pack04-Device RN 0 0 Y N 1 F N
+DEF R_Pack04-Device RN 0 0 Y N 1 F N
 F0 "RN" -300 0 50 V V C CNN
-F1 "micro_rusEFI-rescue_R_Pack04-Device" 200 0 50 V V C CNN
+F1 "R_Pack04-Device" 200 0 50 V V C CNN
 F2 "Resistor_SMD:R_Array_Convex_4x0603" 275 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -854,11 +799,11 @@ X R1.2 8 -200 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_STM32F407VGTx-MCU_ST_STM32F4
+# STM32F407VGTx-MCU_ST_STM32F4
 #
-DEF micro_rusEFI-rescue_STM32F407VGTx-MCU_ST_STM32F4 U 0 20 Y Y 1 F N
+DEF STM32F407VGTx-MCU_ST_STM32F4 U 0 20 Y Y 1 F N
 F0 "U" -700 2550 50 H V L CNN
-F1 "micro_rusEFI-rescue_STM32F407VGTx-MCU_ST_STM32F4" 500 2550 50 H V L CNN
+F1 "STM32F407VGTx-MCU_ST_STM32F4" 500 2550 50 H V L CNN
 F2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" -700 -2600 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -969,11 +914,11 @@ X VSS 99 100 -2800 200 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_SW_Push-Switch
+# SW_Push-Switch
 #
-DEF micro_rusEFI-rescue_SW_Push-Switch SW 0 40 N N 1 F N
+DEF SW_Push-Switch SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "micro_rusEFI-rescue_SW_Push-Switch" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -986,11 +931,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_SolderJumper_3_Open-Jumper
+# SolderJumper_3_Open-Jumper
 #
-DEF micro_rusEFI-rescue_SolderJumper_3_Open-Jumper JP 0 0 Y N 1 F N
+DEF SolderJumper_3_Open-Jumper JP 0 0 Y N 1 F N
 F0 "JP" -100 -100 50 H V C CNN
-F1 "micro_rusEFI-rescue_SolderJumper_3_Open-Jumper" 0 110 50 H V C CNN
+F1 "SolderJumper_3_Open-Jumper" 0 110 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1013,11 +958,11 @@ X B 3 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_TestPoint-Connector
+# TestPoint-Connector
 #
-DEF micro_rusEFI-rescue_TestPoint-Connector TP 0 30 N N 1 F N
+DEF TestPoint-Connector TP 0 30 N N 1 F N
 F0 "TP" 0 270 50 H V C CNN
-F1 "micro_rusEFI-rescue_TestPoint-Connector" 0 200 50 H V C CNN
+F1 "TestPoint-Connector" 0 200 50 H V C CNN
 F2 "" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 $FPLIST
@@ -1030,11 +975,11 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_USB_B_Micro-Connector
+# USB_B_Micro-Connector
 #
-DEF micro_rusEFI-rescue_USB_B_Micro-Connector J 0 40 Y Y 1 F N
+DEF USB_B_Micro-Connector J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "micro_rusEFI-rescue_USB_B_Micro-Connector" -200 350 50 H V L CNN
+F1 "USB_B_Micro-Connector" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -1065,11 +1010,11 @@ X Shield 6 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_W25Q32JVSS-Memory_Flash
+# W25Q32JVSS-Memory_Flash
 #
-DEF micro_rusEFI-rescue_W25Q32JVSS-Memory_Flash U 0 20 Y Y 1 F N
+DEF W25Q32JVSS-Memory_Flash U 0 20 Y Y 1 F N
 F0 "U" -350 350 50 H V C CNN
-F1 "micro_rusEFI-rescue_W25Q32JVSS-Memory_Flash" 300 350 50 H V C CNN
+F1 "W25Q32JVSS-Memory_Flash" 300 350 50 H V C CNN
 F2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1088,11 +1033,11 @@ X VCC 8 0 400 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# micro_rusEFI-rescue_molex_48pin_MRE-rusefi_Molex_MRE_Connector
+# molex_48pin_MRE-rusefi_Molex_MRE_Connector
 #
-DEF micro_rusEFI-rescue_molex_48pin_MRE-rusefi_Molex_MRE_Connector U? 0 8 Y N 18 L N
+DEF molex_48pin_MRE-rusefi_Molex_MRE_Connector U? 0 8 Y N 18 L N
 F0 "U?" 300 -150 60 H V C CNN
-F1 "micro_rusEFI-rescue_molex_48pin_MRE-rusefi_Molex_MRE_Connector" 1200 0 60 V I C CNN
+F1 "molex_48pin_MRE-rusefi_Molex_MRE_Connector" 1200 0 60 V I C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -1208,224 +1153,6 @@ X J20 J20 600 -150 150 R 50 50 17 1 P
 X J21 J21 600 0 150 R 50 50 17 1 P
 X J22 J22 700 50 150 R 50 50 18 1 P
 X J23 J23 700 -100 150 R 50 50 18 1 P
-ENDDRAW
-ENDDEF
-#
-# rusefi_Logo_LOGO
-#
-DEF rusefi_Logo_LOGO #G 0 40 Y Y 1 F N
-F0 "#G" 0 -103 60 H I C CNN
-F1 "rusefi_Logo_LOGO" 0 103 60 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 242 0 0 1 132 16 131 21 129 34 126 43 123 48 120 48 119 47 113 43 112 42 109 35 105 22 101 3 99 -7 96 -22 94 -32 94 -39 94 -42 96 -43 98 -43 100 -44 103 -47 101 -48 94 -49 83 -50 79 -50 69 -49 64 -47 63 -45 69 -42 70 -42 73 -40 75 -34 78 -24 81 -8 83 1 85 15 87 27 89 34 89 36 89 42 85 44 83 44 82 49 84 51 91 53 104 53 124 53 116 66 114 70 97 90 78 108 69 114 69 53 67 43 65 36 61 33 59 34 59 39 59 40 58 42 53 43 42 43 34 43 26 42 22 41 21 39 20 31 18 21 16 3 27 3 28 4 37 5 42 7 46 10 48 8 47 -1 46 -5 42 -9 38 -10 37 -7 36 -5 30 -3 23 -3 16 -5 12 -8 12 -10 10 -17 8 -28 8 -29 7 -38 8 -42 11 -43 14 -44 17 -47 14 -48 7 -49 -3 -50 -13 -49 -20 -48 -23 -47 -23 -45 -18 -43 -16 -43 -13 -42 -13 -38 -11 -29 -8 -15 -5 0 -2 18 1 30 2 38 3 42 2 43 0 44 -2 43 -4 44 -7 48 -6 50 -3 52 3 53 14 53 31 53 69 53 69 114 57 121 53 123 44 127 36 130 27 131 15 132 -2 132 -4 132 -20 132 -21 132 -21 53 -23 43 -25 36 -29 33 -31 34 -31 38 -31 40 -32 42 -38 43 -49 43 -69 44 -72 25 -76 7 -63 7 -60 7 -53 8 -50 10 -50 12 -46 13 -45 13 -42 11 -43 3 -46 -4 -49 -9 -52 -10 -53 -7 -54 -6 -58 -4 -67 -3 -80 -3 -82 -22 -83 -29 -83 -38 -82 -42 -81 -43 -75 -43 -66 -42 -57 -40 -50 -37 -47 -35 -46 -32 -42 -30 -38 -32 -37 -40 -37 -50 -77 -50 -90 -50 -104 -49 -113 -48 -115 -47 -114 -45 -109 -43 -108 -43 -105 -37 -101 -24 -97 -6 -94 8 -92 22 -89 32 -88 38 -88 41 -92 43 -94 44 -97 48 -96 50 -93 52 -87 53 -76 53 -59 53 -21 53 -21 132 -32 131 -41 129 -49 126 -58 122 -71 115 -91 98 -109 79 -122 58 -123 57 -127 48 -130 40 -131 31 -132 19 -132 2 -132 0 -132 -16 -131 -28 -129 -36 -127 -44 -123 -53 -111 -72 -92 -95 -68 -113 -42 -124 -37 -126 -19 -129 5 -129 27 -127 50 -121 71 -110 91 -93 97 -87 114 -65 126 -39 132 -12 132 16 132 16 F
-ENDDRAW
-ENDDEF
-#
-# rusefi_pesd1can_PESD1CAN-UX
-#
-DEF rusefi_pesd1can_PESD1CAN-UX D 0 0 Y Y 1 F N
-F0 "D" -205 235 60 H V L CNN
-F1 "rusefi_pesd1can_PESD1CAN-UX" 50 -250 60 H V C CNN
-F2 "digikey-footprints:SOT-323" 200 200 60 H I L CNN
-F3 "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf" 200 300 60 H I L CNN
-F4 "1727-1306-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "PESD1CAN-UX" 200 500 60 H I L CNN "MPN"
-F6 "Circuit Protection" 200 600 60 H I L CNN "Category"
-F7 "TVS - Diodes" 200 700 60 H I L CNN "Family"
-F8 "https://assets.nexperia.com/documents/data-sheet/PESD1CAN-U.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/nexperia-usa-inc/PESD1CAN-UX/1727-1306-1-ND/4386316" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "TVS DIODE 24V 50V SOT323-3" 200 1000 60 H I L CNN "Description"
-F11 "Nexperia USA Inc." 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-C 155 0 7 0 1 0 F
-S -200 200 215 -200 0 1 0 f
-P 2 0 1 0 -150 -150 -125 -150 N
-P 2 0 1 0 -150 -100 -300 -100 N
-P 2 0 1 0 -150 -50 -150 -150 N
-P 2 0 1 0 -150 50 -125 50 N
-P 2 0 1 0 -150 100 -300 100 N
-P 2 0 1 0 -150 150 -150 50 N
-P 2 0 1 0 25 -100 -75 -100 N
-P 2 0 1 0 25 100 -75 100 N
-P 2 0 1 0 25 100 25 100 N
-P 2 0 1 0 100 -50 75 -50 N
-P 2 0 1 0 100 -50 100 -150 N
-P 2 0 1 0 100 150 75 150 N
-P 2 0 1 0 100 150 100 50 N
-P 2 0 1 0 155 0 255 0 N
-P 4 0 1 0 -75 -50 -75 -150 -150 -100 -75 -50 F
-P 4 0 1 0 -75 50 -75 150 -150 100 -75 50 F
-P 4 0 1 0 25 -50 25 -150 100 -100 25 -50 F
-P 4 0 1 0 25 150 25 50 100 100 25 150 F
-P 4 0 1 0 55 100 155 100 155 -100 55 -100 N
-X C1 1 -500 100 200 R 50 50 1 1 P
-X C2 2 -500 -100 200 R 50 50 1 1 P
-X C3 3 315 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# rusefi_tle8888_TLE8888QK
-#
-DEF rusefi_tle8888_TLE8888QK U 0 40 Y Y 1 F N
-F0 "U" -500 1400 60 H V C CNN
-F1 "rusefi_tle8888_TLE8888QK" -600 1150 60 H V C CNN
-F2 "" -1600 -3100 60 V I C CNN
-F3 "" -1600 -3100 60 V I C CNN
-DRAW
-S -1950 150 1250 -3050 0 1 0 N
-X RST 1 -1600 -3150 100 U 50 50 1 1 P
-X T5V2 10 -700 -3150 100 U 50 50 1 1 P
-X AGND 100 -2050 -2650 100 R 50 50 1 1 P
-X GND 101 -2050 -2900 100 R 50 50 1 1 I
-X V5V 11 -600 -3150 100 U 50 50 1 1 P
-X V6V 12 -500 -3150 100 U 50 50 1 1 P
-X VG 13 -400 -3150 100 U 50 50 1 1 P
-X 0UT_7A 14 -300 -3150 100 U 50 50 1 1 P
-X OUT_7B 15 -200 -3150 100 U 50 50 1 1 P
-X OUT_7C 16 -100 -3150 100 U 50 50 1 1 P
-X OUT_20 17 0 -3150 100 U 50 50 1 1 P
-X OUT_19 18 100 -3150 100 U 50 50 1 1 P
-X NC 19 200 -3150 100 U 50 50 1 1 P
-X MON 2 -1500 -3150 100 U 50 50 1 1 P
-X VDD_IO 20 300 -3150 100 U 50 50 1 1 P
-X VR_OUT 21 400 -3150 100 U 50 50 1 1 P
-X LIN_TX 22 500 -3150 100 U 50 50 1 1 P
-X LIN_RX 23 600 -3150 100 U 50 50 1 1 P
-X INJ_EN 24 700 -3150 100 U 50 50 1 1 P
-X PGND 25 800 -3150 100 U 50 50 1 1 P
-X KEY_OFF_DLY 26 1350 -2700 100 L 50 50 1 1 P
-X IGN_EN 27 1350 -2600 100 L 50 50 1 1 P
-X IN_1 28 1350 -2500 100 L 50 50 1 1 P
-X IN_2 29 1350 -2400 100 L 50 50 1 1 P
-X CSN 3 -1400 -3150 100 U 50 50 1 1 P
-X IN_3 30 1350 -2300 100 L 50 50 1 1 P
-X IN_4 31 1350 -2200 100 L 50 50 1 1 P
-X IN_5 32 1350 -2100 100 L 50 50 1 1 P
-X IN_6 33 1350 -2000 100 L 50 50 1 1 P
-X IN_7 34 1350 -1900 100 L 50 50 1 1 P
-X IN_8 35 1350 -1800 100 L 50 50 1 1 P
-X IN_9 36 1350 -1700 100 L 50 50 1 1 P
-X IN_10 37 1350 -1600 100 L 50 50 1 1 P
-X IN_11 38 1350 -1500 100 L 50 50 1 1 P
-X IN_12 39 1350 -1400 100 L 50 50 1 1 P
-X SDO 4 -1300 -3150 100 U 50 50 1 1 P
-X EO_TIMER 40 1350 -1300 100 L 50 50 1 1 P
-X V5V_STBY 41 1350 -1200 100 L 50 50 1 1 P
-X CAN_WKEN 42 1350 -1100 100 L 50 50 1 1 P
-X CAN_RX 43 1350 -1000 100 L 50 50 1 1 P
-X CAN_TX 44 1350 -900 100 L 50 50 1 1 P
-X V5V_CAN 45 1350 -800 100 L 50 50 1 1 P
-X CAN_H 46 1350 -700 100 L 50 50 1 1 P
-X CAN_L 47 1350 -600 100 L 50 50 1 1 P
-X WAKE 48 1350 -500 100 L 50 50 1 1 P
-X KEY 49 1350 -400 100 L 50 50 1 1 P
-X SIP 5 -1200 -3150 100 U 50 50 1 1 P
-X PGND 50 1350 -300 100 L 50 50 1 1 P
-X VR_IN_2 51 900 250 100 D 50 50 1 1 P
-X VR_IN_1 52 800 250 100 D 50 50 1 1 P
-X BAT_STBY 53 700 250 100 D 50 50 1 1 P
-X BAT 54 600 250 100 D 50 50 1 1 P
-X MR 55 500 250 100 D 50 50 1 1 P
-X OUT_18 56 400 250 100 D 50 50 1 1 P
-X OUT_17 57 300 250 100 D 50 50 1 1 P
-X OU716 58 200 250 100 D 50 50 1 1 P
-X OUT_1A 59 100 250 100 D 50 50 1 1 P
-X SIN 6 -1100 -3150 100 U 50 50 1 1 P
-X OUT_1B 60 0 250 100 D 50 50 1 1 P
-X OUT_2A 61 -100 250 100 D 50 50 1 1 P
-X OUT_2B 62 -200 250 100 D 50 50 1 1 P
-X OUT_3A 63 -300 250 100 D 50 50 1 1 P
-X OUT_3B 64 -400 250 100 D 50 50 1 1 P
-X OUT_4A 65 -500 250 100 D 50 50 1 1 P
-X OUT_4B 66 -600 250 100 D 50 50 1 1 P
-X OUT_15 67 -700 250 100 D 50 50 1 1 P
-X OUT_14 68 -800 250 100 D 50 50 1 1 P
-X DF_B8 69 -900 250 100 D 50 50 1 1 P
-X FCLP 7 -1000 -3150 100 U 50 50 1 1 P
-X DF_B9 70 -1000 250 100 D 50 50 1 1 P
-X OUT_8 71 -1100 250 100 D 50 50 1 1 P
-X OUT_9 72 -1200 250 100 D 50 50 1 1 P
-X DFB10 73 -1300 250 100 D 50 50 1 1 P
-X OUT_10 74 -1400 250 100 D 50 50 1 1 P
-X PGND 75 -1500 250 100 D 50 50 1 1 P
-X DFB_11 76 -2050 -250 100 R 50 50 1 1 P
-X OUT_11 77 -2050 -350 100 R 50 50 1 1 P
-X DFB_12 78 -2050 -450 100 R 50 50 1 1 P
-X OUT_12 79 -2050 -550 100 R 50 50 1 1 P
-X FCLN 8 -900 -3150 100 U 50 50 1 1 P
-X DFB_13 80 -2050 -650 100 R 50 50 1 1 P
-X OUT_13 81 -2050 -750 100 R 50 50 1 1 P
-X LIN_IO 82 -2050 -850 100 R 50 50 1 1 P
-X OUT_5A 83 -2050 -950 100 R 50 50 1 1 P
-X OUT_5B 84 -2050 -1050 100 R 50 50 1 1 P
-X OUT_5C 85 -2050 -1150 100 R 50 50 1 1 P
-X OUT_24 86 -2050 -1250 100 R 50 50 1 1 P
-X BAT_PA 87 -2050 -1350 100 R 50 50 1 1 P
-X OUT_23 88 -2050 -1450 100 R 50 50 1 1 P
-X OUT_22 89 -2050 -1550 100 R 50 50 1 1 P
-X T5V1 9 -800 -3150 100 U 50 50 1 1 P
-X BAT_PB 90 -2050 -1650 100 R 50 50 1 1 P
-X OUT_21 91 -2050 -1750 100 R 50 50 1 1 P
-X OUT_6A 92 -2050 -1850 100 R 50 50 1 1 P
-X OUT_6B 93 -2050 -1950 100 R 50 50 1 1 P
-X OUT_6C 94 -2050 -2050 100 R 50 50 1 1 P
-X CP 95 -2050 -2150 100 R 50 50 1 1 P
-X IGN_1 96 -2050 -2250 100 R 50 50 1 1 P
-X IGN_2 97 -2050 -2350 100 R 50 50 1 1 P
-X IGN_3 98 -2050 -2450 100 R 50 50 1 1 P
-X IGN_4 99 -2050 -2550 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# rusefi_tle9201_TLE9201SG
-#
-DEF rusefi_tle9201_TLE9201SG U 0 40 Y Y 1 F N
-F0 "U" 150 200 50 H V C CNN
-F1 "rusefi_tle9201_TLE9201SG" 100 50 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -100 -50 500 -750 0 1 0 N
-X DIR 1 -200 -150 100 R 50 50 1 1 P
-X SCK 10 600 -350 100 L 50 50 1 1 P
-X DIS 11 600 -250 100 L 50 50 1 1 P
-X PWM 12 600 -150 100 L 50 50 1 1 P
-X GND 13 200 -850 100 U 50 50 1 1 P
-X VSO 2 -200 -250 100 R 50 50 1 1 P
-X SO 3 -200 -350 100 R 50 50 1 1 P
-X VS 4 -200 -450 100 R 50 50 1 1 P
-X OUT1 5 -200 -550 100 R 50 50 1 1 P
-X GND 6 -200 -650 100 R 50 50 1 1 P
-X OUT2 7 600 -650 100 L 50 50 1 1 P
-X SI 8 600 -550 100 L 50 50 1 1 P
-X CSN 9 600 -450 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# vnld5090_VNLD5090
-#
-DEF vnld5090_VNLD5090 U 0 40 Y Y 1 F N
-F0 "U" -250 500 60 H V C CNN
-F1 "vnld5090_VNLD5090" -100 -450 60 H V C CNN
-F2 "" 100 -250 60 H I C CNN
-F3 "" 100 -250 60 H I C CNN
-$FPLIST
- SO-8
- SO8
-$ENDFPLIST
-DRAW
-S -350 450 350 -400 0 1 0 N
-X IN1 1 -550 400 200 R 50 50 1 1 I
-X STATUS1 2 -550 300 200 R 50 50 1 1 C
-X IN2 3 -550 -150 200 R 50 50 1 1 I
-X STATUS2 4 -550 -250 200 R 50 50 1 1 C
-X S2 5 300 -600 200 U 50 50 1 1 W
-X D2 6 550 -150 200 L 50 50 1 1 w
-X S1 7 200 -600 200 U 50 50 1 1 W
-X D1 8 550 400 200 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 19685 15748
 encoding utf-8
-Sheet 8 9
+Sheet 7 10
 Title "microRusEFI-2L"
 Date "2020-05-24"
 Rev "R0.5.2"
@@ -117,7 +117,7 @@ Text HLabel 8300 11250 0    60   Input ~ 12
 5V2
 Connection ~ 6900 8600
 $Comp
-L Device:C C3
+L micro_rusEFI-rescue:C-Device C3
 U 1 1 5C5FD26E
 P 6900 8850
 AR Path="/5C5D7FA6/5C5FD26E" Ref="C3"  Part="1" 
@@ -143,7 +143,7 @@ Wire Wire Line
 Text HLabel 8900 11250 0    60   Input ~ 12
 V5V
 $Comp
-L Device:C C10
+L micro_rusEFI-rescue:C-Device C10
 U 1 1 5C61E5D6
 P 10100 12050
 AR Path="/5C5D7FA6/5C61E5D6" Ref="C10"  Part="1" 
@@ -161,7 +161,7 @@ F 8 "C14663" H 10100 12050 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR015
+L micro_rusEFI-rescue:GND-power #PWR015
 U 1 1 5C620B15
 P 9600 11625
 AR Path="/5C5D7FA6/5C620B15" Ref="#PWR015"  Part="1" 
@@ -174,7 +174,7 @@ F 3 "" H 9600 11625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C2
+L micro_rusEFI-rescue:CP-Device C2
 U 1 1 5C6EF1A0
 P 6200 8850
 AR Path="/5C5D7FA6/5C6EF1A0" Ref="C2"  Part="1" 
@@ -197,7 +197,7 @@ Connection ~ 6200 8600
 Wire Wire Line
 	5550 8600 5900 8600
 $Comp
-L Device:C C1
+L micro_rusEFI-rescue:C-Device C1
 U 1 1 5C6F613C
 P 5900 8850
 AR Path="/5C5D7FA6/5C6F613C" Ref="C1"  Part="1" 
@@ -226,7 +226,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 9100 5900 9000
 $Comp
-L power:GND #PWR01
+L micro_rusEFI-rescue:GND-power #PWR01
 U 1 1 5C6FD38D
 P 5900 9100
 AR Path="/5C5D7FA6/5C6FD38D" Ref="#PWR01"  Part="1" 
@@ -247,7 +247,7 @@ Connection ~ 10100 11850
 Wire Wire Line
 	10100 11850 10100 11900
 $Comp
-L Device:C C11
+L micro_rusEFI-rescue:C-Device C11
 U 1 1 5C7331E3
 P 9600 11475
 AR Path="/5C5D7FA6/5C7331E3" Ref="C11"  Part="1" 
@@ -265,7 +265,7 @@ F 8 "C53987" H 9600 11475 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L micro_rusEFI-rescue:C-Device C4
 U 1 1 5C74BEC0
 P 8000 11800
 AR Path="/5C5D7FA6/5C74BEC0" Ref="C4"  Part="1" 
@@ -283,7 +283,7 @@ F 8 "C1623" H 8000 11800 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C6
+L micro_rusEFI-rescue:C-Device C6
 U 1 1 5C758589
 P 8600 11800
 AR Path="/5C5D7FA6/5C758589" Ref="C6"  Part="1" 
@@ -301,7 +301,7 @@ F 8 "C14663" H 8600 11800 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C5
+L micro_rusEFI-rescue:C-Device C5
 U 1 1 5C760098
 P 8300 11850
 AR Path="/5C5D7FA6/5C760098" Ref="C5"  Part="1" 
@@ -323,7 +323,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 10100 9350 10850
 $Comp
-L Device:C C7
+L micro_rusEFI-rescue:C-Device C7
 U 1 1 5C7776C3
 P 8900 11800
 AR Path="/5C5D7FA6/5C7776C3" Ref="C7"  Part="1" 
@@ -345,7 +345,7 @@ Wire Wire Line
 Wire Wire Line
 	11500 8150 11600 8150
 $Comp
-L Device:C C13
+L micro_rusEFI-rescue:C-Device C13
 U 1 1 5C7BB922
 P 12925 8375
 AR Path="/5C5D7FA6/5C7BB922" Ref="C13"  Part="1" 
@@ -383,7 +383,7 @@ OUT_17
 Text HLabel 10550 6600 1    60   Input ~ 12
 OUT_18
 $Comp
-L Device:C C12
+L micro_rusEFI-rescue:C-Device C12
 U 1 1 5C88CC5C
 P 12000 6400
 AR Path="/5C5D7FA6/5C88CC5C" Ref="C12"  Part="1" 
@@ -401,7 +401,7 @@ F 8 "C1588" H 12000 6400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L micro_rusEFI-rescue:R-Device R12
 U 1 1 5C89FE8C
 P 12350 6250
 AR Path="/5C5D7FA6/5C89FE8C" Ref="R12"  Part="1" 
@@ -419,7 +419,7 @@ F 8 "C25804" H 12350 6250 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R13
+L micro_rusEFI-rescue:R-Device R13
 U 1 1 5C8A058E
 P 12350 6550
 AR Path="/5C5D7FA6/5C8A058E" Ref="R13"  Part="1" 
@@ -437,7 +437,7 @@ F 8 "C25804" H 12350 6550 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R17
+L micro_rusEFI-rescue:R-Device R17
 U 1 1 5C8A0B54
 P 13075 5900
 AR Path="/5C5D7FA6/5C8A0B54" Ref="R17"  Part="1" 
@@ -497,7 +497,7 @@ F 8 "C152727" H 14825 7600 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR022
+L micro_rusEFI-rescue:GND-power #PWR022
 U 1 1 5C99C043
 P 15125 7600
 AR Path="/5C5D7FA6/5C99C043" Ref="#PWR022"  Part="1" 
@@ -522,7 +522,7 @@ Text HLabel 5550 8600 0    60   Input ~ 12
 Text HLabel 8000 8700 0    60   Input ~ 12
 OUT_21
 $Comp
-L power:GND #PWR06
+L micro_rusEFI-rescue:GND-power #PWR06
 U 1 1 5CA2A1BE
 P 8650 6600
 AR Path="/5C5D7FA6/5CA2A1BE" Ref="#PWR06"  Part="1" 
@@ -535,7 +535,7 @@ F 3 "" H 8650 6600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR016
+L micro_rusEFI-rescue:GND-power #PWR016
 U 1 1 5CA2C3D4
 P 11550 7250
 AR Path="/5C5D7FA6/5CA2C3D4" Ref="#PWR016"  Part="1" 
@@ -552,7 +552,7 @@ OUT_22
 Text HLabel 8000 8400 0    60   Input ~ 12
 OUT_23
 $Comp
-L power:GND #PWR03
+L micro_rusEFI-rescue:GND-power #PWR03
 U 1 1 5CB2A7FC
 P 8100 9600
 AR Path="/5C5D7FA6/5CB2A7FC" Ref="#PWR03"  Part="1" 
@@ -605,7 +605,7 @@ OUT_24
 Wire Wire Line
 	8100 8200 8000 8200
 $Comp
-L power:GND #PWR019
+L micro_rusEFI-rescue:GND-power #PWR019
 U 1 1 5CF6BD32
 P 11500 9650
 AR Path="/5C5D7FA6/5CF6BD32" Ref="#PWR019"  Part="1" 
@@ -620,7 +620,7 @@ $EndComp
 Wire Wire Line
 	13025 7150 13175 7150
 $Comp
-L Device:C C14
+L micro_rusEFI-rescue:C-Device C14
 U 1 1 5D311D7B
 P 13025 7300
 AR Path="/5C5D7FA6/5D311D7B" Ref="C14"  Part="1" 
@@ -638,7 +638,7 @@ F 8 "C14663" H 13025 7300 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R20
+L micro_rusEFI-rescue:R-Device R20
 U 1 1 5D31001A
 P 13325 7150
 AR Path="/5C5D7FA6/5D31001A" Ref="R20"  Part="1" 
@@ -666,7 +666,7 @@ Wire Wire Line
 	14325 7950 15050 7950
 Connection ~ 14325 7950
 $Comp
-L Device:R R6
+L micro_rusEFI-rescue:R-Device R6
 U 1 1 5D1AC4DC
 P 12000 7450
 AR Path="/5C5D7FA6/5D1AC4DC" Ref="R6"  Part="1" 
@@ -686,7 +686,7 @@ $EndComp
 Wire Wire Line
 	11850 7450 11500 7450
 $Comp
-L Device:C C9
+L micro_rusEFI-rescue:C-Device C9
 U 1 1 5D1D1183
 P 9700 12050
 AR Path="/5C5D7FA6/5D1D1183" Ref="C9"  Part="1" 
@@ -716,7 +716,7 @@ VDD
 Wire Wire Line
 	11500 9550 12225 9550
 $Comp
-L power:GND #PWR014
+L micro_rusEFI-rescue:GND-power #PWR014
 U 1 1 5C7B1869
 P 10950 10100
 AR Path="/5C5D7FA6/5C7B1869" Ref="#PWR014"  Part="1" 
@@ -729,7 +729,7 @@ F 3 "" H 10950 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L micro_rusEFI-rescue:GND-power #PWR012
 U 1 1 5C7C9FDD
 P 10350 10100
 AR Path="/5C5D7FA6/5C7C9FDD" Ref="#PWR012"  Part="1" 
@@ -742,7 +742,7 @@ F 3 "" H 10350 10100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L micro_rusEFI-rescue:GND-power #PWR08
 U 1 1 5C7CA872
 P 9050 10450
 AR Path="/5C5D7FA6/5C7CA872" Ref="#PWR08"  Part="1" 
@@ -757,7 +757,7 @@ $EndComp
 Wire Wire Line
 	9050 10100 9050 10450
 $Comp
-L power:GND #PWR011
+L micro_rusEFI-rescue:GND-power #PWR011
 U 1 1 5C7D9FD6
 P 10100 12200
 AR Path="/5C5D7FA6/5C7D9FD6" Ref="#PWR011"  Part="1" 
@@ -770,7 +770,7 @@ F 3 "" H 10100 12200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L micro_rusEFI-rescue:GND-power #PWR010
 U 1 1 5C7DA47B
 P 9700 12200
 AR Path="/5C5D7FA6/5C7DA47B" Ref="#PWR010"  Part="1" 
@@ -783,7 +783,7 @@ F 3 "" H 9700 12200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L micro_rusEFI-rescue:GND-power #PWR07
 U 1 1 5C7DAF8E
 P 8900 11950
 AR Path="/5C5D7FA6/5C7DAF8E" Ref="#PWR07"  Part="1" 
@@ -796,7 +796,7 @@ F 3 "" H 8900 11950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
+L micro_rusEFI-rescue:GND-power #PWR05
 U 1 1 5C7DB5F1
 P 8600 11950
 AR Path="/5C5D7FA6/5C7DB5F1" Ref="#PWR05"  Part="1" 
@@ -809,7 +809,7 @@ F 3 "" H 8600 11950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR04
+L micro_rusEFI-rescue:GND-power #PWR04
 U 1 1 5C7DBB85
 P 8300 12000
 AR Path="/5C5D7FA6/5C7DBB85" Ref="#PWR04"  Part="1" 
@@ -822,7 +822,7 @@ F 3 "" H 8300 12000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR02
+L micro_rusEFI-rescue:GND-power #PWR02
 U 1 1 5C7DC0D5
 P 8000 11950
 AR Path="/5C5D7FA6/5C7DC0D5" Ref="#PWR02"  Part="1" 
@@ -852,7 +852,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 10850 8000 11650
 $Comp
-L power:GND #PWR020
+L micro_rusEFI-rescue:GND-power #PWR020
 U 1 1 5C86C714
 P 12925 8525
 AR Path="/5C5D7FA6/5C86C714" Ref="#PWR020"  Part="1" 
@@ -865,7 +865,7 @@ F 3 "" H 12925 8525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L micro_rusEFI-rescue:GND-power #PWR021
 U 1 1 5C86F645
 P 13300 7450
 AR Path="/5C5D7FA6/5C86F645" Ref="#PWR021"  Part="1" 
@@ -890,7 +890,7 @@ Wire Wire Line
 Wire Wire Line
 	7575 10300 8650 10300
 $Comp
-L Device:R R22
+L micro_rusEFI-rescue:R-Device R22
 U 1 1 5CEB6C29
 P 14200 7600
 AR Path="/5C5D7FA6/5CEB6C29" Ref="R22"  Part="1" 
@@ -941,7 +941,7 @@ Wire Wire Line
 Wire Wire Line
 	13000 6700 13050 6700
 $Comp
-L Device:R R19
+L micro_rusEFI-rescue:R-Device R19
 U 1 1 5CC3675A
 P 13200 6700
 AR Path="/5C5D7FA6/5CC3675A" Ref="R19"  Part="1" 
@@ -958,7 +958,7 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R18
+L micro_rusEFI-rescue:R-Device R18
 U 1 1 5C8A82EA
 P 13200 6800
 AR Path="/5C5D7FA6/5C8A82EA" Ref="R18"  Part="1" 
@@ -998,7 +998,7 @@ Text Label 6250 8600 0    60   ~ 12
 Wire Wire Line
 	9850 10100 10050 10100
 $Comp
-L Device:C C35
+L micro_rusEFI-rescue:C-Device C35
 U 1 1 5D394376
 P 12675 6400
 AR Path="/5C5D7FA6/5D394376" Ref="C35"  Part="1" 
@@ -1016,7 +1016,7 @@ F 8 "C1588" H 12675 6400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R15
+L micro_rusEFI-rescue:R-Device R15
 U 1 1 5D394E3F
 P 12850 6400
 AR Path="/5C5D7FA6/5D394E3F" Ref="R15"  Part="1" 
@@ -1060,7 +1060,7 @@ Connection ~ 12725 6250
 Wire Wire Line
 	12725 6250 12850 6250
 $Comp
-L Mechanical:Fiducial FID3
+L micro_rusEFI-rescue:Fiducial-Mechanical FID3
 U 1 1 5D1D4069
 P 7300 6855
 AR Path="/5C5D7FA6/5D1D4069" Ref="FID3"  Part="1" 
@@ -1077,7 +1077,7 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID4
+L micro_rusEFI-rescue:Fiducial-Mechanical FID4
 U 1 1 5D1D47C2
 P 7300 7050
 AR Path="/5C5D7FA6/5D1D47C2" Ref="FID4"  Part="1" 
@@ -1107,7 +1107,7 @@ Wire Wire Line
 	10650 6700 10650 5625
 Connection ~ 10650 5625
 $Comp
-L Device:C C43
+L micro_rusEFI-rescue:C-Device C43
 U 1 1 5D8748D4
 P 11250 5975
 AR Path="/5C5D7FA6/5D8748D4" Ref="C43"  Part="1" 
@@ -1127,7 +1127,7 @@ $EndComp
 Wire Wire Line
 	10650 5625 10600 5625
 $Comp
-L power:GND #PWR0119
+L micro_rusEFI-rescue:GND-power #PWR0119
 U 1 1 5D8B9984
 P 11250 6125
 AR Path="/5C5D7FA6/5D8B9984" Ref="#PWR0119"  Part="1" 
@@ -1169,7 +1169,7 @@ FCLN
 Wire Wire Line
 	11500 7750 12000 7750
 $Comp
-L Device:C C41
+L micro_rusEFI-rescue:C-Device C41
 U 1 1 5E837BB7
 P 12150 7750
 AR Path="/5C5D7FA6/5E837BB7" Ref="C41"  Part="1" 
@@ -1187,7 +1187,7 @@ F 8 "490-7204-1-ND" H 12150 7750 50  0001 C CNN "VEND#"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR025
+L micro_rusEFI-rescue:GND-power #PWR025
 U 1 1 5E83818F
 P 12300 7750
 AR Path="/5C5D7FA6/5E83818F" Ref="#PWR025"  Part="1" 
@@ -1220,7 +1220,7 @@ Connection ~ 10750 5375
 Text HLabel 10625 5375 0    60   Input ~ 12
 12V_SAFE
 $Comp
-L power:PWR_FLAG #FLG0108
+L micro_rusEFI-rescue:PWR_FLAG-power #FLG0108
 U 1 1 5E9B7DD3
 P 12925 8150
 AR Path="/5C5D7FA6/5E9B7DD3" Ref="#FLG0108"  Part="1" 
@@ -1233,7 +1233,7 @@ F 3 "~" H 12925 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:BUZ11 Q1
+L micro_rusEFI-rescue:BUZ11-Transistor_FET Q1
 U 1 1 5C60C906
 P 10000 11450
 AR Path="/5C5D7FA6/5C60C906" Ref="Q1"  Part="1" 
@@ -1255,7 +1255,7 @@ Text HLabel 10250 11100 2    60   Input ~ 12
 Wire Wire Line
 	9350 11850 9350 11900
 $Comp
-L power:GND #PWR09
+L micro_rusEFI-rescue:GND-power #PWR09
 U 1 1 5C7DA925
 P 9350 12200
 AR Path="/5C5D7FA6/5C7DA925" Ref="#PWR09"  Part="1" 
@@ -1268,7 +1268,7 @@ F 3 "" H 9350 12200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
+L micro_rusEFI-rescue:C-Device C8
 U 1 1 5D1F4F31
 P 9350 12050
 AR Path="/5C5D7FA6/5D1F4F31" Ref="C8"  Part="1" 
@@ -1331,7 +1331,7 @@ LIN_IO
 Wire Wire Line
 	8100 7800 8000 7800
 $Comp
-L Diode:BAV70 D1
+L micro_rusEFI-rescue:BAV70-Diode D1
 U 1 1 5D872064
 P 11150 5625
 AR Path="/5C5D7FA6/5D872064" Ref="D1"  Part="1" 
@@ -1355,7 +1355,7 @@ Wire Wire Line
 Wire Wire Line
 	11050 6450 11900 6450
 $Comp
-L Device:R R8
+L micro_rusEFI-rescue:R-Device R8
 U 1 1 5E15579B
 P 11925 8050
 AR Path="/5C5D7FA6/5E15579B" Ref="R8"  Part="1" 
@@ -1468,7 +1468,7 @@ IGN_EN
 Text HLabel 12350 10300 2    50   Input ~ 0
 INJ_EN
 $Comp
-L Device:R R82
+L micro_rusEFI-rescue:R-Device R82
 U 1 1 5E9E9D1E
 P 12225 9750
 AR Path="/5C5D7FA6/5E9E9D1E" Ref="R82"  Part="1" 
@@ -1486,7 +1486,7 @@ F 8 "RMCF0603JT4K70CT-ND" H 12225 9750 50  0001 C CNN "VEND#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R83
+L micro_rusEFI-rescue:R-Device R83
 U 1 1 5E9F2CF7
 P 12225 10500
 AR Path="/5C5D7FA6/5E9F2CF7" Ref="R83"  Part="1" 
@@ -1504,7 +1504,7 @@ F 8 "RMCF0603JT4K70CT-ND" H 12225 10500 50  0001 C CNN "VEND#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L micro_rusEFI-rescue:GND-power #PWR0113
 U 1 1 5EA00348
 P 12225 9950
 AR Path="/5C5D7FA6/5EA00348" Ref="#PWR0113"  Part="1" 
@@ -1517,7 +1517,7 @@ F 3 "" H 12225 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0116
+L micro_rusEFI-rescue:GND-power #PWR0116
 U 1 1 5EA08CD1
 P 12225 10700
 AR Path="/5C5D7FA6/5EA08CD1" Ref="#PWR0116"  Part="1" 
@@ -1546,7 +1546,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 10700 9250 10700
 $Comp
-L Device:R R4
+L micro_rusEFI-rescue:R-Device R4
 U 1 1 5CC7AE36
 P 7425 9900
 AR Path="/5C5D7FA6/5CC7AE36" Ref="R4"  Part="1" 
@@ -1577,7 +1577,7 @@ Wire Wire Line
 Wire Wire Line
 	7425 10050 7425 10150
 $Comp
-L Connector_Generic:Conn_01x01 J15
+L micro_rusEFI-rescue:Conn_01x01-Connector_Generic J15
 U 1 1 5EA3F4B2
 P 8100 6675
 F 0 "J15" H 8180 6717 50  0000 L CNN
@@ -1588,7 +1588,7 @@ F 3 "~" H 8100 6675 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J17
+L micro_rusEFI-rescue:Conn_01x01-Connector_Generic J17
 U 1 1 5EA86A4A
 P 11500 10100
 F 0 "J17" H 11580 10142 50  0000 L CNN
@@ -1663,7 +1663,7 @@ J17 is a potentail \nmounting point \nif a heat sink \nis needed.
 Wire Wire Line
 	8100 9850 8000 9850
 $Comp
-L Device:R R3
+L micro_rusEFI-rescue:R-Device R3
 U 1 1 5CC90402
 P 7425 10300
 AR Path="/5C5D7FA6/5CC90402" Ref="R3"  Part="1" 
@@ -1687,7 +1687,7 @@ Wire Notes Line
 Wire Notes Line
 	12850 6200 12850 5575
 $Comp
-L Device:R R9
+L micro_rusEFI-rescue:R-Device R9
 U 1 1 5C89DF79
 P 12175 6400
 AR Path="/5C5D7FA6/5C89DF79" Ref="R9"  Part="1" 

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 9
+Sheet 4 10
 Title "microRusEFI-2L"
 Date "2020-05-24"
 Rev "R0.5.2"
@@ -38,7 +38,7 @@ F 6 "C377942" H 3100 1900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0113
+L micro_rusEFI-rescue:GND-power #PWR0113
 U 1 1 5E290D55
 P 3300 2500
 AR Path="/5E28F6C5/5E290D55" Ref="#PWR0113"  Part="1" 
@@ -59,7 +59,7 @@ F 3 "" H 3300 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0114
+L micro_rusEFI-rescue:GND-power #PWR0114
 U 1 1 5E291066
 P 3400 2500
 AR Path="/5E28F6C5/5E291066" Ref="#PWR0114"  Part="1" 

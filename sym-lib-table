@@ -9,4 +9,5 @@
   (lib (name vnld5090)(type Legacy)(uri "$(KIPRJMOD)/rusefi_lib_external/vnld5090.lib")(options "")(descr ""))
   (lib (name MRE_QR_code)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib_external/MRE_QR_code.lib)(options "")(descr ""))
   (lib (name Off_Road_Disclaimer)(type Legacy)(uri ${KIPRJMOD}/rusefi_lib_external/Off_Road_Disclaimer.lib)(options "")(descr ""))
+  (lib (name micro_rusEFI-rescue)(type Legacy)(uri ${KIPRJMOD}/micro_rusEFI-rescue.lib)(options "")(descr ""))
 )

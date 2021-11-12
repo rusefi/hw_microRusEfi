@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 9 9
+Sheet 9 10
 Title "microRusEFI-2L"
 Date "2020-05-24"
 Rev "R0.5.2"
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR0101
+L micro_rusEFI-rescue:GND-power #PWR0101
 U 1 1 5C5BFEC7
 P 15350 2750
 F 0 "#PWR0101" H 15350 2750 30  0001 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 15350 2750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0102
+L micro_rusEFI-rescue:GND-power #PWR0102
 U 1 1 5CE96D9C
 P 11500 4750
 F 0 "#PWR0102" H 11500 4750 30  0001 C CNN
@@ -38,7 +38,7 @@ $EndComp
 Text Label 13150 3700 0    60   ~ 12
 5V
 $Comp
-L power:GND #PWR0103
+L micro_rusEFI-rescue:GND-power #PWR0103
 U 1 1 5D0251ED
 P 14600 3700
 F 0 "#PWR0103" H 14600 3700 30  0001 C CNN
@@ -53,7 +53,7 @@ Text Label 14300 3400 2    60   ~ 12
 Text Label 14900 3400 0    60   ~ 12
 VDD
 $Comp
-L power:GND #PWR0104
+L micro_rusEFI-rescue:GND-power #PWR0104
 U 1 1 5C5BFED1
 P 12700 3800
 F 0 "#PWR0104" H 12700 3800 30  0001 C CNN
@@ -64,7 +64,7 @@ F 3 "" H 12700 3800 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0105
+L micro_rusEFI-rescue:GND-power #PWR0105
 U 1 1 5C5BFED2
 P 12950 5050
 F 0 "#PWR0105" H 12950 5050 30  0001 C CNN
@@ -112,7 +112,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 3400 15200 3400
 $Comp
-L power:GND #PWR0106
+L micro_rusEFI-rescue:GND-power #PWR0106
 U 1 1 5C7BEC62
 P 16050 3400
 F 0 "#PWR0106" H 16050 3400 30  0001 C CNN
@@ -128,7 +128,7 @@ Connection ~ 15200 3400
 Wire Wire Line
 	15200 3400 15250 3400
 $Comp
-L power:GND #PWR0107
+L micro_rusEFI-rescue:GND-power #PWR0107
 U 1 1 5CAD22F2
 P 15200 3700
 F 0 "#PWR0107" H 15200 3700 30  0001 C CNN
@@ -152,7 +152,7 @@ Wire Wire Line
 Wire Wire Line
 	14300 3400 14150 3400
 $Comp
-L power:GND #PWR0108
+L micro_rusEFI-rescue:GND-power #PWR0108
 U 1 1 52D1377C
 P 6250 9050
 F 0 "#PWR0108" H 6250 9050 30  0001 C CNN
@@ -163,7 +163,7 @@ F 3 "" H 6250 9050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L micro_rusEFI-rescue:GND-power #PWR0111
 U 1 1 52D139B4
 P 5250 4250
 F 0 "#PWR0111" H 5250 4250 30  0001 C CNN
@@ -174,7 +174,7 @@ F 3 "" H 5250 4250 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0112
+L micro_rusEFI-rescue:GND-power #PWR0112
 U 1 1 52D139BA
 P 5250 4350
 F 0 "#PWR0112" H 5250 4350 30  0001 C CNN
@@ -185,7 +185,7 @@ F 3 "" H 5250 4350 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0114
+L micro_rusEFI-rescue:GND-power #PWR0114
 U 1 1 5C470C96
 P 6000 2200
 F 0 "#PWR0114" H 6000 2200 30  0001 C CNN
@@ -196,7 +196,7 @@ F 3 "" H 6000 2200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0115
+L micro_rusEFI-rescue:GND-power #PWR0115
 U 1 1 52D13B57
 P 6250 2200
 F 0 "#PWR0115" H 6250 2200 30  0001 C CNN
@@ -207,7 +207,7 @@ F 3 "" H 6250 2200 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0117
+L micro_rusEFI-rescue:GND-power #PWR0117
 U 1 1 5C470C88
 P 6450 9050
 F 0 "#PWR0117" H 6450 9050 30  0001 C CNN
@@ -218,7 +218,7 @@ F 3 "" H 6450 9050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0120
+L micro_rusEFI-rescue:GND-power #PWR0120
 U 1 1 5C470C9F
 P 4450 3500
 F 0 "#PWR0120" H 4450 3500 30  0001 C CNN
@@ -233,7 +233,7 @@ VDD
 Text Label 6600 2200 0    60   ~ 12
 VDD
 $Comp
-L power:GND #PWR0122
+L micro_rusEFI-rescue:GND-power #PWR0122
 U 1 1 5C470CB2
 P 6650 3000
 F 0 "#PWR0122" H 6650 3000 30  0001 C CNN
@@ -244,7 +244,7 @@ F 3 "" H 6650 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0123
+L micro_rusEFI-rescue:GND-power #PWR0123
 U 1 1 52D18930
 P 6550 3000
 F 0 "#PWR0123" H 6550 3000 30  0001 C CNN
@@ -255,7 +255,7 @@ F 3 "" H 6550 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0125
+L micro_rusEFI-rescue:GND-power #PWR0125
 U 1 1 5C4D064D
 P 6550 9050
 F 0 "#PWR0125" H 6550 9050 30  0001 C CNN
@@ -266,7 +266,7 @@ F 3 "" H 6550 9050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0127
+L micro_rusEFI-rescue:GND-power #PWR0127
 U 1 1 5C4D06E6
 P 6350 9050
 F 0 "#PWR0127" H 6350 9050 30  0001 C CNN
@@ -277,7 +277,7 @@ F 3 "" H 6350 9050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0129
+L micro_rusEFI-rescue:GND-power #PWR0129
 U 1 1 5C5E3A1D
 P 6450 3000
 F 0 "#PWR0129" H 6450 3000 30  0001 C CNN
@@ -288,7 +288,7 @@ F 3 "" H 6450 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0131
+L micro_rusEFI-rescue:GND-power #PWR0131
 U 1 1 5C5E3A23
 P 6350 3000
 F 0 "#PWR0131" H 6350 3000 30  0001 C CNN
@@ -299,7 +299,7 @@ F 3 "" H 6350 3000 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0132
+L micro_rusEFI-rescue:GND-power #PWR0132
 U 1 1 5C5FEEA8
 P 6250 3000
 F 0 "#PWR0132" H 6250 3000 30  0001 C CNN
@@ -459,7 +459,7 @@ Wire Wire Line
 Text HLabel 7350 5750 2    60   Input ~ 12
 PB2-BOOT1
 $Comp
-L power:GND #PWR0141
+L micro_rusEFI-rescue:GND-power #PWR0141
 U 1 1 5C5BFEC9
 P 4550 5000
 F 0 "#PWR0141" H 4550 5000 30  0001 C CNN
@@ -475,7 +475,7 @@ Wire Wire Line
 	11400 4750 11400 4850
 Connection ~ 11400 4750
 $Comp
-L power:GND #PWR0143
+L micro_rusEFI-rescue:GND-power #PWR0143
 U 1 1 5C5BFED7
 P 11200 5050
 F 0 "#PWR0143" H 11200 5050 30  0001 C CNN
@@ -486,7 +486,7 @@ F 3 "" H 11200 5050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0144
+L micro_rusEFI-rescue:GND-power #PWR0144
 U 1 1 5D0251FA
 P 11400 5150
 F 0 "#PWR0144" H 11400 5150 30  0001 C CNN
@@ -511,7 +511,7 @@ Text Label 12050 6700 0    60   ~ 12
 Text HLabel 7350 4650 2    60   Input ~ 12
 PA8
 $Comp
-L power:GND #PWR0147
+L micro_rusEFI-rescue:GND-power #PWR0147
 U 1 1 5CCA057A
 P 4750 2975
 F 0 "#PWR0147" H 4750 2975 30  0001 C CNN
@@ -522,7 +522,7 @@ F 3 "" H 4750 2975 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0148
+L micro_rusEFI-rescue:GND-power #PWR0148
 U 1 1 5CCA0584
 P 5050 2975
 F 0 "#PWR0148" H 5050 2975 30  0001 C CNN
@@ -535,7 +535,7 @@ $EndComp
 Text Label 5000 3850 2    60   ~ 12
 NRST
 $Comp
-L power:GND #PWR0157
+L micro_rusEFI-rescue:GND-power #PWR0157
 U 1 1 5C5BFECA
 P 4550 5600
 F 0 "#PWR0157" H 4550 5600 30  0001 C CNN
@@ -546,7 +546,7 @@ F 3 "" H 4550 5600 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0190
+L micro_rusEFI-rescue:GND-power #PWR0190
 U 1 1 5CFE03F2
 P 4850 4300
 F 0 "#PWR0190" H 4850 4300 30  0001 C CNN
@@ -586,7 +586,7 @@ Connection ~ 15200 3175
 Text Label 4150 4300 2    60   ~ 12
 VDD
 $Comp
-L power:PWR_FLAG #FLG0101
+L micro_rusEFI-rescue:PWR_FLAG-power #FLG0101
 U 1 1 5D310733
 P 5550 4250
 F 0 "#FLG0101" H 5550 4325 50  0001 C CNN
@@ -597,7 +597,7 @@ F 3 "~" H 5550 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0102
+L micro_rusEFI-rescue:PWR_FLAG-power #FLG0102
 U 1 1 5D310ED7
 P 5550 4350
 F 0 "#FLG0102" H 5550 4425 50  0001 C CNN
@@ -608,7 +608,7 @@ F 3 "~" H 5550 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0103
+L micro_rusEFI-rescue:PWR_FLAG-power #FLG0103
 U 1 1 5D3143A7
 P 5250 2675
 F 0 "#FLG0103" H 5250 2750 50  0001 C CNN
@@ -623,7 +623,7 @@ Connection ~ 5550 4350
 Wire Wire Line
 	14925 3050 14925 3175
 $Comp
-L power:GND #PWR0133
+L micro_rusEFI-rescue:GND-power #PWR0133
 U 1 1 5D07522E
 P 14925 2750
 F 0 "#PWR0133" H 14925 2750 30  0001 C CNN
@@ -686,7 +686,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 3300 6250 3550
 $Comp
-L power:GND #PWR0145
+L micro_rusEFI-rescue:GND-power #PWR0145
 U 1 1 5D59F846
 P 5100 3725
 F 0 "#PWR0145" H 5100 3725 30  0001 C CNN
@@ -708,7 +708,7 @@ Wire Wire Line
 Text HLabel 5525 3375 0    60   Input ~ 12
 VBAT
 $Comp
-L power:PWR_FLAG #FLG0106
+L micro_rusEFI-rescue:PWR_FLAG-power #FLG0106
 U 1 1 5D9221DA
 P 6700 9050
 F 0 "#FLG0106" H 6700 9125 50  0001 C CNN
@@ -748,7 +748,7 @@ Wire Wire Line
 	7775 8825 7875 8825
 Connection ~ 7875 8625
 $Comp
-L power:GND #PWR017
+L micro_rusEFI-rescue:GND-power #PWR017
 U 1 1 5D9D4816
 P 7875 8325
 F 0 "#PWR017" H 7875 8325 30  0001 C CNN
@@ -759,7 +759,7 @@ F 3 "" H 7875 8325 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR018
+L micro_rusEFI-rescue:GND-power #PWR018
 U 1 1 5D9D5F96
 P 7875 9125
 F 0 "#PWR018" H 7875 9125 30  0001 C CNN
@@ -783,7 +783,7 @@ Wire Wire Line
 	13050 4950 13200 4950
 Connection ~ 7875 8825
 $Comp
-L power:GND #PWR0151
+L micro_rusEFI-rescue:GND-power #PWR0151
 U 1 1 5DC0020D
 P 5550 3025
 F 0 "#PWR0151" H 5550 3025 30  0001 C CNN
@@ -847,7 +847,7 @@ Wire Wire Line
 Wire Wire Line
 	13050 4000 13050 4550
 $Comp
-L Device:Crystal X1
+L micro_rusEFI-rescue:Crystal-Device X1
 U 1 1 52D13AFB
 P 4850 5300
 F 0 "X1" H 4850 5450 60  0000 C CNN
@@ -860,7 +860,7 @@ F 5 "C115962" H 4850 5300 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C44
+L micro_rusEFI-rescue:C-Device C44
 U 1 1 5DA996EF
 P 7875 8975
 F 0 "C44" H 7925 9075 50  0000 L CNN
@@ -873,7 +873,7 @@ F 5 "C1679" H 7875 8975 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L Power_Protection:NUP4202 D16
+L micro_rusEFI-rescue:NUP4202-Power_Protection D16
 U 1 1 5C850928
 P 12950 4750
 F 0 "D16" H 13280 4796 50  0000 L CNN
@@ -886,7 +886,7 @@ F 5 "C85364" H 12950 4750 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C28
+L micro_rusEFI-rescue:C-Device C28
 U 1 1 5D9D4208
 P 7875 8475
 F 0 "C28" H 7925 8575 50  0000 L CNN
@@ -899,7 +899,7 @@ F 5 "C1679" H 7875 8475 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Crystal_Small Y2
+L micro_rusEFI-rescue:Crystal_Small-Device Y2
 U 1 1 5D9C5A58
 P 7875 8725
 F 0 "Y2" V 7800 8850 50  0000 L CNN
@@ -911,7 +911,7 @@ F 4 "C32346" V 7875 8725 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Regulator_Linear:LM1117-3.3 U5
+L micro_rusEFI-rescue:LM1117-3.3-Regulator_Linear U5
 U 1 1 5D8F198D
 P 14600 3400
 F 0 "U5" H 14600 3700 50  0000 C CNN
@@ -923,7 +923,7 @@ F 4 "C6186" H 14600 3400 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW2
+L micro_rusEFI-rescue:SW_Push-Switch SW2
 U 1 1 5D59F012
 P 4900 3725
 F 0 "SW2" H 4900 3918 50  0000 C CNN
@@ -935,7 +935,7 @@ F 4 "C398054" H 4900 3725 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_ST_STM32F4:STM32F407VGTx U1
+L micro_rusEFI-rescue:STM32F407VGTx-MCU_ST_STM32F4 U1
 U 1 1 5D33DF9D
 P 6450 6250
 F 0 "U1" H 5825 3575 50  0000 C CNN
@@ -949,7 +949,7 @@ F 6 "ST" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW1
+L micro_rusEFI-rescue:SW_Push-Switch SW1
 U 1 1 5D4BAD74
 P 4350 4300
 F 0 "SW1" H 4350 4493 50  0000 C CNN
@@ -965,7 +965,7 @@ F 8 "C398054" H 4350 4300 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Net-Tie_2 NT1
+L micro_rusEFI-rescue:Net-Tie_2-Device NT1
 U 1 1 5D86F689
 P 7500 4750
 F 0 "NT1" H 7500 4700 50  0000 C CNN
@@ -976,7 +976,7 @@ F 3 "~" H 7500 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C36
+L micro_rusEFI-rescue:C-Device C36
 U 1 1 5D073BF7
 P 14925 2900
 F 0 "C36" H 15025 3000 50  0000 C CNN
@@ -992,7 +992,7 @@ F 8 "C15849" H 14925 2900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID2
+L micro_rusEFI-rescue:Fiducial-Mechanical FID2
 U 1 1 5D1CA09D
 P 7130 3465
 F 0 "FID2" H 7215 3511 50  0000 L CNN
@@ -1007,7 +1007,7 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID1
+L micro_rusEFI-rescue:Fiducial-Mechanical FID1
 U 1 1 5D1C9522
 P 7130 3280
 F 0 "FID1" H 7215 3326 50  0000 L CNN
@@ -1022,7 +1022,7 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R50
+L micro_rusEFI-rescue:R-Device R50
 U 1 1 5CE182F0
 P 15800 3400
 F 0 "R50" V 15900 3400 50  0000 C CNN
@@ -1038,7 +1038,7 @@ F 8 "RMCF0603JJ1K00CT-ND" H 15800 3400 50  0001 C CNN "VEND#"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:USB_B_Micro J1
+L micro_rusEFI-rescue:USB_B_Micro-Connector J1
 U 1 1 5CDEB9A6
 P 11500 4200
 F 0 "J1" H 11557 4667 50  0000 C CNN
@@ -1053,7 +1053,7 @@ F 7 "A107790-ND" H 0   0   50  0001 C CNN "VEND#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C22
+L micro_rusEFI-rescue:C-Device C22
 U 1 1 5C5BFEC8
 P 4700 5600
 F 0 "C22" H 4750 5700 50  0000 L CNN
@@ -1070,7 +1070,7 @@ F 9 "C1647" H 4700 5600 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R45
+L micro_rusEFI-rescue:R-Device R45
 U 1 1 5CC9138A
 P 4700 4300
 F 0 "R45" V 4780 4300 50  0000 C CNN
@@ -1086,7 +1086,7 @@ F 8 "C25804" H 4700 4300 50  0001 C CNN "LCSC"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C C24
+L micro_rusEFI-rescue:C-Device C24
 U 1 1 5CCA0570
 P 5050 2825
 F 0 "C24" H 5100 2925 50  0000 L CNN
@@ -1102,7 +1102,7 @@ F 8 "399-7844-1-ND" H 5050 2825 50  0001 C CNN "VEND#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C23
+L micro_rusEFI-rescue:C-Device C23
 U 1 1 5CCA0562
 P 4750 2825
 F 0 "C23" H 4800 2925 50  0000 L CNN
@@ -1118,7 +1118,7 @@ F 8 "C15849" H 4750 2825 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C37
+L micro_rusEFI-rescue:C-Device C37
 U 1 1 5D0251F9
 P 11400 5000
 F 0 "C37" H 11450 5100 50  0000 L CNN
@@ -1135,7 +1135,7 @@ F 9 "C14663" H 11400 5000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R47
+L micro_rusEFI-rescue:R-Device R47
 U 1 1 5D0251FB
 P 11200 4900
 F 0 "R47" V 11280 4900 50  0000 C CNN
@@ -1152,7 +1152,7 @@ F 9 "C25803" V 11200 4900 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C21
+L micro_rusEFI-rescue:C-Device C21
 U 1 1 5CE96DA7
 P 4700 5000
 F 0 "C21" H 4750 5100 50  0000 L CNN
@@ -1169,7 +1169,7 @@ F 9 "C1647" H 4700 5000 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C30
+L micro_rusEFI-rescue:C-Device C30
 U 1 1 5C5FEE98
 P 6250 3150
 F 0 "C30" V 6300 3200 50  0000 L CNN
@@ -1186,7 +1186,7 @@ F 9 "399-7844-1-ND" H 6250 3150 50  0001 C CNN "VEND#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C31
+L micro_rusEFI-rescue:C-Device C31
 U 1 1 5C5E3A17
 P 6350 3150
 F 0 "C31" V 6400 3200 50  0000 L CNN
@@ -1203,7 +1203,7 @@ F 9 "399-7844-1-ND" H 6350 3150 50  0001 C CNN "VEND#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C32
+L micro_rusEFI-rescue:C-Device C32
 U 1 1 5C5E3A0D
 P 6450 3150
 F 0 "C32" V 6500 3200 50  0000 L CNN
@@ -1220,7 +1220,7 @@ F 9 "399-7844-1-ND" H 6450 3150 50  0001 C CNN "VEND#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C33
+L micro_rusEFI-rescue:C-Device C33
 U 1 1 52D18908
 P 6550 3150
 F 0 "C33" V 6600 3200 50  0000 L CNN
@@ -1237,7 +1237,7 @@ F 9 "399-7844-1-ND" H 6550 3150 50  0001 C CNN "VEND#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C34
+L micro_rusEFI-rescue:C-Device C34
 U 1 1 5C470CAD
 P 6650 3150
 F 0 "C34" V 6700 3200 50  0000 L CNN
@@ -1254,7 +1254,7 @@ F 9 "399-7844-1-ND" H 6650 3150 50  0001 C CNN "VEND#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R43
+L micro_rusEFI-rescue:R-Device R43
 U 1 1 5C470C9B
 P 4050 3850
 F 0 "R43" V 4130 3850 50  0000 C CNN
@@ -1270,7 +1270,7 @@ F 8 "C25804" H 4050 3850 50  0001 C CNN "LCSC"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:C C20
+L micro_rusEFI-rescue:C-Device C20
 U 1 1 5CE96D94
 P 4450 3700
 F 0 "C20" H 4500 3800 50  0000 L CNN
@@ -1286,7 +1286,7 @@ F 8 "C57112" H 4450 3700 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead FB1
+L micro_rusEFI-rescue:Ferrite_Bead-Device FB1
 U 1 1 5C470C85
 P 6600 2350
 F 0 "FB1" H 6725 2450 60  0000 C CNN
@@ -1303,7 +1303,7 @@ F 9 "C1034" H 6600 2350 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C29
+L micro_rusEFI-rescue:C-Device C29
 U 1 1 52D13B20
 P 6250 2350
 F 0 "C29" H 6300 2450 50  0000 L CNN
@@ -1319,7 +1319,7 @@ F 8 "C57112" H 6250 2350 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C27
+L micro_rusEFI-rescue:C-Device C27
 U 1 1 52D13B1A
 P 6000 2350
 F 0 "C27" H 6050 2450 50  0000 L CNN
@@ -1335,7 +1335,7 @@ F 8 "C15849" H 6000 2350 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C26
+L micro_rusEFI-rescue:C-Device C26
 U 1 1 52D139AE
 P 5400 4350
 F 0 "C26" V 5545 4350 50  0000 C CNN
@@ -1352,7 +1352,7 @@ F 9 "MURATA" H 0   0   50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C25
+L micro_rusEFI-rescue:C-Device C25
 U 1 1 52D139A3
 P 5400 4250
 F 0 "C25" V 5270 4250 50  0000 C CNN
@@ -1369,7 +1369,7 @@ F 9 "C23630" V 5400 4250 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C38
+L micro_rusEFI-rescue:C-Device C38
 U 1 1 5CACFC66
 P 15200 3550
 F 0 "C38" H 15250 3650 50  0000 L CNN
@@ -1386,7 +1386,7 @@ F 9 "C14663" H 15200 3550 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L micro_rusEFI-rescue:LED-Device D?
 U 1 1 5C7BA11E
 P 15400 3400
 AR Path="/5C7BA11E" Ref="D?"  Part="1" 
@@ -1400,12 +1400,12 @@ F 4 "C2286" H 15400 3400 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D14
+L micro_rusEFI-rescue:LED-Device D14
 U 1 1 5C5BFED6
 P 12150 3800
 F 0 "D14" H 12150 3900 50  0000 C CNN
 F 1 "LED-GREEN" H 12150 3650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" V 5   1700 60  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" V 5   1700 60  0001 C CNN
 F 3 "" H 12150 3800 60  0001 C CNN
 F 4 "stm32f407_board" H 11525 1275 60  0001 C CNN "PageName"
 F 5 "C2297" H 12150 3800 50  0001 C CNN "LCSC"
@@ -1413,7 +1413,7 @@ F 5 "C2297" H 12150 3800 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky D17
+L micro_rusEFI-rescue:D_Schottky-Device D17
 U 1 1 52D3B48A
 P 13150 3850
 F 0 "D17" H 13150 3950 40  0000 C CNN
@@ -1425,7 +1425,7 @@ F 4 "C8598" H 13150 3850 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C39
+L micro_rusEFI-rescue:C-Device C39
 U 1 1 5D02522E
 P 15350 2900
 F 0 "C39" H 15450 3000 50  0000 C CNN
@@ -1438,7 +1438,7 @@ F 5 "C59461" H 15350 2900 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R48
+L micro_rusEFI-rescue:R-Device R48
 U 1 1 5C5BFED0
 P 12550 3800
 F 0 "R48" V 12650 3800 50  0000 C CNN
@@ -1455,7 +1455,7 @@ F 9 "C4190" H 12550 3800 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Diode:BAV70 D42
+L micro_rusEFI-rescue:BAV70-Diode D42
 U 1 1 5E177DF4
 P 5825 3300
 F 0 "D42" H 5925 3200 50  0000 C CNN
@@ -1475,7 +1475,7 @@ Wire Wire Line
 Text Label 5825 3500 0    50   ~ 0
 Vrtcc
 $Comp
-L power:PWR_FLAG #FLG0109
+L micro_rusEFI-rescue:PWR_FLAG-power #FLG0109
 U 1 1 5E1FC7D0
 P 6150 3500
 F 0 "#FLG0109" H 6150 3575 50  0001 C CNN
@@ -1516,7 +1516,7 @@ Wire Wire Line
 Text Label 12950 4550 1    60   ~ 12
 5V
 $Comp
-L Connector:Conn_01x06_Male J7
+L micro_rusEFI-rescue:Conn_01x06_Male-Connector J7
 U 1 1 5E644ACF
 P 11950 7400
 F 0 "J7" H 11900 7250 50  0000 R CNN
@@ -1539,7 +1539,7 @@ GND
 Text Label 11750 7100 2    60   ~ 12
 SWO
 $Comp
-L Switch:SW_Push SW3
+L micro_rusEFI-rescue:SW_Push-Switch SW3
 U 1 1 5E49528B
 P 4900 3450
 F 0 "SW3" H 4900 3643 50  0000 C CNN
@@ -1556,7 +1556,7 @@ Wire Wire Line
 	5100 3450 5100 3725
 Connection ~ 5100 3725
 $Comp
-L Switch:SW_Push SW4
+L micro_rusEFI-rescue:SW_Push-Switch SW4
 U 1 1 5E49AEC0
 P 4350 4050
 F 0 "SW4" H 4550 4125 50  0000 C CNN
@@ -1570,14 +1570,14 @@ Connection ~ 4550 4050
 Wire Wire Line
 	4150 4300 4150 4050
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 3 1 5E8EE3BC
 P 5550 3075
 AR Path="/5E8EE3BC" Ref="U3"  Part="3" 
 AR Path="/5D0250FB/5E8EE3BC" Ref="U3"  Part="3" 
 F 0 "U3" H 5650 2875 60  0000 C CNN
 F 1 "molex_48pin_MRE" H 6279 5950 60  0001 L CNN
-F 2 "" H 5550 3075 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 5550 3075 60  0001 C CNN
 F 3 "" H 5550 3075 60  0001 C CNN
 	3    5550 3075
 	-1   0    0    1   
@@ -1667,7 +1667,7 @@ Wire Wire Line
 Wire Wire Line
 	12125 5575 12475 5575
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J2
+L micro_rusEFI-rescue:Conn_02x05_Odd_Even-Connector_Generic J2
 U 1 1 5EBB8D9A
 P 11925 5775
 F 0 "J2" H 11975 5475 50  0000 C CNN
@@ -1682,20 +1682,20 @@ F 7 "649-95278-801B10LF" H 125 -425 50  0001 C CNN "VEND#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 7 1 5EBAF142
 P 12750 6500
 AR Path="/5EBAF142" Ref="U3"  Part="7" 
 AR Path="/5D0250FB/5EBAF142" Ref="U3"  Part="7" 
 F 0 "U3" H 13650 6159 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 13950 6500 60  0001 C CNN
-F 2 "" H 12750 6500 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 12750 6500 60  0001 C CNN
 F 3 "" H 12750 6500 60  0001 C CNN
 	7    12750 6500
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J19
+L micro_rusEFI-rescue:Conn_01x05-Connector_Generic J19
 U 1 1 601B4012
 P 10600 4175
 F 0 "J19" H 10518 4500 50  0000 C CNN
@@ -1716,7 +1716,7 @@ USB_D+
 Text Label 10800 3975 0    50   ~ 10
 USB_ID
 $Comp
-L power:GND #PWR026
+L micro_rusEFI-rescue:GND-power #PWR026
 U 1 1 601C7010
 P 10800 4375
 F 0 "#PWR026" H 10800 4375 30  0001 C CNN

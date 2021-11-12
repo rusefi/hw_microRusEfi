@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "microRusEFI-2L"
-Date "2020-05-24"
-Rev "R0.5.2"
+Date "2021-11-11"
+Rev "R0.5.5rc"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
 Comment2 "AI6OD"
@@ -98,7 +98,7 @@ AV5_MCU
 Text Label 3950 5275 2    60   ~ 12
 5V
 $Comp
-L Connector:TestPoint TP5
+L micro_rusEFI-rescue:TestPoint-Connector TP5
 U 1 1 5C694318
 P 14475 1975
 F 0 "TP5" V 14475 2150 50  0000 L CNN
@@ -125,12 +125,12 @@ INJECTOR-3
 Text Label 11675 4225 0    60   ~ 12
 INJECTOR-4
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 1 1 5DD8BB43
 P 7750 2125
 F 0 "U3" V 9037 2530 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 8931 2530 60  0000 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 7750 2125 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 7750 2125 60  0001 C CNN
 F 3 "" H 7750 2125 60  0001 C CNN
 F 4 "MOLEX" H 0   0   50  0001 C CNN "Manufacturer"
 F 5 "500762-0481" H 0   0   50  0001 C CNN "Part #"
@@ -256,7 +256,7 @@ AV8
 Text Label 3425 4525 2    60   ~ 12
 AV7
 $Comp
-L Device:D_Schottky D15
+L micro_rusEFI-rescue:D_Schottky-Device D15
 U 1 1 5DFFB69F
 P 12975 4525
 F 0 "D15" H 13175 4575 50  0000 R CNN
@@ -272,7 +272,7 @@ F 8 "C22452" H 12975 4525 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky D20
+L micro_rusEFI-rescue:D_Schottky-Device D20
 U 1 1 5DFFDCBF
 P 13125 4425
 F 0 "D20" H 13350 4375 50  0000 R CNN
@@ -288,10 +288,10 @@ F 8 "C22452" H 13125 4425 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0162
+L micro_rusEFI-rescue:GND-power #PWR0121
 U 1 1 5E774BC6
 P 5800 6875
-F 0 "#PWR0162" H 5800 6625 50  0001 C CNN
+F 0 "#PWR0121" H 5800 6625 50  0001 C CNN
 F 1 "GND" H 5805 6702 50  0000 C CNN
 F 2 "" H 5800 6875 50  0001 C CNN
 F 3 "" H 5800 6875 50  0001 C CNN
@@ -341,7 +341,7 @@ Text Notes 12350 4050 0    50   ~ 10
 Text Notes 3125 3325 0    50   ~ 10
 ANALOG INPUTS.\nADC 1-4 HAVE \nBIAS RESISTORS \nFOR TEMP SENSORS\n\nCAN ALSO BE USED \nAS DIGITAL INPUTS
 $Comp
-L Connector:TestPoint TP0
+L micro_rusEFI-rescue:TestPoint-Connector TP0
 U 1 1 5D356EBD
 P 14475 2100
 F 0 "TP0" V 14475 2275 50  0000 L CNN
@@ -458,7 +458,7 @@ PE4
 Text Label 13650 5850 2    50   ~ 10
 PE1
 $Comp
-L Device:LED D22
+L micro_rusEFI-rescue:LED-Device D22
 U 1 1 5E7651E5
 P 13875 6150
 F 0 "D22" H 14025 6200 50  0000 C CNN
@@ -469,23 +469,10 @@ F 4 "C2297" H 13875 6150 50  0001 C CNN "LCSC"
 	1    13875 6150
 	-1   0    0    1   
 $EndComp
-$Sheet
-S 4975 7325 700  625 
-U 5D2F23B4
-F0 "FlashMemory" 50
-F1 "FlashMemory.sch" 50
-F2 "SI" I R 5675 7500 50 
-F3 "SCK" I R 5675 7600 50 
-F4 "CS" I R 5675 7700 50 
-F5 "SO" I R 5675 7400 50 
-F6 "VDD" I L 4975 7625 50 
-F7 "HOLD" I R 5675 7800 50 
-F8 "WP" I R 5675 7900 50 
-$EndSheet
 Text Label 4875 7625 2    50   ~ 10
 VDD
 $Comp
-L Connector:TestPoint TP4
+L micro_rusEFI-rescue:TestPoint-Connector TP4
 U 1 1 5D358BCF
 P 14475 2350
 F 0 "TP4" V 14475 2525 50  0000 L CNN
@@ -500,7 +487,7 @@ F 7 "DNP" H 6350 -3125 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L micro_rusEFI-rescue:TestPoint-Connector TP2
 U 1 1 5D08B37F
 P 14475 2225
 F 0 "TP2" V 14475 2400 50  0000 L CNN
@@ -515,7 +502,7 @@ F 7 "DNP" H 8325 -2700 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED D21
+L micro_rusEFI-rescue:LED-Device D21
 U 1 1 5D1B59E8
 P 13875 6050
 F 0 "D21" H 14025 6100 50  0000 C CNN
@@ -527,7 +514,7 @@ F 4 "C84256" H 13875 6050 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D23
+L micro_rusEFI-rescue:LED-Device D23
 U 1 1 5D1BAEB2
 P 13875 5950
 F 0 "D23" H 14025 6000 50  0000 C CNN
@@ -539,7 +526,7 @@ F 4 "C2293" H 13875 5950 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:LED D27
+L micro_rusEFI-rescue:LED-Device D27
 U 1 1 5D1C01C9
 P 13875 5850
 F 0 "D27" H 14025 5900 50  0000 C CNN
@@ -557,7 +544,7 @@ PE3
 Text Label 13650 6150 2    50   ~ 10
 PE4
 $Comp
-L Device:R_Pack04 RN1
+L micro_rusEFI-rescue:R_Pack04-Device RN1
 U 1 1 5CF9A0A2
 P 14325 5950
 F 0 "RN1" V 13908 5950 50  0000 C CNN
@@ -581,10 +568,10 @@ Wire Wire Line
 Wire Wire Line
 	6700 7700 5675 7700
 $Comp
-L power:GND #PWR0214
+L micro_rusEFI-rescue:GND-power #PWR0126
 U 1 1 5CFDDBE0
 P 14525 6200
-F 0 "#PWR0214" H 14525 5950 50  0001 C CNN
+F 0 "#PWR0126" H 14525 5950 50  0001 C CNN
 F 1 "GND" H 14530 6027 50  0000 C CNN
 F 2 "" H 14525 6200 50  0001 C CNN
 F 3 "" H 14525 6200 50  0001 C CNN
@@ -603,7 +590,7 @@ Wire Wire Line
 NoConn ~ 10750 5525
 NoConn ~ 10750 5425
 $Comp
-L Graphic:Logo_Open_Hardware_Small LOGO1
+L micro_rusEFI-rescue:Logo_Open_Hardware_Small-Graphic LOGO1
 U 1 1 5D21BC70
 P 11925 10225
 F 0 "LOGO1" H 11925 10500 50  0001 C CNN
@@ -679,7 +666,7 @@ Wire Wire Line
 Wire Wire Line
 	10750 4525 12825 4525
 $Comp
-L Device:LED D28
+L micro_rusEFI-rescue:LED-Device D28
 U 1 1 5D701563
 P 8325 5625
 F 0 "D28" V 8400 5500 50  0000 C CNN
@@ -698,7 +685,7 @@ Connection ~ 8325 5475
 Wire Wire Line
 	8325 5475 9000 5475
 $Comp
-L Device:R R29
+L micro_rusEFI-rescue:R-Device R29
 U 1 1 5D714475
 P 8325 5925
 F 0 "R29" H 8325 5775 50  0000 L CNN
@@ -714,10 +701,10 @@ F 8 "C21190" H 8325 5925 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L micro_rusEFI-rescue:GND-power #PWR0128
 U 1 1 5D7189F2
 P 8325 6075
-F 0 "#PWR023" H 8325 5825 50  0001 C CNN
+F 0 "#PWR0128" H 8325 5825 50  0001 C CNN
 F 1 "GND" H 8330 5902 50  0000 C CNN
 F 2 "" H 8325 6075 50  0001 C CNN
 F 3 "" H 8325 6075 50  0001 C CNN
@@ -747,7 +734,7 @@ CAM_MCU
 Text Label 14400 2225 2    60   ~ 12
 CAM_MCU
 $Comp
-L Connector:TestPoint TP12
+L micro_rusEFI-rescue:TestPoint-Connector TP12
 U 1 1 5D743C4C
 P 14475 2475
 F 0 "TP12" V 14475 2650 50  0000 L CNN
@@ -762,7 +749,7 @@ F 7 "DNP" H 6025 -3250 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L micro_rusEFI-rescue:TestPoint-Connector TP3
 U 1 1 5D743C5A
 P 14475 2600
 F 0 "TP3" V 14475 2775 50  0000 L CNN
@@ -787,12 +774,12 @@ Text Label 11025 1775 2    60   ~ 12
 Text Label 11025 2150 2    60   ~ 12
 12V_KEY
 $Comp
-L Diode:B340 D36
+L micro_rusEFI-rescue:B340-Diode D36
 U 1 1 5D93FE5F
 P 11275 1775
 F 0 "D36" H 11275 1675 50  0000 C CNN
 F 1 "SS54" H 11275 1875 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 11275 1600 50  0001 C CNN
+F 2 "Diode_SMD:D_SMC" H 11275 1600 50  0001 C CNN
 F 3 "" H 11275 1775 50  0001 C CNN
 F 4 "C22452" H 11275 1775 50  0001 C CNN "LCSC"
 	1    11275 1775
@@ -818,7 +805,7 @@ Wire Wire Line
 Wire Wire Line
 	5725 5525 5725 5400
 $Comp
-L power:GND #PWR0138
+L micro_rusEFI-rescue:GND-power #PWR0138
 U 1 1 5DF9F74C
 P 6325 8825
 F 0 "#PWR0138" H 6325 8575 50  0001 C CNN
@@ -829,7 +816,7 @@ F 3 "" H 6325 8825 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_TVS D41
+L micro_rusEFI-rescue:D_TVS-Device D41
 U 1 1 5E5E6885
 P 11525 2400
 F 0 "D41" V 11475 2525 50  0000 L CNN
@@ -845,10 +832,10 @@ Wire Wire Line
 	11525 2150 11525 2250
 Connection ~ 11525 2150
 $Comp
-L power:GND #PWR0140
+L micro_rusEFI-rescue:GND-power #PWR0139
 U 1 1 5E5F188A
 P 11525 2625
-F 0 "#PWR0140" H 11525 2375 50  0001 C CNN
+F 0 "#PWR0139" H 11525 2375 50  0001 C CNN
 F 1 "GND" H 11530 2452 50  0000 C CNN
 F 2 "" H 11525 2625 50  0001 C CNN
 F 3 "" H 11525 2625 50  0001 C CNN
@@ -856,7 +843,7 @@ F 3 "" H 11525 2625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Net-Tie_2 NT2
+L micro_rusEFI-rescue:Net-Tie_2-Device NT2
 U 1 1 5E606F92
 P 6500 8825
 F 0 "NT2" H 6475 8875 50  0000 C CNN
@@ -871,7 +858,7 @@ Wire Wire Line
 Text Label 11175 6275 2    60   ~ 12
 LINBUS
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J4
+L micro_rusEFI-rescue:Conn_02x05_Odd_Even-Connector_Generic J4
 U 1 1 5F5BE682
 P 13100 2250
 F 0 "J4" H 13150 2700 50  0000 C CNN
@@ -885,8 +872,6 @@ Text Label 13450 2250 0    50   ~ 0
 PB9
 Wire Wire Line
 	6700 9225 6600 9225
-Text Label 6600 9225 2    50   ~ 0
-PC10
 Wire Wire Line
 	6600 9325 6700 9325
 Text Label 6600 9325 2    50   ~ 0
@@ -986,23 +971,23 @@ VDD
 Text Label 2875 1025 0    50   ~ 0
 LINBUS
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 2 1 5E9380F7
 P 10875 5125
 F 0 "U3" H 11075 5100 60  0000 L CNN
 F 1 "molex_48pin_MRE" V 12025 5125 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 10875 5125 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 10875 5125 60  0001 C CNN
 F 3 "" H 10875 5125 60  0001 C CNN
 	2    10875 5125
 	1    0    0    -1  
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 4 1 5E7587F2
 P 12225 1325
 F 0 "U3" H 13125 1650 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 13406 1730 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 12225 1325 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 12225 1325 60  0001 C CNN
 F 3 "" H 12225 1325 60  0001 C CNN
 F 4 "MOLEX" H 4475 -800 50  0001 C CNN "Manufacturer"
 F 5 "500762-0481" H 4475 -800 50  0001 C CNN "Part #"
@@ -1012,12 +997,12 @@ F 7 "WM4430-ND" H 4475 -800 50  0001 C CNN "VEND#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 5 1 5E75ADBD
 P 2175 1025
 F 0 "U3" H 2750 1175 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 3356 1430 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 2175 1025 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 2175 1025 60  0001 C CNN
 F 3 "" H 2175 1025 60  0001 C CNN
 F 4 "MOLEX" H -5575 -1100 50  0001 C CNN "Manufacturer"
 F 5 "500762-0481" H -5575 -1100 50  0001 C CNN "Part #"
@@ -1132,7 +1117,7 @@ GP5
 Text Label 14725 5175 3    60   ~ 12
 INJECTOR-1
 $Comp
-L Device:D D30
+L micro_rusEFI-rescue:D-Device D30
 U 1 1 5D907920
 P 14350 4275
 F 0 "D30" V 14325 4475 50  0000 R CNN
@@ -1148,7 +1133,7 @@ F 8 "C2128" H 14350 4275 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D34
+L micro_rusEFI-rescue:D-Device D34
 U 1 1 5D9045DB
 P 15075 4275
 F 0 "D34" V 15050 4475 50  0000 R CNN
@@ -1164,7 +1149,7 @@ F 8 "C2128" H 15075 4275 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D D32
+L micro_rusEFI-rescue:D-Device D32
 U 1 1 5D8FFD90
 P 14725 4275
 F 0 "D32" V 14700 4475 50  0000 R CNN
@@ -1182,7 +1167,7 @@ $EndComp
 Text Label 14350 5175 3    50   ~ 10
 LS2
 $Comp
-L Device:LED D35
+L micro_rusEFI-rescue:LED-Device D35
 U 1 1 5D8F8607
 P 15075 4625
 F 0 "D35" V 15175 4550 50  0000 C CNN
@@ -1198,7 +1183,7 @@ F 8 "C2286" H 15075 4625 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R51
+L micro_rusEFI-rescue:R-Device R51
 U 1 1 5D8F85EF
 P 15075 4975
 F 0 "R51" H 15075 4825 50  0000 L CNN
@@ -1214,7 +1199,7 @@ F 8 "C21190" H 15075 4975 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D33
+L micro_rusEFI-rescue:LED-Device D33
 U 1 1 5D8F6340
 P 14725 4625
 F 0 "D33" V 14825 4550 50  0000 C CNN
@@ -1230,7 +1215,7 @@ F 8 "C2286" H 14725 4625 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D31
+L micro_rusEFI-rescue:LED-Device D31
 U 1 1 5D8F58A9
 P 14350 4625
 F 0 "D31" V 14450 4550 50  0000 C CNN
@@ -1246,7 +1231,7 @@ F 8 "C2286" H 14350 4625 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R49
+L micro_rusEFI-rescue:R-Device R49
 U 1 1 5D8AABBE
 P 14725 4975
 F 0 "R49" H 14725 4825 50  0000 L CNN
@@ -1270,7 +1255,7 @@ Wire Wire Line
 Text Label 14950 7400 2    60   ~ 12
 LINBUS
 $Comp
-L Device:R R10
+L micro_rusEFI-rescue:R-Device R10
 U 1 1 5E4A3176
 P 15150 7250
 F 0 "R10" H 15150 7100 50  0000 L CNN
@@ -1286,7 +1271,7 @@ F 8 "C4410" H 15150 7250 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D43
+L micro_rusEFI-rescue:D-Device D43
 U 1 1 5E49934F
 P 15150 6900
 F 0 "D43" V 15125 7100 50  0000 R CNN
@@ -1302,7 +1287,7 @@ F 8 "C2128" H 15150 6900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L micro_rusEFI-rescue:TestPoint-Connector TP1
 U 1 1 5EC5BC44
 P 5650 5275
 F 0 "TP1" V 5650 5450 50  0000 L CNN
@@ -1317,7 +1302,7 @@ F 7 "DNP" H -500 350 50  0001 C CNN "Manufacturer"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D_Schottky D3
+L micro_rusEFI-rescue:D_Schottky-Device D3
 U 1 1 5EBBCF44
 P 12975 5025
 F 0 "D3" H 12625 5025 50  0000 R CNN
@@ -1333,7 +1318,7 @@ F 8 "C22452" H 12975 5025 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky D4
+L micro_rusEFI-rescue:D_Schottky-Device D4
 U 1 1 5EBBCF53
 P 13125 4925
 F 0 "D4" H 12925 4925 50  0000 R CNN
@@ -1357,7 +1342,7 @@ Connection ~ 13275 4925
 Wire Wire Line
 	13275 4925 13275 4525
 $Comp
-L Connector_Generic:Conn_01x01 J3
+L micro_rusEFI-rescue:Conn_01x01-Connector_Generic J3
 U 1 1 5EBF3511
 P 12550 4925
 F 0 "J3" H 12700 4925 50  0000 C CNN
@@ -1368,7 +1353,7 @@ F 3 "~" H 12550 4925 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J5
+L micro_rusEFI-rescue:Conn_01x01-Connector_Generic J5
 U 1 1 5EBF40E1
 P 12550 5025
 F 0 "J5" H 12700 5025 50  0000 C CNN
@@ -1409,19 +1394,19 @@ Wire Wire Line
 Wire Wire Line
 	7950 9225 8250 9225
 $Comp
-L Diode:B340 D37
+L micro_rusEFI-rescue:B340-Diode D37
 U 1 1 5D940A15
 P 11275 2150
 F 0 "D37" H 11275 2050 50  0000 C CNN
 F 1 "SS54" H 11275 2250 50  0000 C CNN
-F 2 "Diode_SMD:D_SMA" H 11275 1975 50  0001 C CNN
+F 2 "Diode_SMD:D_SMC" H 11275 1975 50  0001 C CNN
 F 3 "" H 11275 2150 50  0001 C CNN
 F 4 "C22452" H 11275 2150 50  0001 C CNN "LCSC"
 	1    11275 2150
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky D5
+L micro_rusEFI-rescue:D_Schottky-Device D5
 U 1 1 5F2DFCA6
 P 12975 5225
 F 0 "D5" H 12625 5225 50  0000 R CNN
@@ -1437,7 +1422,7 @@ F 8 "C22452" H 12975 5225 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:D_Schottky D6
+L micro_rusEFI-rescue:D_Schottky-Device D6
 U 1 1 5F2DFCB5
 P 13125 5125
 F 0 "D6" H 12925 5125 50  0000 R CNN
@@ -1455,7 +1440,7 @@ $EndComp
 Wire Wire Line
 	13125 5225 13275 5225
 $Comp
-L Connector_Generic:Conn_01x01 J12
+L micro_rusEFI-rescue:Conn_01x01-Connector_Generic J12
 U 1 1 5F2DFCC0
 P 12550 5125
 F 0 "J12" H 12700 5125 50  0000 C CNN
@@ -1466,7 +1451,7 @@ F 3 "~" H 12550 5125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J13
+L micro_rusEFI-rescue:Conn_01x01-Connector_Generic J13
 U 1 1 5F2DFCCA
 P 12550 5225
 F 0 "J13" H 12700 5225 50  0000 C CNN
@@ -1770,7 +1755,7 @@ Ign3
 Text Label 12125 3425 0    60   ~ 12
 Ign1
 $Comp
-L Device:R R21
+L micro_rusEFI-rescue:R-Device R21
 U 1 1 5F56129E
 P 11900 3425
 F 0 "R21" V 11850 3150 50  0000 L CNN
@@ -1786,7 +1771,7 @@ F 8 "C21189" H 11900 3425 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R36
+L micro_rusEFI-rescue:R-Device R36
 U 1 1 5D8CCA65
 P 14350 4975
 F 0 "R36" H 14350 4825 50  0000 L CNN
@@ -1802,7 +1787,7 @@ F 8 "C21190" H 14350 4975 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R33
+L micro_rusEFI-rescue:R-Device R33
 U 1 1 5F66CEB7
 P 11900 3525
 F 0 "R33" V 11850 3250 50  0000 L CNN
@@ -1818,7 +1803,7 @@ F 8 "C21189" H 11900 3525 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R80
+L micro_rusEFI-rescue:R-Device R80
 U 1 1 5F6B22AC
 P 11900 3625
 F 0 "R80" V 11850 3350 50  0000 L CNN
@@ -1834,7 +1819,7 @@ F 8 "C21189" H 11900 3625 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R81
+L micro_rusEFI-rescue:R-Device R81
 U 1 1 5F6C72ED
 P 11900 3725
 F 0 "R81" V 11850 3450 50  0000 L CNN
@@ -1863,12 +1848,12 @@ Wire Wire Line
 Wire Wire Line
 	10750 3525 11275 3525
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 6 1 5E75E517
 P 10725 3575
 F 0 "U3" H 11100 3900 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 11906 3980 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 10725 3575 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 10725 3575 60  0001 C CNN
 F 3 "" H 10725 3575 60  0001 C CNN
 F 4 "MOLEX" H 2975 1450 50  0001 C CNN "Manufacturer"
 F 5 "500762-0481" H 2975 1450 50  0001 C CNN "Part #"
@@ -1885,7 +1870,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 9075 10400 9075
 $Comp
-L Device:D_Schottky D?
+L micro_rusEFI-rescue:D_Schottky-Device D?
 U 1 1 5E9B40E4
 P 6525 5300
 AR Path="/5D0250FB/5E9B40E4" Ref="D?"  Part="1" 
@@ -1993,7 +1978,7 @@ Wire Wire Line
 Wire Wire Line
 	8775 6625 9000 6625
 $Comp
-L Regulator_Linear:MCP1703A-3302_SOT23 U7
+L micro_rusEFI-rescue:MCP1703A-3302_SOT23-Regulator_Linear U7
 U 1 1 5E9627A6
 P 8475 6625
 F 0 "U7" H 8550 6825 50  0000 C CNN
@@ -2009,10 +1994,10 @@ F 8 "865-XC6206P332MR-G" H 8475 6625 50  0001 C CNN "VEND#"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0154
+L micro_rusEFI-rescue:GND-power #PWR0140
 U 1 1 5E98CA90
 P 8475 6925
-F 0 "#PWR0154" H 8475 6675 50  0001 C CNN
+F 0 "#PWR0140" H 8475 6675 50  0001 C CNN
 F 1 "GND" V 8480 6752 50  0000 C CNN
 F 2 "" H 8475 6925 50  0001 C CNN
 F 3 "" H 8475 6925 50  0001 C CNN
@@ -2028,7 +2013,7 @@ Wire Wire Line
 Text Label 8600 6025 2    50   ~ 0
 RST
 $Comp
-L Device:R R2
+L micro_rusEFI-rescue:R-Device R2
 U 1 1 5EE30373
 P 8800 6025
 F 0 "R2" V 8725 5975 50  0000 L CNN
@@ -2182,78 +2167,78 @@ F 3 "" H 15875 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 8 1 5FDEA88F
 P 7000 8350
 F 0 "U3" H 7825 8350 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 8181 8755 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 7000 8350 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 7000 8350 60  0001 C CNN
 F 3 "" H 7000 8350 60  0001 C CNN
 	8    7000 8350
 	-1   0    0    1   
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 9 1 5FE1BBB9
 P 7700 8925
 F 0 "U3" H 8525 8925 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 8881 9330 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 7700 8925 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 7700 8925 60  0001 C CNN
 F 3 "" H 7700 8925 60  0001 C CNN
 	9    7700 8925
 	1    0    0    -1  
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 10 1 5FE33973
 P 7700 9225
 F 0 "U3" H 8525 9225 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 8881 9630 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 7700 9225 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 7700 9225 60  0001 C CNN
 F 3 "" H 7700 9225 60  0001 C CNN
 	10   7700 9225
 	1    0    0    -1  
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 11 1 5FE3397D
 P 7700 9325
 F 0 "U3" H 8525 9325 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 8881 9730 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 7700 9325 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 7700 9325 60  0001 C CNN
 F 3 "" H 7700 9325 60  0001 C CNN
 	11   7700 9325
 	1    0    0    -1  
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 12 1 5FE4FA20
 P 7700 9425
 F 0 "U3" H 8525 9425 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 8881 9830 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 7700 9425 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 7700 9425 60  0001 C CNN
 F 3 "" H 7700 9425 60  0001 C CNN
 	12   7700 9425
 	1    0    0    -1  
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 13 1 5FE4FA2A
 P 7700 9125
 F 0 "U3" H 8525 9125 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 8881 9530 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 7700 9125 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 7700 9125 60  0001 C CNN
 F 3 "" H 7700 9125 60  0001 C CNN
 	13   7700 9125
 	1    0    0    -1  
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 14 1 5FE4FA34
 P 10300 4625
 F 0 "U3" H 11125 4625 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 11481 5030 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 10300 4625 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 10300 4625 60  0001 C CNN
 F 3 "" H 10300 4625 60  0001 C CNN
 	14   10300 4625
 	1    0    0    -1  
@@ -2407,7 +2392,7 @@ Wire Wire Line
 	3950 5000 4050 5000
 Connection ~ 6475 5600
 $Comp
-L Device:Net-Tie_2 NT3
+L micro_rusEFI-rescue:Net-Tie_2-Device NT3
 U 1 1 5DAF604E
 P 6375 5600
 F 0 "NT3" H 6425 5550 50  0000 C CNN
@@ -2418,10 +2403,10 @@ F 3 "~" H 6375 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR013
+L micro_rusEFI-rescue:GND-power #PWR0154
 U 1 1 5DAF58A9
 P 6200 5600
-F 0 "#PWR013" H 6200 5350 50  0001 C CNN
+F 0 "#PWR0154" H 6200 5350 50  0001 C CNN
 F 1 "GND" H 6205 5427 50  0000 C CNN
 F 2 "" H 6200 5600 50  0001 C CNN
 F 3 "" H 6200 5600 50  0001 C CNN
@@ -2433,7 +2418,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 5600 6275 5600
 $Comp
-L Device:R R85
+L micro_rusEFI-rescue:R-Device R85
 U 1 1 5EE637EC
 P 12275 8700
 F 0 "R85" V 12325 8875 50  0000 L CNN
@@ -2449,7 +2434,7 @@ F 8 "" H 12275 8700 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R86
+L micro_rusEFI-rescue:R-Device R86
 U 1 1 5EEECFE7
 P 12275 8800
 F 0 "R86" V 12325 8975 50  0000 L CNN
@@ -2465,7 +2450,7 @@ F 8 "" H 12275 8800 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R30
+L micro_rusEFI-rescue:R-Device R30
 U 1 1 5EF0FADE
 P 12275 8025
 F 0 "R30" V 12325 8200 50  0000 L CNN
@@ -2481,7 +2466,7 @@ F 8 "C21189" H 12275 8025 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R84
+L micro_rusEFI-rescue:R-Device R84
 U 1 1 5EF0FAED
 P 12275 8125
 F 0 "R84" V 12325 8300 50  0000 L CNN
@@ -2553,25 +2538,135 @@ PB10
 Text Label 6675 8025 2    50   ~ 0
 PB11
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 16 1 5F86BB48
 P 7025 8125
 F 0 "U3" H 7850 8125 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 8206 8530 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 7025 8125 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 7025 8125 60  0001 C CNN
 F 3 "" H 7025 8125 60  0001 C CNN
 	16   7025 8125
 	-1   0    0    1   
 $EndComp
 $Comp
-L rusefi_Molex_MRE_Connector:molex_48pin_MRE U3
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 15 1 5F86E169
 P 7025 8025
 F 0 "U3" H 7850 8025 60  0000 C CNN
 F 1 "molex_48pin_MRE" V 8206 8430 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE" H 7025 8025 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 7025 8025 60  0001 C CNN
 F 3 "" H 7025 8025 60  0001 C CNN
 	15   7025 8025
 	-1   0    0    1   
 $EndComp
+Text Label 14825 3050 0    60   ~ 12
+5V
+Text Label 13800 3050 2    60   ~ 12
+VDD
+Text Label 14625 3350 2    60   ~ 12
+GND
+$Comp
+L micro_rusEFI-rescue:SolderJumper_3_Open-Jumper JP3
+U 1 1 6186F3CF
+P 14625 3050
+F 0 "JP3" H 14625 3255 50  0000 C CNN
+F 1 "Voltage selector 5V 3V3" H 14625 3164 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 14625 3050 50  0001 C CNN
+F 3 "" H 14625 3050 50  0001 C CNN
+	1    14625 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L micro_rusEFI-rescue:D_Schottky-Device D44
+U 1 1 618B2F0A
+P 13950 3050
+F 0 "D44" H 13950 2833 50  0000 C CNN
+F 1 "B5819W" H 13950 2924 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13950 3050 50  0001 C CNN
+F 3 "" H 13950 3050 50  0001 C CNN
+	1    13950 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	14100 3050 14425 3050
+$Comp
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
+U 18 1 61B342CA
+P 11650 6400
+F 0 "U3" H 12578 6353 60  0000 L CNN
+F 1 "molex_48pin_MRE" V 12850 6400 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 11650 6400 60  0001 C CNN
+F 3 "" H 11650 6400 60  0001 C CNN
+	18   11650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
+U 17 1 61DBF805
+P 14225 3200
+F 0 "U3" H 15004 3103 60  0000 L CNN
+F 1 "molex_48pin_MRE" V 15425 3200 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 14225 3200 60  0001 C CNN
+F 3 "" H 14225 3200 60  0001 C CNN
+	17   14225 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14625 3200 14825 3200
+Wire Wire Line
+	14625 3350 14825 3350
+Wire Wire Line
+	12350 6350 12200 6350
+Wire Wire Line
+	12350 6500 12200 6500
+Text Label 12200 6350 2    50   ~ 10
+CANH
+Text Label 12200 6500 2    50   ~ 10
+CANL
+Text Label 6600 9225 2    50   ~ 0
+PC10
+$Sheet
+S 4975 7325 700  625 
+U 5D2F23B4
+F0 "FlashMemory" 50
+F1 "FlashMemory.sch" 50
+F2 "SI" I R 5675 7500 50 
+F3 "SCK" I R 5675 7600 50 
+F4 "CS" I R 5675 7700 50 
+F5 "SO" I R 5675 7400 50 
+F6 "VDD" I L 4975 7625 50 
+F7 "HOLD" I R 5675 7800 50 
+F8 "WP" I R 5675 7900 50 
+$EndSheet
+$Sheet
+S 4950 8750 725  700 
+U 6206BC2B
+F0 "SDCard" 50
+F1 "SDCard.sch" 50
+F2 "VDD" I L 4950 9000 50 
+F3 "PB9" I R 5675 8925 50 
+F4 "PC10" I R 5675 9125 50 
+F5 "PC11" I R 5675 9225 50 
+F6 "PC12" I R 5675 9325 50 
+$EndSheet
+Wire Wire Line
+	4950 9000 4825 9000
+Text Label 4825 9000 2    50   ~ 10
+VDD
+Wire Wire Line
+	5675 8925 5775 8925
+Wire Wire Line
+	5675 9125 5775 9125
+Wire Wire Line
+	5675 9225 5775 9225
+Wire Wire Line
+	5675 9325 5775 9325
+Text Label 5775 8925 0    50   ~ 0
+PB9
+Text Label 5775 9125 0    50   ~ 0
+PC10
+Text Label 5775 9225 0    50   ~ 0
+PC11
+Text Label 5775 9325 0    50   ~ 0
+PC12
 $EndSCHEMATC
