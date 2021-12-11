@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
 Title "microRusEFI-2L"
-Date "2020-05-24"
-Rev "R0.5.2"
+Date "2021-11-11"
+Rev "R0.5.5rc"
 Comp "rusEFI.com"
 Comment1 ""
 Comment2 ""

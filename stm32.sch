@@ -5,8 +5,8 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 9 10
 Title "microRusEFI-2L"
-Date "2020-05-24"
-Rev "R0.5.2"
+Date "2021-11-11"
+Rev "R0.5.5rc"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
 Comment2 "AI6OD"
@@ -1430,7 +1430,7 @@ U 1 1 5D02522E
 P 15350 2900
 F 0 "C39" H 15450 3000 50  0000 C CNN
 F 1 "22uF" H 15450 2800 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" V 11930 4200 60  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 11930 4200 60  0001 C CNN
 F 3 "" H 15350 2900 60  0001 C CNN
 F 4 "stm32f407_board" H 23450 3775 60  0001 C CNN "PageName"
 F 5 "C59461" H 15350 2900 50  0001 C CNN "LCSC"
