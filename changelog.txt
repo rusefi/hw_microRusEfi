@@ -1,0 +1,16 @@
+Changelog:
+
+21/12/2021
+- replaced D3 D4 D5 D6 on bottom side
+
+03/11/2021
+- added sdcard slot J14
+- removed spi flash U11
+- added 2 pads to power some kind of BT or WIFI module
+- added voltage selector JP3 for BT module, bridged as 3V3 by default
+- added protection diode D44 for VDD-to-JP3
+- added pads for CANH and CANL
+- replaced some components and pins, (C2, D41, D42, U7, C23,C24,C27,C29, FB1, J19)
+- small (tiny) SMD0402 caps was replaced by CAP ARRAY (CN1, CN2, CN3, CN4)
+- fix some vias
+- changed GND PAD on J3 for RTC battery, oval type, for better soldering
