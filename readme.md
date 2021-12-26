@@ -1,6 +1,7 @@
 # Forked from https://github.com/rusefi/hw_microRusEfi
 Main change was made, is add microSD card slot and prepare for MRE Add-on Board.
 
+See [changelog.txt](https://github.com/JRDMcLAREN/hw_microRusEfi/blob/master/changelog.txt) for more details.
 
 
 # microRusEFI
