@@ -1,3 +1,8 @@
+# Forked from https://github.com/rusefi/hw_microRusEfi
+Main change was made, is add microSD card slot and prepare for MRE Add-on Board.
+
+
+
 # microRusEFI
 
 microRusEFI is a small & cheap engine management system board designed for fully sequential 1, 2, 3 and 4 cylinder applications.
