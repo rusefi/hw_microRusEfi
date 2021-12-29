@@ -1,5 +1,9 @@
 Changelog:
 
+29/12/2021
+- replaced all 470kOhm and changed footprint to 0603 (R24, R31, R34, R37, R41, R52, R54, R56, R58, R131), related to: https://github.com/rusefi/hw_microRusEfi/issues/197
+- replaced R28
+
 21/12/2021
 - replaced D3 D4 D5 D6 on bottom side
 
