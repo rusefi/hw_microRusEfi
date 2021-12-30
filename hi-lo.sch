@@ -3,9 +3,9 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 6 10
+Sheet 5 10
 Title "microRusEFI-2L"
-Date "2021-12-29"
+Date "2021-12-30"
 Rev "R0.5.5rc2"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
@@ -375,8 +375,6 @@ F 4 "C144205" H 6375 5450 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	5975 5350 5750 5350
-Text HLabel 3275 4800 0    60   Input ~ 12
-5V
 $Comp
 L micro_rusEFI-rescue:MIC4427-Driver_FET U33
 U 1 1 5DBA9C1F
@@ -455,8 +453,6 @@ Connection ~ 3550 5050
 Text Notes 3000 4500 0    50   ~ 0
 Note: Jumpering for 12V output\nresults in output resistors not\nsurviving a short to ground
 Wire Wire Line
-	3275 4800 3350 4800
-Wire Wire Line
 	3750 4800 3825 4800
 Wire Wire Line
 	6375 5850 6375 5925
@@ -511,4 +507,20 @@ Wire Wire Line
 	4000 5050 6375 5050
 Wire Wire Line
 	4000 5350 4000 5425
+$Comp
+L micro_rusEFI-rescue:B340-Diode D?
+U 1 1 61D83094
+P 3200 4800
+AR Path="/61D83094" Ref="D?"  Part="1" 
+AR Path="/5CBDF691/61D83094" Ref="D45"  Part="1" 
+F 0 "D45" H 3350 4900 50  0000 C CNN
+F 1 "SS54" H 3150 4900 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 3200 4625 50  0001 C CNN
+F 3 "" H 3200 4800 50  0001 C CNN
+F 4 "C22452" H 3200 4800 50  0001 C CNN "LCSC"
+	1    3200 4800
+	-1   0    0    1   
+$EndComp
+Text HLabel 3050 4800 0    60   Input ~ 12
+5V
 $EndSCHEMATC

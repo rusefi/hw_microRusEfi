@@ -5,7 +5,7 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 2 10
 Title "microRusEFI-2L"
-Date "2021-12-29"
+Date "2021-12-30"
 Rev "R0.5.5rc2"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
