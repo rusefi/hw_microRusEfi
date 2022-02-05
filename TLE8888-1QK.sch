@@ -5,7 +5,7 @@ $Descr User 19685 15748
 encoding utf-8
 Sheet 7 10
 Title "microRusEFI-2L"
-Date "2021-12-30"
+Date "2022-02-04"
 Rev "R0.5.5rc2"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
@@ -439,18 +439,18 @@ $EndComp
 $Comp
 L micro_rusEFI-rescue:R-Device R17
 U 1 1 5C8A0B54
-P 13075 5900
+P 13225 5900
 AR Path="/5C5D7FA6/5C8A0B54" Ref="R17"  Part="1" 
 AR Path="/5F5E0E7A/5C8A0B54" Ref="R?"  Part="1" 
-F 0 "R17" V 13125 6075 50  0000 C CNN
-F 1 "DNP" V 13075 5900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 13005 5900 50  0001 C CNN
-F 3 "~" H 13075 5900 50  0001 C CNN
-F 4 "DNP" H 0   0   50  0001 C CNN "Part #"
-F 5 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 6 "DNP" H 0   0   50  0001 C CNN "VEND#"
-F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
-	1    13075 5900
+F 0 "R17" V 13275 6075 50  0000 C CNN
+F 1 "2.2k" V 13225 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13155 5900 50  0001 C CNN
+F 3 "~" H 13225 5900 50  0001 C CNN
+F 4 "DNP" H 150 0   50  0001 C CNN "Part #"
+F 5 "DIGI" H 150 0   50  0001 C CNN "VEND"
+F 6 "DNP" H 150 0   50  0001 C CNN "VEND#"
+F 7 "DNP" H 150 0   50  0001 C CNN "Manufacturer"
+	1    13225 5900
 	0    1    1    0   
 $EndComp
 Text HLabel 13175 6250 2    60   Input ~ 12
@@ -933,11 +933,7 @@ Wire Wire Line
 	12500 6550 12675 6550
 Connection ~ 12850 6550
 Wire Wire Line
-	12725 5900 12925 5900
-Wire Wire Line
 	13000 6800 13050 6800
-Wire Wire Line
-	13000 6700 13000 6750
 Wire Wire Line
 	13000 6700 13050 6700
 $Comp
@@ -947,7 +943,7 @@ P 13200 6700
 AR Path="/5C5D7FA6/5CC3675A" Ref="R19"  Part="1" 
 AR Path="/5F5E0E7A/5CC3675A" Ref="R?"  Part="1" 
 F 0 "R19" V 13250 6875 50  0000 C CNN
-F 1 "DNP" V 13200 6700 50  0000 C CNN
+F 1 "4.7K" V 13200 6700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 13130 6700 50  0001 C CNN
 F 3 "~" H 13200 6700 50  0001 C CNN
 F 4 "DNP" H 0   0   50  0001 C CNN "Part #"
@@ -964,7 +960,7 @@ P 13200 6800
 AR Path="/5C5D7FA6/5C8A82EA" Ref="R18"  Part="1" 
 AR Path="/5F5E0E7A/5C8A82EA" Ref="R?"  Part="1" 
 F 0 "R18" V 13250 6975 50  0000 C CNN
-F 1 "DNP" V 13200 6800 50  0000 C CNN
+F 1 "4.7K" V 13200 6800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 13130 6800 50  0001 C CNN
 F 3 "~" H 13200 6800 50  0001 C CNN
 F 4 "DNP" H 0   0   50  0001 C CNN "Part #"
@@ -974,13 +970,6 @@ F 7 "DNP" H 0   0   50  0001 C CNN "Manufacturer"
 	1    13200 6800
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	13000 6750 12850 6750
-Connection ~ 13000 6750
-Wire Wire Line
-	13000 6750 13000 6800
-Wire Wire Line
-	12850 6550 12850 6750
 Wire Notes Line
 	14500 5650 11800 5650
 Wire Notes Line
@@ -1046,8 +1035,6 @@ Wire Wire Line
 Wire Wire Line
 	12500 6250 12675 6250
 Connection ~ 12675 6250
-Wire Wire Line
-	12675 6250 12725 6250
 Connection ~ 12675 6550
 Wire Wire Line
 	12675 6550 12850 6550
@@ -1056,9 +1043,6 @@ Wire Wire Line
 	12850 6550 13175 6550
 Wire Wire Line
 	12850 6250 13175 6250
-Connection ~ 12725 6250
-Wire Wire Line
-	12725 6250 12850 6250
 $Comp
 L micro_rusEFI-rescue:Fiducial-Mechanical FID3
 U 1 1 5D1D4069
@@ -1345,8 +1329,6 @@ F 4 "C82479" H 11150 5625 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	12725 5900 12725 6250
-Wire Wire Line
 	10950 6350 10950 6700
 Wire Wire Line
 	10950 6350 11900 6350
@@ -1457,7 +1439,7 @@ Text Label 8300 11150 2    50   ~ 0
 5V2
 Text Label 13475 6800 0    50   ~ 0
 5V1
-Text Label 13225 5900 0    50   ~ 0
+Text Label 13375 5900 0    50   ~ 0
 5V1
 Text Label 8000 11150 2    50   ~ 0
 5V1
@@ -1708,4 +1690,41 @@ Wire Notes Line
 	12850 5575 12925 5575
 Wire Wire Line
 	7275 10300 7200 10300
+$Comp
+L Device:Jumper_NO_Small JP4
+U 1 1 620728CE
+P 12775 6750
+F 0 "JP4" H 12775 6650 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 12775 6575 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 12775 6750 50  0001 C CNN
+F 3 "~" H 12775 6750 50  0001 C CNN
+	1    12775 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP5
+U 1 1 62073A5B
+P 12775 5900
+F 0 "JP5" H 12775 5993 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 12775 5994 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Rounded" H 12775 5900 50  0001 C CNN
+F 3 "~" H 12775 5900 50  0001 C CNN
+	1    12775 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12675 6550 12675 6750
+Wire Wire Line
+	13000 6700 13000 6750
+Wire Wire Line
+	12875 6750 13000 6750
+Connection ~ 13000 6750
+Wire Wire Line
+	13000 6750 13000 6800
+Wire Wire Line
+	12675 6250 12850 6250
+Wire Wire Line
+	12675 6250 12675 5900
+Wire Wire Line
+	12875 5900 13075 5900
 $EndSCHEMATC
