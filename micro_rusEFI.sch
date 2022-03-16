@@ -5,12 +5,12 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 10
 Title "microRusEFI-2L"
-Date "2022-02-04"
+Date "2022-03-16"
 Rev "R0.5.5rc2"
 Comp "rusEFI.com"
 Comment1 "Donald Becker"
-Comment2 "AI6OD"
-Comment3 "by JRD McLAREN"
+Comment2 "by JRD McLAREN"
+Comment3 ""
 Comment4 ""
 $EndDescr
 Text Label 10850 6575 0    60   ~ 12
@@ -124,21 +124,6 @@ Text Label 11675 4125 0    60   ~ 12
 INJECTOR-3
 Text Label 11675 4225 0    60   ~ 12
 INJECTOR-4
-$Comp
-L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
-U 1 1 5DD8BB43
-P 7750 2125
-F 0 "U3" V 9037 2530 60  0000 C CNN
-F 1 "molex_48pin_MRE" V 8931 2530 60  0000 C CNN
-F 2 "rusefi_lib:Molex_48_MRE_R055" H 7750 2125 60  0001 C CNN
-F 3 "" H 7750 2125 60  0001 C CNN
-F 4 "MOLEX" H 0   0   50  0001 C CNN "Manufacturer"
-F 5 "500762-0481" H 0   0   50  0001 C CNN "Part #"
-F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
-F 7 "WM4430-ND" H 0   0   50  0001 C CNN "VEND#"
-	1    7750 2125
-	0    -1   -1   0   
-$EndComp
 Text Label 8350 1650 3    60   ~ 12
 GP2
 Text Label 7150 1650 3    60   ~ 12
@@ -2580,17 +2565,6 @@ Wire Wire Line
 	14100 3050 14425 3050
 $Comp
 L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
-U 18 1 61B342CA
-P 11650 6400
-F 0 "U3" H 12578 6353 60  0000 L CNN
-F 1 "molex_48pin_MRE" V 12850 6400 60  0001 C CNN
-F 2 "rusefi_lib:Molex_48_MRE_R055" H 11650 6400 60  0001 C CNN
-F 3 "" H 11650 6400 60  0001 C CNN
-	18   11650 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
 U 17 1 61DBF805
 P 14225 3200
 F 0 "U3" H 15004 3103 60  0000 L CNN
@@ -2604,14 +2578,6 @@ Wire Wire Line
 	14625 3200 14825 3200
 Wire Wire Line
 	14625 3350 14825 3350
-Wire Wire Line
-	12350 6350 12200 6350
-Wire Wire Line
-	12350 6500 12200 6500
-Text Label 12200 6350 2    50   ~ 10
-CANH
-Text Label 12200 6500 2    50   ~ 10
-CANL
 Text Label 6600 9225 2    50   ~ 0
 PC10
 $Sheet
@@ -2663,10 +2629,63 @@ L micro_rusEFI-rescue:D_Schottky-Device D44
 U 1 1 618B2F0A
 P 13950 3050
 F 0 "D44" H 13950 2833 50  0000 C CNN
-F 1 "B5819W" H 13950 2924 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123" H 13950 3050 50  0001 C CNN
+F 1 "1N4148WS" H 13950 2924 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 13950 3050 50  0001 C CNN
 F 3 "" H 13950 3050 50  0001 C CNN
 	1    13950 3050
 	-1   0    0    1   
+$EndComp
+Text Label 12200 6500 2    50   ~ 10
+CANL
+Text Label 12200 6350 2    50   ~ 10
+CANH
+Wire Wire Line
+	12350 6500 12200 6500
+Wire Wire Line
+	12350 6350 12200 6350
+$Comp
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
+U 18 1 61B342CA
+P 11650 6400
+F 0 "U3" H 12578 6353 60  0000 L CNN
+F 1 "molex_48pin_MRE" V 12850 6400 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 11650 6400 60  0001 C CNN
+F 3 "" H 11650 6400 60  0001 C CNN
+	18   11650 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
+U 1 1 5DD8BB43
+P 7750 2125
+F 0 "U3" V 9037 2530 60  0000 C CNN
+F 1 "molex_48pin_MRE" V 8931 2530 60  0000 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 7750 2125 60  0001 C CNN
+F 3 "" H 7750 2125 60  0001 C CNN
+F 4 "MOLEX" H 0   0   50  0001 C CNN "Manufacturer"
+F 5 "500762-0481" H 0   0   50  0001 C CNN "Part #"
+F 6 "DIGI" H 0   0   50  0001 C CNN "VEND"
+F 7 "WM4430-ND" H 0   0   50  0001 C CNN "VEND#"
+	1    7750 2125
+	0    -1   -1   0   
+$EndComp
+Text Label 12200 6900 2    50   ~ 10
+CANL
+Text Label 12200 6750 2    50   ~ 10
+CANH
+Wire Wire Line
+	12350 6900 12200 6900
+Wire Wire Line
+	12350 6750 12200 6750
+$Comp
+L micro_rusEFI-rescue:molex_48pin_MRE-rusefi_Molex_MRE_Connector U3
+U 19 1 6244B367
+P 11650 6800
+F 0 "U3" H 12578 6753 60  0000 L CNN
+F 1 "molex_48pin_MRE" V 12850 6800 60  0001 C CNN
+F 2 "rusefi_lib:Molex_48_MRE_R055" H 11650 6800 60  0001 C CNN
+F 3 "" H 11650 6800 60  0001 C CNN
+	19   11650 6800
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

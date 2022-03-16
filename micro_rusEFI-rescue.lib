@@ -1035,7 +1035,7 @@ ENDDEF
 #
 # molex_48pin_MRE-rusefi_Molex_MRE_Connector
 #
-DEF molex_48pin_MRE-rusefi_Molex_MRE_Connector U? 0 8 Y N 18 L N
+DEF molex_48pin_MRE-rusefi_Molex_MRE_Connector U? 0 8 Y N 19 L N
 F0 "U?" 300 -150 60 H V C CNN
 F1 "molex_48pin_MRE-rusefi_Molex_MRE_Connector" 1200 0 60 V I C CNN
 F2 "" 0 0 60 H I C CNN
@@ -1153,6 +1153,8 @@ X J20 J20 600 -150 150 R 50 50 17 1 P
 X J21 J21 600 0 150 R 50 50 17 1 P
 X J22 J22 700 50 150 R 50 50 18 1 P
 X J23 J23 700 -100 150 R 50 50 18 1 P
+X J49 J49 700 50 150 R 50 50 19 1 P
+X J50 J50 700 -100 150 R 50 50 19 1 P
 ENDDRAW
 ENDDEF
 #
