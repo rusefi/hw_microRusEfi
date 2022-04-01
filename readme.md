@@ -2,7 +2,7 @@
 Main change was made, is add microSD card slot and prepare for MRE Add-on Board.
 
 See [changelog.txt](https://github.com/JRDMcLAREN/hw_microRusEfi/blob/master/changelog.txt) for more details.
-Issue: SD card slot must be shifted upwards. It doesn not fit into the ALU Case without case cover modification. - WIP
+~~Issue: SD card slot must be shifted upwards. It doesn not fit into the ALU Case without case cover modification. - WIP~~
 
 
 # microRusEFI
