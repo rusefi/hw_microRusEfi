@@ -1,5 +1,8 @@
 Changelog:
 
+21/03/2022
+- sdcard slot shifted little bit upwards, due to easly to fit MRE into the alu case
+
 05/01/2022
 - added two solder pads for CRANK HALL selector, JP4 JP5
 
