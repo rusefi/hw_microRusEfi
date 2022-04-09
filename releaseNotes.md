@@ -1,3 +1,9 @@
+# 0.x.x
+
+flash chip replaced with SD card holder
+
+migrated to KiCAD 6
+
 # 0.5.4
 
 0.5.4 is 0.5.3 with "rusefi.com/s/microrusefi" text on top layer 
