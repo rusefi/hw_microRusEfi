@@ -2,13 +2,13 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\hw_microRusEfi\micro_rusEFI.kicad_sch</source>
-    <date>09.04.2022 16:55:35</date>
+    <date>09.04.2022 17:11:57</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>microRusEFI-2L</title>
         <company>rusEFI.com</company>
-        <rev>R0.5.5</rev>
+        <rev>R0.6.0</rev>
         <date>2022-04-09</date>
         <source>micro_rusEFI.kicad_sch</source>
         <comment number="1" value="Donald Becker"/>
@@ -44,7 +44,7 @@
       <title_block>
         <title>microRusEFI-2L</title>
         <company>rusEFI.com</company>
-        <rev>R0.5.5</rev>
+        <rev>R0.6.0</rev>
         <date>2022-04-09</date>
         <source>FlashMemory.kicad_sch</source>
         <comment number="1" value="Donald Becker"/>
