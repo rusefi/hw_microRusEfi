@@ -1,4 +1,4 @@
-micro_rusEFI-backups
+*-backups
 *.kicad_pcb-bak
 *.bak
 *-rescue.*
