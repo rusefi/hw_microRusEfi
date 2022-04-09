@@ -1,6 +1,7 @@
 # 0.x.x
 
 flash chip replaced with SD card holder
+
 migrated to KiCAD 6
 
 # 0.5.4
