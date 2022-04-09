@@ -1,6 +1,8 @@
-# 0.x.x
+# 0.6.0
 
 flash chip replaced with SD card holder
+
+minimal silkscreen improvements
 
 migrated to KiCAD 6
 
