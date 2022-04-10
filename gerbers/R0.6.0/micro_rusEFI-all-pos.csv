@@ -111,7 +111,7 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "FID2","Fiducial","Fiducial_0.5mm_Mask1mm",42.799000,-94.488000,0.000000,top
 "FID3","Fiducial","Fiducial_0.5mm_Mask1mm",91.567000,-60.325000,0.000000,top
 "FID4","Fiducial","Fiducial_0.5mm_Mask1mm",82.700000,-102.900000,0.000000,top
-"J1","USB_B_Micro","MINI-USB_RCTP_V-T_B_and_HW-MU-5F-23",60.934600,-107.721400,180.000000,top
+"J1","USB_B_Mini","USB-MINI-B-VERTICAL",60.900000,-108.200000,180.000000,top
 "J2","Conn_02x05_Odd_Even","PinSocket_2x05_P2.54mm_Vertical_SMD",46.151800,-108.966000,-90.000000,top
 "J3","Conn_01x01","Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork",41.275000,-36.322000,-90.000000,top
 "J4","Conn_02x05_Counter_Clockwise","PinHeader_2x05_P2.54mm_Vertical_SMD",35.763200,-75.971400,90.000000,top

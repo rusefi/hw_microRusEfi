@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\hw_microRusEfi\micro_rusEFI.kicad_sch</source>
-    <date>09.04.2022 17:11:57</date>
+    <date>10.04.2022 22:48:39</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -116,8 +116,8 @@
       <title_block>
         <title>microRusEFI-2L</title>
         <company>rusEFI.com</company>
-        <rev>R0.5.2</rev>
-        <date>2020-05-24</date>
+        <rev>R0.6.0</rev>
+        <date>2022-04-10</date>
         <source>stm32.kicad_sch</source>
         <comment number="1" value="Donald Becker"/>
         <comment number="2" value="AI6OD"/>
@@ -3428,25 +3428,17 @@
       <tstamps>00000000-0000-0000-0000-00005d1ca09d</tstamps>
     </comp>
     <comp ref="J1">
-      <value>USB_B_Micro</value>
-      <footprint>rusefi_lib:MINI-USB_RCTP_V-T_B_and_HW-MU-5F-23</footprint>
+      <value>USB_B_Mini</value>
+      <footprint>hellen-one-common:USB-MINI-B-VERTICAL</footprint>
       <fields>
         <field name="LCSC">C13453</field>
-        <field name="Manufacturer">TE</field>
-        <field name="Part #">1734753-1</field>
-        <field name="VEND">DIGI</field>
-        <field name="VEND#">A107790-ND</field>
       </fields>
-      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
-      <property name="Manufacturer" value="TE"/>
-      <property name="Part #" value="1734753-1"/>
-      <property name="VEND" value="DIGI"/>
-      <property name="VEND#" value="A107790-ND"/>
+      <libsource lib="hellen-one-common" part="USB_B_Mini" description="USB Mini Type B connector"/>
       <property name="LCSC" value="C13453"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="stm32.kicad_sch"/>
       <sheetpath names="/MCU/" tstamps="/00000000-0000-0000-0000-00005d0250fb/"/>
-      <tstamps>00000000-0000-0000-0000-00005cdeb9a6</tstamps>
+      <tstamps>1f199b96-5472-4382-bde0-6f06cb1a6df3</tstamps>
     </comp>
     <comp ref="J2">
       <value>Conn_02x05_Odd_Even</value>
@@ -4857,26 +4849,6 @@
         <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="USB_B_Micro">
-      <description>USB Micro Type B connector</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>USB*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">USB_B_Micro</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VBUS" type="power_out"/>
-        <pin num="2" name="D-" type="bidirectional"/>
-        <pin num="3" name="D+" type="bidirectional"/>
-        <pin num="4" name="ID" type="passive"/>
-        <pin num="5" name="GND" type="power_out"/>
-        <pin num="6" name="Shield" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector_Generic" part="Conn_01x01">
       <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -5454,6 +5426,28 @@
         <pin num="3" name="S" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="hellen-one-common" part="USB_B_Mini">
+      <description>USB Mini Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Mini</field>
+        <field name="Footprint">hellen-one-common:USB-MINI-B-VERTICAL</field>
+        <field name="Datasheet">~</field>
+        <field name="LCSC">C13453</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="rusefi_Logo" part="LOGO">
       <fields>
         <field name="Reference">#G</field>
@@ -5796,6 +5790,9 @@
     </library>
     <library logical="Transistor_FET">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="hellen-one-common">
+      <uri>C:\Work\rusefi\github\hw_microRusEfi/hellen-one/kicad/hellen-one-common.kicad_sym</uri>
     </library>
     <library logical="rusefi_Logo">
       <uri>C:\Work\rusefi\github\hw_microRusEfi/rusefi_lib_external/logo.lib</uri>
@@ -6691,15 +6688,15 @@
       <node ref="U9" pin="1" pinfunction="IN1" pintype="input"/>
     </net>
     <net code="160" name="/USB_D+">
-      <node ref="D16" pin="6" pintype="passive"/>
-      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="D16" pin="3" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="D+" pintype="passive"/>
       <node ref="J19" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U1" pin="71" pinfunction="PA12" pintype="bidirectional"/>
       <node ref="U3" pin="16" pinfunction="16" pintype="passive"/>
     </net>
     <net code="161" name="/USB_D-">
-      <node ref="D16" pin="3" pintype="passive"/>
-      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="D16" pin="6" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="D-" pintype="passive"/>
       <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="70" pinfunction="PA11" pintype="bidirectional"/>
       <node ref="U3" pin="15" pinfunction="15" pintype="passive"/>

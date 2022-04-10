@@ -7,3 +7,6 @@
 [submodule "gerbers/InteractiveHtmlBom"]
 	path = gerbers/InteractiveHtmlBom
 	url = https://github.com/openscopeproject/InteractiveHtmlBom.git
+[submodule "hellen-one"]
+	path = hellen-one
+	url = https://github.com/andreika-git/hellen-one

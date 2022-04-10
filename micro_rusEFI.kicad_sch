@@ -2580,6 +2580,7 @@
     )
   )
 
+
   (junction (at 368.935 156.21) (diameter 0) (color 0 0 0 0)
     (uuid 01024d27-e392-4482-9e67-565b0c294fe8)
   )
@@ -8821,8 +8822,8 @@
     (path "/00000000-0000-0000-0000-00005f63e1fa"
       (reference "G1") (unit 1) (value "Disclaimer") (footprint "rusefi_lib:Off_Road_Disclaimer")
     )
-    (path "/00000000-0000-0000-0000-00005d0250fb/00000000-0000-0000-0000-00005cdeb9a6"
-      (reference "J1") (unit 1) (value "USB_B_Micro") (footprint "rusefi_lib:MINI-USB_RCTP_V-T_B_and_HW-MU-5F-23")
+    (path "/00000000-0000-0000-0000-00005d0250fb/1f199b96-5472-4382-bde0-6f06cb1a6df3"
+      (reference "J1") (unit 1) (value "USB_B_Mini") (footprint "hellen-one-common:USB-MINI-B-VERTICAL")
     )
     (path "/00000000-0000-0000-0000-00005d0250fb/00000000-0000-0000-0000-00005ebb8d9a"
       (reference "J2") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD")

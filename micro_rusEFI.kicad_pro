@@ -56,6 +56,11 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|56547001|110407001|00000000-0000-0000-0000-00005ce37bcd|00000000-0000-0000-0000-00005ca03b3e",
+        "courtyards_overlap|58102999|105825001|00000000-0000-0000-0000-00005ce37bcd|00000000-0000-0000-0000-00005ca030f5",
+        "courtyards_overlap|58933001|110468001|00000000-0000-0000-0000-00005ce37bcd|00000000-0000-0000-0000-00005ca0311e",
+        "courtyards_overlap|65079067|110407001|00000000-0000-0000-0000-00005ce37bcd|00000000-0000-0000-0000-00005ca02e32",
+        "courtyards_overlap|65299999|106559799|00000000-0000-0000-0000-00005ce37bcd|00000000-0000-0000-0000-00005ca03b4f",
         "courtyards_overlap|67850001|103920001|00000000-0000-0000-0000-00005eac346b|4d78dbb5-f813-4c91-8664-f3c18aaf25b6",
         "courtyards_overlap|72689999|102560001|00000000-0000-0000-0000-00005f0d85c2|4d78dbb5-f813-4c91-8664-f3c18aaf25b6",
         "courtyards_overlap|80184999|102560001|00000000-0000-0000-0000-00005f036a28|4d78dbb5-f813-4c91-8664-f3c18aaf25b6"
@@ -611,7 +616,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "rusefi_lib_external/Border.kicad_wks",
-    "plot_directory": "gerbers/R0.5.5/",
+    "plot_directory": "gerbers/R0.6.0/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
