@@ -7,7 +7,7 @@
   (paper "A")
   (title_block
     (title "microRusEFI")
-    (date "2020-05-01")
+    (date "2022-04-10")
     (rev "R0.6.0")
   )
 
@@ -12901,7 +12901,7 @@
       (net 192 "/MCU/PB7") (pinfunction "J18") (pintype "passive") (tstamp 15699041-ed40-45ee-87d8-f5e206a88536))
     (pad "J31" thru_hole rect locked (at 23.622 58.3692 270) (size 0.8 1.3) (drill 0.5) (layers *.Cu *.Mask)
       (net 181 "/MCU/Vrtc") (pinfunction "J31") (pintype "passive") (tstamp d32956af-146b-4a09-a053-d9d64b8dd86d))
-    (pad "J32" thru_hole circle locked (at 23.622 57.1246 270) (size 0.8 1.3) (drill 0.5) (layers *.Cu *.Mask)
+    (pad "J32" thru_hole oval locked (at 23.622 57.1246 270) (size 0.8 1.3) (drill 0.5) (layers *.Cu *.Mask)
       (net 1 "GND") (pinfunction "J32") (pintype "passive") (tstamp 06665bf8-cef1-4e75-8d5b-1537b3c1b090))
     (pad "J51" thru_hole rect locked (at 28.1686 19.580809 270) (size 1.6 1.6) (drill 1.15) (layers *.Cu *.Mask)
       (net 68 "/TLE8888-1QK/IGN_OUT_1") (pinfunction "J51") (pintype "passive") (tstamp dfcef016-1bf5-4158-8a79-72d38a522877))
