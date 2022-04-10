@@ -2691,7 +2691,6 @@
     )
   )
 
-
   (junction (at 123.19 142.24) (diameter 0) (color 0 0 0 0)
     (uuid 0ea92114-4add-4ede-abc4-5938831a4fe1)
   )
@@ -4589,7 +4588,7 @@
     (uuid 00000000-0000-0000-0000-00005c5bfed6)
     (property "Reference" "D14" (id 0) (at 308.61 99.06 0))
     (property "Value" "LED-GREEN" (id 1) (at 308.61 92.71 0))
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 617.093 43.18 90)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (id 2) (at 617.093 43.18 90)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 308.61 96.52 0)

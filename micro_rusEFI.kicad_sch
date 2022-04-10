@@ -2580,7 +2580,6 @@
     )
   )
 
-
   (junction (at 368.935 156.21) (diameter 0) (color 0 0 0 0)
     (uuid 01024d27-e392-4482-9e67-565b0c294fe8)
   )
@@ -8721,7 +8720,7 @@
       (reference "D13") (unit 1) (value "SRV05-4") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/00000000-0000-0000-0000-00005d0250fb/00000000-0000-0000-0000-00005c5bfed6"
-      (reference "D14") (unit 1) (value "LED-GREEN") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "D14") (unit 1) (value "LED-GREEN") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/00000000-0000-0000-0000-00005dffb69f"
       (reference "D15") (unit 1) (value "SS54") (footprint "Diode_SMD:D_SMA")

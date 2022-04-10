@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Work\rusefi\github\hw_microRusEfi\micro_rusEFI.kicad_sch</source>
-    <date>10.04.2022 22:48:39</date>
+    <date>10.04.2022 23:43:20</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -3297,7 +3297,7 @@
     </comp>
     <comp ref="D14">
       <value>LED-GREEN</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
       <fields>
         <field name="LCSC">C2297</field>
         <field name="PageName">stm32f407_board</field>
