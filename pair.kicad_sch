@@ -6,9 +6,12 @@
 
   (title_block
     (title "microRusEFI-2L")
-    (date "2020-05-24")
-    (rev "R0.5.2")
+    (date "2022-04-10")
+    (rev "R0.6.1RC")
     (company "rusEFI.com")
+    (comment 1 "Donald Becker")
+    (comment 2 "AI6OD")
+    (comment 3 "by JRD McLAREN")
   )
 
   (lib_symbols
@@ -149,7 +152,7 @@
     (uuid f3df0678-96d4-4652-9001-a89868c1f45e)
   )
 
-  (symbol (lib_id "vnld5090:VNLD5090") (at 78.74 48.26 0)
+  (symbol (lib_id "vnld5090:VNLD5090") (at 78.74 48.26 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e28fefb)
     (property "Reference" "U10" (id 0) (at 78.74 31.8262 0)
@@ -183,7 +186,7 @@
     (pin "8" (uuid ed265cd1-2151-4c2b-8460-40007b372dac))
   )
 
-  (symbol (lib_id "power:GND") (at 83.82 63.5 0)
+  (symbol (lib_id "power:GND") (at 83.82 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e290d55)
     (property "Reference" "#PWR036" (id 0) (at 83.82 69.85 0)
@@ -199,7 +202,7 @@
     (pin "1" (uuid b0ccb6ee-a7e7-4b1c-9bb9-1622debf9b14))
   )
 
-  (symbol (lib_id "power:GND") (at 86.36 63.5 0)
+  (symbol (lib_id "power:GND") (at 86.36 63.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005e291066)
     (property "Reference" "#PWR037" (id 0) (at 86.36 69.85 0)
