@@ -8923,8 +8923,8 @@
     (path "/00000000-0000-0000-0000-00005ce2282d/00000000-0000-0000-0000-00005e34902f"
       (reference "R14") (unit 1) (value "2.7k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005c5d7fa6/00000000-0000-0000-0000-00005d394e3f"
-      (reference "R15") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-00005c5d7fa6/3501f945-dec2-4e10-87d7-67475ac9ebb9"
+      (reference "R15") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005de44d71/00000000-0000-0000-0000-00005d2d1ae3"
       (reference "R16") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
