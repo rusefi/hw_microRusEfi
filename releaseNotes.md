@@ -1,3 +1,7 @@
+# 0.6.1
+
+improved VR silkscreen
+
 # 0.6.0
 
 flash chip replaced with SD card holder
