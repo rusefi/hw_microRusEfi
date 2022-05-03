@@ -6,7 +6,7 @@
 
   (title_block
     (title "microRusEFI-2L")
-    (date "2022-04-10")
+    (date "2022-05-04")
     (rev "R0.6.1RC")
     (company "rusEFI.com")
     (comment 1 "Donald Becker")
@@ -10999,7 +10999,7 @@
       (reference "R14") (unit 1) (value "2.7k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005c5d7fa6/00000000-0000-0000-0000-00005d394e3f"
-      (reference "R15") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R15") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005de44d71/00000000-0000-0000-0000-00005d2d1ae3"
       (reference "R16") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
