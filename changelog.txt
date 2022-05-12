@@ -1,5 +1,8 @@
 Changelog:
 
+04/05/2022
+- R15 changed to DNP
+
 12/04/2022
 - working on compatibility with "orignal" hw_microRusEfi and KiCAD6 version
 
