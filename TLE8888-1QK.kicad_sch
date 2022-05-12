@@ -4039,7 +4039,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005d394e3f)
     (property "Reference" "R15" (id 0) (at 328.295 162.56 90))
-    (property "Value" "" (id 1) (at 326.39 162.56 90))
+    (property "Value" "DNP" (id 1) (at 326.39 162.56 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 324.612 162.56 90)
       (effects (font (size 1.27 1.27)) hide)
     )
