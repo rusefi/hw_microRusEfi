@@ -1,5 +1,5 @@
 
-set version=R0.5.3
+set version=R0.6.0
 set dest_dir=gerbers/%version%
 mkdir %dest_dir%
 
