@@ -7291,7 +7291,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (id 1) (at 311.785 223.52 90))
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 311.785 221.742 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 311.785 221.742 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 311.785 223.52 0)
@@ -10483,9 +10483,6 @@
     (path "/00000000-0000-0000-0000-00005d0250fb/00000000-0000-0000-0000-00005c5e3a1d"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d7393ec0-523a-428c-a869-c2bcf3379fa8/00000000-0000-0000-0000-00005d2f3d06"
-      (reference "#PWR0130") (unit 1) (value "~") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005d0250fb/00000000-0000-0000-0000-00005c5e3a23"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
     )
@@ -10807,9 +10804,6 @@
     (path "/00000000-0000-0000-0000-00005d2f23b4/00000000-0000-0000-0000-00005d2f34ff"
       (reference "C42") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
-    (path "/d7393ec0-523a-428c-a869-c2bcf3379fa8/00000000-0000-0000-0000-0000618f24c8"
-      (reference "C42") (unit 1) (value "~") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005c5d7fa6/00000000-0000-0000-0000-00005d8748d4"
       (reference "C43") (unit 1) (value "22uF 25V") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -11000,7 +10994,7 @@
       (reference "J13") (unit 1) (value "Conn_01x01") (footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork")
     )
     (path "/d7393ec0-523a-428c-a869-c2bcf3379fa8/00000000-0000-0000-0000-00005f3076e2"
-      (reference "J14") (unit 1) (value "~") (footprint "")
+      (reference "J14") (unit 1) (value "~") (footprint "Connector_Card:microSD_HC_Wuerth_693072010801")
     )
     (path "/00000000-0000-0000-0000-00005c5d7fa6/00000000-0000-0000-0000-00005ea3f4b2"
       (reference "J15") (unit 1) (value "Conn_01x01") (footprint "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork")
@@ -11051,7 +11045,7 @@
       (reference "R2") (unit 1) (value "0R DNP") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005c5d7fa6/00000000-0000-0000-0000-00005cc90402"
-      (reference "R3") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R3") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005c5d7fa6/00000000-0000-0000-0000-00005cc7ae36"
       (reference "R4") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -11300,7 +11294,7 @@
       (reference "R85") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005eeecfe7"
-      (reference "R86") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R86") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005cbdf691/00000000-0000-0000-0000-00005d157560"
       (reference "R120") (unit 1) (value "100") (footprint "Resistor_SMD:R_1206_3216Metric")

@@ -1,0 +1,865 @@
+Info: Symbol spracovania „J17: Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork".
+Info: Symbol spracovania „J15: Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork".
+Info: Symbol spracovania „R45: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „TP1: TestPoint:TestPoint_Pad_D2.0mm".
+Info: Symbol spracovania „LOGO1: Symbol:OSHW-Logo2_7.3x6mm_SilkScreen".
+Info: Symbol spracovania „TP2: TestPoint:TestPoint_Pad_D2.0mm".
+Info: Symbol spracovania „TP3: TestPoint:TestPoint_Pad_D2.0mm".
+Info: Symbol spracovania „TP4: TestPoint:TestPoint_Pad_D2.0mm".
+Info: Symbol spracovania „JP5: Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm".
+Info: Symbol spracovania „TP5: TestPoint:TestPoint_Pad_D2.0mm".
+Info: Symbol spracovania „TP12: TestPoint:TestPoint_Pad_D2.0mm".
+Info: Symbol spracovania „JP4: Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm".
+Info: Symbol spracovania „U1: Package_QFP:LQFP-100_14x14mm_P0.5mm".
+Info: Symbol spracovania „LOGO3: rusefi_lib:MRE_QR_code".
+Info: Symbol spracovania „JP2: Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm".
+Info: Symbol spracovania „J19: Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical".
+Info: Symbol spracovania „U8: Package_SO:TSSOP-14_4.4x5mm_P0.65mm".
+Info: Symbol spracovania „R70: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „J13: Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork".
+Info: Symbol spracovania „J12: Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork".
+Info: Symbol spracovania „J7: Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical".
+Info: Symbol spracovania „U2: Package_QFP:LQFP-100_14x14mm_P0.5mm_THERMAL".
+Info: Symbol spracovania „J6: Connector_Card:microSD_HC_Molex_104031-0811".
+Info: Symbol spracovania „J5: Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork".
+Info: Symbol spracovania „R2: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R11: Resistor_SMD:R_0402_1005Metric".
+Info: Symbol spracovania „R10: Resistor_SMD:R_1206_3216Metric".
+Info: Symbol spracovania „R9: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R8: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R7: Resistor_SMD:R_0402_1005Metric".
+Info: Symbol spracovania „R6: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R5: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „D35: LED_SMD:LED_0603_1608Metric".
+Info: Symbol spracovania „D34: Diode_SMD:D_SOD-323".
+Info: Symbol spracovania „RN13: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „R3: Resistor_SMD:R_0805_2012Metric".
+Info: Symbol spracovania „J4: Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD".
+Info: Symbol spracovania „SW1: Button_Switch_SMD:SW_SPST_CK_RS282G05A3".
+Info: Symbol spracovania „R1: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „Q1: Package_TO_SOT_SMD:TO-252-2".
+Info: Symbol spracovania „SW2: Button_Switch_SMD:SW_SPST_CK_RS282G05A3".
+Info: Symbol spracovania „NT3: NetTie:NetTie-2_SMD_Pad0.5mm".
+Info: Symbol spracovania „SW3: Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK".
+Info: Symbol spracovania „NT2: hw_microRusEfi-master:Net-Tie_2_8.5mil".
+Info: Symbol spracovania „SW4: Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK".
+Info: Symbol spracovania „TP0: TestPoint:TestPoint_Pad_D2.0mm".
+Info: Symbol spracovania „NT1: rusEFI_Ola:Net-Tie_2_8.5mil".
+Info: Symbol spracovania „D23: LED_SMD:LED_0805_2012Metric".
+Info: Symbol spracovania „R48: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R4: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „D33: LED_SMD:LED_0603_1608Metric".
+Info: Symbol spracovania „D32: Diode_SMD:D_SOD-323".
+Info: Symbol spracovania „U4: Package_SO:Infineon_PG-DSO-12-11".
+Info: Symbol spracovania „D31: LED_SMD:LED_0603_1608Metric".
+Info: Symbol spracovania „D30: Diode_SMD:D_SOD-323".
+Info: Symbol spracovania „D29: LED_SMD:LED_0603_1608Metric".
+Info: Symbol spracovania „D28: LED_SMD:LED_0603_1608Metric".
+Info: Symbol spracovania „U5: Package_TO_SOT_SMD:SOT-223-3_TabPin2".
+Info: Symbol spracovania „D27: LED_SMD:LED_0805_2012Metric".
+Info: Symbol spracovania „D36: Diode_SMD:D_SMA".
+Info: Symbol spracovania „U7: Package_TO_SOT_SMD:SOT-23".
+Info: Symbol spracovania „D22: LED_SMD:LED_0805_2012Metric".
+Info: Symbol spracovania „D21: LED_SMD:LED_0805_2012Metric".
+Info: Symbol spracovania „R12: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R59: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „D17: Diode_SMD:D_SOD-123".
+Info: Symbol spracovania „D16: Package_TO_SOT_SMD:SOT-23-6".
+Info: Symbol spracovania „D15: Diode_SMD:D_SMA".
+Info: Symbol spracovania „U9: Package_SO:SO-8_3.9x4.9mm_P1.27mm".
+Info: Symbol spracovania „FID1: Fiducial:Fiducial_0.5mm_Mask1mm".
+Info: Symbol spracovania „J3: Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork".
+Info: Symbol spracovania „J2: Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD".
+Info: Symbol spracovania „J1: rusefi_lib:MINI-USB_RCTP_V-T_B_and_HW-MU-5F-23".
+Info: Symbol spracovania „G1: rusefi_lib:Off_Road_Disclaimer".
+Info: Symbol spracovania „FID6: Fiducial:Fiducial_0.5mm_Mask1mm".
+Info: Symbol spracovania „FID5: Fiducial:Fiducial_0.5mm_Mask1mm".
+Info: Symbol spracovania „U3: rusefi_lib:Molex_48_MRE_R055".
+Info: Symbol spracovania „FID4: Fiducial:Fiducial_0.5mm_Mask1mm".
+Info: Symbol spracovania „FID3: Fiducial:Fiducial_0.5mm_Mask1mm".
+Info: Symbol spracovania „R60: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „FID2: Fiducial:Fiducial_0.5mm_Mask1mm".
+Info: Symbol spracovania „R83: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R86: Resistor_SMD:R_0805_2012Metric".
+Info: Symbol spracovania „D37: Diode_SMD:D_SMA".
+Info: Symbol spracovania „D38: Package_TO_SOT_SMD:SOT-23-6".
+Info: Symbol spracovania „D39: Package_TO_SOT_SMD:SOT-23-6".
+Info: Symbol spracovania „D40: Package_TO_SOT_SMD:SOT-23-6".
+Info: Symbol spracovania „D41: Diode_SMD:D_SMC".
+Info: Symbol spracovania „D42: Package_TO_SOT_SMD:SOT-23".
+Info: Symbol spracovania „D43: Diode_SMD:D_SOD-323".
+Info: Symbol spracovania „D44: Diode_SMD:D_SOD-323".
+Info: Symbol spracovania „D45: Diode_SMD:D_SMA".
+Info: Symbol spracovania „FB1: Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder".
+Info: Symbol spracovania „R139: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „D19: LED_SMD:LED_0603_1608Metric".
+Info: Symbol spracovania „R58: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R57: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R84: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R56: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R55: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R85: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R54: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R53: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R61: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R52: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R51: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R120: Resistor_SMD:R_1206_3216Metric".
+Info: Symbol spracovania „R50: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R49: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R121: Resistor_SMD:R_1206_3216Metric".
+Info: Symbol spracovania „RN6: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „R47: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R122: Resistor_SMD:R_1206_3216Metric".
+Info: Symbol spracovania „R46: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R69: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R76: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R75: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R77: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R74: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R73: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R78: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R72: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R71: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R79: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „D20: Diode_SMD:D_SMA".
+Info: Symbol spracovania „R27: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R26: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R80: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R68: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R67: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R81: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R66: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R65: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R82: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R64: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R63: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R62: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R21: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R30: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R29: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R28: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „C23: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C44: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „R25: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „RN3: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „R24: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R23: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „RN4: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „R22: Resistor_SMD:R_0805_2012Metric".
+Info: Symbol spracovania „RN2: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „RN5: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „R20: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R19: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R18: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R17: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R16: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R14: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „C31: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „R13: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R38: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R123: Resistor_SMD:R_1206_3216Metric".
+Info: Symbol spracovania „R44: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R43: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R124: Resistor_SMD:R_1206_3216Metric".
+Info: Symbol spracovania „R42: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R41: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R125: Resistor_SMD:R_1206_3216Metric".
+Info: Symbol spracovania „R40: Resistor_SMD:R_0402_1005Metric".
+Info: Symbol spracovania „R39: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R131: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „C1: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „R37: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „U46: Package_SO:TSSOP-14_4.4x5mm_P0.65mm".
+Info: Symbol spracovania „R36: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R35: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R141: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R34: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R33: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „RN1: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „R32: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „R31: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „C20: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „CN4: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „C25: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „U33: Package_SO:SOIC-8_3.9x4.9mm_P1.27mm".
+Info: Symbol spracovania „C43: Capacitor_SMD:C_0805_2012Metric".
+Info: Symbol spracovania „C24: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C33: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C38: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C22: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C78: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C21: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „X1: Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm".
+Info: Symbol spracovania „Y2: Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm".
+Info: Symbol spracovania „C19: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C79: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C18: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C17: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C15: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C80: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C14: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „U32: Package_SO:SOIC-8_3.9x4.9mm_P1.27mm".
+Info: Symbol spracovania „C82: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „U31: Package_SO:SOIC-8_3.9x4.9mm_P1.27mm".
+Info: Symbol spracovania „LOGO2: rusEFI:LOGO".
+Info: Symbol spracovania „C39: Capacitor_SMD:C_0805_2012Metric".
+Info: Symbol spracovania „C37: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C40: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C36: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C35: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C41: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „U36: Package_SO:TSSOP-14_4.4x5mm_P0.65mm".
+Info: Symbol spracovania „C34: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „CN3: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „D14: LED_SMD:LED_0603_1608Metric".
+Info: Symbol spracovania „C42: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C32: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „R15: Resistor_SMD:R_0603_1608Metric".
+Info: Symbol spracovania „CN1: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „JP3: Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm".
+Info: Symbol spracovania „C30: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C29: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C28: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C27: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C26: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C5: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „CN2: Resistor_SMD:R_Array_Convex_4x0603".
+Info: Symbol spracovania „C10: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C4: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „D3: Diode_SMD:D_SMA".
+Info: Symbol spracovania „C9: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „D4: Diode_SMD:D_SMA".
+Info: Symbol spracovania „U10: Package_SO:SO-8_3.9x4.9mm_P1.27mm".
+Info: Symbol spracovania „D13: Package_TO_SOT_SMD:SOT-23-6".
+Info: Symbol spracovania „U35: Package_SO:TSSOP-14_4.4x5mm_P0.65mm".
+Info: Symbol spracovania „C13: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C2: Capacitor_SMD:CP_Elec_8x10.5".
+Info: Symbol spracovania „D1: Package_TO_SOT_SMD:SOT-23".
+Info: Symbol spracovania „C12: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C11: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C3: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „D2: Package_TO_SOT_SMD:SOT-23".
+Info: Symbol spracovania „D7: Diode_SMD:D_SOD-123".
+Info: Symbol spracovania „C7: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „C6: Capacitor_SMD:C_0603_1608Metric".
+Info: Symbol spracovania „D6: Diode_SMD:D_SMA".
+Info: Symbol spracovania „D5: Diode_SMD:D_SMA".
+Info: Symbol spracovania „C8: Capacitor_SMD:C_0603_1608Metric".
+Removed unused net /TLE8888-1QK/IN_12.
+Reconnected via from /MCU/PD8 to /MCU/PD8.
+Removed unused net /TLE8888-1QK/INJ_IN_2.
+Updated SW1 properties.
+Pridajte sieť /MCU/PD4.
+Removed unused net /TLE8888-1QK/IN_9.
+Removed unused net Net-(U9-Pad4).
+Removed unused net /TLE8888-1QK/INJ_IN_3.
+Reconnected via from /MCU/PA9 to /MCU/PA9.
+Updated RN5 properties.
+Removed unused net /TLE8888-1QK/IGN_EN.
+Updated SW3 properties.
+Updated RN3 properties.
+Removed unused net /TLE8888-1QK/IN_11.
+Reconnected via from /MCU/PD9 to /MCU/PD9.
+Reconnected via from /MCU/PD8 to /MCU/PD8.
+Updated SW2 properties.
+Removed unused net /TLE8888-1QK/INJ_IN_4.
+Removed unused net /TLE8888-1QK/IN_10.
+Pridajte sieť unconnected-(RN6-Pad6).
+Removed unused net /TLE8888-1QK/CAN_RX.
+Updated RN4 properties.
+Reconnected via from /MCU/PD11 to /MCU/PD11.
+Reconnected RN6 pin 7 from /hi-lo/GP5_MCU to /MCU/PD7.
+Pridajte sieť /MCU/PD7.
+Removed unused net /MCU/USB_VBUS.
+Removed unused net /MCU/PC9.
+Reconnected RN6 pin 6 from Net-(RN6-Pad6) to unconnected-(RN6-Pad6).
+Pridajte sieť /MCU/PD6.
+Reconnected via from /MCU/PD11 to /MCU/PD11.
+Reconnected via from /MCU/PD9 to /MCU/PD9.
+Reconnected RN6 pin 5 from Net-(RN6-Pad5) to unconnected-(RN6-Pad5).
+Reconnected RN6 pin 8 from /hi-lo/GP6_MCU to /MCU/PD6.
+Pridajte sieť unconnected-(RN6-Pad5).
+Removed unused net /MCU/PC7.
+Removed unused net /TLE8888-1QK/CAN_TX.
+Updated RN6 properties.
+Reconnected RN5 pin 5 from /hi-lo/Ign1_MCU to /MCU/PD4.
+Reconnected RN5 pin 6 from /hi-lo/Ign2_MCU to /MCU/PD3.
+Removed unused net /TLE8888-1QK/INJ_IN_1.
+Reconnected RN5 pin 8 from /hi-lo/Ign4_MCU to /MCU/PD1.
+Removed unused net /TLE8888-1QK/INJ_EN.
+Updated RN13 properties.
+Pridajte sieť /MCU/PD1.
+Reconnected via from /MCU/PD10 to /MCU/PD10.
+Reconnected via from /MCU/PD10 to /MCU/PD10.
+Reconnected RN5 pin 7 from /hi-lo/Ign3_MCU to /MCU/PD2.
+Pridajte sieť /MCU/PD2.
+Updated R79 properties.
+Connected CN3 pin 2 to GND.
+Reconnected via from /MCU/PA9 to /MCU/PA9.
+Pridajte sieť /MCU/PD3.
+Reconnected R83 pin 1 from /TLE8888-1QK/INJ_EN to /MCU/PD11.
+Updated R82 properties.
+Pridajte sieť /MCU/PD10.
+Removed unused net Net-(U3-PadM61).
+Reconnected R82 pin 1 from /TLE8888-1QK/IGN_EN to /MCU/PD10.
+Removed unused net Net-(U3-PadM23).
+Removed unused net Net-(U3-PadM52).
+Pridajte sieť /MCU/PD11.
+Removed unused net Net-(U3-PadM62).
+Removed unused net Net-(U3-PadM51).
+Removed unused net Net-(U3-PadM4).
+Updated R84 properties.
+Updated R124 properties.
+Removed unused net Net-(U3-PadM3).
+Updated R85 properties.
+Removed unused net Net-(U3-PadM22).
+Updated R83 properties.
+Updated R86 properties.
+Removed unused net Net-(U3-PadM63).
+Updated R81 properties.
+Removed unused net Net-(U31-Pad1).
+Updated R80 properties.
+Removed unused net Net-(U31-Pad8).
+Removed unused net Net-(U32-Pad1).
+Updated R131 properties.
+Removed unused net /hi-lo/Ign4_MCU.
+Updated R78 properties.
+Removed unused net Net-(U33-Pad1).
+Removed unused net Net-(U33-Pad8).
+Updated R77 properties.
+Removed unused net Net-(U9-Pad2).
+Updated R76 properties.
+Updated U9 properties.
+Updated RN1 properties.
+Removed unused net Net-(U3-PadM12).
+Removed unused net Net-(U3-PadM13).
+Removed unused net /hi-lo/Ign3_MCU.
+Updated R139 properties.
+Removed unused net /hi-lo/Ign2_MCU.
+Updated R141 properties.
+Removed unused net /hi-lo/Ign1_MCU.
+Removed unused net /hi-lo/GP6_MCU.
+Removed unused net Net-(J15-Pad1).
+Removed unused net Net-(RN6-Pad5).
+Connected J6 pin 11 to GND.
+Removed unused net /TLE8888-1QK/LIN_TX.
+Reconnected RN2 pin 5 from Net-(CN2-Pad1) to Net-(CN2-Pad5).
+Reconnected RN2 pin 6 from Net-(CN2-Pad2) to Net-(CN2-Pad6).
+Removed unused net /TLE8888-1QK/LIN_RX.
+Reconnected RN2 pin 7 from Net-(CN2-Pad3) to Net-(CN2-Pad7).
+Reconnected RN2 pin 8 from Net-(CN2-Pad4) to Net-(CN2-Pad8).
+Updated R125 properties.
+Removed unused net Net-(J17-Pad1).
+Removed unused net /hi-lo/GP5_MCU.
+Updated RN2 properties.
+Removed unused net Net-(RN6-Pad6).
+Updated R123 properties.
+Removed unused net Net-(U10-Pad2).
+Removed unused net Net-(U10-Pad4).
+Updated R122 properties.
+Removed unused net Net-(U3-PadM11).
+Updated R121 properties.
+Pridajte sieť unconnected-(U3-PadM11).
+Reconnected U3 pin M11 from Net-(U3-PadM11) to unconnected-(U3-PadM11).
+Updated R120 properties.
+Removed unused net Net-(U3-PadM21).
+Reconnected U32 pin 2 from /hi-lo/Ign1_MCU to /MCU/PD4.
+Pridajte sieť unconnected-(U32-Pad8).
+Reconnected U3 pin M3 from Net-(U3-PadM3) to unconnected-(U3-PadM3).
+Reconnected U32 pin 4 from /hi-lo/Ign2_MCU to /MCU/PD3.
+Pridajte sieť unconnected-(U3-PadM4).
+Reconnected U3 pin M4 from Net-(U3-PadM4) to unconnected-(U3-PadM4).
+Reconnected U33 pin 1 from Net-(U33-Pad1) to unconnected-(U33-Pad1).
+Removed unused net Net-(U32-Pad8).
+Pridajte sieť unconnected-(U3-PadM12).
+Reconnected U3 pin M12 from Net-(U3-PadM12) to unconnected-(U3-PadM12).
+Pridajte sieť unconnected-(U3-PadM13).
+Pridajte sieť unconnected-(U3-PadM3).
+Reconnected U3 pin M13 from Net-(U3-PadM13) to unconnected-(U3-PadM13).
+Pridajte sieť unconnected-(U3-PadM21).
+Reconnected U3 pin M21 from Net-(U3-PadM21) to unconnected-(U3-PadM21).
+Reconnected U33 pin 8 from Net-(U33-Pad8) to unconnected-(U33-Pad8).
+Reconnected U2 pin 36 from /TLE8888-1QK/IN_9 to /MCU/PE10.
+Pridajte sieť unconnected-(U3-PadM23).
+Reconnected U3 pin M23 from Net-(U3-PadM23) to unconnected-(U3-PadM23).
+Reconnected U32 pin 1 from Net-(U32-Pad1) to unconnected-(U32-Pad1).
+Pridajte sieť unconnected-(U3-PadM51).
+Reconnected U2 pin 39 from /TLE8888-1QK/IN_12 to /MCU/PE7.
+Updated U35 symbol association from /00000000-0000-0000-0000-00005ce2282d/00000000-0000-0000-0000-000052895df7 to /00000000-0000-0000-0000-00005ce2282d/00000000-0000-0000-0000-000052895e33.
+Reconnected U2 pin 30 from /TLE8888-1QK/INJ_IN_3 to /MCU/PE12.
+Reconnected U2 pin 31 from /TLE8888-1QK/INJ_IN_4 to /MCU/PE11.
+Pridajte sieť unconnected-(U3-PadM22).
+Reconnected U3 pin M22 from Net-(U3-PadM22) to unconnected-(U3-PadM22).
+Pridajte sieť unconnected-(U33-Pad8).
+Reconnected U2 pin 37 from /TLE8888-1QK/IN_10 to /MCU/PE9.
+Reconnected U2 pin 38 from /TLE8888-1QK/IN_11 to /MCU/PE8.
+Reconnected U33 pin 4 from /hi-lo/Ign4_MCU to /MCU/PD1.
+Pridajte sieť unconnected-(U32-Pad1).
+Reconnected U33 pin 2 from /hi-lo/Ign3_MCU to /MCU/PD2.
+Reconnected U2 pin 43 from /TLE8888-1QK/CAN_RX to /MCU/PB12.
+Reconnected U10 pin 4 from Net-(U10-Pad4) to unconnected-(U10-Pad4).
+Pridajte sieť unconnected-(U10-Pad4).
+Reconnected U2 pin 44 from /TLE8888-1QK/CAN_TX to /MCU/PB6.
+Updated U33 properties.
+Updated U3 symbol association from /00000000-0000-0000-0000-00005dd8bb43 to /00000000-0000-0000-0000-00005f86e169.
+Updated U3 properties.
+Reconnected U32 pin 8 from Net-(U32-Pad8) to unconnected-(U32-Pad8).
+Updated U8 symbol association from /00000000-0000-0000-0000-00005ce2282d/00000000-0000-0000-0000-00005cf034d4 to /00000000-0000-0000-0000-00005ce2282d/00000000-0000-0000-0000-00005cf0350f.
+Reconnected U4 pin 3 from /MCU/PC9 to /H-BRIDGE/SO.
+Reconnected U4 pin 12 from /MCU/PC7 to /H-BRIDGE/PWM.
+Reconnected U3 pin M61 from Net-(U3-PadM61) to unconnected-(U3-PadM61).
+Reconnected via from /FlashMemory/SO to /FlashMemory/SO.
+Updated U5 properties.
+Reconnected U10 pin 2 from Net-(U10-Pad2) to unconnected-(U10-Pad2).
+Pridajte sieť unconnected-(U10-Pad2).
+Updated U7 properties.
+Updated U10 properties.
+Updated U4 properties.
+Reconnected U9 pin 4 from Net-(U9-Pad4) to unconnected-(U9-Pad4).
+Updated U8 properties.
+Updated U32 properties.
+Pridajte sieť unconnected-(U3-PadM52).
+Pridajte sieť unconnected-(U9-Pad4).
+Reconnected U8 pin 5 from Net-(CN2-Pad4) to Net-(CN2-Pad8).
+Reconnected U8 pin 10 from Net-(CN2-Pad1) to Net-(CN2-Pad5).
+Reconnected U9 pin 2 from Net-(U9-Pad2) to unconnected-(U9-Pad2).
+Reconnected U8 pin 12 from Net-(CN2-Pad2) to Net-(CN2-Pad6).
+Pridajte sieť unconnected-(U9-Pad2).
+Pridajte sieť unconnected-(U3-PadM61).
+Reconnected U3 pin M51 from Net-(U3-PadM51) to unconnected-(U3-PadM51).
+Updated SW4 properties.
+Reconnected U8 pin 3 from Net-(CN2-Pad3) to Net-(CN2-Pad7).
+Reconnected U3 pin M52 from Net-(U3-PadM52) to unconnected-(U3-PadM52).
+Reconnected U31 pin 8 from Net-(U31-Pad8) to unconnected-(U31-Pad8).
+Pridajte sieť unconnected-(U31-Pad8).
+Reconnected U3 pin M53 from Net-(U3-PadM53) to unconnected-(U3-PadM53).
+Reconnected U31 pin 4 from /hi-lo/GP6_MCU to /MCU/PD6.
+Reconnected U2 pin 29 from /TLE8888-1QK/INJ_IN_2 to /MCU/PE13.
+Reconnected U31 pin 2 from /hi-lo/GP5_MCU to /MCU/PD7.
+Removed TP5 'exclude from BOM' fabrication attribute.
+Pridajte sieť unconnected-(U3-PadM62).
+Reconnected U3 pin M62 from Net-(U3-PadM62) to unconnected-(U3-PadM62).
+Pridajte sieť unconnected-(U3-PadM63).
+Pridajte sieť unconnected-(U31-Pad1).
+Reconnected U3 pin M63 from Net-(U3-PadM63) to unconnected-(U3-PadM63).
+Updated U31 properties.
+Pridajte sieť /MCU/PE7.
+Reconnected via from /MCU/PB6 to /MCU/PB6.
+Updated TP5 properties.
+Removed TP4 'exclude from BOM' fabrication attribute.
+Reconnected via from /MCU/PB6 to /MCU/PB6.
+Updated TP12 properties.
+Removed TP12 'exclude from BOM' fabrication attribute.
+Updated Y2 properties.
+Updated TP12 properties.
+Removed TP12 'exclude from BOM' fabrication attribute.
+Updated U1 properties.
+Reconnected U1 pin 38 from /TLE8888-1QK/IN_12 to /MCU/PE7.
+Reconnected U31 pin 1 from Net-(U31-Pad1) to unconnected-(U31-Pad1).
+Pridajte sieť /MCU/PE8.
+Reconnected U1 pin 39 from /TLE8888-1QK/IN_11 to /MCU/PE8.
+Pridajte sieť /MCU/PE9.
+Updated X1 properties.
+Reconnected U1 pin 40 from /TLE8888-1QK/IN_10 to /MCU/PE9.
+Pridajte sieť /MCU/PE10.
+Reconnected U1 pin 41 from /TLE8888-1QK/IN_9 to /MCU/PE10.
+Pridajte sieť /MCU/PE11.
+Removed TP1 'exclude from BOM' fabrication attribute.
+Updated D4 properties.
+Reconnected via from /MCU/PB12 to /MCU/PB12.
+Updated TP0 properties.
+Reconnected via from /FlashMemory/SCK to /FlashMemory/SCK.
+Removed TP0 'exclude from BOM' fabrication attribute.
+Reconnected via from /FlashMemory/SCK to /FlashMemory/SCK.
+Reconnected via from /FlashMemory/SO to /FlashMemory/SO.
+Updated TP1 properties.
+Updated U46 properties.
+Updated TP4 properties.
+Reconnected U1 pin 88 from /hi-lo/GP5_MCU to /MCU/PD7.
+Reconnected via from /FlashMemory/SI to /FlashMemory/SI.
+Updated TP2 properties.
+Removed TP2 'exclude from BOM' fabrication attribute.
+Reconnected via from /FlashMemory/SI to /FlashMemory/SI.
+Updated TP3 properties.
+Removed TP3 'exclude from BOM' fabrication attribute.
+Reconnected via from /H-BRIDGE/PWM to /H-BRIDGE/PWM.
+Reconnected via from /H-BRIDGE/PWM to /H-BRIDGE/PWM.
+Pridajte sieť /MCU/PE14.
+Reconnected U1 pin 45 from /TLE8888-1QK/INJ_IN_1 to /MCU/PE14.
+Reconnected U1 pin 58 from /TLE8888-1QK/INJ_EN to /MCU/PD11.
+Reconnected U1 pin 64 from /MCU/PC7 to /H-BRIDGE/PWM.
+Pridajte sieť /H-BRIDGE/SO.
+Reconnected U1 pin 66 from /MCU/PC9 to /H-BRIDGE/SO.
+Reconnected U1 pin 82 from /hi-lo/Ign4_MCU to /MCU/PD1.
+Reconnected U1 pin 83 from /hi-lo/Ign3_MCU to /MCU/PD2.
+Reconnected U1 pin 84 from /hi-lo/Ign2_MCU to /MCU/PD3.
+Reconnected U2 pin 28 from /TLE8888-1QK/INJ_IN_1 to /MCU/PE14.
+Updated U35 properties.
+Reconnected U1 pin 57 from /TLE8888-1QK/IGN_EN to /MCU/PD10.
+Pridajte sieť /MCU/PB6.
+Reconnected U1 pin 92 from /TLE8888-1QK/CAN_TX to /MCU/PB6.
+Updated U2 properties.
+Reconnected U2 pin 22 from /TLE8888-1QK/LIN_TX to /MCU/PD8.
+Reconnected U2 pin 23 from /TLE8888-1QK/LIN_RX to /MCU/PD9.
+Reconnected U2 pin 24 from /TLE8888-1QK/INJ_EN to /MCU/PD11.
+Reconnected U2 pin 27 from /TLE8888-1QK/IGN_EN to /MCU/PD10.
+Reconnected U1 pin 85 from /hi-lo/Ign1_MCU to /MCU/PD4.
+Reconnected U1 pin 87 from /hi-lo/GP6_MCU to /MCU/PD6.
+Updated U36 properties.
+Reconnected U1 pin 42 from /TLE8888-1QK/INJ_IN_4 to /MCU/PE11.
+Pridajte sieť /MCU/PE12.
+Reconnected U1 pin 43 from /TLE8888-1QK/INJ_IN_3 to /MCU/PE12.
+Updated U46 symbol association from /00000000-0000-0000-0000-00005ce2282d/00000000-0000-0000-0000-00005d0e7d4c to /00000000-0000-0000-0000-00005ce2282d/00000000-0000-0000-0000-00005d0e7d59.
+Pridajte sieť /MCU/PE13.
+Reconnected U1 pin 44 from /TLE8888-1QK/INJ_IN_2 to /MCU/PE13.
+Reconnected U1 pin 55 from /TLE8888-1QK/LIN_TX to /MCU/PD8.
+Pridajte sieť /MCU/PD9.
+Pridajte sieť /MCU/PB12.
+Reconnected via from /MCU/PB12 to /MCU/PB12.
+Reconnected U1 pin 51 from /TLE8888-1QK/CAN_RX to /MCU/PB12.
+Reconnected U1 pin 52 from /MCU/PB13 to /FlashMemory/SCK.
+Updated U36 symbol association from /00000000-0000-0000-0000-00005ce2282d/00000000-0000-0000-0000-00005cf97816 to /00000000-0000-0000-0000-00005ce2282d/00000000-0000-0000-0000-00005cf9784b.
+Reconnected U1 pin 53 from /MCU/PB14 to /FlashMemory/SO.
+Reconnected U1 pin 54 from /MCU/PB15 to /FlashMemory/SI.
+Pridajte sieť /MCU/PD8.
+Connected CN3 pin 3 to GND.
+Pridajte sieť unconnected-(U33-Pad1).
+Reconnected U1 pin 56 from /TLE8888-1QK/LIN_RX to /MCU/PD9.
+Reconnected D7 pin 1 from /MCU/USB_VBUS to /MCU/PA9.
+Connected CN4 pin 7 to Net-(CN4-Pad7).
+Connected CN4 pin 8 to Net-(CN4-Pad8).
+Updated D1 properties.
+Updated D2 properties.
+Updated D3 properties.
+Reconnected D13 pin 6 from Net-(CN2-Pad4) to Net-(CN2-Pad8).
+Updated D14 properties.
+Updated D6 properties.
+Updated D7 properties.
+Pridajte sieť /MCU/PA9.
+Connected CN4 pin 6 to Net-(CN4-Pad6).
+Updated D13 properties.
+Reconnected D13 pin 1 from Net-(CN2-Pad1) to Net-(CN2-Pad5).
+Reconnected D13 pin 3 from Net-(CN2-Pad2) to Net-(CN2-Pad6).
+Reconnected D13 pin 4 from Net-(CN2-Pad3) to Net-(CN2-Pad7).
+Removed unused net Net-(U3-PadM53).
+Updated D5 properties.
+Reconnected D14 pin 2 from /MCU/USB_VBUS to /MCU/PA9.
+Updated D15 properties.
+Updated D16 properties.
+Added CN4 (footprint 'Resistor_SMD:R_Array_Convex_4x0603').
+Updated CN3 symbol association from  to /00000000-0000-0000-0000-00005ce2282d/50442e88-98eb-4434-85a8-f7ead2fbe0c9.
+Updated CN3 properties.
+Connected CN3 pin 1 to GND.
+Updated CN4 symbol association from  to /00000000-0000-0000-0000-00005ce2282d/e7ab74f9-9fa7-46b7-ab99-9da37407b9f9.
+Updated CN4 properties.
+Pridajte sieť unconnected-(U3-PadM53).
+Connected CN3 pin 5 to Net-(CN3-Pad5).
+Connected CN3 pin 6 to Net-(CN3-Pad6).
+Connected CN3 pin 7 to Net-(CN3-Pad7).
+Connected CN3 pin 8 to Net-(CN3-Pad8).
+Reconnected D16 pin 4 from /MCU/USB_VBUS to /MCU/PA9.
+Changed REF** reference designator to CN4.
+Changed CN4 value from R_Array_Convex_4x0603 to 100nF.
+Updated D30 properties.
+Updated D17 properties.
+Connected CN4 pin 1 to GND.
+Connected CN4 pin 2 to GND.
+Connected CN4 pin 3 to GND.
+Connected CN4 pin 4 to GND.
+Connected CN4 pin 5 to Net-(CN4-Pad5).
+Added D45 (footprint 'Diode_SMD:D_SMA').
+Updated D41 properties.
+Changed REF** reference designator to D45.
+Changed D45 value from D_SMA to SS54.
+Added D44 (footprint 'Diode_SMD:D_SOD-323').
+Changed REF** reference designator to D44.
+Changed D44 value from D_SOD-323 to 1N4148WS.
+Updated D44 symbol association from  to /f5416ddf-59ed-4f48-b51e-bab29af9d5f1.
+Updated D44 properties.
+Connected D44 pin 1 to Net-(D44-Pad1).
+Connected D44 pin 2 to /VDD.
+Updated D40 properties.
+Updated D42 properties.
+Updated D43 properties.
+Updated D45 symbol association from  to /00000000-0000-0000-0000-00005cbdf691/6af85300-ec61-41b7-83a0-c00f313d72af.
+Updated D45 properties.
+Connected D45 pin 1 to Net-(D45-Pad1).
+Connected D45 pin 2 to /5V.
+Updated FB1 properties.
+Updated R75 properties.
+Updated FID2 properties.
+Updated D29 properties.
+Changed CN3 value from R_Array_Convex_4x0603 to 100nF.
+Reconnected D17 pin 2 from /MCU/USB_VBUS to /MCU/PA9.
+Updated D19 properties.
+Updated D20 properties.
+Updated D21 properties.
+Updated D22 properties.
+Updated D23 properties.
+Updated D27 properties.
+Updated D28 properties.
+Changed C39 value from 22uF to 22uF 25V.
+Updated C39 properties.
+Updated D31 properties.
+Updated D32 properties.
+Updated D33 properties.
+Updated D34 properties.
+Updated D35 properties.
+Updated D36 properties.
+Updated D37 properties.
+Updated C30 properties.
+Updated C31 properties.
+Updated C33 properties.
+Updated C23 properties.
+Updated C24 properties.
+Updated C25 properties.
+Updated C26 properties.
+Updated C27 properties.
+Updated C28 properties.
+Updated C29 properties.
+Changed CN1 value from R_Array_Convex_4x0603 to 100nF.
+Updated D39 properties.
+Updated C32 properties.
+Updated C22 properties.
+Updated C34 properties.
+Updated C35 properties.
+Updated C36 properties.
+Updated C37 properties.
+Updated C38 properties.
+Updated C6 properties.
+Updated C7 properties.
+Updated C40 properties.
+Updated C41 properties.
+Updated C11 properties.
+Updated C1 properties.
+Updated C2 properties.
+Updated C3 properties.
+Updated C4 properties.
+Updated C5 properties.
+Connected CN2 pin 6 to Net-(CN2-Pad6).
+Updated C17 properties.
+Updated C8 properties.
+Updated C9 properties.
+Updated C10 properties.
+Updated C42 properties.
+Updated C12 properties.
+Updated C13 properties.
+Updated C14 properties.
+Updated CN2 symbol association from  to /00000000-0000-0000-0000-00005ce2282d/bfb43f6c-0cb4-43df-9da5-a5751c10126d.
+Updated C18 properties.
+Updated C19 properties.
+Updated C20 properties.
+Updated C21 properties.
+Pridajte sieť Net-(CN2-Pad5).
+Connected CN1 pin 8 to Net-(CN1-Pad8).
+Added CN2 (footprint 'Resistor_SMD:R_Array_Convex_4x0603').
+Changed REF** reference designator to CN2.
+Changed CN2 value from R_Array_Convex_4x0603 to 100nF.
+Updated C15 properties.
+Updated CN2 properties.
+Connected CN2 pin 1 to GND.
+Connected CN2 pin 2 to GND.
+Connected CN2 pin 3 to GND.
+Connected CN2 pin 4 to GND.
+Connected CN1 pin 7 to Net-(CN1-Pad7).
+Connected CN2 pin 5 to Net-(CN2-Pad5).
+Pridajte sieť Net-(CN2-Pad6).
+Reconnected C42 pin 2 from /VDD to GND.
+Updated C43 properties.
+Connected CN2 pin 7 to Net-(CN2-Pad7).
+Pridajte sieť Net-(CN2-Pad8).
+Connected CN2 pin 8 to Net-(CN2-Pad8).
+Added CN3 (footprint 'Resistor_SMD:R_Array_Convex_4x0603').
+Changed REF** reference designator to CN3.
+Changed REF** reference designator to CN1.
+Connected CN3 pin 4 to GND.
+Reconnected C42 pin 1 from GND to /VDD.
+Updated R23 properties.
+Pridajte sieť Net-(CN2-Pad7).
+Updated C44 properties.
+Updated C78 properties.
+Updated C79 properties.
+Updated C80 properties.
+Updated C82 properties.
+Added CN1 (footprint 'Resistor_SMD:R_Array_Convex_4x0603').
+Updated FID1 properties.
+Pridajte sieť /H-BRIDGE/PWM.
+Reconnected R16 pin 1 from /MCU/PC7 to /H-BRIDGE/PWM.
+Updated CN1 properties.
+Connected CN1 pin 1 to GND.
+Connected CN1 pin 2 to GND.
+Connected CN1 pin 3 to GND.
+Connected CN1 pin 4 to GND.
+Connected CN1 pin 5 to /CAM_MCU.
+Connected CN1 pin 6 to Net-(CN1-Pad6).
+Updated R24 properties.
+Updated R37 properties.
+Updated CN1 symbol association from  to /00000000-0000-0000-0000-00005ce2282d/5809a187-c34f-4d32-8d5e-2670d1f44b6d.
+Changed R17 value from 2.2k to 2.2K.
+Updated R17 properties.
+Updated R18 properties.
+Updated R19 properties.
+Updated R20 properties.
+Updated R21 properties.
+Updated R22 properties.
+Updated R33 properties.
+Updated R6 properties.
+Updated R25 properties.
+Updated R26 properties.
+Updated R27 properties.
+Updated R28 properties.
+Updated R29 properties.
+Updated R30 properties.
+Updated R31 properties.
+Updated R32 properties.
+Updated R60 properties.
+Updated R61 properties.
+Updated FID3 properties.
+Removed NT2 'exclude from BOM' fabrication attribute.
+Updated NT3 properties.
+Removed NT3 'exclude from BOM' fabrication attribute.
+Updated Q1 properties.
+Updated R1 properties.
+Updated R2 properties.
+Updated R13 properties.
+Updated R14 properties.
+Updated R5 properties.
+Updated R34 properties.
+Updated R7 properties.
+Updated R8 properties.
+Updated R9 properties.
+Updated R10 properties.
+Updated R11 properties.
+Updated R12 properties.
+Updated R3 properties.
+Updated R4 properties.
+Updated R15 properties.
+Updated R65 properties.
+Updated R55 properties.
+Updated R56 properties.
+Updated R57 properties.
+Updated R58 properties.
+Updated R59 properties.
+Updated R70 properties.
+Updated R71 properties.
+Updated R62 properties.
+Updated R63 properties.
+Updated R64 properties.
+Updated R54 properties.
+Updated R66 properties.
+Updated R67 properties.
+Updated R68 properties.
+Updated R69 properties.
+Connected J6 pin 6 to GND.
+Updated R16 properties.
+Updated R72 properties.
+Updated R73 properties.
+Updated R74 properties.
+Updated R44 properties.
+Updated R35 properties.
+Updated R36 properties.
+Updated R38 properties.
+Updated R48 properties.
+Updated R49 properties.
+Updated R40 properties.
+Updated R41 properties.
+Updated R42 properties.
+Updated R43 properties.
+Updated NT2 properties.
+Updated R45 properties.
+Updated R46 properties.
+Updated R47 properties.
+Reconnected J15 pin 1 from Net-(J15-Pad1) to unconnected-(J15-Pad1).
+Updated R39 properties.
+Updated R50 properties.
+Updated R51 properties.
+Updated R52 properties.
+Updated R53 properties.
+Connected J6 pin 10 to unconnected-(J6-Pad10).
+Pridajte sieť /FlashMemory/SCK.
+Connected J6 pin 5 to /FlashMemory/SCK.
+Connected J6 pin 11 to GND.
+Connected J6 pin 3 to /FlashMemory/SI.
+Connected J6 pin 11 to GND.
+Connected J6 pin 7 to /FlashMemory/SO.
+Pridajte sieť unconnected-(J6-Pad8).
+Connected J6 pin 8 to unconnected-(J6-Pad8).
+Pridajte sieť unconnected-(J6-Pad9).
+Connected J6 pin 9 to unconnected-(J6-Pad9).
+Pridajte sieť unconnected-(J6-Pad10).
+Connected J6 pin 4 to /VDD.
+Pridajte sieť /FlashMemory/SI.
+Connected J6 pin 11 to GND.
+Updated JP5 symbol association from  to /00000000-0000-0000-0000-00005c5d7fa6/f75d9e6f-faaa-4297-a1d2-025dd42c085c.
+Updated J7 properties.
+Removed J7 'exclude from BOM' fabrication attribute.
+Updated J12 properties.
+Updated J13 properties.
+Updated J15 properties.
+Pridajte sieť unconnected-(J15-Pad1).
+Updated J5 properties.
+Updated D38 properties.
+Updated FID5 properties.
+Updated FID6 properties.
+Updated G1 properties.
+Updated J1 properties.
+Reconnected J1 pin 1 from /MCU/USB_VBUS to /MCU/PA9.
+Updated J2 properties.
+Updated J3 properties.
+Updated J4 properties.
+Removed LOGO1 'exclude from BOM' fabrication attribute.
+Updated FID4 properties.
+Changed REF** reference designator to J6.
+Changed J6 value from microSD_HC_Molex_104031-0811 to Micro_SD_Card_Det.
+Updated J6 symbol association from  to /00000000-0000-0000-0000-00005d2f23b4/904101d0-d198-41cb-9bd9-be22a55b1d8c.
+Updated J6 properties.
+Pridajte sieť unconnected-(J6-Pad1).
+Connected J6 pin 1 to unconnected-(J6-Pad1).
+Connected J6 pin 2 to /FlashMemory/CS.
+Changed REF** reference designator to JP5.
+Changed JP5 value from SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm to SolderJumper_2_Open.
+Reconnected NT1 pin 2 from /MCU/USB_VBUS to /MCU/PA9.
+Changed JP4 value from SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm to SolderJumper_2_Open.
+Updated JP4 symbol association from  to /00000000-0000-0000-0000-00005c5d7fa6/40c810af-d3da-4dd2-9d7e-a4cae69c2b1f.
+Updated JP4 properties.
+Removed JP4 'exclude from BOM' fabrication attribute.
+Connected JP4 pin 1 to /CRNK-.
+Connected JP4 pin 2 to Net-(JP4-Pad2).
+Added JP5 (footprint 'Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm').
+Added JP3 (footprint 'Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm').
+Pridajte sieť /FlashMemory/SO.
+Changed REF** reference designator to JP4.
+Updated JP5 properties.
+Removed JP5 'exclude from BOM' fabrication attribute.
+Connected JP5 pin 1 to /CRNK+.
+Connected JP5 pin 2 to Net-(JP5-Pad2).
+Updated LOGO1 properties.
+Updated LOGO3 properties.
+Connected JP3 pin 2 to Net-(JP3-Pad2).
+Added J6 (footprint 'Connector_Card:microSD_HC_Molex_104031-0811').
+Removed NT1 'exclude from BOM' fabrication attribute.
+Connected JP3 pin 3 to /5V.
+Updated J17 properties.
+Pridajte sieť unconnected-(J17-Pad1).
+Reconnected J17 pin 1 from Net-(J17-Pad1) to unconnected-(J17-Pad1).
+Updated J19 properties.
+Reconnected J19 pin 4 from /MCU/USB_VBUS to /MCU/PA9.
+Updated JP2 properties.
+Removed JP2 'exclude from BOM' fabrication attribute.
+Updated NT1 properties.
+Changed REF** reference designator to JP3.
+Changed JP3 value from SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm to Voltage selector 5V 3V3.
+Updated JP3 symbol association from  to /e8626fcd-f4f2-4f5f-954c-8d60fb5982ee.
+Updated JP3 properties.
+Removed JP3 'exclude from BOM' fabrication attribute.
+Connected JP3 pin 1 to Net-(D44-Pad1).
+Added JP4 (footprint 'Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm').
+Varovanie: Cez pripojenie k neznámej sieti ().
+Chyba: U3 podložka J22 sa nenašla v priečinku rusefi_lib:Molex_48_MRE_R055.
+Chyba: U3 podložka J23 sa nenašla v priečinku rusefi_lib:Molex_48_MRE_R055.
+Chyba: Cannot add LOGO2 (footprint 'rusEFI:LOGO' not found).
+Chyba: Multiple footprints found for 'TP12'.
+
+
+Info: Celkové varovania: 1, chyby: 3.

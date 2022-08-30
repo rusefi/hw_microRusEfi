@@ -3734,7 +3734,7 @@
     (uuid 00000000-0000-0000-0000-00005cc90402)
     (property "Reference" "R3" (id 0) (at 193.04 262.89 90))
     (property "Value" "10K" (id 1) (at 188.595 261.62 90))
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 188.595 259.842 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 188.595 259.842 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 188.595 261.62 0)
