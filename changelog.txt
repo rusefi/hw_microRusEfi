@@ -1,7 +1,7 @@
 Changelog:
 
 31/08/2022
-- two footprints for SD card ; Molex on SPI2 ; Wuetrh on SPI3
+- two footprints for SD card ; Molex on SPI2 ; Wuerth on SPI3
 - replaced R3, R86 and changed footprint to 0603
 - aligned R9, C12, C4, C5, C6, C7, R3 into the one row
 
