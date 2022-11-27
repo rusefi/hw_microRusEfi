@@ -6,7 +6,7 @@
 
   (title_block
     (title "microRusEFI-2L")
-    (date "2022-05-04")
+    (date "2022-10-22")
     (rev "R0.6.1RC")
     (company "rusEFI.com")
     (comment 1 "Donald Becker")
