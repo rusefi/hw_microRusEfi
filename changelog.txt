@@ -1,12 +1,16 @@
 Changelog:
 
+19/01/2023
+- changed mounting hole footprint
+- few minor changes on PCB design
+
 31/08/2022
 - two footprints for SD card ; Molex on SPI2 ; Wuerth on SPI3
 - replaced R3, R86 and changed footprint to 0603
 - aligned R9, C12, C4, C5, C6, C7, R3 into the one row
 
 04/05/2022
-- R15 changed to DNP
+- R15 (15k) changed to DNP
 
 12/04/2022
 - working on compatibility with "orignal" hw_microRusEfi and KiCAD6 version
