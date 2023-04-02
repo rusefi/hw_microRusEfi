@@ -6,8 +6,8 @@
 
   (title_block
     (title "microRusEFI-2L")
-    (date "2023-01-19")
-    (rev "R0.6.1RC")
+    (date "2023-04-02")
+    (rev "R0.6.1rc")
     (company "rusEFI.com")
     (comment 1 "Donald Becker")
     (comment 2 "AI6OD")
@@ -11016,6 +11016,9 @@
     )
     (path "/00000000-0000-0000-0000-00005c5d7fa6/f75d9e6f-faaa-4297-a1d2-025dd42c085c"
       (reference "JP5") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
+    (path "/00000000-0000-0000-0000-00005ce2282d/ff51b9be-a858-42e0-8fc2-f1edbf6a4ac8"
+      (reference "JP6") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-00005d21bc70"
       (reference "LOGO1") (unit 1) (value "DNP") (footprint "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen")

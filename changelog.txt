@@ -1,5 +1,9 @@
 Changelog:
 
+02/04/2023
+- added solder pad JP6 for CN3 due to SENT TPS compatibility
+ref: https://github.com/rusefi/rusefi/tree/master/firmware/hw_layer/drivers/sent
+
 19/01/2023
 - changed mounting hole footprint
 - few minor changes on PCB design
