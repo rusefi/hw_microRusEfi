@@ -67,7 +67,7 @@ stm32f767
 [48 pin connector](https://github.com/rusefi/rusefi/wiki/Hardware-microRusEfi-connectors)
 
 
-iBom https://rusefi.com/docs/ibom/microRusEfi_latest.html
+[iBom 0.6.0](https://rusefi.com/docs/ibom/micro_rusEFI_R0.6.0.html)
 
 ## Adapter Boards
 
