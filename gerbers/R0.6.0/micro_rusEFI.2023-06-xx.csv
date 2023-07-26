@@ -36,7 +36,6 @@ Comment,Designator,Footprint,LCSC
 "39k","R139","Resistor_SMD:R_0603_1608Metric","C23153"
 "2.7k","R14,R20,R23,R25,R27","Resistor_SMD:R_0603_1608Metric","C13167"
 "15k","R15","Resistor_SMD:R_0603_1608Metric","DNP"
-"0R DNP","R2","Resistor_SMD:R_0603_1608Metric",""
 "0R","R8,R21,R30,R33,R80,R81,R84,R85","Resistor_SMD:R_0603_1608Metric","C21189"
 "120","R22","Resistor_SMD:R_0805_2012Metric","C17437"
 "470K","R24,R31,R34,R37,R41,R52,R54,R56,R58,R131","Resistor_SMD:R_0402_1005Metric","C25790"
