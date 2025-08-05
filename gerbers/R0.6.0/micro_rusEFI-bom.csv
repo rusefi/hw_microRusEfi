@@ -27,7 +27,6 @@ Comment,Designator,Footprint,LCSC
 "B5819W","D7,D17","Diode_SMD:D_SOD-123","C8598"
 "FILTER","FB1","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","C1034"
 "Fiducial","FID1,FID2,FID3,FID4,FID5,FID6","Fiducial:Fiducial_0.5mm_Mask1mm",""
-"Disclaimer","G1","rusefi_lib:Off_Road_Disclaimer",""
 "USB_B_Mini","J1","hellen-one-common:USB-MINI-B-VERTICAL","C13453"
 "Conn_01x06","J19","Connector_JST:JST_EH_B5B-EH-A_1x05_P2.50mm_Vertical",""
 "Conn_02x05_Odd_Even","J2","Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD",""

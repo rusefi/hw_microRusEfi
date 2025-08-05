@@ -27,7 +27,6 @@ Comment,Designator,Footprint,LCSC
 "BAV70","D1,D42","Package_TO_SOT_SMD:SOT-23","C82479"
 "B5819W","D7,D17","Diode_SMD:D_SOD-123","C8598"
 "FILTER","FB1","Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder","C1034"
-"Disclaimer","G1","rusefi_lib:Off_Road_Disclaimer",""
 "USB_B_Micro","J1","rusefi_lib:MINI-USB_RCTP_V-T_B_and_HW-MU-5F-23","C530649"
 "Micro_SD_Card_Det","J6","Connector_Card:microSD_HC_Molex_104031-0811","C585350"
 "IPD30N06S2L-23","Q1","Package_TO_SOT_SMD:TO-252-2","C68209"
