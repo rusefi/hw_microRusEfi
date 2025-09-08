@@ -4,7 +4,7 @@ Comment,Designator,Footprint,LCSC
 "18pF","C21,C22","Capacitor_SMD:C_0603_1608Metric","C1647"
 "1uF","C23,C27,C36","Capacitor_SMD:C_0603_1608Metric","C15849"
 "2.2uF","C25,C26,C41","Capacitor_SMD:C_0603_1608Metric","C23630"
-"6.8pF","C28,C44","Capacitor_SMD:C_0603_1608Metric","C1679"
+"6.8pF","C28,C44","Capacitor_SMD:C_0603_1608Metric","C695158"
 "4.7nF","C3,C11","Capacitor_SMD:C_0603_1608Metric","C53987"
 "22uF","C39","Capacitor_SMD:C_0603_1608Metric","C59461"
 "470nF","C4,C5","Capacitor_SMD:C_0603_1608Metric","C1623"
