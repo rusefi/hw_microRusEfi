@@ -12,7 +12,7 @@ microRusEfi supports dual Hall shaft position sensor input or 1xHall + 1xVR shaf
 (A few resistors must be replaced on the PCB in order to switch from one setup to another)
 
 Open source design available in this repository,
-or available as a kit or completely assembled from https://www.ebay.com/itm/333532119947
+or available as a kit or completely assembled from http://shop.rusefi.com/
 
 # Capabilities
 * Primary VR or Hall input (configurable with few resistor changes)
